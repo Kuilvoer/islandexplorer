@@ -1132,8 +1132,8 @@ export const islandsData = [
       "countryCode": "sh",
       "ambientAudioUrl": "/assets/audio/ocean-waves.mp3",
       "images": {
-        "heroDesktop": "https://wsrv.nl/?url=https%3A%2F%2Fwww.wanderlustmagazine.com%2Fwp-content%2Fuploads%2F2023%2F11%2Fascension-island-scaled.jpg&w=1600&output=webp&we",
-        "heroMobile": "https://wsrv.nl/?url=https%3A%2F%2Fwww.wanderlustmagazine.com%2Fwp-content%2Fuploads%2F2023%2F11%2Fascension-island-scaled.jpg&w=800&output=webp&we",
+        "heroDesktop": "https://www.ascension.gov.ac/wp-content/uploads/2019/09/Terrestrial-Conservation.jpg",
+        "heroMobile": "https://www.ascension.gov.ac/wp-content/uploads/2019/09/Terrestrial-Conservation.jpg",
         "gallery": []
       }
     }
