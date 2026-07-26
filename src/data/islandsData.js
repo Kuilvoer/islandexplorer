@@ -3342,7 +3342,7 @@ export const islandsData = [
     "name": "Christmaseiland",
     "country": "Australië",
     "region": "Indische Oceaan",
-    "themeType": "tropical",
+    "themeType": "jungle",
     "geographyType": "Vulkanisch Eiland / Kalksteenplateau",
     "location": {
       "lat": -10.4475,
@@ -3482,7 +3482,7 @@ export const islandsData = [
     "name": "Corvo",
     "country": "Portugal",
     "region": "Noord-Atlantische Oceaan",
-    "themeType": "temperate",
+    "themeType": "volcanic",
     "geographyType": "Vulkanisch Eiland",
     "location": {
       "lat": 39.7022,
@@ -3652,7 +3652,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "De hoofdatol van de eilandnatie Kiribati. Zuid-Tarawa vormt een extreem smalle, langgerekte strook land op koraalriffen die de hoofdweg en het overgrote deel van de nationale bevolking herbergt.",
+      "description": "De fragiele hoofdstad-atol van Kiribati, extreem langgerekt en soms letterlijk maar enkele tientallen meters breed. Historisch beroemd door felle WOII-veldslagen, nu in een felle strijd met klimaatverandering.",
       "floraFauna": "Kokospalmen, broodboom, reuzenmussels, rifhaaien en zeevogels.",
       "history": [
         {
@@ -3692,7 +3692,7 @@ export const islandsData = [
     "name": "Marquesaseilanden",
     "country": "Frans-Polynesië",
     "region": "Stille Oceaan",
-    "themeType": "tropical",
+    "themeType": "jungle",
     "geographyType": "Archipel / Vulkanische Eilanden",
     "location": {
       "lat": -9,
@@ -3762,7 +3762,7 @@ export const islandsData = [
     "name": "Norfolkeiland",
     "country": "Australië",
     "region": "Stille Oceaan",
-    "themeType": "temperate",
+    "themeType": "jungle",
     "geographyType": "Vulkanisch Eiland",
     "location": {
       "lat": -29.0289,
@@ -3862,7 +3862,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Twee uiterst afgelegen en actieve vulkaaneilanden. Pagan bestaat uit twee grote stratovulkanen, terwijl Alamagan een steile vulkaankegel is. Bekend uit recente avonturen-lore toen reizigers wegens een brandstoftekort 42 uur lang strandden op Alamagan.",
+      "description": "Twee ruige, uiterst afgelegen actieve vulkaaneilanden in de Stille Oceaan. Bekend uit waanzinnige avonturen-lore nadat een groep moderne ontdekkingsreizigers zonder brandstof kwam te zitten en onverwachts 42 uur moest zien te overleven op het strand van Alamagan.",
       "floraFauna": "Mariana-megapode (thermometervogel), kokoskrabben, zeldzame hagedissen en wilde geiten.",
       "history": [
         {
@@ -4002,7 +4002,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Een van de kleinste en minst bezochte soevereine naties op aarde. Het bestaat uit negen laaggelegen koraalatollen rond een gigantische, kristalheldere lagune.",
+      "description": "Een van de kleinste en minst bezochte landen ter wereld, opgebouwd uit smalle atollen. Tuvalu vecht dagelijks een existentiële strijd tegen de stijgende zeespiegel; het hoogste punt ligt slechts een paar meter boven de golven.",
       "floraFauna": "Pandanusbomen, kokospalmen, groene zeeschildpadden en tropische rifvissen.",
       "history": [
         {
