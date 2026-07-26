@@ -3850,7 +3850,7 @@ export const islandsData = [
       "permitRequired": true,
       "tags": [
         "Actieve Vulkaan",
-        "Avontuur-Lore",
+        "Mariana Trog",
         "Onbewoond"
       ],
       "journey": {
@@ -3862,7 +3862,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Twee ruige, uiterst afgelegen actieve vulkaaneilanden in de Stille Oceaan. Bekend uit waanzinnige avonturen-lore nadat een groep moderne ontdekkingsreizigers zonder brandstof kwam te zitten en onverwachts 42 uur moest zien te overleven op het strand van Alamagan.",
+      "description": "Twee ruige, uiterst afgelegen actieve vulkaaneilanden in de Noordelijke Marianen. Pagan bestaat uit twee indrukwekkende stratovulkanen, terwijl Alamagan een extreem steile vulkaankegel is. Het gebied wordt gekenmerkt door ongerepte natuur en zware vulkanische activiteit.",
       "floraFauna": "Mariana-megapode (thermometervogel), kokoskrabben, zeldzame hagedissen en wilde geiten.",
       "history": [
         {
@@ -3870,8 +3870,8 @@ export const islandsData = [
           "event": "Zware eruptie van Mount Pagan dwingt tot de algehele evacuatie van de bewoners naar Saipan."
         },
         {
-          "year": 2024,
-          "event": "Een team van prominente YouTubers strandt onverwacht 42 uur op Alamagan tijdens een uitgelopen expeditie."
+          "year": 2010,
+          "event": "Hernieuwde vulkanische activiteit en aswolken zorgen ervoor dat langetermijnplannen voor herbevolking worden opgeschort."
         }
       ]
     },
