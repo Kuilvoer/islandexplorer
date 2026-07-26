@@ -52,7 +52,7 @@ export default function Theme1Card({ island, p, onReadMore }) {
           <h1 className="text-2xl md:text-3xl lg:text-5xl font-black mb-3 uppercase tracking-tighter drop-shadow-sm leading-tight break-words hyphens-auto">{island.name}</h1>
           </div>
           <div className="w-16 h-16 md:w-20 md:h-20 shrink-0 bg-white rounded-full border-4 overflow-hidden shadow-xl flex items-center justify-center z-20" style={{ borderColor: p.accent }}>
-            <img src={`https://flagcdn.com/w320/${island.media?.countryCode}.png`} alt="Flag" className="w-full h-full object-cover scale-90" />
+            <img src={`https://flagcdn.com/w320/${island.media?.countryCode}.png`} alt="Flag" className="w-full h-full object-cover" />
           </div>
         </div>
 
