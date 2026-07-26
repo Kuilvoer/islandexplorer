@@ -2393,8 +2393,8 @@ export const islandsData = [
       "countryCode": "tf",
       "ambientAudioUrl": "/assets/audio/wind-ocean.mp3",
       "images": {
-        "heroDesktop": "https://wsrv.nl/?url=https%3A%2F%2Farchaeology.org%2Fwp-content%2Fuploads%2Fimages%2FSO2014%2FTromelin%2FTromelin-Island-Indian-Ocean.jpg&w=1600&output=webp&we",
-        "heroMobile": "https://wsrv.nl/?url=https%3A%2F%2Farchaeology.org%2Fwp-content%2Fuploads%2Fimages%2FSO2014%2FTromelin%2FTromelin-Island-Indian-Ocean.jpg&w=800&output=webp&we",
+        "heroDesktop": "https://cdn.images.express.co.uk/img/dynamic/78/940x/secondary/Tromelin-Island-indian-ocean-africa-madagascar-5966154.avif?r=1740064988458",
+        "heroMobile": "https://cdn.images.express.co.uk/img/dynamic/78/940x/secondary/Tromelin-Island-indian-ocean-africa-madagascar-5966154.avif?r=1740064988458",
         "gallery": []
       }
     }
@@ -3608,8 +3608,8 @@ export const islandsData = [
       "countryCode": "us",
       "ambientAudioUrl": "/assets/audio/ocean-waves.mp3",
       "images": {
-        "heroDesktop": "https://usarejser.dk/media/4ocfoz4q/island-of-hawaii.jpeg?width=2000&height=968&format=webp&quality=80&v=1db7e358c1cdd70",
-        "heroMobile": "https://usarejser.dk/media/4ocfoz4q/island-of-hawaii.jpeg?width=2000&height=968&format=webp&quality=80&v=1db7e358c1cdd70",
+        "heroDesktop": "https://laurenslighthouse.com/wp-content/uploads/2022/11/DJI_0030.jpg",
+        "heroMobile": "https://laurenslighthouse.com/wp-content/uploads/2022/11/DJI_0030.jpg",
         "gallery": [
           "https://images.unsplash.com/photo-1518182170546-076616fdcbdd?auto=format&fit=crop&q=80&w=1200",
           "https://images.unsplash.com/photo-1526404313331-50e58c89b398?auto=format&fit=crop&q=80&w=1200"
