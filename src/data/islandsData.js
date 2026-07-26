@@ -3338,12 +3338,12 @@ export const islandsData = [
     }
   },
   {
-    "id": "christmaseiland",
+    "id": "christmas-island",
     "name": "Christmaseiland",
     "country": "Australië",
     "region": "Indische Oceaan",
     "themeType": "tropical",
-    "geographyType": "Eiland",
+    "geographyType": "Vulkanisch Eiland / Kalksteenplateau",
     "location": {
       "lat": -10.4475,
       "lng": 105.6904,
@@ -3356,51 +3356,59 @@ export const islandsData = [
       "highestPointMeters": 361
     },
     "logistics": {
-      "route": "Vluchten vanaf Perth, Australië.",
+      "route": "Commerciële vluchten via Virgin Australia vanaf Perth International Airport.",
       "permitRequired": false,
       "tags": [
-        "Natuur",
-        "Luchthaven"
+        "Rode krabben",
+        "Regenwoud",
+        "Koraalriffen"
       ],
       "journey": {
-        "vanaf": "Perth, Australië",
+        "vanaf": "Perth (PER)",
         "vervoer": "Vliegtuig",
-        "tussenstops": "",
+        "tussenstops": "Geen of via Cocoseilanden",
         "afstand": "~2.600 kilometer",
-        "reistijd": "~3,5 uur"
+        "reistijd": "~3.5 tot 4 uur"
       }
     },
     "story": {
-      "description": "Beroemd om de spectaculaire jaarlijkse rode krabbenmigratie. Het is een afgelegen Australisch territorium in de Indische Oceaan met unieke flora en fauna.",
-      "floraFauna": "Miljoenen rode krabben, zeldzame zeevogels.",
+      "description": "Een ruig, grotendeels met tropisch regenwoud bedekt eiland dat wereldberoemd is vanwege de spectaculaire jaarlijkse migratie van ruim 50 miljoen rode krabben van het woud naar de oceaan.",
+      "floraFauna": "Rode kerstkrabben, kokoskrabben, walvishaaien, witbuikfregatvogels en de Abbott's gent.",
       "history": [
         {
           "year": 1643,
-          "event": "Ontdekt op Eerste Kerstdag door kapitein William Mynors."
+          "event": "Ontdekt op Eerste Kerstdag door de Britse kapitein William Mynors van de East India Company."
+        },
+        {
+          "year": 1958,
+          "event": "Soevereiniteit door het Verenigd Koninkrijk officieel overgedragen aan Australië."
         }
       ]
     },
     "economyAndCulture": {
       "currencyCode": "AUD",
-      "connectivity": "Matig. Satelliet en lokaal mobiel netwerk.",
-      "souvenirTip": "Krab-gerelateerde souvenirs."
+      "connectivity": "Beperkt tot matig. 4G-bereik rond het hoofddorp, afhankelijk van satellietverbindingen.",
+      "souvenirTip": "Zeldzame lokale postzegels of kunst met het thema van de krabbenmigratie."
     },
     "hazards": [
-      "Wilde oceaanstromingen",
-      "Krabben op de weg tijdens migratie"
+      "Tropische cyclonen (november tot mei)",
+      "Vlijmscherpe rotskusten en sterke onderstromen"
     ],
     "media": {
-      "countryCode": "cx",
+      "countryCode": "au",
       "ambientAudioUrl": "/assets/audio/jungle-birds.mp3",
       "images": {
-        "heroDesktop": "https://images.unsplash.com/photo-1544642878-5a2a22026194?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
-        "heroMobile": "https://images.unsplash.com/photo-1544642878-5a2a22026194?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "gallery": []
+        "heroDesktop": "https://images.unsplash.com/photo-1542385151-efd9000785a0?auto=format&fit=crop&q=80&w=1920",
+        "heroMobile": "https://images.unsplash.com/photo-1542385151-efd9000785a0?auto=format&fit=crop&q=80&w=800",
+        "gallery": [
+          "https://images.unsplash.com/photo-1534008897995-27a23e859048?auto=format&fit=crop&q=80&w=1200",
+          "https://images.unsplash.com/photo-1605648819445-5386f5686036?auto=format&fit=crop&q=80&w=1200"
+        ]
       }
     }
   },
   {
-    "id": "cocoseilanden",
+    "id": "cocos-keeling-islands",
     "name": "Cocoseilanden",
     "country": "Australië",
     "region": "Indische Oceaan",
@@ -3412,52 +3420,60 @@ export const islandsData = [
       "timezone": "Indian/Cocos"
     },
     "stats": {
-      "population": 544,
+      "population": 593,
       "distanceToMainlandKm": 2100,
       "areaSqKm": 14,
       "highestPointMeters": 5
     },
     "logistics": {
-      "route": "Vluchten vanaf Perth via Christmaseiland.",
+      "route": "Vluchten via Virgin Australia vanuit Perth naar West Island Airport.",
       "permitRequired": false,
       "tags": [
-        "Atol",
-        "Tropisch",
-        "Luchthaven"
+        "Koraalatol",
+        "Cocos-Maleise Cultuur",
+        "Kitesurfen"
       ],
       "journey": {
-        "vanaf": "Perth, Australië",
+        "vanaf": "Perth (PER)",
         "vervoer": "Vliegtuig",
-        "tussenstops": "Christmaseiland",
-        "afstand": "~3.000 kilometer",
-        "reistijd": "~4,5 uur"
+        "tussenstops": "Mogelijk via Christmaseiland",
+        "afstand": "~2.750 kilometer",
+        "reistijd": "~4.5 tot 5 uur"
       }
     },
     "story": {
-      "description": "Twee atollen en 27 koraaleilanden, waarvan er slechts twee bewoond zijn. Perfect voor snorkelen en ontsnappen aan de bewoonde wereld in een echt tropisch paradijs.",
-      "floraFauna": "Kokospalmen, koraalriffen, karetschildpadden.",
+      "description": "Een idyllische dubbele atolstructuur met 27 koraaleilanden. West Island herbergt de voornamelijk Australische expats, terwijl Home Island de historische Cocos-Maleise gemeenschap huisvest.",
+      "floraFauna": "Zeeschildpadden, rifhaaien, kokospalmen, dolfijnen en kleurrijke koraaltuinen.",
       "history": [
         {
           "year": 1609,
-          "event": "Ontdekt door kapitein William Keeling."
+          "event": "Ontdekt door kapitein William Keeling van de Britse Oost-Indische Compagnie."
+        },
+        {
+          "year": 1984,
+          "event": "De inwoners stemmen via een referendum voor een definitieve status binnen Australië."
         }
       ]
     },
     "economyAndCulture": {
       "currencyCode": "AUD",
-      "connectivity": "Beperkt tot de twee bewoonde eilanden.",
-      "souvenirTip": "Lokaal houtsnijwerk of kokosproducten."
+      "connectivity": "Traag. Beperkt mobiel bereik en satellietinternet met hoge latency.",
+      "souvenirTip": "Handgemaakt houtsnijwerk of geweven kokosproducten van Home Island."
     },
     "hazards": [
-      "Kans op cyclonen"
+      "Extreem kwetsbaar bij zeespiegelstijging",
+      "Sterke stromingen in de zeestraten tussen de eilandjes"
     ],
     "media": {
-      "countryCode": "cc",
+      "countryCode": "au",
       "ambientAudioUrl": "/assets/audio/ocean-waves.mp3",
       "images": {
-        "heroDesktop": "https://images.unsplash.com/photo-1596489379685-6187766f6424?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
-        "heroMobile": "https://images.unsplash.com/photo-1596489379685-6187766f6424?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "gallery": []
+        "heroDesktop": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&q=80&w=1920",
+        "heroMobile": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&q=80&w=800",
+        "gallery": [
+          "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=1200",
+          "https://images.unsplash.com/photo-1498623116890-37e912163d5d?auto=format&fit=crop&q=80&w=1200"
+        ]
       }
     }
   },
@@ -3467,59 +3483,67 @@ export const islandsData = [
     "country": "Portugal",
     "region": "Noord-Atlantische Oceaan",
     "themeType": "temperate",
-    "geographyType": "Eiland",
+    "geographyType": "Vulkanisch Eiland",
     "location": {
       "lat": 39.7022,
-      "lng": -31.1116,
+      "lng": -31.1105,
       "timezone": "Atlantic/Azores"
     },
     "stats": {
-      "population": 430,
+      "population": 384,
       "distanceToMainlandKm": 1500,
       "areaSqKm": 17,
       "highestPointMeters": 718
     },
     "logistics": {
-      "route": "Vluchten of veerboten vanaf andere Azoren (bijv. Flores).",
+      "route": "SATA Air Açores vluchten of passagiersboten vanaf het nabijgelegen eiland Flores.",
       "permitRequired": false,
       "tags": [
-        "Europees",
-        "Dorp",
-        "Vulkanisch"
+        "Caldeira",
+        "Geïsoleerd Dorp",
+        "Trekvogels"
       ],
       "journey": {
-        "vanaf": "Lissabon via Ponta Delgada en Flores.",
-        "vervoer": "Vliegtuig & Veerboot",
-        "tussenstops": "Meerdere",
+        "vanaf": "Lissabon (LIS)",
+        "vervoer": "Vliegtuig (met overstap)",
+        "tussenstops": "Via Ponta Delgada en Flores",
         "afstand": "~1.900 kilometer",
-        "reistijd": "~6 uur"
+        "reistijd": "~6 tot 9 uur"
       }
     },
     "story": {
-      "description": "Het kleinste en meest afgelegen eiland van de Azoren-archipel. Met slechts 400 inwoners is Vila do Corvo een van de meest geïsoleerde dorpen van Europa.",
-      "floraFauna": "Graslanden, trekvogels uit Amerika.",
+      "description": "Het kleinste en meest geïsoleerde eiland van de Azoren. Het eiland bestaat vrijwel geheel uit de hellingen van een immense vulkaankrater (Caldeira) waarin meren en weides liggen.",
+      "floraFauna": "Zeldzame Amerikaanse trekvogels (vogelspotters-hotspot in de herfst), hortensia's en koeien.",
       "history": [
         {
           "year": 1452,
-          "event": "Ontdekt door de Portugese ontdekkingsreiziger Diogo de Teive."
+          "event": "Ontdekt door Diogo de Teive tijdens de Portugese exploraties van de Atlantische Oceaan."
+        },
+        {
+          "year": 2007,
+          "event": "Door UNESCO uitgeroepen tot een beschermd Biosfeerreservaat."
         }
       ]
     },
     "economyAndCulture": {
       "currencyCode": "EUR",
-      "connectivity": "Goed, Europees netwerk.",
-      "souvenirTip": "Traditionele wollen mutsen ('barrete de orelhas')."
+      "connectivity": "Verrassend goed. 4G/Glasvezel beschikbaar dankzij Portugese staatssubsidie.",
+      "souvenirTip": "Traditionele handgemaakte houten sloten ('Fechadura de madeira')."
     },
     "hazards": [
-      "Onvoorspelbaar Atlantisch weer"
+      "Extreem veranderlijk weer en mist waardoor vluchten vaak dagen vertraging hebben",
+      "Ruige Atlantische stormen"
     ],
     "media": {
       "countryCode": "pt",
       "ambientAudioUrl": "/assets/audio/wind.mp3",
       "images": {
-        "heroDesktop": "https://images.unsplash.com/photo-1588691524388-7e3e4a9e3b1c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
-        "heroMobile": "https://images.unsplash.com/photo-1588691524388-7e3e4a9e3b1c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "gallery": []
+        "heroDesktop": "https://images.unsplash.com/photo-1596484552993-9c8e0ec5304b?auto=format&fit=crop&q=80&w=1920",
+        "heroMobile": "https://images.unsplash.com/photo-1596484552993-9c8e0ec5304b?auto=format&fit=crop&q=80&w=800",
+        "gallery": [
+          "https://images.unsplash.com/photo-1620210857143-6d092eb2f6a9?auto=format&fit=crop&q=80&w=1200",
+          "https://images.unsplash.com/photo-1574360696956-6134b2ed3c9a?auto=format&fit=crop&q=80&w=1200"
+        ]
       }
     }
   },
@@ -3529,65 +3553,73 @@ export const islandsData = [
     "country": "Verenigde Staten",
     "region": "Stille Oceaan",
     "themeType": "tropical",
-    "geographyType": "Eiland",
+    "geographyType": "Vulkanisch Eiland",
     "location": {
       "lat": 21.4389,
       "lng": -158.0001,
       "timezone": "Pacific/Honolulu"
     },
     "stats": {
-      "population": 995638,
+      "population": 1000800,
       "distanceToMainlandKm": 3970,
       "areaSqKm": 1545,
       "highestPointMeters": 1220
     },
     "logistics": {
-      "route": "Internationale vluchten naar Honolulu (HNL).",
+      "route": "Rechtstreekse intercontinentale vluchten naar Daniel K. Inouye International Airport (HNL).",
       "permitRequired": false,
       "tags": [
-        "Luchthaven",
-        "Toeristisch",
-        "Druk"
+        "Surfen",
+        "Honolulu",
+        "Pearl Harbor"
       ],
       "journey": {
-        "vanaf": "Los Angeles (LAX).",
+        "vanaf": "Los Angeles (LAX)",
         "vervoer": "Vliegtuig",
-        "tussenstops": "",
+        "tussenstops": "Geen",
         "afstand": "~4.100 kilometer",
-        "reistijd": "~5,5 uur"
+        "reistijd": "~5.5 uur"
       }
     },
     "story": {
-      "description": "Het kloppend hart van Hawaï, met de wereldberoemde Waikiki Beach, Pearl Harbor en weelderige groene bergen. Hoewel drukbevolkt, blijft het duizenden kilometers geïsoleerd in de oceaan.",
-      "floraFauna": "Tropische regenwouden, zeeschildpadden, bultrugwalvissen.",
+      "description": "Het meest bevolkte eiland van Hawaï, bekend als 'The Gathering Place'. Het combineerde ruige vulkanische bergkammen en surfstranden van wereldklasse met een moderne metropool.",
+      "floraFauna": "Groene zeeschildpadden (Honu), Hawaïaanse monniksrobben, banyanbomen en geurige Plumeria.",
       "history": [
         {
-          "year": 1778,
-          "event": "Eerste Europees contact door James Cook."
+          "year": 1795,
+          "event": "Koning Kamehameha I verenigt de Hawaïaanse eilanden na de bloedige Slag bij Nuʻuanu."
+        },
+        {
+          "year": 1941,
+          "event": "De verrassingsaanval op Pearl Harbor trekt de VS rechtstreeks de Tweede Wereldoorlog in."
         }
       ]
     },
     "economyAndCulture": {
       "currencyCode": "USD",
-      "connectivity": "Uitstekend.",
-      "souvenirTip": "Macadamianoten, Kona-koffie of een traditionele lei."
+      "connectivity": "Uitstekend. Volledig dekkend 5G-netwerk en hoogwaardig glasvezelinternet.",
+      "souvenirTip": "Authentieke Kona-koffie, Hawaïaanse ukulele of een vintage Aloha shirt."
     },
     "hazards": [
-      "Grote oceaangolven in de winter (North Shore)"
+      "Hoge branding en verraderlijke muistromen aan de North Shore",
+      "Kans op tropische orkanen en aardverschuivingen bij hevige regenval"
     ],
     "media": {
       "countryCode": "us",
       "ambientAudioUrl": "/assets/audio/ocean-waves.mp3",
       "images": {
-        "heroDesktop": "https://images.unsplash.com/photo-1542259009477-d625272157b7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
-        "heroMobile": "https://images.unsplash.com/photo-1542259009477-d625272157b7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "gallery": []
+        "heroDesktop": "https://images.unsplash.com/photo-1505852903341-fc8d3db10436?auto=format&fit=crop&q=80&w=1920",
+        "heroMobile": "https://images.unsplash.com/photo-1505852903341-fc8d3db10436?auto=format&fit=crop&q=80&w=800",
+        "gallery": [
+          "https://images.unsplash.com/photo-1518182170546-076616fdcbdd?auto=format&fit=crop&q=80&w=1200",
+          "https://images.unsplash.com/photo-1526404313331-50e58c89b398?auto=format&fit=crop&q=80&w=1200"
+        ]
       }
     }
   },
   {
     "id": "tarawa",
-    "name": "Tarawa",
+    "name": "Kiribati (Tarawa)",
     "country": "Kiribati",
     "region": "Stille Oceaan",
     "themeType": "tropical",
@@ -3598,243 +3630,270 @@ export const islandsData = [
       "timezone": "Pacific/Tarawa"
     },
     "stats": {
-      "population": 70000,
+      "population": 63439,
       "distanceToMainlandKm": 4000,
       "areaSqKm": 31,
       "highestPointMeters": 3
     },
     "logistics": {
-      "route": "Vluchten vanuit Fiji (Nadi) of Brisbane.",
+      "route": "Vluchten via Fiji Airways vanaf Nadi International Airport naar Bonriki International Airport.",
       "permitRequired": false,
       "tags": [
-        "Atol",
-        "Extreem Afgelegen"
+        "Laaggelegen Atol",
+        "WOII Veldslag",
+        "Klimaatfrontlijn"
       ],
       "journey": {
-        "vanaf": "Nadi, Fiji.",
+        "vanaf": "Nadi (NAN)",
         "vervoer": "Vliegtuig",
-        "tussenstops": "",
-        "afstand": "~2.100 kilometer",
+        "tussenstops": "Geen",
+        "afstand": "~2.200 kilometer",
         "reistijd": "~3 uur"
       }
     },
     "story": {
-      "description": "De hoofdstad van de eilandennatie Kiribati. Een smalle strook land omringd door koraalriffen en de Stille Oceaan, bedreigd door zeespiegelstijging.",
-      "floraFauna": "Uitgestrekte mariene ecosystemen, kokospalmen.",
+      "description": "De hoofdatol van de eilandnatie Kiribati. Zuid-Tarawa vormt een extreem smalle, langgerekte strook land op koraalriffen die de hoofdweg en het overgrote deel van de nationale bevolking herbergt.",
+      "floraFauna": "Kokospalmen, broodboom, reuzenmussels, rifhaaien en zeevogels.",
       "history": [
         {
           "year": 1943,
-          "event": "Locatie van de bloedige Slag om Tarawa in de Tweede Wereldoorlog."
+          "event": "De Slag om Tarawa vond hier plaats, een van de hevigste Amerikaanse offensieven in de Stille Oceaan."
+        },
+        {
+          "year": 1979,
+          "event": "Kiribati wordt officieel een onafhankelijke republiek."
         }
       ]
     },
     "economyAndCulture": {
       "currencyCode": "AUD",
-      "connectivity": "Matig. Trager internet.",
-      "souvenirTip": "Geweven pandanus-matten."
+      "connectivity": "Matig tot zwak. Internet verloopt traag via 4G/satelliet en valt regelmatig uit.",
+      "souvenirTip": "Ambachtelijke geweven waaiers of sieraden gemaakt van koraalstrikken en schelpen."
     },
     "hazards": [
-      "Overstromingen door stijgende zeespiegel"
+      "Extreme dreiging van zeespiegelstijging en verzilting van drinkwaterbronnen",
+      "Overbevolkingsproblematiek in Zuid-Tarawa"
     ],
     "media": {
       "countryCode": "ki",
       "ambientAudioUrl": "/assets/audio/ocean-waves.mp3",
       "images": {
-        "heroDesktop": "https://images.unsplash.com/photo-1589307004242-b4369a40507a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
-        "heroMobile": "https://images.unsplash.com/photo-1589307004242-b4369a40507a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "gallery": []
+        "heroDesktop": "https://images.unsplash.com/photo-1580216669921-689366df21a2?auto=format&fit=crop&q=80&w=1920",
+        "heroMobile": "https://images.unsplash.com/photo-1580216669921-689366df21a2?auto=format&fit=crop&q=80&w=800",
+        "gallery": [
+          "https://images.unsplash.com/photo-1590483864457-371587d10ce0?auto=format&fit=crop&q=80&w=1200",
+          "https://images.unsplash.com/photo-1596707323891-b844be82c163?auto=format&fit=crop&q=80&w=1200"
+        ]
       }
     }
   },
   {
-    "id": "marquesaseilanden",
+    "id": "marquesas-islands",
     "name": "Marquesaseilanden",
     "country": "Frans-Polynesië",
     "region": "Stille Oceaan",
-    "themeType": "jungle",
-    "geographyType": "Archipel",
+    "themeType": "tropical",
+    "geographyType": "Archipel / Vulkanische Eilanden",
     "location": {
       "lat": -9,
       "lng": -139.5,
       "timezone": "Pacific/Marquesas"
     },
     "stats": {
-      "population": 9346,
+      "population": 9350,
       "distanceToMainlandKm": 4800,
       "areaSqKm": 1049,
-      "highestPointMeters": 1276
+      "highestPointMeters": 1224
     },
     "logistics": {
-      "route": "Binnenlandse vluchten vanuit Papeete (Tahiti).",
+      "route": "Binnenlandse vluchten met Air Tahiti naar Nuku Hiva of Hiva Oa, of via het gecombineerde vracht/passagiersschip Aranui 5.",
       "permitRequired": false,
       "tags": [
-        "Jungle",
-        "Vulkanisch",
-        "Historisch"
+        "Kliffen",
+        "UNESCO Werelderfgoed",
+        "Tiki Cultuur"
       ],
       "journey": {
-        "vanaf": "Papeete, Tahiti.",
-        "vervoer": "Vliegtuig",
-        "tussenstops": "",
+        "vanaf": "Papeete (PPT)",
+        "vervoer": "Vliegtuig / Schip",
+        "tussenstops": "Geen (vliegtuig)",
         "afstand": "~1.400 kilometer",
-        "reistijd": "~3,5 uur"
+        "reistijd": "~3.5 uur vliegen"
       }
     },
     "story": {
-      "description": "Een ruige vulkanische archipel ver weg van alles, bekend om zijn spectaculaire steile kliffen, weelderige groene valleien en rijke Polynesische tradities.",
-      "floraFauna": "Wilde paarden, weelderige jungle flora, zeevogels.",
+      "description": "Een van de meest geïsoleerde eilandgroepen ter wereld, bekend om steile, klifachtige vulkaantoppen zonder omringende koraalriffen. Sinds 2024 UNESCO Werelderfgoed.",
+      "floraFauna": "Marquesaanse wilde paarden, reuzenmanta's, dolfijnen, banyanbomen en de zeldzame Marquesas-ijsvogel.",
       "history": [
         {
-          "year": 1595,
-          "event": "Ontdekt door de Spaanse ontdekkingsreiziger Álvaro de Mendaña."
+          "year": 1891,
+          "event": "De Franse kunstschilder Paul Gauguin vestigt zich in de regio op zoek naar een 'primitief paradijs'."
+        },
+        {
+          "year": 2024,
+          "event": "De Marquesaseilanden worden officieel toegevoegd aan de UNESCO Werelderfgoedlijst."
         }
       ]
     },
     "economyAndCulture": {
       "currencyCode": "XPF",
-      "connectivity": "Beperkt tot de hoofddorpen.",
-      "souvenirTip": "Fijn houtsnijwerk of een Polynesische tattoo (als je durft)."
+      "connectivity": "Beperkt. WiFi aanwezig in de grotere dorpen, maar dekking buiten de valleien is nihil.",
+      "souvenirTip": "Handgesneden edelhouten Tiki-beelden of edelsteen-tatoeagekunst."
     },
     "hazards": [
-      "Tropische stormen, moeilijk begaanbaar terrein"
+      "Extreem steil en verraderlijk terrein voor wandelaars",
+      "Geen beschutte riffen; ruige branding bij het aan land gaan per boot"
     ],
     "media": {
       "countryCode": "pf",
       "ambientAudioUrl": "/assets/audio/jungle-waterfall.mp3",
       "images": {
-        "heroDesktop": "https://images.unsplash.com/photo-1590453530006-218fc8db93cc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
-        "heroMobile": "https://images.unsplash.com/photo-1590453530006-218fc8db93cc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "gallery": []
+        "heroDesktop": "https://images.unsplash.com/photo-1596707323891-b844be82c163?auto=format&fit=crop&q=80&w=1920",
+        "heroMobile": "https://images.unsplash.com/photo-1596707323891-b844be82c163?auto=format&fit=crop&q=80&w=800",
+        "gallery": [
+          "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=1200",
+          "https://images.unsplash.com/photo-1498623116890-37e912163d5d?auto=format&fit=crop&q=80&w=1200"
+        ]
       }
     }
   },
   {
-    "id": "norfolkeiland",
+    "id": "norfolk-island",
     "name": "Norfolkeiland",
     "country": "Australië",
     "region": "Stille Oceaan",
     "themeType": "temperate",
-    "geographyType": "Eiland",
+    "geographyType": "Vulkanisch Eiland",
     "location": {
-      "lat": -29.0408,
-      "lng": 167.9547,
+      "lat": -29.0289,
+      "lng": 167.9587,
       "timezone": "Pacific/Norfolk"
     },
     "stats": {
-      "population": 1748,
+      "population": 2188,
       "distanceToMainlandKm": 1400,
-      "areaSqKm": 34,
+      "areaSqKm": 35,
       "highestPointMeters": 319
     },
     "logistics": {
-      "route": "Vluchten vanuit Sydney of Brisbane.",
+      "route": "Qantas vluchten vanaf Sydney Airport of Brisbane Airport naar Norfolk Island Airport.",
       "permitRequired": false,
       "tags": [
-        "Historisch",
-        "Natuur",
-        "Luchthaven"
+        "Norfolkden",
+        "Strafkolonie",
+        "Norf'k Taal"
       ],
       "journey": {
-        "vanaf": "Sydney, Australië.",
+        "vanaf": "Sydney (SYD)",
         "vervoer": "Vliegtuig",
-        "tussenstops": "",
-        "afstand": "~1.600 kilometer",
-        "reistijd": "~2,5 uur"
+        "tussenstops": "Geen",
+        "afstand": "~1.680 kilometer",
+        "reistijd": "~2.5 uur"
       }
     },
     "story": {
-      "description": "Een fascinerend eiland met pijnbomen en kliffen. Bekend om zijn verleden als strafkolonie en als thuisbasis voor nakomelingen van de Bounty-muiters.",
-      "floraFauna": "De beroemde Norfolkden, groene papegaaien.",
+      "description": "Een groen, heuvelachtig eiland dat bekendstaat om de Norfolkdennen. Het heeft een duistere historie als brute Britse strafkolonie en werd later de nieuwe thuisbasis van de nakomelingen van de Bounty-muiters.",
+      "floraFauna": "De iconische Norfolkden (Araucaria heterophylla), groene Norfolk-parkiet en endemische varens.",
       "history": [
         {
-          "year": 1774,
-          "event": "Ontdekt door kapitein James Cook."
+          "year": 1825,
+          "event": "Heropend als een van de meest beruchte en zwaarste Britse strafkolonies in de Pacific."
         },
         {
           "year": 1856,
-          "event": "Aankomst van de Bounty-muiters vanuit Pitcairn."
+          "event": "194 bewoners van Pitcairn Island verhuizen massaal naar het ontruimde Norfolk Island."
         }
       ]
     },
     "economyAndCulture": {
       "currencyCode": "AUD",
-      "connectivity": "Goed, maar prijzig.",
-      "souvenirTip": "Houtsnijwerk van de Norfolkden."
+      "connectivity": "Redelijk. Lokale 4G-netwerken via Norfolk Telecom, roaming is beperkt.",
+      "souvenirTip": "Ambachtelijke producten van Norfolkden-hout of verse lokale likeuren."
     },
     "hazards": [
-      "Steile kliffen"
+      "Hoge kliffen rondom bijna de gehele kustlijn",
+      "Gevaarlijke branding zonder natuurlijke diepwaterhavens"
     ],
     "media": {
-      "countryCode": "nf",
+      "countryCode": "au",
       "ambientAudioUrl": "/assets/audio/wind.mp3",
       "images": {
-        "heroDesktop": "https://images.unsplash.com/photo-1616254707166-3d2b27cc3b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
-        "heroMobile": "https://images.unsplash.com/photo-1616254707166-3d2b27cc3b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "gallery": []
+        "heroDesktop": "https://images.unsplash.com/photo-1549419163-54645dcba9b0?auto=format&fit=crop&q=80&w=1920",
+        "heroMobile": "https://images.unsplash.com/photo-1549419163-54645dcba9b0?auto=format&fit=crop&q=80&w=800",
+        "gallery": [
+          "https://images.unsplash.com/photo-1596707323891-b844be82c163?auto=format&fit=crop&q=80&w=1200",
+          "https://images.unsplash.com/photo-1534008897995-27a23e859048?auto=format&fit=crop&q=80&w=1200"
+        ]
       }
     }
   },
   {
-    "id": "pagan",
-    "name": "Pagan (en Alamagan)",
-    "country": "Noordelijke Marianen",
+    "id": "pagan-alamagan",
+    "name": "Pagan en Alamagan",
+    "country": "Noordelijke Marianen (VS)",
     "region": "Stille Oceaan",
     "themeType": "volcanic",
-    "geographyType": "Vulkanisch Eiland",
+    "geographyType": "Vulkanische Eilandboog",
     "location": {
-      "lat": 18.1167,
-      "lng": 145.7667,
+      "lat": 18.13,
+      "lng": 145.8,
       "timezone": "Pacific/Guam"
     },
     "stats": {
-      "population": 0,
-      "distanceToMainlandKm": 2000,
-      "areaSqKm": 47,
-      "highestPointMeters": 570
+      "population": 2,
+      "distanceToMainlandKm": 2500,
+      "areaSqKm": 60,
+      "highestPointMeters": 744
     },
     "logistics": {
-      "route": "Geen commerciële routes. Toegang uitsluitend via gecharterde boten vanuit Saipan.",
+      "route": "Uitsluitend per gecharterde expeditieboot of helikopter vanaf Saipan.",
       "permitRequired": true,
       "tags": [
-        "Onbewoond",
-        "Vulkaan",
-        "Extreem Afgelegen"
+        "Actieve Vulkaan",
+        "Avontuur-Lore",
+        "Onbewoond"
       ],
       "journey": {
-        "vanaf": "Saipan.",
-        "vervoer": "Boot",
-        "tussenstops": "Alamagan",
-        "afstand": "~300 kilometer",
-        "reistijd": "~Vele uren per boot"
+        "vanaf": "Saipan (SPN)",
+        "vervoer": "Expeditieboot / Helikopter",
+        "tussenstops": "Varieert per route langs de noordelijke eilanden",
+        "afstand": "~310 tot 360 kilometer",
+        "reistijd": "~15 tot 20 uur vaartijd"
       }
     },
     "story": {
-      "description": "Ruige, onbewoonde vulkanische eilanden. Ooit bewoond, maar geëvacueerd door uitbarstingen. Onder ontdekkingsreizigers en zeilers staan deze eilanden bekend om hun onvoorspelbare stromingen en uitdagingen met brandstof en logistiek.",
-      "floraFauna": "Verwilderde veestapels, zwarte vulkaanasstranden.",
+      "description": "Twee uiterst afgelegen en actieve vulkaaneilanden. Pagan bestaat uit twee grote stratovulkanen, terwijl Alamagan een steile vulkaankegel is. Bekend uit recente avonturen-lore toen reizigers wegens een brandstoftekort 42 uur lang strandden op Alamagan.",
+      "floraFauna": "Mariana-megapode (thermometervogel), kokoskrabben, zeldzame hagedissen en wilde geiten.",
       "history": [
         {
           "year": 1981,
-          "event": "Grote vulkaanuitbarsting dwong volledige evacuatie af."
+          "event": "Zware eruptie van Mount Pagan dwingt tot de algehele evacuatie van de bewoners naar Saipan."
+        },
+        {
+          "year": 2024,
+          "event": "Een team van prominente YouTubers strandt onverwacht 42 uur op Alamagan tijdens een uitgelopen expeditie."
         }
       ]
     },
     "economyAndCulture": {
       "currencyCode": "USD",
-      "connectivity": "Nul. Satelliettelefoons vereist.",
-      "souvenirTip": "Vulkanisch gesteente (als het mag van de natuurwetten)."
+      "connectivity": "Geen civiel netwerk. Communicatie is alleen mogelijk via satelliettelefoons of zenders.",
+      "souvenirTip": "Geen commerciële winkels aanwezig."
     },
     "hazards": [
-      "Actieve vulkaan",
-      "Onbereikbaarheid bij nood",
-      "Logistieke uitdagingen rondom brandstof"
+      "Actief vulkanisme, askolommen en giftige zwavelgassen",
+      "Geen beschutte ankerplaatsen of brandstofinfrastructuur"
     ],
     "media": {
       "countryCode": "mp",
       "ambientAudioUrl": "/assets/audio/volcano.mp3",
       "images": {
-        "heroDesktop": "https://images.unsplash.com/photo-1601053075253-27c13a0198de?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
-        "heroMobile": "https://images.unsplash.com/photo-1601053075253-27c13a0198de?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "gallery": []
+        "heroDesktop": "https://images.unsplash.com/photo-1542385151-efd9000785a0?auto=format&fit=crop&q=80&w=1920",
+        "heroMobile": "https://images.unsplash.com/photo-1542385151-efd9000785a0?auto=format&fit=crop&q=80&w=800",
+        "gallery": [
+          "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=1200",
+          "https://images.unsplash.com/photo-1534008897995-27a23e859048?auto=format&fit=crop&q=80&w=1200"
+        ]
       }
     }
   },
@@ -3844,59 +3903,67 @@ export const islandsData = [
     "country": "Frans-Polynesië",
     "region": "Stille Oceaan",
     "themeType": "tropical",
-    "geographyType": "Eiland",
+    "geographyType": "Vulkanisch Eiland",
     "location": {
       "lat": -17.6509,
       "lng": -149.426,
       "timezone": "Pacific/Tahiti"
     },
     "stats": {
-      "population": 189517,
+      "population": 190000,
       "distanceToMainlandKm": 5700,
-      "areaSqKm": 1043,
+      "areaSqKm": 1045,
       "highestPointMeters": 2241
     },
     "logistics": {
-      "route": "Internationale luchthaven Fa'a'ā (PPT).",
+      "route": "Internationale vluchten naar Fa'a'ā International Airport (PPT) bij Papeete.",
       "permitRequired": false,
       "tags": [
-        "Paradijs",
-        "Luchthaven",
-        "Toeristisch"
+        "Teahupo'o",
+        "Polynesische Cultuur",
+        "Watervallen"
       ],
       "journey": {
-        "vanaf": "Los Angeles (LAX).",
+        "vanaf": "Los Angeles (LAX)",
         "vervoer": "Vliegtuig",
-        "tussenstops": "",
+        "tussenstops": "Geen",
         "afstand": "~6.600 kilometer",
         "reistijd": "~8 uur"
       }
     },
     "story": {
-      "description": "Het grootste eiland van Frans-Polynesië, een tropisch meesterwerk met zwarte zandstranden, majestueuze watervallen, uitgedoofde vulkanen en wereldklasse surfgolven (Teahupo'o).",
-      "floraFauna": "Koraalriffen, roggen, tropische bloemen (Tiare).",
+      "description": "Het economische en culturele hart van Frans-Polynesië. Gekenmerkt door steile bergpieken (zoals Mount Orohena), diepe valleien met watervallen, zwarte zandstranden en 's werelds beroemdste surfgolf bij Teahupo'o.",
+      "floraFauna": "Tiaré Tahiti bloemen, bultrugwalvissen, pijlstaartroggen en tropische fruitbomen.",
       "history": [
         {
-          "year": 1767,
-          "event": "Aangemeerd door Samuel Wallis."
+          "year": 1769,
+          "event": "Kapitein James Cook bezoekt Tahiti om de Transitie van Venus waar te nemen."
+        },
+        {
+          "year": 2024,
+          "event": "Tahiti fungeert als de officiële surf-locatie voor de Olympische Spelen van Parijs."
         }
       ]
     },
     "economyAndCulture": {
       "currencyCode": "XPF",
-      "connectivity": "Zeer goed op de toeristische plekken.",
-      "souvenirTip": "Zwarte parels of geurende Monoi-olie."
+      "connectivity": "Uitstekend. 4G/5G-dekking en breedbandinternet in stedelijke gebieden.",
+      "souvenirTip": "Zwarte Tahitiaanse parels of traditionele Monoï-olie."
     },
     "hazards": [
-      "Tropische wervelstormen, gevaarlijke branding bij riffen"
+      "Extreem krachtige en gevaarlijke golven op lavariffen (Teahupo'o)",
+      "Kans op zware tropische regenbuien en modderstromen"
     ],
     "media": {
       "countryCode": "pf",
-      "ambientAudioUrl": "/assets/audio/ocean-waves.mp3",
+      "ambientAudioUrl": "/assets/audio/jungle-waterfall.mp3",
       "images": {
-        "heroDesktop": "https://images.unsplash.com/photo-1589309736404-2e142a2acdf0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
-        "heroMobile": "https://images.unsplash.com/photo-1589309736404-2e142a2acdf0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "gallery": []
+        "heroDesktop": "https://images.unsplash.com/photo-1502003148287-a82ef80a6abc?auto=format&fit=crop&q=80&w=1920",
+        "heroMobile": "https://images.unsplash.com/photo-1502003148287-a82ef80a6abc?auto=format&fit=crop&q=80&w=800",
+        "gallery": [
+          "https://images.unsplash.com/photo-1596707323891-b844be82c163?auto=format&fit=crop&q=80&w=1200",
+          "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=1200"
+        ]
       }
     }
   },
@@ -3908,57 +3975,66 @@ export const islandsData = [
     "themeType": "tropical",
     "geographyType": "Atol",
     "location": {
-      "lat": -8.5167,
-      "lng": 179.2167,
+      "lat": -8.52,
+      "lng": 179.2,
       "timezone": "Pacific/Funafuti"
     },
     "stats": {
-      "population": 11200,
+      "population": 11204,
       "distanceToMainlandKm": 3400,
       "areaSqKm": 26,
-      "highestPointMeters": 4
+      "highestPointMeters": 4.6
     },
     "logistics": {
-      "route": "Uiterst zeldzame vluchten vanaf Fiji.",
+      "route": "Vluchten via Fiji Airways vanaf Suva Nausori Airport naar Funafuti International Airport.",
       "permitRequired": false,
       "tags": [
-        "Extreem Afgelegen",
-        "Minst Bezochte Land"
+        "Minst Bezocht Land",
+        "Funafuti Lagune",
+        "Dot TV"
       ],
       "journey": {
-        "vanaf": "Suva, Fiji.",
-        "vervoer": "Vliegtuig (Fiji Airways)",
-        "tussenstops": "",
-        "afstand": "~1.100 kilometer",
-        "reistijd": "~2,5 uur"
+        "vanaf": "Suva (SUV), Fiji",
+        "vervoer": "Vliegtuig",
+        "tussenstops": "Geen",
+        "afstand": "~1.050 kilometer",
+        "reistijd": "~2.5 uur"
       }
     },
     "story": {
-      "description": "Een van de kleinste en minst bezochte onafhankelijke landen ter wereld. Bestaat volledig uit laaggelegen atollen die ernstig worden bedreigd door de stijgende zeespiegel.",
-      "floraFauna": "Uitgestrekte lagunes, koraalriffen.",
+      "description": "Een van de kleinste en minst bezochte soevereine naties op aarde. Het bestaat uit negen laaggelegen koraalatollen rond een gigantische, kristalheldere lagune.",
+      "floraFauna": "Pandanusbomen, kokospalmen, groene zeeschildpadden en tropische rifvissen.",
       "history": [
         {
           "year": 1978,
-          "event": "Onafhankelijk van het Verenigd Koninkrijk."
+          "event": "Onafhankelijk geworden van het Verenigd Koninkrijk (voorheen de Ellice-eilanden)."
+        },
+        {
+          "year": 2000,
+          "event": "Verhuurt de rechten op het internetdomein '.tv' voor tientallen miljoenen dollars om infrastructuur te financieren."
         }
       ]
     },
     "economyAndCulture": {
       "currencyCode": "AUD",
-      "connectivity": "Zwak en onbetrouwbaar internet.",
-      "souvenirTip": "Traditionele sieraden van schelpen of postzegels."
+      "connectivity": "Beperkt en kostbaar. Beperkte 4G-dekking via Telecom Tuvalu.",
+      "souvenirTip": "Met de hand geweven traditionele matten ('Fafetu') of Tuvalu-postzegels."
     },
     "hazards": [
-      "Stijgende zeespiegel (klimaatverandering)"
+      "Cruciale klimaatbedreiging door zeespiegelstijging en kusterosie",
+      "Groot tekort aan natuurlijk drinkwater tijdens droogteperiodes"
     ],
     "media": {
       "countryCode": "tv",
       "ambientAudioUrl": "/assets/audio/ocean-waves.mp3",
       "images": {
-        "heroDesktop": "https://images.unsplash.com/photo-1563242691-8d26456f91f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80",
-        "heroMobile": "https://images.unsplash.com/photo-1563242691-8d26456f91f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-        "gallery": []
+        "heroDesktop": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&q=80&w=1920",
+        "heroMobile": "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57?auto=format&fit=crop&q=80&w=800",
+        "gallery": [
+          "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=1200",
+          "https://images.unsplash.com/photo-1596707323891-b844be82c163?auto=format&fit=crop&q=80&w=1200"
+        ]
       }
     }
-  },
+  }
 ];
