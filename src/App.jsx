@@ -260,13 +260,13 @@ function InnerApp() {
             </div>
           ) : (
             !isGlobeView && (
-              <div className="w-full h-full flex flex-col pt-4 px-6 relative overflow-y-auto md:overflow-hidden">
+              <div className="w-full h-full flex flex-col pt-4 px-6 relative overflow-y-auto">
                 {viewMode === 'card' && (
-                  <div className="flex-1 w-full flex flex-col items-center justify-start md:justify-center gap-8 md:gap-0 pb-8 md:pb-52">
+                  <div className="flex-1 w-full flex flex-col items-center justify-start gap-8 md:gap-0 pb-4">
                     <Theme1Card island={activeIsland} p={p} onReadMore={(island) => setActiveDetailIsland(island)} />
                     
                     {/* Dock Area */}
-                    <div className="w-full flex justify-center items-center z-20 pointer-events-none fade-in md:absolute md:bottom-8 shrink-0">
+                    <div className="flex-1 w-full flex justify-center items-center z-20 pointer-events-none fade-in shrink-0 min-h-[140px] md:min-h-[220px] py-4 md:py-8">
                       <div className="flex items-center gap-2 md:gap-4 pointer-events-auto">
                         <button onClick={handlePrev} className="hidden md:flex w-10 h-10 md:w-16 md:h-16 rounded-full border-4 items-center justify-center shrink-0 transition-transform hover:scale-110 shadow-xl" style={{ backgroundColor: p.card, borderColor: p.accent, color: p.accent }}>
                           <i className="fa-solid fa-chevron-left text-base md:text-2xl"></i>
