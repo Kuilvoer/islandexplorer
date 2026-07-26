@@ -19,7 +19,6 @@ export default function AudioPlayer({ themeType, p }) {
     Object.keys(audioTracks).forEach(theme => {
       const audio = new Audio(audioTracks[theme]);
       audio.loop = true;
-      audio.preload = 'none'; // Bespaart bandbreedte, pas inladen wanneer nodig!
       audio.volume = 0;
       playersRef.current[theme] = audio;
     });
@@ -95,7 +94,6 @@ export default function AudioPlayer({ themeType, p }) {
       });
     } else {
       if (audio) {
-        if (audio.readyState === 0) audio.load();
         audio.volume = theme === 'volcanic' ? 0.9 : 1.0;
         audio.play().catch(e => console.log("Audio play blocked", e));
       }
