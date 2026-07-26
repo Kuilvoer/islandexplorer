@@ -24,7 +24,7 @@ export function ListViewAtlas({ islands, onSelect, onHover }) {
           >
             <div className="flex items-center gap-6 flex-1" onClick={() => onSelect(island)}>
               <div className="w-16 h-16 rounded-full border-4 overflow-hidden shrink-0" style={{ borderColor: pBg }}>
-                <img src={`https://flagcdn.com/w320/${island.media?.countryCode}.png`} alt="flag" className="w-full h-full object-contain p-1" />
+                <img src={`https://flagcdn.com/w320/${island.media?.countryCode}.png`} alt="flag" className="w-full h-full object-cover" />
               </div>
               <div className="flex-1 grid grid-cols-1 md:grid-cols-4 gap-4 items-center">
                 <div className="col-span-1 md:col-span-2">

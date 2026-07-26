@@ -262,7 +262,7 @@ function InnerApp() {
             !isGlobeView && (
               <div className="w-full h-full flex flex-col pt-4 px-6 relative overflow-y-auto md:overflow-hidden">
                 {viewMode === 'card' && (
-                  <div className="flex-1 w-full flex flex-col items-center justify-start md:justify-center gap-8 md:gap-0 pb-8 md:pb-0">
+                  <div className="flex-1 w-full flex flex-col items-center justify-start md:justify-center gap-8 md:gap-0 pb-8 md:pb-52">
                     <Theme1Card island={activeIsland} p={p} onReadMore={(island) => setActiveDetailIsland(island)} />
                     
                     {/* Dock Area */}
@@ -278,10 +278,10 @@ function InnerApp() {
                             const distance = Math.abs(index - 2);
                             const isFav = favorites.includes(island.id);
                             return (
-                              <div key={`${island.id}-${index}`} onClick={() => setActiveIsland(island)} className={`${(index === 0 || index === 4) ? 'hidden md:flex' : 'flex'} w-20 md:w-32 flex-col items-center justify-start cursor-pointer transition-all shrink-0 relative ${isActive ? 'scale-110 -translate-y-1' : 'hover:scale-105'}`} style={{ opacity: distance === 2 ? 0.4 : distance === 1 ? 0.7 : 1 }}>
+                              <div key={`${island.id}-${index}`} onClick={() => setActiveIsland(island)} className={`${(index === 0 || index === 4) ? 'hidden md:flex' : 'flex'} w-20 md:w-32 flex-col items-center justify-start cursor-pointer transition-all shrink-0 relative ${isActive ? 'scale-110 -translate-y-1 md:-translate-y-2' : 'hover:scale-105'}`} style={{ opacity: distance === 2 ? 0.4 : distance === 1 ? 0.7 : 1 }}>
                                 <div className="relative">
                                   <div className="w-14 h-14 md:w-20 md:h-20 rounded-full border-4 overflow-hidden transition-colors duration-700 shrink-0" style={{ borderColor: isActive ? (p.id === 'arctic' ? '#9E9E9E' : p.bg) : p.accent, backgroundColor: '#fff' }}>
-                                    <img src={`https://flagcdn.com/w320/${island.media.countryCode}.png`} className="w-full h-full object-contain p-1.5" />
+                                    <img src={`https://flagcdn.com/w320/${island.media.countryCode}.png`} className="w-full h-full object-cover" />
                                   </div>
                                   {isFav && (
                                     <div className="absolute -bottom-1 -right-1 bg-red-500 w-5 h-5 rounded-full flex items-center justify-center border-2 border-white shadow-sm">
