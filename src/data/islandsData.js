@@ -1690,7 +1690,7 @@ export const islandsData = [
       ],
       "journey": {
         "vanaf": "Het eiland Réunion, een Frans overzees departement (bereikbaar via bijvoorbeeld Parijs).",
-        "vervoer": "Vliegtuig naar Réunion, gevolgd door het bevoorradingsschip <em>Marion Dufresne</em>.",
+        "vervoer": "Vliegtuig naar Réunion, gevolgd door het bevoorradingsschip Marion Dufresne.",
         "tussenstops": "Je stapt op Réunion over van het vliegtuig op de boot.",
         "afstand": "~3.200 kilometer varen vanaf Réunion.",
         "reistijd": "~5 tot 7 dagen varen, mits het schip direct vaart (en niet eerst langs de Crozeteilanden en Kerguelen gaat)."
@@ -1958,7 +1958,7 @@ export const islandsData = [
       ],
       "journey": {
         "vanaf": "Kaapstad, Zuid-Afrika.",
-        "vervoer": "Zuid-Afrikaanse bevoorradingsschepen (zoals de <em>S.A. Agulhas II</em>). Het is een natuurreservaat en weerstation zonder commerciële toegang.",
+        "vervoer": "Zuid-Afrikaanse bevoorradingsschepen (zoals de S.A. Agulhas II). Het is een natuurreservaat en weerstation zonder commerciële toegang.",
         "tussenstops": "Het schip maakt tijdens deze reis vaak eerst een stop bij Tristan da Cunha om daar goederen en passagiers af te zetten.",
         "afstand": "~2.700 kilometer vanaf Kaapstad.",
         "reistijd": "~4 tot 6 dagen varen."
@@ -2695,7 +2695,7 @@ export const islandsData = [
       ],
       "journey": {
         "vanaf": "Tokyo, Japan.",
-        "vervoer": "Alleen per reguliere veerboot (de <em>Ogasawara Maru</em>). De eilanden hebben geen vliegveld om de kwetsbare natuur te beschermen.",
+        "vervoer": "Alleen per reguliere veerboot (de Ogasawara Maru). De eilanden hebben geen vliegveld om de kwetsbare natuur te beschermen.",
         "tussenstops": "Het is een directe vaart vanuit de haven van Tokyo naar Chichijima (het hoofdeiland).",
         "afstand": "~1.000 kilometer ten zuiden van Tokyo.",
         "reistijd": "~24 uur varen."
