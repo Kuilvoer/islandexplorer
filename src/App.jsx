@@ -275,20 +275,20 @@ function InnerApp() {
         {/* Centered Dock Area (Only in Card Mode) */}
         {!activeDetailIsland && !isGlobeView && viewMode === 'card' && (
           <div className="absolute bottom-8 w-full flex justify-center items-center z-20 pointer-events-none fade-in">
-            <div className="flex items-center gap-4 pointer-events-auto">
-              <button onClick={handlePrev} className="w-14 h-14 rounded-full border-4 flex items-center justify-center shrink-0 transition-transform hover:scale-110" style={{ backgroundColor: p.card, borderColor: p.accent, color: p.accent }}>
-                <i className="fa-solid fa-chevron-left text-xl"></i>
+            <div className="flex items-center gap-2 md:gap-4 pointer-events-auto">
+              <button onClick={handlePrev} className="w-10 h-10 md:w-14 md:h-14 rounded-full border-4 flex items-center justify-center shrink-0 transition-transform hover:scale-110" style={{ backgroundColor: p.card, borderColor: p.accent, color: p.accent }}>
+                <i className="fa-solid fa-chevron-left text-base md:text-xl"></i>
               </button>
               
-              <div className="w-full max-w-[95vw] md:max-w-4xl rounded-[40px] px-8 border-4 shadow-2xl flex gap-8 justify-center items-center transition-colors duration-700 h-[140px] backdrop-blur-md" style={{ backgroundColor: p.card, borderColor: p.accent }}>
+              <div className="w-full max-w-[95vw] md:max-w-4xl rounded-[40px] px-4 md:px-8 border-4 shadow-2xl flex gap-6 md:gap-8 justify-center items-center transition-colors duration-700 h-[100px] md:h-[140px] backdrop-blur-md" style={{ backgroundColor: p.card, borderColor: p.accent }}>
                 {visibleIslands.map((island, index) => {
                   const isActive = island.id === activeIsland.id;
                   const distance = Math.abs(index - 2);
                   const isFav = favorites.includes(island.id);
                   return (
-                    <div key={`${island.id}-${index}`} onClick={() => setActiveIsland(island)} className={`w-24 md:w-32 flex flex-col items-center justify-start cursor-pointer transition-all shrink-0 relative ${isActive ? 'scale-110 -translate-y-2' : 'hover:scale-105'}`} style={{ opacity: distance === 2 ? 0.4 : distance === 1 ? 0.7 : 1 }}>
+                    <div key={`${island.id}-${index}`} onClick={() => setActiveIsland(island)} className={`w-20 md:w-32 flex flex-col items-center justify-start cursor-pointer transition-all shrink-0 relative ${isActive ? 'scale-110 -translate-y-1' : 'hover:scale-105'}`} style={{ opacity: distance === 2 ? 0.4 : distance === 1 ? 0.7 : 1 }}>
                       <div className="relative">
-                        <div className="w-16 h-16 md:w-20 md:h-20 rounded-full border-4 overflow-hidden transition-colors duration-700 shrink-0" style={{ borderColor: isActive ? (p.id === 'arctic' ? '#9E9E9E' : p.bg) : p.accent, backgroundColor: '#fff' }}>
+                        <div className="w-14 h-14 md:w-20 md:h-20 rounded-full border-4 overflow-hidden transition-colors duration-700 shrink-0" style={{ borderColor: isActive ? (p.id === 'arctic' ? '#9E9E9E' : p.bg) : p.accent, backgroundColor: '#fff' }}>
                           <img src={`https://flagcdn.com/w320/${island.media.countryCode}.png`} className="w-full h-full object-cover" />
                         </div>
                         {/* Subtiel Hartje op de dock kaarten */}
@@ -304,8 +304,8 @@ function InnerApp() {
                 })}
               </div>
 
-              <button onClick={handleNext} className="w-14 h-14 rounded-full border-4 flex items-center justify-center shrink-0 transition-transform hover:scale-110" style={{ backgroundColor: p.card, borderColor: p.accent, color: p.accent }}>
-                <i className="fa-solid fa-chevron-right text-xl"></i>
+              <button onClick={handleNext} className="w-10 h-10 md:w-14 md:h-14 rounded-full border-4 flex items-center justify-center shrink-0 transition-transform hover:scale-110" style={{ backgroundColor: p.card, borderColor: p.accent, color: p.accent }}>
+                <i className="fa-solid fa-chevron-right text-base md:text-xl"></i>
               </button>
             </div>
           </div>
