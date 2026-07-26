@@ -268,35 +268,35 @@ function InnerApp() {
                     {/* Dock Area */}
                     <div className="w-full flex justify-center items-center z-20 pointer-events-none fade-in md:absolute md:bottom-8 shrink-0">
                       <div className="flex items-center gap-2 md:gap-4 pointer-events-auto">
-                        <button onClick={handlePrev} className="hidden md:flex w-10 h-10 md:w-14 md:h-14 rounded-full border-4 items-center justify-center shrink-0 transition-transform hover:scale-110" style={{ backgroundColor: p.card, borderColor: p.accent, color: p.accent }}>
-                          <i className="fa-solid fa-chevron-left text-base md:text-xl"></i>
+                        <button onClick={handlePrev} className="hidden md:flex w-10 h-10 md:w-16 md:h-16 rounded-full border-4 items-center justify-center shrink-0 transition-transform hover:scale-110 shadow-xl" style={{ backgroundColor: p.card, borderColor: p.accent, color: p.accent }}>
+                          <i className="fa-solid fa-chevron-left text-base md:text-2xl"></i>
                         </button>
                         
-                        <div className="w-full max-w-[95vw] md:max-w-4xl rounded-[40px] px-4 md:px-8 border-4 shadow-2xl flex gap-6 md:gap-8 justify-center items-center transition-colors duration-700 h-[100px] md:h-[140px] backdrop-blur-md" style={{ backgroundColor: p.card, borderColor: p.accent }}>
+                        <div className="w-full max-w-[95vw] md:max-w-[1200px] rounded-[40px] px-4 md:px-12 border-4 shadow-2xl flex gap-6 md:gap-12 justify-center items-center transition-colors duration-700 h-[100px] md:h-[180px] backdrop-blur-md" style={{ backgroundColor: p.card, borderColor: p.accent }}>
                           {visibleIslands.map((island, index) => {
                             const isActive = island.id === activeIsland.id;
                             const distance = Math.abs(index - 2);
                             const isFav = favorites.includes(island.id);
                             return (
-                              <div key={`${island.id}-${index}`} onClick={() => setActiveIsland(island)} className={`${(index === 0 || index === 4) ? 'hidden md:flex' : 'flex'} w-20 md:w-32 flex-col items-center justify-start cursor-pointer transition-all shrink-0 relative ${isActive ? 'scale-110 -translate-y-1 md:-translate-y-2' : 'hover:scale-105'}`} style={{ opacity: distance === 2 ? 0.4 : distance === 1 ? 0.7 : 1 }}>
+                              <div key={`${island.id}-${index}`} onClick={() => setActiveIsland(island)} className={`${(index === 0 || index === 4) ? 'hidden md:flex' : 'flex'} w-20 md:w-40 flex-col items-center justify-start cursor-pointer transition-all shrink-0 relative ${isActive ? 'scale-110 -translate-y-1 md:-translate-y-4' : 'hover:scale-105'}`} style={{ opacity: distance === 2 ? 0.4 : distance === 1 ? 0.7 : 1 }}>
                                 <div className="relative">
-                                  <div className="w-14 h-14 md:w-20 md:h-20 rounded-full border-4 overflow-hidden transition-colors duration-700 shrink-0" style={{ borderColor: isActive ? (p.id === 'arctic' ? '#9E9E9E' : p.bg) : p.accent, backgroundColor: '#fff' }}>
+                                  <div className="w-14 h-14 md:w-28 md:h-28 rounded-full border-4 overflow-hidden transition-colors duration-700 shrink-0 shadow-lg" style={{ borderColor: isActive ? (p.id === 'arctic' ? '#9E9E9E' : p.bg) : p.accent, backgroundColor: '#fff' }}>
                                     <img src={`https://flagcdn.com/w320/${island.media.countryCode}.png`} className="w-full h-full object-cover" />
                                   </div>
                                   {isFav && (
-                                    <div className="absolute -bottom-1 -right-1 bg-red-500 w-5 h-5 rounded-full flex items-center justify-center border-2 border-white shadow-sm">
-                                      <i className="fa-solid fa-heart text-[10px] text-white"></i>
+                                    <div className="absolute -bottom-1 -right-1 md:-bottom-2 md:-right-2 bg-red-500 w-5 h-5 md:w-8 md:h-8 rounded-full flex items-center justify-center border-2 border-white shadow-sm">
+                                      <i className="fa-solid fa-heart text-[10px] md:text-sm text-white"></i>
                                     </div>
                                   )}
                                 </div>
-                                <span className="hidden md:block text-[9px] md:text-[10px] font-black mt-3 uppercase tracking-widest transition-colors duration-700 drop-shadow-md text-center w-full leading-tight line-clamp-2" style={{ color: p.accent }}>{island.name}</span>
+                                <span className="hidden md:block text-[9px] md:text-xs font-black mt-3 md:mt-5 uppercase tracking-widest transition-colors duration-700 drop-shadow-md text-center w-full leading-tight line-clamp-2" style={{ color: p.accent }}>{island.name}</span>
                               </div>
                             );
                           })}
                         </div>
 
-                        <button onClick={handleNext} className="hidden md:flex w-10 h-10 md:w-14 md:h-14 rounded-full border-4 items-center justify-center shrink-0 transition-transform hover:scale-110" style={{ backgroundColor: p.card, borderColor: p.accent, color: p.accent }}>
-                          <i className="fa-solid fa-chevron-right text-base md:text-xl"></i>
+                        <button onClick={handleNext} className="hidden md:flex w-10 h-10 md:w-16 md:h-16 rounded-full border-4 items-center justify-center shrink-0 transition-transform hover:scale-110 shadow-xl" style={{ backgroundColor: p.card, borderColor: p.accent, color: p.accent }}>
+                          <i className="fa-solid fa-chevron-right text-base md:text-2xl"></i>
                         </button>
                       </div>
                     </div>
