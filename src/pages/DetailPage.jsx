@@ -60,7 +60,6 @@ export default function DetailPage({ island, p, onBack }) {
           >
             <h2 className="text-2xl md:text-3xl font-black mb-6 uppercase tracking-tight break-words hyphens-auto">Het Verhaal van {island.name}</h2>
             <p className="text-lg font-medium leading-relaxed opacity-90 mb-4">{island.story?.description}</p>
-            <p className="text-lg font-medium leading-relaxed opacity-90">Dit eiland biedt een unieke ervaring ver weg van de bewoonde wereld. De natuur is ongerept en de cultuur is diep geworteld in de geschiedenis van de regio. Ideaal voor de echte ontdekkingsreiziger.</p>
           </div>
 
           {/* Flora / Fauna Fact */}
