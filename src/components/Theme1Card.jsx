@@ -31,7 +31,7 @@ export default function Theme1Card({ island, p, onReadMore }) {
 
       {/* Info Card */}
       <div 
-        className={`w-full md:w-1/2 rounded-[40px] p-8 md:p-10 relative transition-all duration-700 border-4 flex flex-col justify-between h-[480px] md:h-full`}
+        className={`w-full md:w-1/2 rounded-[40px] p-8 md:p-10 relative transition-all duration-700 border-4 flex flex-col justify-between h-[360px] md:h-full`}
         style={{ backgroundColor: p.card, color: p.accent, boxShadow: `10px 10px 0px ${p.accent}`, borderColor: p.accent }}
       >
         
@@ -63,11 +63,11 @@ export default function Theme1Card({ island, p, onReadMore }) {
             <img src={`https://flagcdn.com/w320/${island.media?.countryCode}.png`} alt="Flag" className="w-full h-full object-cover" />
           </div>
         </div>
-          <p className="text-xl lg:text-2xl font-bold mb-6 opacity-90 border-b-4 pb-4" style={{ borderColor: p.accent }}>
+          <p className="text-xl lg:text-2xl font-bold mb-4 md:mb-6 opacity-90 border-b-4 pb-4" style={{ borderColor: p.accent }}>
             {island.country}
           </p>
 
-          <div className="flex gap-4 lg:gap-6 mb-6 w-full">
+          <div className="hidden md:flex gap-4 lg:gap-6 mb-6 w-full">
             <div className="flex-1 p-4 lg:p-5 rounded-2xl border-2 overflow-hidden" style={{ backgroundColor: 'rgba(255,255,255,0.6)', borderColor: p.accent }}>
               <p className="text-xs lg:text-sm font-black opacity-70 uppercase tracking-widest mb-1">Inwoners</p>
               <p className="text-lg lg:text-3xl font-black break-words hyphens-auto">{island.stats?.population === 0 ? 'Onbewoond' : island.stats?.population.toLocaleString('nl-NL')}</p>
