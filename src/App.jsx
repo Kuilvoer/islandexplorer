@@ -268,7 +268,7 @@ function InnerApp() {
                     {/* Dock Area */}
                     <div className="w-full flex justify-center items-center z-20 pointer-events-none fade-in md:absolute md:bottom-8 shrink-0">
                       <div className="flex items-center gap-2 md:gap-4 pointer-events-auto">
-                        <button onClick={handlePrev} className="w-10 h-10 md:w-14 md:h-14 rounded-full border-4 flex items-center justify-center shrink-0 transition-transform hover:scale-110" style={{ backgroundColor: p.card, borderColor: p.accent, color: p.accent }}>
+                        <button onClick={handlePrev} className="hidden md:flex w-10 h-10 md:w-14 md:h-14 rounded-full border-4 items-center justify-center shrink-0 transition-transform hover:scale-110" style={{ backgroundColor: p.card, borderColor: p.accent, color: p.accent }}>
                           <i className="fa-solid fa-chevron-left text-base md:text-xl"></i>
                         </button>
                         
@@ -295,7 +295,7 @@ function InnerApp() {
                           })}
                         </div>
 
-                        <button onClick={handleNext} className="w-10 h-10 md:w-14 md:h-14 rounded-full border-4 flex items-center justify-center shrink-0 transition-transform hover:scale-110" style={{ backgroundColor: p.card, borderColor: p.accent, color: p.accent }}>
+                        <button onClick={handleNext} className="hidden md:flex w-10 h-10 md:w-14 md:h-14 rounded-full border-4 items-center justify-center shrink-0 transition-transform hover:scale-110" style={{ backgroundColor: p.card, borderColor: p.accent, color: p.accent }}>
                           <i className="fa-solid fa-chevron-right text-base md:text-xl"></i>
                         </button>
                       </div>

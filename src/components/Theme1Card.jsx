@@ -31,38 +31,30 @@ export default function Theme1Card({ island, p, onReadMore }) {
 
       {/* Info Card */}
       <div 
-        className={`w-full md:w-1/2 rounded-[40px] p-8 md:p-10 relative transition-all duration-700 border-4 flex flex-col justify-between min-h-[420px] h-auto md:h-full`}
+        className={`w-full md:w-1/2 rounded-[40px] p-8 md:p-10 relative transition-all duration-700 border-4 flex flex-col justify-between h-[420px] md:h-full`}
         style={{ backgroundColor: p.card, color: p.accent, boxShadow: `10px 10px 0px ${p.accent}`, borderColor: p.accent }}
       >
         
-
-        <div>
-          <div className="flex justify-between items-start gap-4">
-            <div className="flex-1 min-w-0">
-              <div className="flex gap-2 mb-4 self-start flex-wrap items-center">
-            <div className="inline-block px-3 py-1 rounded-full text-xs font-black uppercase tracking-widest border-2"
-                style={{ borderColor: p.accent, color: p.accent, backgroundColor: `${p.accent}10` }}>
-              {island.region}
+        <div className="flex justify-between items-start gap-4 z-20">
+          <div>
+            <div className="flex flex-wrap items-center gap-2 mb-4">
+              <span className="px-4 py-1.5 rounded-full border-2 text-xs font-black uppercase tracking-widest bg-white shadow-sm" style={{ borderColor: p.accent }}>{island.region}</span>
+              <span className="px-4 py-1.5 rounded-full border-2 text-xs font-black uppercase tracking-widest bg-white shadow-sm" style={{ borderColor: p.accent }}>Eiland</span>
+              <button 
+                onClick={(e) => { e.stopPropagation(); toggleFavorite(island.id); }}
+                className="w-8 h-8 rounded-full border-2 flex items-center justify-center bg-white shadow-sm hover:scale-110 transition-transform"
+                style={{ borderColor: p.accent }}
+              >
+                <i className={`fa-heart ${isFavorite(island.id) ? 'fa-solid text-red-500' : 'fa-regular'}`}></i>
+              </button>
             </div>
-            <div className="inline-block px-3 py-1 rounded-full text-xs font-black uppercase tracking-widest border-2"
-                style={{ borderColor: p.accent, color: p.accent, backgroundColor: `${p.accent}10` }}>
-              {island.geographyType || 'Eiland'}
-            </div>
-            <button 
-              onClick={(e) => { e.stopPropagation(); toggleFavorite(island.id); }} 
-              className="w-8 h-8 rounded-full border-2 flex items-center justify-center hover:scale-110 transition-transform shadow-sm"
-              style={{ borderColor: p.accent, backgroundColor: `${p.accent}10` }}
-            >
-              <i className={`fa-heart text-sm ${fav ? 'fa-solid text-red-500' : 'fa-regular'}`} style={{ color: fav ? undefined : p.accent }}></i>
-            </button>
-          </div>
-
-          <h1 className="text-3xl lg:text-5xl font-black mb-3 uppercase tracking-tighter drop-shadow-sm leading-tight break-words hyphens-auto">{island.name}</h1>
+          <h1 className="text-2xl md:text-3xl lg:text-5xl font-black mb-3 uppercase tracking-tighter drop-shadow-sm leading-tight break-words hyphens-auto">{island.name}</h1>
           </div>
           <div className="w-16 h-16 md:w-20 md:h-20 shrink-0 bg-white rounded-full border-4 overflow-hidden shadow-xl flex items-center justify-center z-20" style={{ borderColor: p.accent }}>
             <img src={`https://flagcdn.com/w320/${island.media?.countryCode}.png`} alt="Flag" className="w-full h-full object-cover" />
           </div>
         </div>
+
           <p className="text-xl lg:text-2xl font-bold mb-4 md:mb-6 opacity-90 border-b-4 pb-4" style={{ borderColor: p.accent }}>
             {island.country}
           </p>
