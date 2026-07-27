@@ -36,23 +36,26 @@ export default function Theme1Card({ island, p, onReadMore }) {
       >
         
         <div>
-          <div className="flex justify-between items-start gap-4 z-20">
-            <div>
-            <div className="flex flex-wrap items-center gap-2 md:gap-3 mb-4 md:mb-6">
-              <span className="px-4 py-1.5 md:px-5 md:py-2 rounded-full border-2 text-xs md:text-sm font-black uppercase tracking-widest bg-white shadow-sm truncate max-w-[140px] md:max-w-[240px]" style={{ borderColor: p.accent }} title={island.region}>{island.region}</span>
-              <span className="px-4 py-1.5 md:px-5 md:py-2 rounded-full border-2 text-xs md:text-sm font-black uppercase tracking-widest bg-white shadow-sm" style={{ borderColor: p.accent }}>Eiland</span>
-              <button 
-                onClick={(e) => { e.stopPropagation(); toggleFavorite(island.id); }}
-                className="w-8 h-8 md:w-10 md:h-10 rounded-full border-2 flex items-center justify-center bg-white shadow-sm hover:scale-110 transition-transform"
-                style={{ borderColor: p.accent }}
-              >
-                <i className={`fa-heart md:text-lg ${isFavorite(island.id) ? 'fa-solid text-red-500' : 'fa-regular'}`}></i>
-              </button>
+          <div className="flex justify-between items-start gap-4 z-20 relative">
+            <div className="flex-1 min-w-0 pr-16 md:pr-0">
+              <div className="flex flex-wrap items-center gap-2 md:gap-3 mb-4 md:mb-6">
+                <span className="px-4 py-1.5 md:px-5 md:py-2 rounded-full border-2 text-xs md:text-sm font-black uppercase tracking-widest bg-white shadow-sm truncate max-w-[140px] md:max-w-[240px]" style={{ borderColor: p.accent }} title={island.region}>{island.region}</span>
+                <span className="px-4 py-1.5 md:px-5 md:py-2 rounded-full border-2 text-xs md:text-sm font-black uppercase tracking-widest bg-white shadow-sm" style={{ borderColor: p.accent }}>Eiland</span>
+                <button 
+                  onClick={(e) => { e.stopPropagation(); toggleFavorite(island.id); }}
+                  className="w-8 h-8 md:w-10 md:h-10 rounded-full border-2 flex items-center justify-center bg-white shadow-sm hover:scale-110 transition-transform"
+                  style={{ borderColor: p.accent }}
+                >
+                  <i className={`fa-heart md:text-lg ${isFavorite(island.id) ? 'fa-solid text-red-500' : 'fa-regular'}`}></i>
+                </button>
+              </div>
+              <h1 className="text-2xl md:text-4xl lg:text-[4rem] font-black mb-3 md:mb-5 uppercase tracking-tighter drop-shadow-sm leading-tight break-words hyphens-auto line-clamp-2">{island.name}</h1>
             </div>
-          <h1 className="text-2xl md:text-4xl lg:text-[4rem] font-black mb-3 md:mb-5 uppercase tracking-tighter drop-shadow-sm leading-tight break-words hyphens-auto line-clamp-2">{island.name}</h1>
-          </div>
-          <div className="w-16 h-16 md:w-24 md:h-24 shrink-0 bg-white rounded-full border-4 overflow-hidden shadow-xl flex items-center justify-center z-20" style={{ borderColor: p.accent }}>
-            <img src={`https://flagcdn.com/w320/${island.media?.countryCode}.png`} alt="Flag" className="w-full h-full object-cover" />
+            
+            {/* Flag - Absolute on mobile to prevent layout shifts, static on desktop */}
+            <div className="w-16 h-16 md:w-24 md:h-24 absolute top-0 right-0 md:static shrink-0 bg-white rounded-full border-4 overflow-hidden shadow-xl flex items-center justify-center z-20" style={{ borderColor: p.accent }}>
+              <img src={`https://flagcdn.com/w320/${island.media?.countryCode}.png`} alt="Flag" className="w-full h-full object-cover" />
+            </div>
           </div>
         </div>
 
