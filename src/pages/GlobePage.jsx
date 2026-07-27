@@ -12,8 +12,7 @@ export default function GlobePage({ islands, p, onSelectIsland, onClose }) {
     
     // Auto-rotate
     if (globeEl.current) {
-      globeEl.current.controls().autoRotate = true;
-      globeEl.current.controls().autoRotateSpeed = 0.15; // Slower rotation
+      globeEl.current.controls().autoRotate = false;
     }
 
     return () => window.removeEventListener('resize', handleResize);
@@ -50,6 +49,7 @@ export default function GlobePage({ islands, p, onSelectIsland, onClose }) {
         objectsData={globeData}
         objectThreeObject={(d) => {
           const group = new THREE.Group();
+          group.scale.set(1.1, 1.1, 1.1); // Make pins 10% larger
           
           // Use PhongMaterial for proper 3D shading
           const mat = new THREE.MeshPhongMaterial({ color: d.color, shininess: 50 });
