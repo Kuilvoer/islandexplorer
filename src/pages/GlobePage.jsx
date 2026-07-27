@@ -66,6 +66,13 @@ export default function GlobePage({ islands, p, onSelectIsland, onClose }) {
           sphere.position.y = 3; // Top of stick
           group.add(sphere);
 
+          // Invisible Hitbox for easier clicking (especially on mobile)
+          const hitboxGeo = new THREE.SphereGeometry(3.5, 16, 16);
+          const hitboxMat = new THREE.MeshBasicMaterial({ transparent: true, opacity: 0, depthWrite: false });
+          const hitbox = new THREE.Mesh(hitboxGeo, hitboxMat);
+          hitbox.position.y = 2;
+          group.add(hitbox);
+
           return group;
         }}
         onObjectClick={(point) => onSelectIsland(point.island)}
