@@ -57,7 +57,6 @@ export default function Theme1Card({ island, p, onReadMore }) {
               <img src={`https://flagcdn.com/w320/${island.media?.countryCode}.png`} alt="Flag" className="w-full h-full object-cover" />
             </div>
           </div>
-        </div>
 
           <p className="text-xl lg:text-3xl font-bold mb-4 md:mb-8 opacity-90 border-b-4 pb-4 md:pb-6" style={{ borderColor: p.accent }}>
             {island.country}
