@@ -178,6 +178,15 @@ function InnerApp() {
         </div>
 
         <div className={`${isMobileMenuOpen ? 'flex' : 'hidden'} md:flex shrink-0 flex-col md:flex-row gap-4 items-end md:items-center pointer-events-auto flex-wrap min-h-[56px] w-full md:w-auto`}>
+           {/* Globe View Button */}
+           <button 
+             onClick={() => setIsGlobeView(!isGlobeView)}
+             className="px-6 py-3 rounded-full border-4 font-black uppercase tracking-widest text-sm hover:scale-105 transition-transform flex items-center gap-3 bg-white/90 backdrop-blur-sm"
+             style={{ borderColor: p.accent, color: p.accent }}
+           >
+             <i className={`fa-solid ${isGlobeView ? 'fa-xmark' : 'fa-globe'} text-xl`}></i> {isGlobeView ? 'Sluit Globe' : 'Globe View'}
+           </button>
+
            {/* Card / List Toggle */}
            {!activeDetailIsland && !isGlobeView && (
              <div className="flex bg-white/90 backdrop-blur-sm rounded-full p-1 border-4" style={{ borderColor: p.accent }}>
@@ -200,40 +209,35 @@ function InnerApp() {
              </div>
            )}
 
-           {/* Favorites Toggle / Like Button */}
-           {!isGlobeView && (
-             <button 
-               onClick={() => {
-                 if (activeDetailIsland) {
-                   toggleFavorite(activeDetailIsland.id);
-                 } else {
-                   setShowFavoritesOnly(!showFavoritesOnly);
-                 }
-               }}
-               className={`w-12 h-12 rounded-full border-4 flex items-center justify-center shrink-0 hover:scale-110 transition-all backdrop-blur-sm ${
-                 (activeDetailIsland ? isFavorite(activeDetailIsland.id) : showFavoritesOnly) ? 'bg-red-500 text-white border-red-500' : 'bg-white/90'
-               }`}
-               style={{ 
-                 borderColor: (activeDetailIsland ? isFavorite(activeDetailIsland.id) : showFavoritesOnly) ? undefined : p.accent, 
-                 color: (activeDetailIsland ? isFavorite(activeDetailIsland.id) : showFavoritesOnly) ? undefined : p.accent 
-               }}
-               title={activeDetailIsland ? (isFavorite(activeDetailIsland.id) ? "Verwijder uit Favorieten" : "Voeg toe aan Favorieten") : "Mijn Favorieten"}
-             >
-               <i className={`fa-heart text-xl ${(activeDetailIsland ? isFavorite(activeDetailIsland.id) : showFavoritesOnly) ? 'fa-solid' : 'fa-regular'}`}></i>
-             </button>
-           )}
+           {/* Favorites and Audio Row */}
+           <div className="flex items-center gap-4">
+             {/* Favorites Toggle / Like Button */}
+             {!isGlobeView && (
+               <button 
+                 onClick={() => {
+                   if (activeDetailIsland) {
+                     toggleFavorite(activeDetailIsland.id);
+                   } else {
+                     setShowFavoritesOnly(!showFavoritesOnly);
+                   }
+                 }}
+                 className={`w-12 h-12 rounded-full border-4 flex items-center justify-center shrink-0 hover:scale-110 transition-all backdrop-blur-sm ${
+                   (activeDetailIsland ? isFavorite(activeDetailIsland.id) : showFavoritesOnly) ? 'bg-red-500 text-white border-red-500' : 'bg-white/90'
+                 }`}
+                 style={{ 
+                   borderColor: (activeDetailIsland ? isFavorite(activeDetailIsland.id) : showFavoritesOnly) ? undefined : p.accent, 
+                   color: (activeDetailIsland ? isFavorite(activeDetailIsland.id) : showFavoritesOnly) ? undefined : p.accent 
+                 }}
+                 title={activeDetailIsland ? (isFavorite(activeDetailIsland.id) ? "Verwijder uit Favorieten" : "Voeg toe aan Favorieten") : "Mijn Favorieten"}
+               >
+                 <i className={`fa-heart text-xl ${(activeDetailIsland ? isFavorite(activeDetailIsland.id) : showFavoritesOnly) ? 'fa-solid' : 'fa-regular'}`}></i>
+               </button>
+             )}
 
-           <div className={isGlobeView ? "hidden" : "block"}>
-             <AudioPlayer themeType={currentThemeId} p={p} />
+             <div className={isGlobeView ? "hidden" : "block"}>
+               <AudioPlayer themeType={currentThemeId} p={p} />
+             </div>
            </div>
-           
-           <button 
-             onClick={() => setIsGlobeView(!isGlobeView)}
-             className="px-6 py-3 rounded-full border-4 font-black uppercase tracking-widest text-sm hover:scale-105 transition-transform flex items-center gap-3 bg-white/90 backdrop-blur-sm"
-             style={{ borderColor: p.accent, color: p.accent }}
-           >
-             <i className={`fa-solid ${isGlobeView ? 'fa-xmark' : 'fa-globe'} text-xl`}></i> {isGlobeView ? 'Sluit Globe' : 'Globe View'}
-           </button>
         </div>
       </header>
 
