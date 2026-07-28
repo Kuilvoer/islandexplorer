@@ -2393,8 +2393,8 @@ export const islandsData = [
       "countryCode": "tf",
       "ambientAudioUrl": "/assets/audio/wind-ocean.mp3",
       "images": {
-        "heroDesktop": "https://cdn.images.express.co.uk/img/dynamic/78/940x/secondary/Tromelin-Island-indian-ocean-africa-madagascar-5966154.avif?r=1740064988458",
-        "heroMobile": "https://cdn.images.express.co.uk/img/dynamic/78/940x/secondary/Tromelin-Island-indian-ocean-africa-madagascar-5966154.avif?r=1740064988458",
+        "heroDesktop": "https://www.seal-superyachts.com/wp-content/uploads/2017/05/tromelin-07.jpg",
+        "heroMobile": "https://www.seal-superyachts.com/wp-content/uploads/2017/05/tromelin-07.jpg",
         "gallery": []
       }
     }
@@ -2594,8 +2594,8 @@ export const islandsData = [
       "countryCode": "us",
       "ambientAudioUrl": "/assets/audio/ice-cracking.mp3",
       "images": {
-        "heroDesktop": "https://wsrv.nl/?url=https%3A%2F%2Fmedia0.faz.net%2Fimage%2Fw1240%2Fc7f3478b1a57%2Fw1436h808x0y0%2F201506%2F1.3677602%2Fso-klein-ist-sie-auch-wieder.webp&w=1600&output=webp&we",
-        "heroMobile": "https://wsrv.nl/?url=https%3A%2F%2Fmedia0.faz.net%2Fimage%2Fw1240%2Fc7f3478b1a57%2Fw1436h808x0y0%2F201506%2F1.3677602%2Fso-klein-ist-sie-auch-wieder.webp&w=800&output=webp&we",
+        "heroDesktop": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Little_Diomede_Island_village.jpeg",
+        "heroMobile": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Little_Diomede_Island_village.jpeg",
         "gallery": []
       }
     }
@@ -3331,8 +3331,8 @@ export const islandsData = [
       "countryCode": "to",
       "ambientAudioUrl": "/assets/audio/jungle-waterfall.mp3",
       "images": {
-        "heroDesktop": "https://wsrv.nl/?url=https%3A%2F%2Fnational-parks.org%2Fwp-content%2Fuploads%2F2026%2F06%2FTofua-National-Park.png&w=1600&output=webp&we",
-        "heroMobile": "https://wsrv.nl/?url=https%3A%2F%2Fnational-parks.org%2Fwp-content%2Fuploads%2F2026%2F06%2FTofua-National-Park.png&w=800&output=webp&we",
+        "heroDesktop": "https://d2iwhohslm84tu.cloudfront.net/free_activity_images/OUTERISLAND-Haapai-tofua-volcanic-island-Feature-Mandatory-Credit-T_FATLwD0.jpg",
+        "heroMobile": "https://d2iwhohslm84tu.cloudfront.net/free_activity_images/OUTERISLAND-Haapai-tofua-volcanic-island-Feature-Mandatory-Credit-T_FATLwD0.jpg",
         "gallery": []
       }
     }
