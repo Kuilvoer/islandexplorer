@@ -3,6 +3,7 @@ import { islandsData } from '@/data/islandsData';
 import Theme1Card from '@/components/Theme1Card';
 import DetailPage from '@/pages/DetailPage';
 import GlobePage from '@/pages/GlobePage';
+import MobileMenuVariations from '@/components/MobileMenuVariations';
 import AudioPlayer from '@/components/AudioPlayer';
 import { FavoritesProvider, useFavorites } from '@/context/FavoritesContext';
 import { ListViewAtlas, ListViewSplit, ListViewAccordion, ListViewBento } from '@/components/ListViewVariations';
@@ -52,6 +53,7 @@ export const palettes = {
 function InnerApp() {
   const [activeDetailIsland, setActiveDetailIsland] = useState(null);
   const [isGlobeView, setIsGlobeView] = useState(false);
+  const [mobileMenuVariant, setMobileMenuVariant] = useState('1');
   const [viewMode, setViewMode] = useState('card'); // 'card', 'list1', 'list2', 'list3', 'list4'
   const [showFavoritesOnly, setShowFavoritesOnly] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -167,7 +169,7 @@ function InnerApp() {
           </div>
 
           <button 
-            className="md:hidden w-12 h-12 flex flex-col justify-center items-center gap-1.5 rounded-full border-4 bg-white/90 backdrop-blur-sm"
+            className={`md:hidden w-12 h-12 flex-col justify-center items-center gap-1.5 rounded-full border-4 bg-white/90 backdrop-blur-sm ${['6', '7'].includes(mobileMenuVariant) ? 'hidden' : 'flex'}`}
             style={{ borderColor: p.accent }}
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
@@ -177,7 +179,26 @@ function InnerApp() {
           </button>
         </div>
 
-        <div className={`${isMobileMenuOpen ? 'flex' : 'hidden'} md:flex shrink-0 flex-col md:flex-row gap-4 items-end md:items-center pointer-events-auto flex-wrap min-h-[56px] w-full md:w-auto`}>
+        {/* Mobile Menu Variations */}
+        <MobileMenuVariations 
+          variant={mobileMenuVariant}
+          isMobileMenuOpen={isMobileMenuOpen}
+          setIsMobileMenuOpen={setIsMobileMenuOpen}
+          isGlobeView={isGlobeView}
+          setIsGlobeView={setIsGlobeView}
+          viewMode={viewMode}
+          setViewMode={setViewMode}
+          activeDetailIsland={activeDetailIsland}
+          showFavoritesOnly={showFavoritesOnly}
+          setShowFavoritesOnly={setShowFavoritesOnly}
+          toggleFavorite={toggleFavorite}
+          isFavorite={isFavorite}
+          p={p}
+          currentThemeId={currentThemeId}
+        />
+
+        {/* Desktop Menu (Unchanged) */}
+        <div className="hidden md:flex shrink-0 flex-col md:flex-row gap-4 items-end md:items-center pointer-events-auto flex-wrap min-h-[56px] w-full md:w-auto">
            {/* Globe View Button */}
            <button 
              onClick={() => setIsGlobeView(!isGlobeView)}
@@ -313,6 +334,26 @@ function InnerApp() {
           )}
         </SwipeableMain>
 
+        {/* Debug Mobile Menu Selector */}
+        <div className="md:hidden fixed bottom-2 left-2 right-2 z-[9999] pointer-events-auto bg-black/80 backdrop-blur-md rounded-xl p-3 border-2 border-white/20 shadow-2xl flex items-center justify-between text-white text-xs fade-in">
+          <span className="font-bold uppercase tracking-widest text-[9px] text-white/70">Debug Mobile Menu</span>
+          <select 
+            value={mobileMenuVariant} 
+            onChange={(e) => setMobileMenuVariant(e.target.value)}
+            className="bg-[#333] border border-white/30 rounded-md px-2 py-1 outline-none font-medium cursor-pointer"
+          >
+            <option value="1">1. Mac Donals</option>
+            <option value="2">2. Slide Left</option>
+            <option value="3">3. Slide Right</option>
+            <option value="4">4. Full Screen</option>
+            <option value="5">5. Bottom Sheet</option>
+            <option value="6">6. FAB Bubbles</option>
+            <option value="7">7. Sticky Dock</option>
+            <option value="8">8. Glass Modal</option>
+            <option value="9">9. Bouncy Grid</option>
+            <option value="10">10. Curtain Drop</option>
+          </select>
+        </div>
       </div>
   );
 }
