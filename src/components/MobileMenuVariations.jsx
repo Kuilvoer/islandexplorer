@@ -226,13 +226,104 @@ export default function MobileMenuVariations({
 
     case '10': // Curtain
       return (
-        <div className="fixed inset-0 z-[100] md:hidden pointer-events-auto bg-black flex flex-col items-center pt-24 gap-8 slide-down" style={{ borderBottom: `8px solid ${p.accent}` }}>
-          <button onClick={closeMenu} className="absolute top-8 right-8 text-4xl" style={{ color: p.accent }}><i className="fa-solid fa-chevron-up"></i></button>
-          <h1 className="text-4xl font-black uppercase text-white mb-8">IslandExplorer</h1>
-          <GlobeButton text={true} className="w-3/4 py-4 rounded-full border-4 bg-transparent text-white border-white text-lg" />
-          <HeartButton text={true} className="w-3/4 py-4 rounded-full border-4 bg-transparent text-white border-white text-lg" />
-          <div className="w-3/4 p-1 rounded-full border-4 border-white"><ViewToggle className="border-0 p-0" /></div>
-          <div className="mt-8 scale-150"><AudioCont /></div>
+        <div className="fixed inset-0 z-[100] md:hidden pointer-events-auto bg-[#111] flex flex-col pt-12 pb-8 px-6 gap-6 slide-down overflow-y-auto" style={{ borderBottom: `8px solid ${p.accent}`, boxShadow: `0px 20px 0px rgba(0,0,0,0.5)` }}>
+          <button onClick={closeMenu} className="absolute top-6 right-6 text-3xl font-black text-white hover:scale-110 transition-transform">
+            [ <i className="fa-solid fa-xmark"></i> ]
+          </button>
+          
+          <div className="w-full max-w-sm mx-auto flex flex-col gap-8 mt-12">
+            
+            {/* HOOFDNAVIGATIE */}
+            <div className="flex flex-col gap-4">
+              <span className="text-white/60 font-black uppercase tracking-widest text-xs">Hoofdnavigatie</span>
+              
+              <button 
+                onClick={() => { setIsGlobeView(!isGlobeView); closeMenu(); }}
+                className="w-full p-4 border-4 text-left font-black uppercase tracking-widest text-sm flex items-center transition-all hover:translate-x-1 hover:-translate-y-1"
+                style={{ 
+                  borderColor: isGlobeView ? '#00FF41' : 'white', 
+                  color: isGlobeView ? '#00FF41' : 'white',
+                  boxShadow: isGlobeView ? '4px 4px 0px #00FF41' : '4px 4px 0px white'
+                }}
+              >
+                <i className={`fa-solid ${isGlobeView ? 'fa-xmark' : 'fa-globe'} text-xl w-8`}></i> 
+                {isGlobeView ? 'Sluit Globe' : 'Globe View'}
+              </button>
+
+              <button 
+                onClick={() => {
+                  if (activeDetailIsland) toggleFavorite(activeDetailIsland.id);
+                  else setShowFavoritesOnly(!showFavoritesOnly);
+                  closeMenu();
+                }}
+                className="w-full p-4 border-4 text-left font-black uppercase tracking-widest text-sm flex items-center transition-all hover:translate-x-1 hover:-translate-y-1"
+                style={{ 
+                  borderColor: 'white', 
+                  color: 'white',
+                  boxShadow: '4px 4px 0px white'
+                }}
+              >
+                <i className={`fa-solid fa-heart text-xl w-8 ${showFavoritesOnly ? 'text-red-500' : 'text-white'}`}></i> 
+                Opgeslagen Dossiers
+              </button>
+            </div>
+
+            {/* WEERGAVE MODUS */}
+            <div className="flex flex-col gap-4">
+              <span className="text-white/60 font-black uppercase tracking-widest text-xs">Weergave Modus</span>
+              
+              <div className="flex w-full border-4 border-white shadow-[4px_4px_0px_white]">
+                <button 
+                  onClick={() => { setViewMode('card'); closeMenu(); }}
+                  className={`flex-1 p-4 font-black uppercase tracking-widest text-sm flex flex-col gap-1 items-start justify-center transition-colors ${viewMode === 'card' ? 'bg-white text-black' : 'text-white hover:bg-white/10'}`}
+                >
+                  <div className="flex items-center gap-2">
+                    {viewMode === 'card' && <span>&gt;</span>}
+                    <i className="fa-solid fa-map w-5"></i> Kaart
+                  </div>
+                  {viewMode === 'card' && <span className="text-[10px] opacity-70 ml-5">(Actief)</span>}
+                </button>
+                <div className="w-1 bg-white"></div>
+                <button 
+                  onClick={() => { setViewMode('list2'); closeMenu(); }}
+                  className={`flex-1 p-4 font-black uppercase tracking-widest text-sm flex flex-col gap-1 items-start justify-center transition-colors ${viewMode === 'list2' ? 'bg-white text-black' : 'text-white hover:bg-white/10'}`}
+                >
+                  <div className="flex items-center gap-2">
+                    {viewMode === 'list2' && <span>&gt;</span>}
+                    <i className="fa-solid fa-list w-5"></i> Lijst
+                  </div>
+                  {viewMode === 'list2' && <span className="text-[10px] opacity-70 ml-5">(Actief)</span>}
+                </button>
+              </div>
+            </div>
+
+            {/* INSTELLINGEN */}
+            <div className="flex flex-col gap-4">
+              <span className="text-white/60 font-black uppercase tracking-widest text-xs">Instellingen</span>
+              <AudioPlayer 
+                themeType={currentThemeId} 
+                p={p} 
+                renderCustom={({isPlaying, togglePlay}) => (
+                  <button 
+                    onClick={togglePlay}
+                    className="w-full p-4 border-4 text-left font-black uppercase tracking-widest text-sm flex items-center justify-between transition-all hover:translate-x-1 hover:-translate-y-1 shadow-[4px_4px_0px_white]" 
+                    style={{ 
+                      backgroundColor: isPlaying ? 'white' : '#111',
+                      borderColor: 'white', 
+                      color: isPlaying ? 'black' : 'white'
+                    }}
+                  >
+                    <div className="flex items-center gap-4">
+                      <i className={`fa-solid ${isPlaying ? 'fa-volume-high' : 'fa-volume-xmark'} text-xl w-6`}></i>
+                      GELUID
+                    </div>
+                    <span>[ {isPlaying ? 'AAN' : 'UIT'} ]</span>
+                  </button>
+                )}
+              />
+            </div>
+
+          </div>
         </div>
       );
 

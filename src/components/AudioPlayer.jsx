@@ -8,7 +8,7 @@ const audioTracks = {
   volcanic: import.meta.env.BASE_URL + 'audio/volcanic.mp3',
 };
 
-export default function AudioPlayer({ themeType, p }) {
+export default function AudioPlayer({ themeType, p, renderCustom }) {
   const [isPlaying, setIsPlaying] = useState(false);
   const playersRef = useRef({});
   const activeThemeRef = useRef(null);
@@ -101,6 +101,10 @@ export default function AudioPlayer({ themeType, p }) {
     
     setIsPlaying(!isPlaying);
   };
+
+  if (renderCustom) {
+    return renderCustom({ isPlaying, togglePlay });
+  }
 
   return (
     <button 
