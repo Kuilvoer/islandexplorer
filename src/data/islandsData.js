@@ -3678,8 +3678,8 @@ export const islandsData = [
       "countryCode": "ki",
       "ambientAudioUrl": "/assets/audio/ocean-waves.mp3",
       "images": {
-        "heroDesktop": "https://mtp-public.s3.us-west-1.amazonaws.com/uploads/1J6Wb1f7rtAJ806qgnhcb5.large?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4QNWC5JK4KYXJBVU%2F20260726%2Fus-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260726T160843Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=45d4058cc7346be2386f9ff50a378868690f87f4842f949be7a5cbb72f99a010",
-        "heroMobile": "https://mtp-public.s3.us-west-1.amazonaws.com/uploads/1J6Wb1f7rtAJ806qgnhcb5.large?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA4QNWC5JK4KYXJBVU%2F20260726%2Fus-west-1%2Fs3%2Faws4_request&X-Amz-Date=20260726T160843Z&X-Amz-SignedHeaders=host&X-Amz-Expires=3600&X-Amz-Signature=45d4058cc7346be2386f9ff50a378868690f87f4842f949be7a5cbb72f99a010",
+        "heroDesktop": "https://lzp87feda3ltjk4b.public.blob.vercel-storage.com/destination-kiribati-ki-hero-1781884101727.jpg",
+        "heroMobile": "https://lzp87feda3ltjk4b.public.blob.vercel-storage.com/destination-kiribati-ki-hero-1781884101727.jpg",
         "gallery": [
           "https://images.unsplash.com/photo-1590483864457-371587d10ce0?auto=format&fit=crop&q=80&w=1200",
           "https://images.unsplash.com/photo-1596707323891-b844be82c163?auto=format&fit=crop&q=80&w=1200"
