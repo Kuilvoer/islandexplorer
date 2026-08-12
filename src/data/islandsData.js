@@ -34,7 +34,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Bermuda is een vlijmscherpe rotsformatie ver verzeild in de genadeloze Noord-Atlantische Oceaan. Deze geologische anomalie ontstond uit woeste vulkanische activiteit en is door de eeuwen heen geteisterd door de bloedige erfenis van slavenhandel, koloniale overheersing en meedogenloze zeerovers. Dit is geen oase, maar een fort van kalksteen omringd door dodelijke riffen die ontelbare schepen de afgrond in hebben getrokken.\n\nOnder het verraderlijk ogende roze zand schuilt een bikkelhard ecosysteem. Hier vechten de endemische Bermuda-stormvogels een eindeloze overlevingsstrijd tegen uitsterving, terwijl de donkere, labyrintische kalksteengrotten ondergronds bezaaid zijn met schimmige ecosystemen en zeldzame, primitieve varensoorten. De lokale overblijfselen van de Britse koloniale architectuur staan erbij als rottende monumenten van menselijke overmoed.\n\nIsolatie is de absolute norm. De beruchte wateren rond dit eiland zijn berucht om verwoestende orkanen, verraderlijke stromingen en onvoorspelbare magnetische afwijkingen die instrumenten verblinden. Er is geen ontsnapping als de oceaan zich tegen je keert, en logistieke bevoorrading is volledig overgeleverd aan de tirannie van de weergoden. Eén storm, en het eiland is afgesneden van de wereld.",
+      "description": "Bermuda is geen idyllisch toevluchtsoord, maar een vlijmscherpe rotsformatie die ver is weggeslingerd in de genadeloze Noord-Atlantische Oceaan. Ontstaan uit catastrofale vulkanische erupties, draagt deze geologische anomalie een duistere, bloedige erfenis met zich mee. Eeuwenlang was dit kalkstenen fort het macabere decor van meedogenloze slavenhandel, brute koloniale overheersing en piraterij. De dodelijke riffen rondom het eiland hebben ontelbare schepen als een onverzadigbaar roofdier de peilloze afgrond ingetrokken.\n\nOnder het bedrieglijk ogende roze zand ontvouwt zich een bikkelhard ecosysteem waar louter de sterksten overleven. De endemische flora en fauna voeren een non-stop, wanhopige overlevingsstrijd in een omgeving die hen vijandig gezind is. Ondergronds wemelt het in de labyrintische, inktzwarte kalksteengrotten van schimmige, archaïsche levensvormen die al millennia lang gedijen in absolute duisternis. Bovengronds staan de rottende overblijfselen van de Britse koloniale architectuur erbij als holle, afbrokkelende monumenten van menselijke overmoed en ijdelheid.\n\nDe psychologische impact van deze extreme afzondering is verpletterend en onontkoombaar. Degenen die hier verblijven, ademen de verstikkende realiteit in dat ze genadeloos ver verwijderd zijn van basale reddingslijnen. De constante, oorverdovende dreiging van de oceaan knaagt als zuur aan de geest, en een sluipende paranoia maakt zich meester van de bewoners wanneer de lucht ook maar even donker kleurt. Er is simpelweg geen ontsnapping mogelijk als de brute natuur besluit haar ware, gewelddadige gezicht te tonen.\n\nIsolatie is hier de absolute, moordende norm, constant versterkt door verwoestende orkanen, verraderlijke stromingen en bizarre magnetische anomalieën. Logistieke bevoorrading hangt aan een zijden draadje, volledig overgeleverd aan de grillen en de brute tirannie van de weergoden. Eén catastrofale storm is ruimschoots voldoende om dit eiland totaal af te snijden van de rest van de wereld, waardoor iedere ziel overgeleverd wordt aan een genadeloze ondergang.",
       "floraFauna": "Roze zandstranden door koraalresten, Bermuda-stormvogel (Cahow).",
       "history": [
         {
@@ -53,8 +53,8 @@ export const islandsData = [
       "souvenirTip": "Een traditionele 'Bermuda short' of lokaal geproduceerde rum."
     },
     "hazards": [
-      "Orkaanseizoen (juni tot november)",
-      "Navigatierisico's door omliggende koraalriffen"
+      "Het nietsontziende orkaanseizoen ranselt het eiland maandenlang meedogenloos af en sluit elke ontsnappingsroute hermetisch af met moordende, catastrofale windkrachten.",
+      "Vlijmscherpe, onzichtbare koraalriffen fungeren als dodelijke onderwatervallen die robuuste scheepsrompen genadeloos openrijten en elke vorm van veilige maritieme navigatie tot een absurde, suïcidale missie maken."
     ],
     "media": {
       "countryCode": "bm",
@@ -104,7 +104,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Fiji, een meedogenloze archipel van meer dan 330 rafelige vulkanische restanten, scheurt de Stille Oceaan open met zijn agressieve geografie. Historisch gezien een slagveld van kannibalistische stammen en gewelddadige koloniale expedities, draagt dit gebied de littekens van bloedvergieten in elke vulkaanrots. Het is een uitgestrekte woestenij van ruw zand en verpletterende branding, waar de oceaan met brute kracht tegen de eilanden beukt.\n\nDiep in de schaduw van ondoordringbare oerwouden woekert een genadeloze flora die elke centimeter grond koloniseert. Zeldzame leguanen klampen zich vast aan scherpe kliffen, terwijl scholen agressieve stierhaaien de bloeddorstige heersers zijn van het omringende labyrint van koraalriffen. De inheemse krijgscultuur eist nog steeds absolute dominantie over dit ruige, overwoekerde terrein.\n\nOverleven hier is een tactische nachtmerrie. Gigantische cyclonen decimeren infrastructuur zonder genade, en de versnipperde eilanden maken logistieke netwerken volkomen nutteloos. Buiten de versterkte kampen wacht niets dan isolatie, dodelijke tropische ziekten, en een dodelijk gebrek aan medische voorzieningen. Wie op de buitenste eilanden strandt, is overgeleverd aan de totale onverschilligheid van de Stille Oceaan.",
+      "description": "Fiji is een meedogenloze, verscheurde archipel van meer dan 330 rafelige vulkanische restanten die de uitgestrekte Stille Oceaan met geweld openrijten. Ver weg van het westerse sprookje is dit een historisch bloedbad, rauw getekend door de brute oorlogsvoering van kannibalistische stammen en bloedige, uitbuitende koloniale expedities. Elke vulkaanrots en modderige rivierbedding ademt een sfeer van opgekropt geweld en meedogenloze overleving. De oceaan beukt hier dag en nacht met een verpletterende, onstuitbare oerkracht tegen de zwaargeteisterde kusten.\n\nDiep in de claustrofobische schaduwen van de ondoordringbare oerwouden woekert een genadeloze flora die elke open centimeter grond volstrekt agressief koloniseert. Zeldzame leguanen klampen zich wanhopig vast aan scherpe, steile kliffen, terwijl scholen moordlustige stierhaaien als onbetwiste heersers door het omliggende, verraderlijke koraallabyrint patrouilleren. De oude, inheemse krijgscultuur sluimert hier nog altijd diep onder de oppervlakte, ijzig eisend dat elke bezoeker absolute onderwerping toont aan dit ruige, ongetemde terrein.\n\nDe psychologische druk van het verblijf op deze geïsoleerde fragmenten land is ronduit slopend, giftig en alomtegenwoordig. Buiten de versterkte kampen rest niets dan een verstikkende eenzaamheid en de tastbare, dagelijkse dreiging van dodelijke tropische ziekten. De kille wetenschap dat adequate medische hulp volstrekt onbereikbaar is wanneer het noodlot genadeloos toeslaat, dwingt de geest in een staat van permanente, uitputtende paranoia. Isolatie wordt hier een intense, fysieke pijn die met elke naderende donkere wolk zwaarder en ondraaglijker wordt.\n\nOverleven op deze afgelegen, gefragmenteerde buitenposten is een logistieke nachtmerrie van ongekende, apocalyptische proporties. Gigantische cyclonen trekken met demonische, vernietigende kracht over de eilanden en decimeren zonder de minste genade de reeds fragiele infrastructuur. De absurde versnippering van de archipel maakt communicatie- en bevoorradingsnetwerken in tijden van crisis compleet en totaal nutteloos. Wie hier achterblijft, is definitief en fataal overgeleverd aan de ijzingwekkende, allesverslindende onverschilligheid van de onmetelijke Stille Oceaan.",
       "floraFauna": "Uitgebreide koraalriffen, karetschildpadden en de endemische Fiji-leguaan.",
       "history": [
         {
@@ -123,8 +123,8 @@ export const islandsData = [
       "souvenirTip": "Een traditionele 'Kava' kom gemaakt van lokaal hout."
     },
     "hazards": [
-      "Tropische cyclonen in het regenseizoen",
-      "Actieve breuklijnen (kleine kans op aardbevingen)"
+      "Catastrofale tropische cyclonen scheuren tijdens het regenseizoen met apocalyptische, meedogenloze kracht over het land, waardoor complete levenslijnen en infrastructuur in een fractie van een seconde worden weggevaagd.",
+      "Instabiele, scheurende breuklijnen creëren een constante, dreigende onzekerheid waarbij plotselinge, gewelddadige aardschokken zonder enige waarschuwing absolute ravages kunnen aanrichten in de reeds afgesneden, kwetsbare dorpen."
     ],
     "media": {
       "countryCode": "fj",
@@ -174,7 +174,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "De Seychellen rijzen als massieve, door de tijd afgesleten granietblokken op uit de peilloze diepten van de Indische Oceaan. Lang voordat het een doorvoerpunt werd voor slaven en piraten, was deze prehistorische rotsmassa al geïsoleerd van elk continent. De loodzware kliffen getuigen van een rauwe, geologische oerkracht die dwars door de oppervlakkige schil van de oceaan naar boven drong.\n\nDe dichtbegroeide, benauwende jungles van Mahé en Praslin zijn overgebleven relicten uit een uitgestorven tijdperk. Hier domineren gigantische, groteske landschildpadden de modderige bodem, terwijl de coco de mer-palmen hun obsceen massieve zaden als dodelijke projectielen laten vallen. Dit ecosysteem is ongenaakbaar, archaïsch en onverschillig tegenover menselijke indringers.\n\nAchter de façade van wit zand loert de meedogenloze realiteit van piraterij. Gewapende milities en Somalische kapers terroriseren nog steeds de open wateren rond de periferie van deze archipel. Brandstoftekorten en extreme afhankelijkheid van externe aanvoerlijnen maken het eiland kwetsbaar voor de minste geopolitieke storing. Bij een crisis zit je vast, zonder escape route, overgeleverd aan de elementen en vijandige schepen.",
+      "description": "De Seychellen rijzen als massieve, zwaar gehavende granietblokken op uit de peilloze, pikzwarte diepten van de meedogenloze Indische Oceaan. Ver voorbij hun moderne façade was deze prehistorische rotsmassa al millennia lang meedogenloos afgesneden van elk menselijk continent. De loodzware, met littekens bezaaide kliffen getuigen van een rauwe, nietsontziende geologische oerkracht die met geweld dwars door de oppervlakkige schil van de wereld naar boven is gedrongen. Dit is een brute, onherbergzame steenklomp, doordrenkt van een inktzwarte geschiedenis van kapers, piraterij en een slavenhandel die zijn weerga niet kende.\n\nDe ondoordringbare, extreem benauwende jungles van Mahé en Praslin functioneren als adembenemende, maar vijandige relicten uit een uitgestorven, prehistorisch tijdperk. Hier slepen gigantische, grotesk uitziende landschildpadden zich voort over de doorweekt modderige, verstikkende bosbodem. De wurgende coco de mer-palmen laten hun obsceen massieve zaden als dodelijke, verpletterende projectielen ongecontroleerd vallen op eenieder die zich onder hen waagt. Het ecosysteem is volstrekt ongenaakbaar, archaïsch en toont een ijzingwekkende, kille onverschilligheid tegenover menselijke indringers en hun fragiele bestaan.\n\nDe continue, psychologische wurggreep van dit zwaar geïsoleerde paradijs drijft de menselijke geest langzaam maar zeker richting totale waanzin. Achter de misleidende illusie van parelwit zand loert de brute, onontkoombare realiteit van eenzaamheid, afzondering en kwetsbaarheid. Er is een constante, ondraaglijke wetenschap dat men slechts een zandkorrel is in een genadeloze oceaan die op elk moment kan besluiten om alles op te slokken. Het gevoel opgesloten te zitten in deze granieten gevangenis eist een onzichtbare, maar verwoestende tol van elke ziel die hier de nacht doorbrengt.\n\nAchter de kustlijn loert de aanhoudende, gewelddadige realiteit van moderne maritieme terreur en geopolitieke instabiliteit. Zwaarbewapende milities en meedogenloze kapers terroriseren nog steeds met ijzeren hand de open, onbeschermde wateren rond de uiterste periferie van de archipel. Extreme, chronische afhankelijkheid van wankele externe aanvoerlijnen maakt het eiland ronduit suïcidaal kwetsbaar voor de minste brandstoftekorten of storingen. Bij een acute crisis zit men muurvast, overgeleverd aan de vernietigende elementen en vijandige, bloeddorstige facties zonder enige reële hoop op redding.",
       "floraFauna": "De iconische Coco de Mer-palm, en reuzenschildpadden op Aldabra.",
       "history": [
         {
@@ -193,8 +193,8 @@ export const islandsData = [
       "souvenirTip": "Vanille of lokaal geproduceerde etherische oliën."
     },
     "hazards": [
-      "Strakke stromingen (rip currents) bij bepaalde stranden",
-      "Heftige tropische regenbuien"
+      "Extreem verraderlijke, vlijmscherpe stromingen sleuren nietsvermoedende zwemmers met een brute, meedogenloze kracht genadeloos de peilloze, koude afgrond van de Indische Oceaan in.",
+      "Heftige, gewelddadige tropische stortbuien veranderen begaanbare paden in een oogwenk in moordende modderstromen die alles op hun pad verpletteren en opslokken."
     ],
     "media": {
       "countryCode": "sc",
@@ -243,7 +243,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "De Malediven vormen een fragiele, koraalachtige barrière tegen de absolute vernietiging door de Indische Oceaan. Deze zinkende natie bestaat uit bloedkoraal en zand, opgebouwd rond de randen van dode onderzeese vulkanen. Eeuwenlang was dit het toneel van genadeloze territoriale gevechten, gestuurd door invloedrijke sultans en koloniale machten die deze zandbanken trachtten te controleren met een ijzeren vuist.\n\nOnder het meedogenloze, schelle zonlicht schuilt een onderwateroorlogsgebied. De riffen zijn slagvelden voor giftige koraalduivels, moray alen en tijgerhaaien, die floreren in een genadeloos vreet-of-gevreten-worden regime. De lokale cultuur, geworteld in een strikte islamitische orthodoxie, is onbuigzaam, gesloten en gehard door eeuwenlange overleving op het absolute minimum.\n\nDe Malediven zijn een tikkende logistieke tijdbom. Het onverbiddelijk stijgende zeeniveau vreet aan de randen van de eilanden, en het gebrek aan zoetwater is een dodelijke constante. Tsunami's kunnen deze atollen zonder waarschuwing volledig van de kaart vegen. Infrastructuur buiten het hoofdeiland is een illusie; bevoorrading is uiterst kwetsbaar en transport over zee is blootgesteld aan gewelddadige, dodelijke stormen.",
+      "description": "De Malediven vormen een gruwelijk fragiele, koraalachtige barrière tegen de absolute, allesvernietigende kracht van de Indische Oceaan. Deze langzaam zinkende natie is opgebouwd uit niets meer dan verbrijzeld bloedkoraal en verschuivend zand, wankelend op de verkruimelende randen van dode onderzeese vulkanen. Eeuwenlang vormde dit desolate landschap het rauwe, met bloed doordrenkte toneel van territoriale slachtpartijen. Invloedrijke sultans en meedogenloze koloniale machten probeerden deze zandbanken met een ijzeren vuist te controleren, wat resulteerde in een geschiedenis geschreven met bloed en zout.\n\nOnder het meedogenloze, schelle en verschroeiende zonlicht verbergt zich een wreed, onvergeeflijk onderwateroorlogsgebied. De uitgestrekte, scherpe riffen fungeren als meedogenloze slagvelden voor dodelijk giftige koraalduivels, agressieve moray alen en vraatzuchtige tijgerhaaien. Zij floreren in een ijzingwekkend, koudbloedig vreet-of-gevreten-worden regime dat elke vorm van zwakte onmiddellijk met de dood afstraft. Bovengronds is de lokale cultuur, gehard door eeuwenlange, wanhopige overleving op het absolute minimum, onbuigzaam, gesloten en ongevoelig voor compromissen.\n\nDe psychologische marteling van het bestaan op een zinkend atol is een stille, maar allesverterende sluipmoordenaar. De bewoners worden non-stop geconfronteerd met hun eigen naderende, natte graf, wetende dat hun thuis onherroepelijk ten onder gaat. De beklemmende afzondering, omringd door een donkere, roofzuchtige zee, creëert een permanente, knagende existentiële angst. Er is nergens om heen te vluchten, geen hoger terrein om genade te smeken, alleen de koude, afwachtende onverschilligheid van de zee.\n\nDit eilandenrijk is een tikkende, onvermijdelijke logistieke tijdbom die wacht op het moment van finale detonatie. Het onverbiddelijk stijgende, koude zeeniveau vreet als een onverzadigbare parasiet aan de toch al kwetsbare randen van de wegzinkende atollen. Het absolute gebrek aan zoetwater is een dodelijke, uitputtende constante, en onvoorspelbare tsunami's dreigen het volledige landschap zonder enige genade in één adembenemende seconde van de wereldkaart te vegen. Bevoorrading is suïcidaal kwetsbaar, continu overgeleverd aan de genadeloze stormen die elk schip als speelgoed kunnen vermorzelen.",
       "floraFauna": "Walehaaien, mantaroggen en immense koraaltuinen.",
       "history": [
         {
@@ -262,8 +262,8 @@ export const islandsData = [
       "souvenirTip": "Ambachtelijk houtsnijwerk (let op: koraal meenemen is streng verboden)."
     },
     "hazards": [
-      "Zeespiegelstijging (bestaansdreiging)",
-      "Sterke rifstromingen"
+      "De onverbiddelijke, apocalyptische zeespiegelstijging vreet als een traag werkend zuur aan de eilanden en garandeert de definitieve, onontkoombare vernietiging van dit broze ecosysteem.",
+      "Razendsnelle, moordende rifstromingen grijpen je vast als onzichtbare klauwen en sleuren je meedogenloos naar een koud en roemloos einde in open zee."
     ],
     "media": {
       "countryCode": "mv",
@@ -310,7 +310,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "De Faeröer Eilanden zijn een verzameling brutale basaltpilaren die de Noord-Atlantische Oceaan als donkere messen doorboren. Gevormd door apocalyptische vulkaanuitbarstingen en de meedogenloze slijtage van ijs, was deze onherbergzame steenmassa ooit het uitsluitende domein van geharde Viking-overlevers. Het landschap is donker, dreigend en constant geteisterd door atmosferische chaos.\n\nEr is hier geen beschutting, geen bossen, alleen kaal, door de wind gegeseld gras en mos. Gigantische kolonies bloeddorstige jagersvogels en schapen, gefokt voor pure overleving, klemmen zich vast aan verticale kliffen. De bewoners zetten hun bloedige tradities onverminderd voort, waarbij de meedogenloze jacht op walvissen de stugge, onverzettelijke mentaliteit van het eiland onderstreept.\n\nHet leven op deze rotsen is een logistieke hellhole. Extreem koude poolwinden en verblindende mistbanken leggen al het transport regelmatig volledig plat. De oceaan beukt met een brute, dodelijke kracht tegen de kust, waardoor elke maritieme onderneming een gevecht tegen de dood is. Isolatie is geen gevoel, maar een dodelijk risico wanneer de winterstormen maandenlang heersen.",
+      "description": "De Faeröer Eilanden manifesteren zich als een beklemmende verzameling brutale, gitzwarte basaltpilaren die de donkere Noord-Atlantische Oceaan als getande messen doorboren. Gevormd door apocalyptische, prehistorische vulkaanuitbarstingen en de meedogenloze, tergend langzame slijtage van gletsjerijs, is dit onherbergzame steenmassief een gruwelijk oord. Ooit was dit het uitsluitende, bloedige domein van extreem geharde Viking-overlevers, wier nalatenschap nog steeds weerklinkt in de bittere, gierende stormwinden. Het totale landschap is inherent vijandig, zwaarmoedig dreigend en wordt onafgebroken geteisterd door atmosferische chaos en kille leegte.\n\nEr is hier werkelijk geen greintje beschutting te vinden, geen bomen om onder te schuilen, slechts kaal, meedogenloos door de wind gegeseld rotsgesteente, bedekt met ijzig gras en slijmerig mos. Gigantische, krioelende kolonies bloeddorstige jagersvogels en stugge schapen, louter gefokt voor pure, harde overleving, klemmen zich vast aan verticale, suïcidale kliffen. De bewoners zetten hun bloedige, brute tradities onverminderd en meedogenloos voort; de brute jacht op walvissen onderstreept genadeloos de stugge, onverzettelijke mentaliteit die vereist is om op deze rots te blijven ademen.\n\nDe psychologische geseling van de Faeröer is extreem zwaar en weegt als lood op de menselijke ziel. De ijzige nevelwolken en de eindeloze, pikdonkere winters isoleren het individu niet alleen fysiek, maar ook mentaal, waardoor een verstikkend, beklemmend isolement ontstaat. Het gebrek aan ontsnapping en de constante, oorverdovende confrontatie met de razende elementen dwingen de geest tot totale overgave of stille, sluipende waanzin. Wie hier zwakte toont, wordt onmiddellijk opgeslokt door de melancholische, meedogenloze monotonie van de woeste Atlantische wateren.\n\nHet naakte leven op deze puntige rotsen vertaalt zich in een constante, uitputtende logistieke hellhole. Extreem koude, moordende poolwinden en verblindende, spookachtige mistbanken leggen al het transport regelmatig volledig en genadeloos plat. De donkere oceaan beukt met een brute, dodelijke kracht onophoudelijk tegen de afbrokkelende kust, waardoor iedere maritieme onderneming verandert in een suïcidaal gevecht tegen de dood. Isolatie is hier geen vaag gevoel, maar een dodelijk, tastbaar risico zodra de onverbiddelijke winterstormen maandenlang de absolute, dictatoriale heerschappij overnemen.",
       "floraFauna": "Papegaaiduikers, zeevogels en meer schapen dan mensen.",
       "history": [
         {
@@ -329,8 +329,8 @@ export const islandsData = [
       "souvenirTip": "Een Faeröerse wollen trui."
     },
     "hazards": [
-      "Zeer onvoorspelbaar en ruig weer",
-      "Gevaarlijke en steile klifranden"
+      "De extreem onvoorspelbare, ruige weersomstandigheden transformeren het eiland in een chaotische, dodelijke valstrik waar de temperatuur in minuten keldert en stormen meedogenloos toeslaan.",
+      "De loodrechte, ijzige en levensgevaarlijke klifranden storten steil naar beneden in kolkend, zwart water, waar één misstap garant staat voor een brute, onherroepelijke dood."
     ],
     "media": {
       "countryCode": "fo",
@@ -377,7 +377,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "De Falklandeilanden vormen een troosteloze, sub-Antarctische gruisvlakte in de Zuid-Atlantische Oceaan. Deze eilanden dragen de zware, tastbare littekens van een bloedige, moderne oorlog. Landmijnen liggen verborgen onder veenmoerassen, roestend staal van neergehaalde straaljagers contrasteert met het desolate heidelandschap. Dit is een grauwe, ijzige uithoek van het Britse imperium.\n\nHet veen is een sponsachtig, zuigend verraderslandschap waar enorme zeeolifanten agressieve, bebloede territoriumgevechten leveren. Keizerspinguïns en albatrossen broeden in de snijdende wind, volkomen onverschillig tegenover de menselijke constructies. De inheemse bevolking overleeft op harde schapenteelt en ruwe visserij, levend onder een permanente, grijze lucht.\n\nLogistiek is een dodelijke strijd. De eilanden liggen midden in het pad van de 'Furious Fifties', meedogenloze stormwinden die de infrastructuur constant bedreigen. Bij medische noodgevallen ben je dagenlang verwijderd van basale redding. Er is nauwelijks wegennetwerk; reizen gebeurt off-road over levensgevaarlijk, modderig terrein, met constante kans op onderkoeling en materiaalpech.",
+      "description": "De Falklandeilanden vormen een uitgestrekte, troosteloze en gure sub-Antarctische gruisvlakte die eenzaam wegrottend in de kille Zuid-Atlantische Oceaan ligt. Deze verwaaide archipel draagt de zware, tastbare en met roest bedekte littekens van een bloedige, moderne oorlogsvoering. Dodelijke, onontplofte landmijnen liggen als slapende moordenaars verborgen onder de koude, zuigende veenmoerassen. Het roestende, verwrongen staal van neergehaalde straaljagers contrasteert scherp met het desolate, uitgestorven heidelandschap. Dit is een grauwe, ijzige uithoek van het inmiddels vervallen Britse imperium, waar verdriet en stilte heersen.\n\nHet veen zelf is een sponsachtig, modderig verraderslandschap waar het leven constant balanceert op de rand van de afgrond. Enorme, litteken-dragende zeeolifanten leveren agressieve, bebloede territoriumgevechten over elke meter koude modder. Keizerspinguïns en gigantische albatrossen broeden wanhopig in de snijdende, allesbevriezende wind, volkomen onverschillig en vijandig tegenover de weinige menselijke constructies die langzaam afbrokkelen. De extreem geharde inheemse bevolking overleeft uitsluitend op basis van harde, kille schapenteelt en ruwe, gevaarlijke visserij, gedoemd te leven onder een permanente, depressieve en loden grijze lucht.\n\nDe psychologische ravage van deze koude eenzaamheid is verpletterend en laat diepe scheuren achter in de ziel. De constante huilende wind over de kale vlaktes drijft bewoners tot het uiterste van hun mentale uithoudingsvermogen, verpakt in een ontsnappingsloze, kille realiteit. De onzichtbare dreiging van de overgebleven mijnenvelden en de zware erfenis van bloedvergieten vormen een constante, morbide herinnering aan de fragiliteit van het leven. Het gevoel van verlatenheid is hier zo puur en intens dat het de geest uitholt als de meedogenloze erosie van de rotsen zelf.\n\nOp logistiek vlak zijn de eilanden verwikkeld in een dodelijke, genadeloze en uitzichtloze strijd tegen de natuur. Gepositioneerd midden in het moordende pad van de 'Furious Fifties', worden ze geteisterd door demonische stormwinden die elke vorm van infrastructuur constant en agressief bedreigen. Bij ernstige medische noodgevallen bevindt men zich dagenlang verwijderd van basale redding; men is simpelweg overgeleverd aan de dood. Er is nagenoeg geen wegennetwerk aanwezig; iedere verplaatsing gebeurt off-road over levensgevaarlijk, meedogenloos modderig terrein, gedomineerd door de constante dreiging van dodelijke onderkoeling en fatale materiaalpech.",
       "floraFauna": "Koningspinguïns, albatrossen en orka's voor de kust.",
       "history": [
         {
@@ -396,8 +396,8 @@ export const islandsData = [
       "souvenirTip": "Producten van de lokale wolindustrie."
     },
     "hazards": [
-      "Extreme wind en koufronten",
-      "Nog enkele niet-geruimde mijnenvelden uit de oorlog (echter goed gemarkeerd)"
+      "De gruwelijk extreme, snijdende winden en dodelijke koufronten bevriezen elke vorm van leven meedogenloos en reduceren overleven tot een brute, pijnlijke strijd tegen onderkoeling.",
+      "Niet-geruimde mijnenvelden uit een bloedig verleden vormen een sluimerend, explosief dodenveld dat elke afwijking van de gebaande paden kan bestraffen met een abrupte, gewelddadige dood."
     ],
     "media": {
       "countryCode": "fk",
@@ -444,7 +444,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Groenland is een apocalyptische, bevroren kolos. Dit gigantische eiland bestaat voor het overgrote deel uit een meedogenloze ijskap van duizenden meters dik. De randen zijn gebarsten in brute fjorden waar de geschiedenis is geschreven in bloed, speervet en overlevingsdrift door de Thule-cultuur en Scandinavische indringers, tegen een landschap dat letterlijk probeert je dood te vriezen.\n\nDit is het domein van dodelijke toproofdieren. IJsberen patrouilleren als vraatzuchtige geesten over de gletsjers, en in de onpeilbare diepten jagen orka's in ijzingwekkende stilte. De weinige flora vecht een kort, agressief gevecht tijdens de arctische zomer, terwijl inheemse stammen vasthouden aan rauwe jachttechnieken in een volkomen dystopische, witte leegte.\n\nDe extremen zijn hier moordend. Temperaturen die diep onder nul dalen kunnen binnen minuten bevriezing en de dood veroorzaken. Geen enkel wegennet verbindt de geïsoleerde nederzettingen; transport vereist helikopters of boten door zeeën bezaaid met gigantische, scheepsvernietigende ijsbergen. Als de poolnacht invalt, hult isolatie het eiland in een claustrofobische, dodelijke greep.",
+      "description": "Groenland is niets minder dan een apocalyptische, meedogenloos bevroren kolos die elke illusie van menselijke dominantie vernietigt. Dit gigantische, onherbergzame eiland bestaat voor het absolute merendeel uit een brute, duizenden meters dikke ijskap die genadeloos alles verplettert. De zwaar gehavende, donkere randen zijn gebarsten in brute, ijzingwekkende fjorden waar de geschiedenis louter is geschreven in bevroren bloed, ranzig speervet en rauwe overlevingsdrift door de Thule-cultuur en brute Scandinavische indringers. Het landschap zelf is een actieve moordenaar die bij elke ademhaling letterlijk probeert je longen dood te vriezen.\n\nDit meedogenloze rijk is het exclusieve, dodelijke domein van ijzingwekkende toproofdieren. Gigantische, hongerige ijsberen patrouilleren als vraatzuchtige, kille geesten over de eindeloze, verblindende gletsjers, wachtend op een fatale fout. In de onpeilbare, ijskoude diepten jagen meedogenloze orka's met een kille, geruisloze efficiëntie. De schaarse flora levert slechts een ultrakort, agressief en wanhopig gevecht tijdens de vluchtige arctische zomer. Inheemse stammen klampen zich intussen hardnekkig vast aan rauwe, bloedige jachttechnieken om te overleven in deze volkomen dystopische, dodelijke en uitgestrekte witte leegte.\n\nDe psychologische vernietiging in deze absolute koude woestenij is traag maar onvermijdelijk fataal. De verstikkende, claustrofobische greep van de eindeloze poolnacht, waarbij het ijzige duister maandenlang heerst, wurgt elke vorm van hoop. Het gruwelijke isolement breekt de geest af tot louter primitieve instincten, terwijl de oorverdovende stilte van de gigantische gletsjers een kille waanzin induceert. Eenzaamheid is hier geen emotie, maar een fysiek beklemmende entiteit die je in de ijzige leegte volledig opslokt, ver verwijderd van enige beschaving.\n\nDe fysieke extremen zijn op Groenland ronduit moordend en eisen voortdurend hun bloedige tol. Temperaturen die diep en gewelddadig onder het nulpunt duiken, kunnen binnen luttele minuten acute bevriezing en een genadeloze, pijnlijke dood veroorzaken. Geen enkel onderling wegennet verbindt de geïsoleerde, belegerde nederzettingen met elkaar; transport vereist gevaarlijke helikoptervluchten of boten die moeten navigeren door verraderlijke zeeën, bezaaid met gigantische, scheepsvernietigende ijsbergen. Als de genadeloze poolnacht eenmaal invalt, hult het isolement het volledige eiland in een kille, dodelijke en ijzeren greep.",
       "floraFauna": "IJsberen, narwallen, muskusossen en poolvossen.",
       "history": [
         {
@@ -463,8 +463,8 @@ export const islandsData = [
       "souvenirTip": "Traditioneel Tupilak hout- of beensnijwerk."
     },
     "hazards": [
-      "Extreme poolkou en sneeuwstormen",
-      "IJsberen rondom nederzettingen"
+      "De catastrofale, extreme poolkou en apocalyptische sneeuwstormen bevriezen longen en bloed binnen luttele minuten, waardoor onbeschermde slachtoffers genadeloos aan de elementen creperen.",
+      "Vraatzuchtige ijsberen patrouilleren meedogenloos rondom de afgelegen nederzettingen als kille, dodelijke moordmachines die menselijk vlees louter als welkome overlevingsprooi beschouwen."
     ],
     "media": {
       "countryCode": "gl",
@@ -511,7 +511,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Kauai is de oudste, meest rauwe vulkanische afbraak van Hawaï, een eiland gekerfd door extreme weersomstandigheden en tectonische druk. Waar westerlingen hun dromen projecteerden, lagen oeroude Hawaïaanse krijgersstammen in hinderlaag tussen de onverbiddelijke, verticaal uitgeslepen kliffen van de Na Pali-kust, een geologisch meesterwerk van erosie en dreiging.\n\nBinnenin dit 'Tuineiland' woekert het ongeremde, agressieve regenwoud. De Mt. Waialeale is een van de natste, donkerste plekken op aarde, met constante stortregens die elke vorm van menselijke architectuur langzaam verteren. Witte haaien patrouilleren de verraderlijke kusten, en agressieve wilde zwijnen heersen over de met modder bedekte bergruggen.\n\nOndanks de illusie van controle is de infrastructuur kwetsbaar voor catastrofale overstromingen en grondverschuivingen. Tropische orkanen kunnen wegen binnen enkele uren wegvagen, waardoor bewoners wekenlang afgesneden zijn zonder voedsel of stroom. De wildernis is ongenaakbaar, en één verkeerde stap langs de meedogenloze kliffen resulteert in een genadeloze, onomkeerbare val.",
+      "description": "Kauai is de oudste, meest rauwe en onverbiddelijke vulkanische afbraak van Hawaï, een bloedend eiland dat genadeloos is gekerfd door extreme, gewelddadige weersomstandigheden en brute tectonische druk. Waar westerlingen hun oppervlakkige tropische dromen projecteerden, lagen oeroude Hawaïaanse krijgersstammen in dodelijke hinderlaag. Tussen de onverbiddelijke, loodrecht uitgeslepen kliffen van de verraderlijke Na Pali-kust, ligt een geologisch meesterwerk van pure, verwoestende erosie en donkere, bloedige dreiging.\n\nDiep binnenin dit zogenaamde 'Tuineiland' woekert een ongeremd, extreem agressief en benauwend regenwoud dat weigert getemd te worden. De onheilspellende Mount Waialeale is een van de natste, donkerste en meest verstikkende plekken op aarde, met meedogenloze, constante stortregens die elke vorm van menselijke architectuur langzaam, groen uitslaand verteren. Gigantische witte haaien patrouilleren de verraderlijke, door woeste golven geteisterde kusten, terwijl uiterst agressieve, levensgevaarlijke wilde zwijnen met harde hand heersen over de verraderlijke, met zware modder bedekte bergruggen.\n\nDe psychologische wurggreep van Kauai zit in de gruwelijke tegenstelling: gevangen in een moordend groen labyrint, onzichtbaar afgeschermd van de wereld. Achter de façade van weelderige vegetatie loert een verstikkend, intens claustrofobisch gevoel van ingesloten zijn door meedogenloze regen en steile, ondoordringbare rotswanden. De geest raakt uitgeput door de constante dreiging van natuurkrachten; de overmacht van deze brute wildernis dwingt de mens in een staat van permanente, neurotische alertheid. Hier realiseer je je dat je volstrekt niets bent tegenover de overweldigende drang van de natuur om alles op te slokken.\n\nOndanks de wanhopige, misleidende illusie van menselijke controle, is de zwakke infrastructuur buitengewoon suïcidaal kwetsbaar voor catastrofale overstromingen en plotselinge, vernietigende grondverschuivingen. Extreem agressieve tropische orkanen kunnen vitale wegen binnen enkele uren volledig wegvagen, waardoor bewoners gruwelijk lang afgesneden zijn, creperend zonder voedsel of stroom in totale duisternis. De wildernis zelf is ongenaakbaar en meedogenloos; één enkele verkeerde stap langs de gladde, glibberige en ijzingwekkende kliffen resulteert onherroepelijk in een genadeloze, fatale en gruwelijke val de diepte in.",
       "floraFauna": "Hawaiiaanse monniksrobben, groene zeeschildpadden en endemische honingvogels.",
       "history": [
         {
@@ -526,8 +526,8 @@ export const islandsData = [
       "souvenirTip": "Koa-hout snijwerk of Kauai-koffie."
     },
     "hazards": [
-      "Zware regenval en 'flash floods' in de bergen",
-      "Ruwe golven en verraderlijke stromingen in de winter"
+      "De meedogenloze stortregens creëren razendsnelle 'flash floods' in de bergen, catastrofale modderstromen die alles op hun pad genadeloos verpletteren en het landschap in moordend geweld meesleuren.",
+      "Buitenproportioneel ruwe, moordende golven en extreem verraderlijke onderstroomkolken veranderen de winterkust in een dodelijke, kolkende gehaktmolen voor elke argeloze zwemmer."
     ],
     "media": {
       "countryCode": "us",
@@ -574,7 +574,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "De Galapagos Eilanden zijn een gruwelijke, naakte verzameling actieve vulkanen die nog steeds rook en as uitbraken over de Evenaar. Geen idylle, maar een geologische smeltkroes waar Darwin een theorie van brute concurrentie vormgaf. Ooit een toevluchtsoord voor meedogenloze boekaniers, is de geschiedenis hier doordrenkt van isolatie, waanzin en bloeddorstige zeevaarders.\n\nAlles op deze rotsblokken staat in het teken van adaptatie en overleving. Monsterlijke zeeleguanen spuwen zout uit hun neusgaten op scherpe, zwarte lavarotsen, terwijl gigantische landschildpadden langzaam door het dorre, stekelige landschap slepen. Dit is een genadeloze, prehistorische arena zonder zachte randen, waar zwakte onmiddellijk wordt afgestraft door natuurlijke selectie.\n\nDe logistiek op de archipel is een dystopische puinhoop. Drinkwater is schaars en de aanvoer is strikt gerantsoeneerd of vervuild. Verraderlijke oceaanstromingen en grillige weersomstandigheden belemmeren alle toeleveringsketens. Illegale visserij en stropers opereren gewelddadig in de territoriale wateren, terwijl medische hulpvoorzieningen hopeloos inadequaat zijn voor serieuze noodsituaties.",
+      "description": "De Galapagos Eilanden zijn niets minder dan een gruwelijke, naakte en gewelddadige verzameling actieve vulkanen die nog steeds met duivelse kracht dikke rook en verzengende as uitbraken over de verschroeiende Evenaar. Dit is absoluut geen vreedzame idylle, maar een bloedhete, meedogenloze geologische smeltkroes waar Darwin zijn kille theorie van brute, dodelijke concurrentie uit distilleerde. Ooit een duister, godvergeten toevluchtsoord voor meedogenloze, wanhopige boekaniers, is de geschiedenis hier diep doordrenkt van slopende isolatie, hongerende waanzin en de bloeddorst van gestrande, krankzinnige zeevaarders.\n\nAlles op deze onherbergzame, vlijmscherpe rotsblokken staat volledig en meedogenloos in het teken van keiharde adaptatie en bloedige overleving. Monsterlijke, archaïsche zeeleguanen spuwen zout uit hun neusgaten op extreem scherpe, zwarte en snijdende lavarotsen, terwijl gigantische landschildpadden zich pijnlijk langzaam door het dorre, genadeloos stekelige landschap slepen. Dit is een brute, prehistorische arena volstrekt zonder zachte randen, waar elke blijk van zwakte onmiddellijk, zonder pardon en fataal wordt afgestraft door de kille wetten van de natuurlijke selectie.\n\nDe zware psychologische druk van deze barre, levenloze omgeving knaagt als een parasiet aan het mentale welzijn van eenieder die zich hier waagt. Omringd door gitzwart, dodelijk vulkanisch gesteente en gedomineerd door een meedogenloze equatoriale zon, voelt de afzondering als een hete, verstikkende en loden deken. Er heerst een ijzingwekkend gevoel van existentiële nietigheid ten overstaan van de brute, onverbiddelijke evolutionaire oerkrachten die dit ongenaakbare landschap hebben gevormd. Hier raakt de geest bevangen door de rauwe waanzin van volstrekte, onontkoombare isolatie en de kille, droge onverschilligheid van het ecosysteem.\n\nDe logistieke realiteit op deze verzengende archipel is ronduit een dystopische, moordende puinhoop. Drinkwater is angstaanjagend schaars, de aanvoer is strikt, wreed gerantsoeneerd en vaak giftig vervuild, waardoor de dood door uitdroging constant op de loer ligt. Verraderlijke, kolkende oceaanstromingen en uiterst grillige weersomstandigheden belemmeren onophoudelijk alle cruciale, fragiele toeleveringsketens. Illegale visserij en bloeddorstige stropers opereren extreem gewelddadig in de verlaten territoriale wateren, terwijl medische hulpvoorzieningen lachwekkend en hopeloos inadequaat zijn voor elke serieuze, levensbedreigende noodsituatie.",
       "floraFauna": "Galápagosreuzenschildpad, zeeleguanen en de blauwvoetgent.",
       "history": [
         {
@@ -593,8 +593,8 @@ export const islandsData = [
       "souvenirTip": "Lokaal verbouwde Galápagos-koffie."
     },
     "hazards": [
-      "Strikte regels rondom afval en natuurbehoud (hoge boetes)",
-      "Intense equatoriale zon"
+      "De ijzeren greep van meedogenloze natuurbehoudregels resulteert in slopende, torenhoge boetes en genadeloze vervolging voor de minste overtreding in dit fragiele, brute ecosysteem.",
+      "De intense, verzengende equatoriale zon brandt met een allesvernietigende, moordende hitte die de onbeschermde huid levend roostert en pijnscheuten van levensgevaarlijke zonnesteken veroorzaakt."
     ],
     "media": {
       "countryCode": "ec",
@@ -641,7 +641,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Svalbard is een meedogenloos arctisch graf. Deze verzameling gletsjers en kale bergen, diep in de Noordelijke IJszee, ademt pure vijandigheid. Voormalige kolenmijnen staan als verrotte stalen karkassen in het desolate landschap, overblijfselen van de hopeloze menselijke drang om deze ijzige afgrond uit te buiten.\n\nDit is de apocalyptische kluis van de wereld. Terwijl de Global Seed Vault diep in het permafrost steekt, heerst de ijsbeer bovengronds als absolute moordmachine over de toendra's. Het donkere, doodse winterseizoen vernietigt elk besef van tijd, en de bewoners dragen permanent geladen wapens in de rauwe overlevingsstrijd tegen roofdieren en de ijzige stilte.\n\nExtreme ontbering is de fundering van Svalbard. Bij -30°C bevriest elke machine, en het constante gevaar van dodelijke lawines en ijsverschuivingen houdt de gemeenschap in een wurggreep. Er zijn geen verbindingen, buiten bevoorrading per schip of vliegtuig, die maandenlang geblokkeerd kunnen zijn door ondoordringbare ijszeeën. Hulp komt niet als de winter toeslaat.",
+      "description": "Svalbard is een meedogenloos, volstrekt arctisch graf. Deze dystopische verzameling afbrokkelende gletsjers en kale, getande bergen, diep en geïsoleerd in de meedogenloze Noordelijke IJszee, ademt louter pure, kille vijandigheid. Voormalige, met bloed en zweet doordrenkte kolenmijnen staan als verrotte, ijskoude stalen karkassen in het desolate landschap. Het zijn de gruwelijke overblijfselen van de hopeloze, destructieve menselijke drang om deze ijzige, moordende afgrond zonder scrupules uit te buiten, een poging die roemloos eindigde in bevriezing en dood.\n\nDit eiland is de apocalyptische kluis van de wereld, een morbide kist in de permafrost. Terwijl de Global Seed Vault diep weggestopt in het genadeloze permafrost steekt als een laatste, wanhopige levenslijn, heerst de gigantische ijsbeer bovengronds als de absolute, koudbloedige moordmachine over de bevroren toendra's. Het gitzwarte, doodse winterseizoen vernietigt onherroepelijk elk besef van tijd en ruimte, en de bewoners dragen permanent, met bevende handen, zwaar geladen wapens. Ze zijn gevangen in de rauwe, brute overlevingsstrijd tegen meedogenloze roofdieren en de oorverdovende, ijzige stilte van de leegte.\n\nDe psychologische marteling van Svalbard overstijgt het menselijke incasseringsvermogen; de geest bevriest hier langzaam, verlamd door de diepe duisternis. Het onophoudelijke, pikzwarte donker van de slopende poolnacht drukt met de verpletterende kracht van een loden kist op de psyche en wekt een onontkoombare, verstikkende wanhoop op. Het constante, sluimerende besef dat je elk moment op brute wijze verscheurd kan worden door een toproofdier, houdt de geest in een staat van slopende, paranoia-gedreven alertheid. Het eiland ademt dood en verlatenheid, en straft elke psychologische zwakte genadeloos af met kille, suïcidale waanzin.\n\nExtreme en dodelijke ontbering vormt de absolute fundering van Svalbard. Bij ijskoude temperaturen van -30°C bevriest elke machine, en het constante, fatale gevaar van moordende lawines en catastrofale ijsverschuivingen houdt de broze gemeenschap in een wurggreep van angst. Er zijn absoluut geen verbindingen, buiten bevoorrading per kwetsbaar schip of vliegtuig, die maandenlang op gruwelijke wijze geblokkeerd kunnen zijn door ondoordringbare, krakende ijszeeën. Wanneer de helse winter daadwerkelijk toeslaat, komt de hulp simpelweg nooit.",
       "floraFauna": "IJsberen (ca. 3.000, meer dan mensen), walrussen, en rendieren.",
       "history": [
         {
@@ -660,8 +660,8 @@ export const islandsData = [
       "souvenirTip": "Producten van rendiergewei of lokaal geproduceerde Svalbard-chocola."
     },
     "hazards": [
-      "IJsberen (verplichting om buiten de nederzetting een wapen of flare gun te dragen)",
-      "Extreme poolkou en lawinegevaar"
+      "De dodelijke aanwezigheid van vraatzuchtige ijsberen dwingt eenieder tot het verplichte dragen van wapens; één onbewaakt moment betekent onherroepelijk een brute, bloedige dood door verscheuring.",
+      "De apocalyptische poolkou in combinatie met het moordende lawinegevaar vormt een kille, onvoorspelbare valstrik die genadeloos botten breekt en levens in luttele seconden uitwist."
     ],
     "media": {
       "countryCode": "sj",
@@ -708,7 +708,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Tristan da Cunha is de meest absolute belichaming van isolement. Deze eenzame, dreigende vulkaan in het epicentrum van de Zuid-Atlantische Oceaan dwingt een kleine, stugge bevolking om te overleven in de schaduw van uitbarstingen. Gesticht als Britse buitenpost om Napoleon te bewaken, blijft het eiland een kille, genadeloze gevangenis van gesteente.\n\nWindgegeseld, boomloos en guur—het landschap biedt nul comfort. Grote populaties rotsspringers en albatrossen nestelen in de stormachtige hellingen. De bewoners, door inteelt en genetische isolement getekend door astma, houden koppig vast aan een rauw overlevingsmodel van zelfvoorziening, verbouwd in de schrale, onvruchtbare grond nabij de kolkende zee.\n\nDe maritieme infrastructuur is volstrekt nutteloos. Er is geen landingsbaan, en de haven is nauwelijks toegankelijk door gigantische oceaan swells. Slechts een handvol keren per jaar meert een schip aan, en één weigering van het weer betekent een jaar lang zonder voorraden of medicijnen. Dit eiland balanceert onafgebroken op de rand van de afgrond.",
+      "description": "Tristan da Cunha is de meest absolute, angstaanjagende belichaming van terminaal isolement. Deze eenzame, zwaar dreigende en actieve vulkaan, diep in het donkere epicentrum van de woeste Zuid-Atlantische Oceaan, dwingt een kleine, stugge bevolking om te overleven in de permanente, beangstigende schaduw van catastrofale uitbarstingen. Oorspronkelijk gesticht als een afgelegen Britse buitenpost om de gevangen Napoleon in ballingschap te bewaken, is en blijft dit vulkanische rotseiland een kille, genadeloze en meedogenloze gevangenis van onherbergzaam gesteente en eindeloze, grijze zee.\n\nWindgegeseld, volkomen boomloos en gruwelijk guur—het barre, zwarte landschap biedt absoluut nul procent comfort of beschutting. Grote populaties schreeuwende rotsspringers en meedogenloze albatrossen nestelen in de stormachtige, verraderlijke hellingen. De wanhopige bewoners, zwaar getekend door generaties van inteelt en een onontkoombaar genetisch isolement dat resulteert in astma en kwalen, houden koppig vast aan een uiterst rauw overlevingsmodel. Zij zijn gedwongen tot zelfvoorziening, wanhopig verbouwd in de schrale, onvruchtbare en door zout geteisterde grond direct nabij de moordende, kolkende zee.\n\nDe psychologische verstikking is op dit eenzame vulkaaneiland ondragelijk, doordrenkt met een permanente sfeer van opgeslotenheid. Bewoners leven onder de kille realisatie dat de rest van de mensheid hen in wezen heeft vergeten, en de eindeloze monotonie van de donkere oceaanwanden slaat wonden in de ziel. De constante existentiële dreiging van een gewelddadige, dodelijke uitbarsting van de vulkaan weegt zwaar als lood, waardoor een kille berusting heerst. Het extreme, onoplosbare isolement verandert de tijd zelf in een trage, martelende vijand die louter uitzichtloosheid biedt.\n\nDe maritieme infrastructuur is hier volstrekt, catastrofaal nutteloos en biedt enkel de illusie van redding. Er is totaal geen landingsbaan, en de fragiele, half verwoeste haven is nauwelijks toegankelijk door gigantische, scheepsvermorzelende oceaan swells. Slechts een handvol keren per bloedig jaar meert een schip aan; één kille weigering van de genadeloze weergoden betekent onherroepelijk een vol, verschrikkelijk jaar lang zonder essentiële voorraden of levensreddende medicijnen. Dit wanhopige eiland balanceert dag en nacht onafgebroken op de ijzingwekkende, fatale rand van de afgrond.",
       "floraFauna": "Noordelijke rotspinguïn, de tristanalbatros en zeeolifanten.",
       "history": [
         {
@@ -727,8 +727,8 @@ export const islandsData = [
       "souvenirTip": "Een handgebreide 'Love Match' sok van lokaal schapenwol."
     },
     "hazards": [
-      "Actieve vulkaan (Queen Mary's Peak)",
-      "Extreem zware winterstormen"
+      "De sluimerende, dreigende actieve vulkaan Queen Mary's Peak houdt het eiland in een permanente, verstikkende wurggreep, altijd klaar om dood en brandende vernietiging uit te braken.",
+      "Extreem zware, demonische winterstormen geselen het landschap zonder genade, waardoor infrastructuur versplintert en bewoners dagenlang als ratten in de val zitten, krakend onder de elementen."
     ],
     "media": {
       "countryCode": "sh",
@@ -775,7 +775,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Pitcairn is een minuscuul, rotsachtig bolwerk in de Stille Oceaan, doordrenkt van een sinister verleden. Gesticht door de muiters van de Bounty die ontsnapten aan executie, werd het eiland een bloedige arena van moord en onderlinge strijd. Nu huizen er nog slechts tientallen geharde nakomelingen op de gruizige hellingen van dit vulkanische restant.\n\nEr is geen uitweg uit de dreigende, steile jungle die het eiland bedekt. Het isolement is zo totaal dat incestueuze, donkere geheimen generaties lang etterden, en de gemeenschap draagt collectief de zware last van dit verleden. Endemische planten klampen zich vast aan kliffen die loodrecht in de nietsontziende oceaan storten.\n\nDe isolatie is letterlijk dodelijk. Eén boot per kwartaal kan het eiland bevoorraden, en dat alleen als de gigantische golven de levensgevaarlijke open baai toelaten. Er is nul medische infrastructuur; wie serieus gewond raakt, is zonder uitzondering ten dode opgeschreven. De Stille Oceaan hier biedt geen vergeving, alleen een onverbiddelijk, eenzaam einde.",
+      "description": "Pitcairn is een minuscuul, rotsachtig en gruwelijk bolwerk in de immense, donkere Stille Oceaan, diep en onuitwisbaar doordrenkt van een inktzwart, sinister verleden. Gesticht door de muiters van de Bounty die hier wanhopig ontsnapten aan hun terechtstelling en executie, werd het kleine eiland vrijwel direct een bloedige, meedogenloze arena van moord, verkrachting en beestachtige onderlinge strijd. Nu huizen er nog slechts enkele tientallen zwaar geharde, stugge nakomelingen, vasthoudend aan hun miserabele bestaan op de gruizige, extreem steile hellingen van dit afbrokkelende vulkanische restant.\n\nEr is werkelijk geen enkele uitweg mogelijk uit de dreigende, steile en verstikkende jungle die het volledige eiland agressief overwoekert en bedekt. Het gruwelijke isolement is zo totaal en meedogenloos dat incestueuze, donkere geheimen en gewelddadige, toxische patronen generaties lang ongestoord konden etteren en woekeren in de gemeenschap. De schaarse inwoners dragen collectief, in ijzige stilte, de loodzware, met schande beladen last van dit onontkoombare, bloedige verleden. Endemische, giftige planten klampen zich intussen vast aan de steile kliffen die loodrecht, zonder enige overgang, pletten in de nietsontziende, vraatzuchtige oceaan.\n\nDe psychologische terreur op Pitcairn is diepgeworteld en uiterst verstikkend, ingesloten door steile, intimiderende rotswanden en de echo's van een macaber verleden. De bewoners zijn opgesloten in een sociale kooi van paranoïde stilzwijgen, wetende dat ontsnappen aan elkaars blik volstrekt onmogelijk is op dit claustrofobische stukje steen. Deze gedwongen nabijheid resulteert in een slopende, sluipende mentale aftakeling, waarbij de geest gevangen wordt gehouden in een permanente staat van kille vervreemding. Elke golfslag tegen de rotsen weerklinkt als een kille, luidruchtige herinnering aan hun totale verlatenheid en het uitzichtloze isolement dat hen verteert.\n\nDe genadeloze, brute isolatie is hier zonder enige overdrijving letterlijk dodelijk en onvergeeflijk. Slechts één enkel, uiterst kwetsbaar bevoorradingsschip per zenuwslopend kwartaal kan proberen het eiland te bereiken, en dat uitsluitend als de gigantische, verpletterende golven de levensgevaarlijke, open baai voor heel even toelaten. Er is simpelweg absoluut geen functionele medische infrastructuur; wie hier serieus gewond raakt of acuut ziek wordt, is zonder enige uitzondering direct, pijnlijk en eenzaam ten dode opgeschreven. De donkere Stille Oceaan biedt hier geen greintje vergeving, louter een onverbiddelijk, eenzaam en gruwelijk einde.",
       "floraFauna": "Bultruggen voor de kust en een van 's werelds grootste en best bewaarde mariene reservaten.",
       "history": [
         {
@@ -794,8 +794,8 @@ export const islandsData = [
       "souvenirTip": "Lokale Pitcairn-honing, bekend als een van de puurste ter wereld."
     },
     "hazards": [
-      "Geen veilige aanlegplaats (schepen moeten voor de kust ankeren)",
-      "Extreem steile kliffen"
+      "Het ontbreken van een veilige aanlegplaats dwingt schepen voor de brute kust te ankeren, waarbij gevaarlijke, slopende transfers door de kolkende, moordende branding elke levering suïcidaal maken.",
+      "De onverbiddelijke, extreem steile en gladde kliffen fungeren als dodelijke afgronden waar elke kleine misstap onherroepelijk wordt afgestraft met een gruwelijke dood in de woeste diepte."
     ],
     "media": {
       "countryCode": "pn",
@@ -842,7 +842,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Een massieve, ijzige dode vulkaan in het meedogenloze hart van de Zuidelijke Oceaan. Bouvet is een bevroren tombe, opgedoken uit de gewelddadige breuklijnen van de aardkorst. Het is het meest geïsoleerde stuk steen op aarde, een plek waar de mensheid geen enkele rol speelt.\n\nHet eiland weigert leven toe te staan. Slechts korstmossen klampen zich vast aan de gehavende rotswanden, terwijl kolonies macaronipinguïns en zuidelijke zeeolifanten vechten om ruimte in de ijzige stank van de kusten. Dit is een brute overlevingsstrijd, ver verwijderd van elke beschaving.\n\nDe logistiek is een absolute nachtmerrie. Gigantische golven, cyclonale stormen en dichte mist maken aanmeren vrijwel onmogelijk, waarbij helikopters de enige twijfelachtige redding bieden. Elke misstap in de dodelijke branding of afbrokkelende gletsjers eindigt in een eenzame, onopgemerkte dood.",
+      "description": "Bouvet is geen eiland, het is een ijskoude grafsteen in de donkerste uithoeken van de Zuidelijke Oceaan. Dit is een vulkanisch litteken, bedolven onder duizenden tonnen verpletterend gletsjerijs, waar de aarde openbrak en weigerde te helen. Zelfs de cartografen verafschuwen deze plek; het is een aberratie van de natuur, verstoken van hoop en compleet geïsoleerd van elke menselijke empathie. De meedogenloze kou snijdt hier niet alleen door je huid, het bevriest je waanzin en isoleert je van elke rationele gedachte.\n\nDe psychologische impact van de isolatie is hier een fysiek gewicht dat de geest verpulvert. Degene die voet zet op deze ijzige afgrond, wordt direct geconfronteerd met zijn eigen irrelevantie. Er is geen redding, geen ontsnapping, alleen het monotone, doofmakende gebrul van de orkaanwinden en de beukende, pikzwarte golven. Elke minuut op Bouvet is een herinnering dat het universum absoluut koud, onverschillig en meedogenloos is.\n\nHistorisch gezien is dit een oord van dood en ontbering, een plek waar ambitie sterft. Verlaten kampen en schipbreuken getuigen van expedities die dachten de natuur te kunnen bedwingen, maar genadeloos werden weggewist door de onverschillige krachten van de Zuidelijke Oceaan. De lijken zijn allang opgeslokt door de diepte, en het weinige leven dat hier rondkruipt voedt zich met de restanten van deze brute arrogantie.\n\nLeven op Bouvet is een conceptloze illusie; het is overleven op de rand van de afgrond. Wie hier lang verblijft, ziet de realiteit langzaam desintegreren, vervangen door hallucinaties van redding die nooit zal komen. Dit is het ultieme eindstation van de planeet, een absolute nul-dimensie waar het menselijk bestaan niet alleen wordt genegeerd, maar actief en systematisch wordt vernietigd.",
       "floraFauna": "Macaronipinguïns, stormvogels en Antarctische pelsrobben.",
       "history": [
         {
@@ -861,8 +861,8 @@ export const islandsData = [
       "souvenirTip": "Onbereikbaar voor toeristen, dus geen souvenirs."
     },
     "hazards": [
-      "Voor 93% bedekt met een gletsjer",
-      "Levensgevaarlijke rotskusten en ijsval"
+      "De massieve gletsjer die 93% van het litteken bedekt, is een instabiele, krakende ijsmassa die elk moment kan openscheuren en onoplettenden genadeloos de ijskoude afgrond in sleurt.",
+      "De vlijmscherpe, verticaal oprijzende rotskusten in combinatie met plotselinge ijsval creëren een ondoordringbare dodenval waar golven alles tot gruis vermorzelen."
     ],
     "media": {
       "countryCode": "bv",
@@ -909,7 +909,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Een afgesloten vulkanische driehoek in de eindeloze leegte van de Stille Oceaan, getekend door ecologische ineenstorting en obsessie. Rapa Nui is de stille getuige van een megalomane beschaving die de eigen bossen vernietigde om gigantische stenen reuzen te verplaatsen. Het is een eiland van extremen en donkere geschiedenis.\n\nDe honderden Moai, de stenen wachters van het eiland, staren zielloos over een kaal en onherbergzaam landschap. De inheemse cultuur balanceert op de rand van de afgrond, overleefd door een hardnekkige bevolking die zich vasthoudt aan oude tradities in de schaduw van een gedecimeerd ecosysteem.\n\nIsolatie is hier de ware vijand. Het eiland wordt geteisterd door onvoorspelbare oceaanstromen en ligt duizenden kilometers verwijderd van het dichtstbijzijnde vasteland. Bij een medische noodsituatie of ramp ben je overgeleverd aan de grillen van de Stille Oceaan; er is geen redding die snel genoeg kan arriveren.",
+      "description": "Rapa Nui is een claustrofobische rots in een eindeloze, zwarte oceaan, getekend door de littekens van pure ecologische waanzin. Het is het ultieme bewijs van megalomanie, waar een complete beschaving zichzelf de vernieling in dreef voor zielloze stenen wachters. Dit eiland ademt de rottende stank van obsessie; het is een kaalgeslagen grafheuvel waar de wind onophoudelijk waait en de herinnering aan de fatale bomenkap de bevolking voor eeuwig achtervolgt.\n\nDe isolatie is hier geen abstract concept, maar een fysieke gevangenis die je langzaam verstikt. Met duizenden kilometers wrede oceaan in elke richting, voelt elke blik op de horizon als een definitief vonnis. De mentale afzondering vreet de bewoners van binnenuit op, gevoed door de constante paranoïde zekerheid dat als de wereld brandt, er niemand zal komen om hen te redden. De gigantische beelden staren naar binnen, als een kille waarschuwing voor de onontkoombare ondergang.\n\nDe geschiedenis is doordrenkt met bloed, hongersnood en culturele kannibalisatie. Toen de laatste boom viel, stortte de samenleving in een spiraal van rauw geweld, en de geesten van die wanhoop zijn tot op de dag van vandaag voelbaar in de harde, stenige grond. Het is een levend museum van de ineenstorting, waar de overlevenden zich vastklampen aan een gefragmenteerde erfenis terwijl ze opgesloten zitten op een eenzame vulkaankrater.\n\nDit is geen toeristisch paradijs, dit is een brute, zonovergoten strafkolonie van de natuur. De extreme omgeving straft elk teken van zwakte onmiddellijk af, en de continue dreiging van de elementen herinnert de mens eraan dat ze hier op geleende tijd leven. Rapa Nui is de ultieme manifestatie van de ondergang, een meedogenloze spiegel voor de destructieve aard van de mensheid op een kille steen in de leegte.",
       "floraFauna": "Grotendeels grasland. Wilde paarden zwerven vrij rond over het eiland.",
       "history": [
         {
@@ -928,8 +928,8 @@ export const islandsData = [
       "souvenirTip": "Een miniatuur Moai-beeldje, bij voorkeur gesneden door een lokale Rapa Nui ambachtsman."
     },
     "hazards": [
-      "Zeer sterke zonkracht door het ontbreken van bomen",
-      "Strenge regels rondom archeologische sites (niet aanraken)"
+      "Het ontbreken van enige boomkruin transformeert het eiland in een nucleaire zonne-oven, waardoor de straling onweerlegbaar je huid wegschroeit bij elke vorm van blootstelling.",
+      "De draconische straffen en rigide taboes rondom het aanraken van archeologische sites zorgen ervoor dat elke misstap direct leidt tot meedogenloze vervolging en absolute uitsluiting."
     ],
     "media": {
       "countryCode": "cl",
@@ -976,7 +976,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Een sinister mes van rots dat de brute golven van de Zuidelijke Oceaan doorboort. Macquarie is een geologische freakshow, de enige plek waar de mantel van de aarde letterlijk boven de zeespiegel bloedt. Het eiland is gevormd door tektonische agressie en wordt onophoudelijk gegeseld door de 'Roaring Forties'.\n\nDit is een oorlogsgebied voor sub-Antarctisch wild. Miljoenen agressieve pinguïns en logge zeeolifanten domineren elke vierkante meter van het drassige, stinkende terrein. Er zijn geen bomen, alleen een giftig ogende tapijt van mega-kruiden dat de snijdende wind moet overleven.\n\nLogistiek gezien is het een hel om hier voet aan wal te zetten. IJskoude stormen woeden driehonderd dagen per jaar, terwijl gigantische golven de kustlijnen aan stukken slaan. Onderzoekers die hier gestationeerd zijn, kampen met intense fysieke en mentale ontberingen in complete isolatie.",
+      "description": "Macquarie is een gruwelijk geologisch defect, een scheur in de aardkorst die gewelddadig naar de oppervlakte is uitgebraakt. Dit sinistere stuk rots in de Zuidelijke Oceaan fungeert als een slachthuis waar de aarde weigert tot rust te komen. Het is een stinkende, drassige modderpoel die constant wordt gegeseld door orkaankrachten, een plek waar de natuur in haar meest ongeraffineerde, agressieve vorm regeert en de mens slechts een fragiele indringer is.\n\nDe psychologische terreur van Macquarie ligt in het onophoudelijke geweld van de elementen en het brute lawaai van agressief wild. Onderzoekers die hier gevangen zitten, worden systematisch gebroken door de desoriënterende wind, het gebrek aan zonlicht en de misselijkmakende geur van miljoenen ontbindende uitwerpselen. De grens tussen waanzin en realiteit vervaagt wanneer je wekenlang ingesloten bent in een kleine cabine terwijl de stormen het eiland aan flarden proberen te scheuren.\n\nHistorisch gezien is dit een oord van industriële massaslachting. In de 19e eeuw trokken meedogenloze zeehondenjagers een spoor van bloed en ingewanden over de kusten, waarbij hele populaties in industriële kookpotten werden gesmolten. De lugubere overblijfselen van deze bloedbaden liggen nog altijd verspreid over het giftig ogende tapijt van mega-kruiden, als een permanent litteken van menselijke hebzucht op een ontoegankelijke klomp steen.\n\nDit eiland tolereert geen zwakte; het straft het af met de dood. De vlijmscherpe golven verbrijzelen alles wat de kustlijn nadert, en de ijskoude regen doorboort je tot op het bot. Er is hier geen ontsnapping aan de brute, ongefilterde realiteit van de natuur. Macquarie herinnert je er ongenadig aan dat de aarde een vijandige machine is die je zonder nadenken zal vermorzelen.",
       "floraFauna": "Miljoenen pinguïns (waaronder de endemische Schlegelpinguïn) en zeeolifanten.",
       "history": [
         {
@@ -995,8 +995,8 @@ export const islandsData = [
       "souvenirTip": "Je mag hier absoluut niets meenemen, behalve foto's."
     },
     "hazards": [
-      "Extreem harde winden ('Roaring Forties' en 'Furious Fifties')",
-      "Strikte biosecurity (laarzen moeten ontsmet worden)"
+      "De meedogenloze 'Roaring Forties' en 'Furious Fifties' zijn geen normale winden, het zijn kinetische muren van ijskoude lucht die botten kunnen breken en je blind de afgrond in slingeren.",
+      "De absurde biosecurity-eisen zijn een psychologische en fysieke wurggreep; één besmette laars kan een ecologisch bloedbad veroorzaken en leidt tot totale, vernietigende uitsluiting van het eiland."
     ],
     "media": {
       "countryCode": "au",
@@ -1043,7 +1043,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Een buitenaards fragment continent afgebroken van het Arabisch Schiereiland, overgelaten aan miljoenen jaren van totale genetische isolatie. Socotra is een dystopisch woestijnlandschap dat wordt verscheurd door zandstormen en brute hitte. Het is een ruige monoliet in de Arabische Zee die zich nergens iets van aantrekt.\n\nDe flora is op een bizarre, monsterlijke manier geëvolueerd. De dikke, bloedrode saphuilende Drakenbloedbomen en opgezwollen woestijnrozen lijken ontworpen voor een andere planeet. De zeldzame reptielensoorten hebben zich aangepast aan een verschroeiende, genadeloze omgeving waar zwakte dodelijk is.\n\nGeografische ligging maakt Socotra een logistiek rampgebied. Ingesloten door moessonstormen die het eiland maandenlang volledig afsluiten en grenzend aan extreem gevaarlijke, door piraten gedomineerde wateren. De infrastructuur is primitief; elke vorm van redding of bevoorrading is een illusie.",
+      "description": "Socotra is een alien-landschap getormenteerd door de elementen, een afgescheurd stuk continent dat miljoenen jaren lang stikte in zijn eigen genetische isolatie. Het is een dystopische woestenij vol monsterlijke vegetatie die voedt op gruis en stof, gelegen in de meedogenloze wurggreep van de Arabische Zee. Hier heeft de natuur zichzelf vervormd tot een brute karikatuur; alles op dit eiland heeft moeten muteren tot een grotesk, overlevingsgericht wapen om de hitte en de onvergeeflijke droogte te weerstaan.\n\nDe eenzaamheid is hier geen stilte, maar een constante paranoïde druk, aangedreven door fluitende zandstormen en schroeiende temperaturen. De lokale bevolking balanceert op de rand van de afgrond, geïsoleerd door gewelddadige moessonstormen die het eiland maandenlang in een absolute wurggreep houden. Deze psychologische opsluiting, gecombineerd met de dreiging van een instortende infrastructuur, creëert een wanhopige, rauwe existentie waar men elke dag vecht tegen totale vergetelheid.\n\nDe geopolitieke werkelijkheid heeft Socotra in een donker, gewelddadig vacuüm gezogen. Omringd door piraat-gedomineerde wateren en de nasleep van verwoestende conflicten, is het eiland een speelbal van meedogenloze machten. De geschiedenis is er een van verwaarlozing en brute overheersing, waardoor de archipel is getransformeerd in een ruig fort waar buitenstaanders als potentiële bedreigingen worden gezien in een landschap dat al dodelijk is van zichzelf.\n\nOverleven op Socotra betekent het omarmen van extreme vijandigheid. De roodbloedende drakenbloedbomen lijken de pijn van de aarde te weerspiegelen, terwijl het meedogenloze klimaat elke hoop op comfort genadeloos wegschroeit. Dit is geen exotische bestemming; het is een vergeten strafkamp van Moeder Natuur, waar de zon en het zand samenwerken om je langzaam, maar onvermijdelijk tot as te reduceren.",
       "floraFauna": "De Drakenbloedboom, woestijnrozen en een kwart van alle soorten hier komt nergens anders ter wereld voor.",
       "history": [
         {
@@ -1058,8 +1058,8 @@ export const islandsData = [
       "souvenirTip": "Hars van de Drakenbloedboom of lokale honing."
     },
     "hazards": [
-      "Harde moessonwinden tussen juni en september",
-      "Complexe geopolitieke veiligheidssituatie"
+      "De gruwelijke moessonwinden tussen juni en september transformeren het eiland in een afgesloten, dodelijke zandstorm-arena waar ademen onmogelijk wordt en hulp compleet is afgesneden.",
+      "De extreem volatiele geopolitieke situatie plaatst het eiland in een wurgend kruitvat; een plotselinge escalatie betekent dat je onmiddellijk overgeleverd bent aan militair geweld zonder enige kans op evacuatie."
     ],
     "media": {
       "countryCode": "ye",
@@ -1106,7 +1106,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Een verkoolde vulkanische ashoop in de verlatenheid van de Zuid-Atlantische Oceaan. Ascension werd gekaapt door militaire machten en omgevormd tot een kille, strategische commandopost vol radars en luisterstations. Het is een dystopisch maanlandschap bedekt met scherpe lavavelden en stof.\n\nHet ecosysteem is een kunstmatig, bizar experiment. De Green Mountain is een door mensen geïmporteerd bos op de top van een asvulkaan, een absurde oase te midden van doods gesteente. Gigantische landkrabben en zeeschildpadden kruipen in de duisternis rond de militaire installaties, een clash tussen ruwe natuur en koude techniek.\n\nDit eiland straalt vijandigheid uit naar alles buiten de militaire hiërarchie. De vulkanische grond snijdt door rubber en vlees, terwijl het maritieme klimaat genadeloos is. Het ontbreken van basale publieke infrastructuur betekent dat een civiel incident hier eindigt in chaos en vergetelheid.",
+      "description": "Ascension is een verkoolde ashoop in een onverschillige oceaan, een vulkanisch kadaver dat meedogenloos is geassimileerd door de oorlogsmachine. De aarde is hier zwart, gekarteld en snijdt door alles heen wat zacht is, terwijl gigantische militaire radars als mechanische parasieten het doodse landschap domineren. Dit is geen plek voor het leven; het is een kille, strategische commandopost gebouwd op de ruïnes van een apocalyptische eruptie, waar de menselijke aanwezigheid puur utilitair en volstrekt liefdeloos is.\n\nDe atmosfeer ademt paranoia en dystopie, versterkt door de verstikkende militaire hiërarchie die elke ademhaling controleert. De pure, onversneden isolatie is hier een wapen. Voor de gestationeerden betekent de afstand tot de bewoonde wereld een langzame erosie van de geest, gevangen tussen scherpe lavavelden en een onvergeeflijke, stormachtige oceaan. Het gebrek aan organische ontsnapping drijft de psyche onherroepelijk naar donkere, wanhopige hoeken.\n\nHistorisch gezien is dit eiland een laboratorium voor brute overheersing en absurde experimenten. De kunstmatige introductie van bossen op de dode bergtop was een arrogante poging om een vijandig stuk steen te temmen, en fungeert nu als een bizarre oase omringd door niets dan verstikkende as en gruis. Er is hier geen inheemse cultuur, geen ziel; het eiland wordt gedefinieerd door de ijzeren discipline van militairen en de rottende overblijfselen van de Koude Oorlog.\n\nDit eiland tolereert geen burgers en geen fouten. De infrastructuur is ontworpen om oorlogen uit te vechten, niet om levens te redden. Elk incident, elke vorm van zwakte of ongehoorzaamheid, leidt tot onmiddellijke verwijdering uit het systeem. Ascension is de belichaming van kille, technocratische waanzin op een vulkanische rots, een plek waar de dood van het individu in de vergetelheid raakt onder de schaduw van intercontinentale raketten.",
       "floraFauna": "Grootste broedplaats van soepschildpadden (green turtles) in de Atlantische Oceaan.",
       "history": [
         {
@@ -1125,8 +1125,8 @@ export const islandsData = [
       "souvenirTip": "Postzegels van Ascension (zeer gewild bij verzamelaars)."
     },
     "hazards": [
-      "Toeristenvergunningen kunnen zonder pardon worden ingetrokken wegens militaire operaties",
-      "Zeer gevaarlijke zeestromingen"
+      "Het onvoorspelbare, militaire bewind betekent dat vergunningen of rechten in een fractie van een seconde worden verscheurd, en je direct vogelvrij bent in een hermetisch afgesloten, streng bewaakt kamp.",
+      "De genadeloze zeestromingen langs de vulkanische kustlijn werken als een dodelijke centrifugemachine die zwemmers onverbiddelijk de donkere dieptes intrekt."
     ],
     "media": {
       "countryCode": "sh",
@@ -1166,7 +1166,7 @@ export const islandsData = [
       ]
     },
     "story": {
-      "description": "Een grimmig, ijsgeketend fort hoog in de Noordelijke IJszee. Spitsbergen is een meedogenloze grenslijn van de mensheid, uitgehouwen door gletsjers en gedomineerd door bevriezende stormen. De overblijfselen van de mijnbouw zijn als rottende karkassen verspreid in een bevroren woestenij.\n\nDit is het domein van de ijsbeer, het grootste roofdier op het land, dat alles als prooi beschouwt. Buiten de nederzettingen dicteert het weer en roofgedrag wie er overleeft. De weinige flora is zwaar beperkt; het ruwe ijs en de verpletterende permafrost hebben hier de absolute controle.\n\nDe risico's zijn extreem en onvergeeflijk. Vier maanden van totale, deprimerende poolnacht worden afgewisseld door waanzin opwekkende middernachtzon. Lawines, dodelijke kou en plotselinge stormen vernietigen alles op hun pad, terwijl elke overlevingskans afhankelijk is van het verplicht dragen van vuurwapens.",
+      "description": "Spitsbergen is een meedogenloos ijsfort in het extreme noorden, een geologisch kerkhof bedolven onder eeuwigdurende verpletterende kou en deprimerende duisternis. De archipel voelt niet aan als aarde, maar als een vrieskist voor de mensheid, waar de mens zich arrogant vasthoudt aan rottende mijndorpen en gruizige kolenstof over het witte landschap waait. Dit is een brute, rauwe uithoek waar de natuur luid en duidelijk aangeeft dat de mens hier niet gewenst, en zeker niet veilig is.\n\nDe psychologische lijdensweg van de poolnacht, waar de zon maandenlang simpelweg niet bestaat, drijft bewoners tot existentiële wanhoop, paranoïa en zware depressie. Als contrast snijdt de waanzinwekkende middernachtzon in de zomer door elke poging tot rust. Je geest wordt systematisch afgebroken door het meedogenloze ritme van de kosmos, in combinatie met de absolute afgesnedenheid van de gematigde wereld.\n\nBloed, steenkool en uitbuiting vormen de kern van de menselijke geschiedenis hier. Verlaten mijnschachten en bevroren ruïnes getuigen van een genadeloze jacht op grondstoffen in een omgeving die talloze levens eiste. De lichamen van de pioniers liggen nog steeds bevroren en onaangetast in de ijzige aarde; de permafrost weigert hen los te laten, waardoor het eiland een gigantisch, functioneel massagraf is geworden.\n\nDe hiërarchie is hier simpel: de ijsbeer staat bovenaan, en de mens is prooi. Het gewapend moeten rondlopen buiten de nederzettingen is geen voorzorgsmaatregel, maar een gruwelijke noodzaak voor basaal overleven. Elke stap buiten brengt het absolute risico met zich mee dat je in een nanoseconde wordt verscheurd of meegesleurd door een dodelijke, allesvernietigende lawine. Spitsbergen is een bloedstollende, meedogenloze confrontatie met de dood.",
       "floraFauna": "IJsberen, walrussen, poolvossen en Svalbard-rendieren.",
       "history": [
         {
@@ -1185,8 +1185,8 @@ export const islandsData = [
       "souvenirTip": "Iets gekocht in de noordelijkste supermarkt ter wereld."
     },
     "hazards": [
-      "IJsberen (wapenverplichting buiten de nederzettingen)",
-      "Extreme temperaturen en lawinegevaar"
+      "IJsberen zijn gigantische, extreem agressieve en hongerige apex-predatoren die je als niets meer dan calorieën beschouwen, waardoor bewapening een ijzeren vereiste is tussen leven en dood.",
+      "De gruwelijke winterkou en spontane, onzichtbare lawines verpletteren onverhoeds hele constructies, waardoor de natuur in een oogwenk alles wist wat de mens heeft geprobeerd te bouwen."
     ],
     "media": {
       "countryCode": "sj",
@@ -1233,7 +1233,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "De 'Desolation Islands' dragen hun naam met een kille, dodelijke perfectie. Dit is een gigantische archipel van gebroken rotsen en gletsjers in de meedogenloze zuidelijke Indische Oceaan. Het is een afgelegen, onbewoonbaar kerkhof van schepen en mislukte expedities.\n\nDe fauna bestaat uit robuuste soorten die het ijzige geweld van de elementen trotseren, terwijl invasieve katten de inheemse zeevogels decimeren in een wrede cyclus van vernietiging. Het meedogenloze Kerguelen-kool is de enige plant die de constante, orkaanachtige windvlagen van zich af kan schudden.\n\nHet eiland tart elke vorm van toegankelijkheid. Vliegtuigen kunnen er niet landen, de oceanen koken van woede en een schip is dagenlang onderweg door levensgevaarlijke stormsystemen. Reparaties of reddingsoperaties in deze genadeloze, ijzige afgrond duren weken, een vonnis dat vaak resulteert in de dood.",
+      "description": "Kerguelen, berucht als de 'Desolation Islands', belichaamt de absolute haat van de aarde richting het leven. Het is een kapotgeslagen, vulkanische archipel die wordt overweldigd door de onverschillige kou van de Zuidelijke Indische Oceaan. Er groeien geen bomen, alleen zompig, taai onkruid op een terrein dat constant wordt getreiterd door gruwelijke orkanen en ijskoude regen. Dit is het afvoerputje van de planeet, een afgelegen kerkhof voor zeevaarders die het waagden de woede van de elementen uit te dagen.\n\nDe psychologische kwelling is alomtegenwoordig; het is een plek van absolute, diepzwarte eenzaamheid waar de stormen maandenlang achtereen door de schedel gieren. Wetenschappers en technici die hier de hel trotseren, ontwikkelen een morbide isolatiesyndroom, opgesloten op een natte steen in het middelpunt van nergens. De gedachte dat medische of externe redding letterlijk onmogelijk is in geval van een catastrofe, legt een verlammend, dystopisch gewicht op elke seconde van hun verblijf.\n\nHistorisch gezien ademt Kerguelen moord en verlatenheid. Jarenlang fungeerde het als een gruwelijk abattoir voor walvissen en pinguïns, totdat invasieve predatoren de fragiele inheemse ecosystemen finaal uiteenrukten. De verrotte geraamtes van oude nederzettingen en uitrusting zijn getuigen van de destructieve parasitaire inslag van de mens, die uiteindelijk met de staart tussen de benen werd weggeblazen door de orkaankrachten van de archipel.\n\nDit eiland onttrekt zich aan elke notie van bereikbaarheid; het is een verbannen bolwerk waar vliegtuigen neerstorten of simpelweg weigeren aan te komen. Boten worden overgeleverd aan monsterlijke golven die scheepsrompen splijten alsof het luciferhoutjes zijn. Leven op Kerguelen is het accepteren van je eigen eindigheid in een wereld die geen enkele waarde hecht aan je bestaan.",
       "floraFauna": "Enorme kolonies koningspinguïns, zeeolifanten en de Kerguelenkool (een unieke vitamine C-bron voor zeelieden).",
       "history": [
         {
@@ -1248,8 +1248,8 @@ export const islandsData = [
       "souvenirTip": "Slechts een speciale stempel in je paspoort (als je er al mag komen)."
     },
     "hazards": [
-      "Altijd harde wind, storm en lagedrukgebieden",
-      "Absoluut onbereikbaar voor directe medische evacuaties"
+      "De eindeloze, verwoestende stormen en extreme lagedrukgebieden ranselen het eiland constant af met een brute kinetische energie die elk onbeveiligd lichaam ongenadig de oceaan in smijt.",
+      "De gigantische, onoverbrugbare afstand gecombineerd met afgrijselijk zeeweer maakt enige vorm van medische evacuatie volstrekt ondenkbaar, waardoor zelfs een kleine infectie eindigt in een pijnlijke dood."
     ],
     "media": {
       "countryCode": "tf",
@@ -1296,7 +1296,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Een monolithische, vulkanische gevangenis in het hart van de Zuid-Atlantische Oceaan. Sint-Helena werd geboren uit magma en is synoniem aan verbanning; de steile, ondoordringbare rotswanden waren genoeg om zelfs Napoleon op de knieën te dwingen. Het is een fort gebouwd door de planeet zelf.\n\nHet weelderige binnenland contrasteert wreed met de dodelijke buitenkant, en huisvest zeldzame flora en eeuwenoude landschildpadden die de tijd hebben overleefd. De restanten van het Britse Rijk rotten langzaam weg in de vochtige tropenlucht, overgenomen door woekerende vegetatie.\n\nTot voor kort eiste het bereiken van het eiland een straffe zeereis van vijf dagen, nu gevaarlijk versimpeld door een controversieel vliegveld gebouwd op onstabiel terrein en blootgesteld aan catastrofale windschering. Medische evacuatie in dit gevaarlijke weer is een spel met de dood, en voorraden komen met horten en stoten binnen.",
+      "description": "Sint-Helena is een massieve, ondoordringbare rotswand die als een vulkanische vuist uit de diepten van de Zuid-Atlantische Oceaan stoot, speciaal gecreëerd voor isolatie en straf. Dit eiland was nooit bedoeld als toevluchtsoord, maar als een kille, dodelijke gevangenis met de oceaan als ultieme tralies. De grillige kliffen lijken het eiland fysiek te beschermen tegen indringers, en binnenin heerst een claustrofobische, drukkende atmosfeer van vergetelheid waar de wind fluistert over doden en bannelingen.\n\nHet isolement van Sint-Helena resulteert in een psychologische ineenstorting. Bewoners leven onder de constante, verstikkende realiteit dat ze afgesneden zijn van de rest van de mensheid. Dit creëert een samenleving die naar binnen keert, gevoed door geruchten en de beklemmende zekerheid dat ontsnapping onmogelijk is. De komst van een schip of vliegtuig is geen redding, maar een tergend trage, fragiele navelstreng die op elk moment doorbroken kan worden door een boze oceaan.\n\nDe geschiedenis van het eiland is verankerd in pijn en ballingschap; het is de rots die keizers en generaals reduceerde tot gebroken, waanzinnige mannen, kwijnend in de vochtige lucht. De littekens van het meedogenloze Britse imperialisme liggen overal verspreid: verroeste kanonnen, afbrokkelende forten en vergeten begraafplaatsen vol soldaten die stierven aan wanhoop en ziektes in een wrede, geïsoleerde hel.\n\nZelfs met moderne transportmiddelen dicteert de aarde hier de regels, en de regels zijn bruut. De weersomstandigheden rond de ontoegankelijke kliffen creëren levensgevaarlijke scenario's, waarbij vliegtuigen moeten stoeien met onzichtbare krachten die hen pletten tegen de stenen bodem. Het is een monument van genadeloze isolatie, waar de mens constant moet vechten om simpelweg te mogen ademen.",
       "floraFauna": "De oudste inwoner is Jonathan, een Seychellen-reuzenschildpad van meer dan 190 jaar oud.",
       "history": [
         {
@@ -1315,7 +1315,7 @@ export const islandsData = [
       "souvenirTip": "De exclusieve St. Helena koffie (een van de zeldzaamste en duurste ter wereld)."
     },
     "hazards": [
-      "Vliegen naar het eiland kan turbulent zijn vanwege de 'wind shear' op de luchthaven"
+      "De gruwelijke 'wind shear' op de klif-gebaseerde luchthaven is een onzichtbare kinetische hamer die vliegtuigen zonder waarschuwing uit de lucht slaat, waardoor elke nadering een dodelijk roulette wordt."
     ],
     "media": {
       "countryCode": "sh",
@@ -1362,7 +1362,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Een tropisch atol met een gitzwarte ziel, gelegen in het brandpunt van de Indische Oceaan. Diego Garcia was ooit een vergeten paradijs totdat grootmachten de bevolking meedogenloos verdreven om plaats te maken voor een hypermilitair bolwerk. Het zand is doordrenkt met dwang en militaire agressie.\n\nDe natuur functioneert uitsluitend als camouflage voor startbanen, hangars en nucleaire onderzeeërs. Invasieve kokospalmen en massale kolonies kokoskrabben domineren de periferie, gedoogd zolang ze de geoliede militaire machine niet in de weg lopen.\n\nToegang is absoluut verboden voor burgers; het atol is een zwart gat van militaire jurisdictie. Extreme geheimhouding heerst. De afwezigheid van burgerlijke infrastructuur en het omringende, potentieel vijandige en onvoorspelbare oceanische klimaat maken dit een klinische, hermetisch afgesloten hel waar geen regels van buitenaf gelden.",
+      "description": "Diego Garcia is het ultieme bewijs van menselijke kwaadaardigheid verpakt in een tropisch atol; het is een gestolen stuk land dat met militair geweld is getransformeerd tot een dystopisch bolwerk van de supermachten. Wat ooit de thuisbasis was van een complete, vredige gemeenschap, werd systematisch ontruimd, uitgewist en gebetonneerd. De stranden zijn hier niet bedekt met zand, maar met de bloederige geschiedenis van meedogenloze deportaties en ongekende militaire agressie.\n\nDe sfeer is er een van absolute, klinische terreur en totale paranoia. Het eiland functioneert uitsluitend als een donkere uitvalsbasis voor langeafstandsraketten, nucleaire onderzeeërs en geheime operaties; een plek waar democratie of mensenrechten simpelweg niet bestaan. De psychologische druk op de militairen die hier geïsoleerd dienen is immens, afgesneden van elke normale menselijke interactie en opgesloten in een gewapend kruitvat omringd door koraal en haaien.\n\nElk facet van dit atol ademt geheimzinnigheid en dodelijk geweld. De natuur is slechts camouflage, bomen verbergen radars en koraalriffen maskeren de sonar-systemen die de Indische Oceaan in de gaten houden. Dit is geen natie, dit is een gigantische, hermetisch afgesloten militaire machine, en de stilte die over het water ligt is enkel de adempauze tussen vernietigende militaire campagnes.\n\nAls burger ben je hier niet alleen ongewenst, je bent direct doelwit. Diego Garcia straft nieuwsgierigheid af met arrestatie en uitsluiting; het heerst in een juridisch zwart gat waar wetgeving buigt voor geopolitieke brute kracht. In combinatie met de kwetsbaarheid voor genadeloze oceanische natuurrampen, is dit eiland een claustrofobische hel die constant op de rand balanceert van catastrofale vernietiging.",
       "floraFauna": "De lagune bevat een van de meest ongerepte koraalriffen ter wereld. Kokoskrabben en zeeschildpadden in overvloed.",
       "history": [
         {
@@ -1381,8 +1381,8 @@ export const islandsData = [
       "souvenirTip": "Onmogelijk om te bezoeken, dus geen souvenirs."
     },
     "hazards": [
-      "Strikt verboden militair terrein (arrestatie bij onbevoegd betreden)",
-      "Kans op tsunami's door de lage ligging"
+      "Het betreden van dit strikt verboden, hoogbeveiligde militaire domein als onbevoegde resulteert gegarandeerd in gewelddadige arrestatie, extreme detentie en het verlies van al je basisrechten.",
+      "De catastrofale kwetsbaarheid voor tsunami's maakt het flinterdunne atol een wachtende doodskist die bij elke seismische schok honderden militairen zonder genade de duisternis in kan spoelen."
     ],
     "media": {
       "countryCode": "io",
@@ -1429,7 +1429,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Een massief blok omhooggeduwd, dood koraal in de enorme uitgestrektheid van de Stille Oceaan. Niue is geen idyllisch eiland, maar een scherpe, onverbiddelijke kalksteenformatie, een geologische vuist die weigert te buigen voor de golven. De ruwe randen scheuren de oceaan uiteen.\n\nHet eiland zit vol donkere, gapende grotten en dodelijke ondergrondse kloven. De fauna beperkt zich tot taaie kokoskrabben en slangen die in het labyrint van vlijmscherp koraal jagen. De weinige mensen overleven aan de rand van de afgrond, vastgeklampt aan de vijandige steenlaag.\n\nLogistiek is een absolute nachtmerrie; er zijn geen stranden om boten aan te leggen, het zeeoppervlak is meedogenloos. Een enkele zware cycloon veegt de schamele infrastructuur genadeloos van de kaart, en het kleine geïsoleerde stuk steen ligt honderden kilometers verwijderd van redding of bevoorrading.",
+      "description": "Niue is een agressief brok massief koraal dat zich uit de donkere diepte van de Stille Oceaan heeft gerukt, een geologische middelvinger naar de weke zandstranden van andere tropische eilanden. Het is een labyrint van gaten, grotten en vlijmscherpe rotsen die je voeten verscheuren bij elke misstap. Het eiland biedt geen veiligheid; de oceaan botst onophoudelijk en met dodelijk geweld tegen de kliffen aan, waardoor het eiland voortdurend schudt onder de constante klappen van de aarde.\n\nPsychologisch werkt de grilligheid van Niue als een langzame molensteen; je leeft op een poreuze steen die weigert je te omarmen, waar elke vorm van comfort een leugen is. De bevolking leeft in de schaduw van de absolute isolatie, omringd door dodelijke rotskusten, in de wetenschap dat één zware orkaan genoeg is om de broze infrastructuur van het eiland zonder mededogen van de kaart te vegen. Dit isolement schept een harde, rauwe overlevingsdrang die elke dag op de proef wordt gesteld.\n\nDe geschiedenis is doordrongen van cyclonen die genadeloze verwoesting brachten, waarbij huizen en levens in een fractie van seconden werden vermorzeld door muren van water en wind. Niue is een strijdtoneel, een eiland waar mensen krampachtig vasthouden aan koraalrotsen terwijl de Stille Oceaan constant probeert het kleine stukje droge grond terug te eisen met demonische cyclonische agressie.\n\nDit eiland eist offers. Er is geen vergeving op deze rots, alleen brute realiteit. Het water herbergt giftige zeelslangen en haaien in koraalgrotten, terwijl de logistiek een helse opgave is die eilandbewoners ongewild vastketent aan hun wrede, maar robuuste kalkstenen graf.",
       "floraFauna": "Bultruggen zwemmen hier tussen juli en oktober extreem dicht bij de steile kustlijn.",
       "history": [
         {
@@ -1448,8 +1448,8 @@ export const islandsData = [
       "souvenirTip": "Lokale biologische vanille of geweven pandanus-handwerk."
     },
     "hazards": [
-      "Gevaarlijk scherpe koraalrotsen langs de kustlijn",
-      "Gevoelig voor zware tropische cyclonen"
+      "De kustlijn bestaat uit mesachtige, gapende koraalstructuren die letterlijk vlees van botten strippen zodra een golf je tegen de meedogenloze kliffen ramt.",
+      "De ligging in het brandpunt van de Stille Oceaan garandeert zware tropische cyclonen die als brute vernietigingsmachines hele dorpen in seconden reduceren tot puin en lijken."
     ],
     "media": {
       "countryCode": "nu",
@@ -1496,7 +1496,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Een perfecte ring van koraal rond een dodelijke, gezonken vulkaan, verborgen in de uithoeken van de Stille Oceaan. Palmerston is een micro-samenleving geboren uit totale isolatie en polygamie, gedomineerd door één brute bloedlijn sinds de 19e eeuw. Het is een sociaal experiment onder extreme omstandigheden.\n\nHaaien patrouilleren constant de ondiepe lagune, een glinsterende valstrik. Tussen de zandstranden strijdt de schamele vegetatie om zoetwater, terwijl de eilandbewoners zijn overgeleverd aan de genade van tropische stormen en de weinige mariene reserves die de oceaan biedt.\n\nEr is geen haven, geen vliegveld, alleen een gruwelijke boottocht naar de dichtstbijzijnde beschaving. Bevoorrading is onregelmatig; maandenlang staart de bevolking in een eindeloze lege oceaan. Eén zware storm overspoelt het hele atol, waardoor overleven niets meer is dan een macabere loterij.",
+      "description": "Palmerston is een absurd, drijvend sociaal experiment gefundeerd op extreme isolatie, ingesloten op een minuscuul rif rond een gezonken vulkaan. Het is de ultieme manifestatie van genetische inbreeding en isolatie, gedomineerd door één meedogenloze bloedlijn die het atol claimde en afschermde van de realiteit van de moderne wereld. Dit eiland weigert mee te draaien met de geschiedenis; het is bevroren in een brute cyclus van overleving, polygamie en eindeloze, verpletterende leegte.\n\nDe mentale kerker van Palmerston is de immense, gruwelijke Stille Oceaan die het atol opslokt, duizenden kilometers verwijderd van redding of logica. Maandenlang staart de fragiele populatie over een dodelijke horizon, wachtend op een bevoorradingsschip dat misschien nooit arriveert. Deze constante wetenschap dat ze overgeleverd zijn aan het volstrekte niets, kweekt een harde fatalistische mindset; als de oceaan besluit te nemen, sterft het hele atol geruisloos in de diepte.\n\nDe geschiedenis is hier niet meer dan het verhaal van één koppige patriarch die de grenzen van inteelt en dominantie testte in een meedogenloze, onvergeeflijke omgeving. Ze moeten letterlijk vechten voor zoetwater en elke storm is een potentieel eindvonnis dat het complete zandeiland zonder pardon onder de zeespiegel zal schrapen. Er is geen heldendom hier, alleen rauw, primitief overleven op een zandkorrel.\n\nZonder landingsbaan of fatsoenlijke haven is aankomen en vertrekken een dodelijk spel met koraalriffen en haai-vergeven lagunes. Palmerston is geen tropisch sprookje; het is een genadeloze zandbank waar de dreiging van complete uitroeiing de enige echte zekerheid in het leven is, en waar hulp simpelweg niet bestaat.",
       "floraFauna": "Papegaaivissen, zeeschildpadden en koraaltuinen in de ondiepe lagune.",
       "history": [
         {
@@ -1515,8 +1515,8 @@ export const islandsData = [
       "souvenirTip": "De kans om hier te komen is minuscuul, maar de gastvrijheid is legendarisch (er is geen geld in omloop op het atol zelf, ruilhandel domineert)."
     },
     "hazards": [
-      "Acute dreiging door zeespiegelstijging",
-      "Compleet afgesneden van medische noodhulp"
+      "De acute en catastrofale zeespiegelstijging garandeert dat dit micro-atol op brute wijze volledig door de donkere oceaan zal worden geëlimineerd, zonder enige ontsnappingsroute voor de bewoners.",
+      "Het ontbreken van infrastructuur en de dodelijke rifstructuren maken elke evacuatie of medische ingreep fysiek onmogelijk, wat betekent dat zelfs kleine aandoeningen resulteren in een trage, onafwendbare dood."
     ],
     "media": {
       "countryCode": "ck",
@@ -1563,7 +1563,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Een verroest, in mist gehuld eiland in de Galapagos, achtervolgd door de geesten van moord en waanzin. Floreana is niet gebouwd voor de zwakken; het eiland werd getemd door extremisten en piraten in een meedogenloze strijd tegen een genadeloze, schrale omgeving. De vulkanische aarde is een graf voor mislukte dromen.\n\nBizarre, robuuste endemische diersoorten zoals mariene leguanen bewonen de verbrande lavakusten, terwijl reuzenschildpadden door een schraal droog landschap zwerven. De ruwe wildernis ademt een sinistere atmosfeer, een echo van het onopgeloste 'Galapagos Affair'.\n\nLogistiek is een doorlopende tragedie. De onvoorspelbare stromingen en isolatie maken reddingsoperaties vrijwel onmogelijk. Drinkwater is extreem schaars, de hitte is dodelijk en zonder betrouwbare voorzieningen draait elke misrekening op dit eiland direct uit op overlevingsstrijd.",
+      "description": "Floreana is een verbrande lavaklom met een bloedstollende en donkere inborst; een luguber kerkhof van moord, waanzin en mislukte extremistische dromen in het hart van de Galapagos. Het is een meedogenloos oord dat piraten en fanatici aantrok, om ze vervolgens langzaam op te branden onder een schroeiende zon en een dodelijk gebrek aan water. Het landschap zelf straalt vijandigheid uit, getekend door as en vulkanisch geweld dat de levenskracht uit de bewoners zuigt.\n\nDe mentale tol van Floreana wordt gedomineerd door haar lugubere reputatie en sinistere isolatie. Degenen die hier kwamen zoeken naar een utopie, vonden enkel paranoia, verraad en een langzame afdaling in wreedheid, uitmondend in het onopgeloste 'Galapagos Affair'. Dat trauma hangt als een dikke, giftige mist over de schamele nederzettingen, waar bewoners elkaar met argwaan bekijken en de meedogenloze oceaan elke ontsnapping blokkeert.\n\nHistorisch was dit een openluchtgevangenis voor walvisvaarders en kolonisten; een rots die geen voedsel, geen compassie en geen water gaf, tenzij het met zweet en bloed werd afgedwongen. De bizarre fauna zoals de zwaar gepantserde landschildpadden zijn de enige overlevers op een eiland waar de strijd om de schaarse bronnen een onvermoeibare oorlog tegen de uitdroging is. De botten van hen die het onderspit dolven rotten nog ergens in de ondoordringbare lavagrotten.\n\nDe logistiek van overleven op Floreana is pure masochisme. Verlammende stromingen maken scheepvaart tot een levensgevaarlijk obstakel, en zonder functionele infrastructuur leidt elk medisch ongeval direct tot paniek. Het eiland is een brute test van doorzettingsvermogen; een rots die bewijst dat de menselijke wil om te overleven vaak ondergeschikt is aan de absolute, destructieve kracht van de natuur.",
       "floraFauna": "Galapagospinguïns, roze flamingo's in zoutwaterlagunes en zeeleguanen.",
       "history": [
         {
@@ -1582,8 +1582,8 @@ export const islandsData = [
       "souvenirTip": "Laat een ansichtkaart zonder postzegel achter in de historische houten ton bij Post Office Bay, en neem er eentje mee om persoonlijk bij iemand thuis af te leveren."
     },
     "hazards": [
-      "Extreem sterke stromingen rondom het eiland",
-      "Strikte beschermingsregels om invasieve plant- en diersoorten te voorkomen"
+      "Extreem sterke, verraderlijke stromingen trekken als dodelijke magneten alles en iedereen naar de diepte, waardoor zeevaart en reddingsacties resulteren in wisse dood.",
+      "De paranoïde biosecurity-regels eisen absolute steriliteit, wat betekent dat de minste overtreding direct leidt tot meedogenloze boetes, agressieve isolatie en onmiddellijke deportatie zonder proces."
     ],
     "media": {
       "countryCode": "ec",
@@ -1630,7 +1630,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Zuid-Georgia is een ijskoude grafsteen in de Zuid-Atlantische Oceaan. Dit meedogenloze landschap van gletsjers en donkere rotsen functioneert als de laatste halte voor de menselijke beschaving. De verroeste, rottende resten van oude walvisstations en het eenzame graf van Ernest Shackleton herinneren genadeloos aan de destructieve en breekbare menselijke aanwezigheid op deze uithoek.\n\nDe biologie regeert hier met brute overmacht. Dit is de Serengeti van het zuiden, waar miljoenen koningspinguïns en zuidelijke zeeolifanten de onherbergzame kusten domineren. De stank van guano en rottend kelp hangt zwaar in de lucht, een puur en rauw bewijs van ongefilterde natuurlijke processen zonder menselijke tussenkomst.\n\nOverleven is een statistische anomalie. Woeste valwinden scheuren vanaf de gletsjers naar beneden, klaar om schepen te verbrijzelen en materiaal te vernietigen. Logistiek is een nachtmerrie van vrieskou, onvoorspelbare ijsbergen en stormen die dagenlang aanhouden, waardoor reddingsoperaties volstrekt onmogelijk zijn.",
+      "description": "Zuid-Georgia is geen bestemming, maar een kille grafsteen in de donkere uithoeken van de Zuid-Atlantische Oceaan. Dit is een plek waar de menselijke ambitie genadeloos de nek wordt omgedraaid door een landschap van meedogenloze gletsjers en vlijmscherpe rotsformaties. De rottende, verroeste geraamtes van oude walvisstations en het eenzame, winderige graf van Ernest Shackleton staan als macabere monumenten voor de zinloosheid van ons bestaan hier. De beschaving bloedt dood op deze kusten, weggevaagd door de pure, destructieve kracht van de elementen.\n\nHet psychologische gewicht van de isolatie hier is verpletterend. Wekenlang zie je niets dan een grijze, woedende oceaan die zich als een verstikkende deken over je geest legt. De eenzaamheid is geen abstract concept, maar een fysieke pijn die zich in je botten nestelt. Elke dag is een confrontatie met je eigen nietigheid; je bent gereduceerd tot een minuscuul, kwetsbaar organisme in een omgeving die je onverschillig maar doeltreffend probeert te elimineren.\n\nHier heerst de biologie met een dictatoriale, brute overmacht die geen genade kent. Miljoenen koningspinguïns en massieve zuidelijke zeeolifanten domineren de ijskoude stranden, transformeren het landschap in een oorverdovende, stinkende massa van pure overlevingsdrift. De lucht is zwaar van de penetrante stank van guano, bloed en rottend kelp—een onweerlegbaar bewijs van een ecosysteem dat functioneert op rauwe slachting en instinct, volledig immuun voor menselijke moraliteit.\n\nOverleven op Zuid-Georgia is simpelweg een statistische anomalie, een tijdelijk uitstel van executie. Woeste valwinden scheuren met demonische snelheid van de gletsjers naar beneden, klaar om structuren te verbrijzelen. De logistiek is een chronische nachtmerrie van vrieskou en massieve ijsbergen, waarbij stormen wekenlang aanhouden. Als je hier faalt of gewond raakt, is er geen redding; de natuur zal je opslokken en onherroepelijk uitwissen.",
       "floraFauna": "Miljoenen koningspinguïns, Macaronipinguïns en enorme kolonies van massieve zuidelijke zeeolifanten.",
       "history": [
         {
@@ -1649,8 +1649,8 @@ export const islandsData = [
       "souvenirTip": "Een poststempel of postzegel uit het kleine postkantoor in Grytviken."
     },
     "hazards": [
-      "Extreem weer en katabatische winden (lawines van koude lucht van de bergen)",
-      "Agressieve pelsrobben op het strand gedurende het broedseizoen"
+      "Katabatische winden storten als onzichtbare sloopkogels met orkaankracht van de gletsjers naar beneden, waardoor boten worden verbrijzeld en elke vorm van veiligheid wordt geëlimineerd.",
+      "Agressieve territoriale pelsrobben transformeren de stranden tijdens het broedseizoen tot een levensgevaarlijk mijnenveld, waarbij ze onverschrokken aanvallen en aanlandingen in bloedige chaos veranderen."
     ],
     "media": {
       "countryCode": "gs",
@@ -1697,7 +1697,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Amsterdam-eiland steekt als een eenzame, afgestompte schildvulkaan uit de nietsontziende Indische Oceaan. Duizenden kilometers verwijderd van elk continent dwingt deze stenen bult nederigheid af. Enkel de Franse basis Martin-de-Viviès doorbreekt de leegte, bezet door een roulerende groep geïsoleerde wetenschappers die de waanzin van de afzondering trotseren.\n\nDe rotsflanken huisvesten een macabere, unieke ecologie. Dit is het exclusieve broedgebied van de Amsterdamalbatros, een roofvogel die zich vastklampt aan het voortbestaan. Inheemse varens en turfmoerassen klampen zich wanhopig vast aan de vulkanische bodem, continu gegeseld door zout en zwaar weer.\n\nHet bereiken van deze klomp basalt is een aanslag op de menselijke geest. De bevoorrading gebeurt slechts vier keer per jaar met het expeditieschip Marion Dufresne, afhankelijk van meedogenloze cyclonen en verraderlijke deining. Zonder haven is elke dropping een levensgevaarlijke gok tegen de zwaartekracht en de razende oceaan.",
+      "description": "Amsterdam-eiland snijdt als een stomp, vulkanisch litteken uit de donkere leegte van de Indische Oceaan, een geïsoleerde vesting die elke menselijke aanwezigheid afwijst. Duizenden kilometers verwijderd van enige beschaving dwingt deze zwarte klomp basalt een absolute, vernederende nietigheid af. Enkel de Franse basis Martin-de-Viviès klampt zich als een parasiet vast aan de rand, bewoond door zielen die langzaam worden weggevreten door de waanzin van een afzondering die dieper snijdt dan de oceaan zelf.\n\nDe psychologische foltering van het eiland ligt in de onontkoombare claustrofobie van de absolute leegte. Er is nergens omheen te kijken dan de onmetelijke watermassa; het landschap voelt als een kooi zonder tralies. De constante dreun van de zee en de bulderende wind isoleren je in je eigen gedachten, waar paranoia en existentiële leegte onvermijdelijk wortel schieten. Je bent hier niet slechts afgesneden van de wereld; de wereld is definitief gestopt met bestaan.\n\nEcologisch gezien is dit een macaber slagveld van overleving, gedomineerd door de Amsterdamalbatros die wanhopig vecht tegen de naderende extinctie. De zoute gure wind geselt meedogenloos de turfmoerassen en spaarzame varens, die zich met brute volharding vastklampen aan de onvruchtbare as. Dit is geen natuur om van te genieten, maar een rauwe, genadeloze strijd om het recht om nog één dag te ademen op een dode vulkaan.\n\nLogistiek is hier een permanente Russische roulette. De bevoorrading, slechts vier keer per jaar, is overgeleverd aan de tirannie van cyclonen en verraderlijke oceaandeiningen. Zonder natuurlijke haven is elke nadering en dropping een suïcidale gok tegen de zwaartekracht en verbrijzelende golven, waarbij de minste misrekening resulteert in de dood, ver van elke hoop op redding.",
       "floraFauna": "De ernstig bedreigde Amsterdamalbatros (die alleen hier nestelt) en subantarctische zeeberen.",
       "history": [
         {
@@ -1716,8 +1716,8 @@ export const islandsData = [
       "souvenirTip": "Uiterst zeldzame filatelistische (postzegel) uitgaven van de TAAF (Terres australes et antarctiques françaises)."
     },
     "hazards": [
-      "Absolute isolatie; medische evacuaties zijn nagenoeg onmogelijk in de winter",
-      "Steile, onherbergzame kliffen rondom het hele eiland"
+      "De absolute isolatie maakt medische evacuaties in de wintermaanden fysiek onmogelijk, wat betekent dat zelfs een simpele blessure of infectie onvermijdelijk kan escaleren in een eenzame, pijnlijke dood.",
+      "De onherbergzame, vlijmscherpe kliffen die het eiland als een fort omringen, blokkeren elke veilige toegang vanuit de zee en dreigen elk vaartuig te pletten dat te dichtbij durft te komen."
     ],
     "media": {
       "countryCode": "tf",
@@ -1764,7 +1764,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Jan Mayen is een bevroren vulkanisch karkas in de Noordelijke IJszee. Dit afgelegen eiland is onderworpen aan de tirannie van Beerenberg, de noordelijkste actieve vulkaan op de planeet. De constante bedekking met ijs, mist en sneeuw maakt dit tot een vijandige uithoek, louter bezet door een kleine militaire en weerkundige Noorse eenheid.\n\nLeven op deze ijsklomp is een harde strijd. Een dikke laag arctisch mos en schaarse grassen kleuren het asgrauwe landschap in korte zomermaanden groen. Boven de gure kustlijn heersen gigantische kolonies stormvogels en noordse stormvogels, terwijl walrussen hun lichamen tegen de scherpe, vulkanische stenen slepen.\n\nDit is een zone van actieve geologische en klimatologische vernietiging. Er is geen vliegveld voor normaal verkeer; landingen vinden uitsluitend plaats op een geïmproviseerde onverharde strook, constant bedreigd door plotselinge mistbanken en stormen. Het isolement is absoluut en de extreme kou eist continu haar tol van mens en machine.",
+      "description": "Jan Mayen is een bevroren, kwaadaardig karkas drijvend in de dodelijke Noordelijke IJszee, gedomineerd door de dreigende schaduw van Beerenberg, de noordelijkste actieve vulkaan. Dit eiland is de belichaming van geologische en klimatologische haat, waar ijs, mist en vulkanische as samensmelten tot een dystopisch landschap. De menselijke aanwezigheid is gereduceerd tot een minuscule, bibberende Noorse buitenpost die slechts bestaat bij de gratie van militaire discipline en een ongezonde dosis ontkenning.\n\nLeven in deze ijswoestijn breekt je geest af door een constante staat van sensorische deprivatie en terminale kou. De eindeloze winternachten doordrenken de psyche met depressie, terwijl de aanhoudende, verstikkende mist elke perceptie van tijd en ruimte saboteert. De eenzaamheid is agressief; het voelt alsof de kouwe vulkaan actief je levensvreugde opslokt, je reducerend tot een functionerende machine zonder hoop of uitweg.\n\nDe biologie weigert hier genade te tonen. Slechts stug, verstijfd arctisch mos overleeft op het asgrauwe gesteente. Boven de gure, gewelddadige kustlijn schreeuwen massale kolonies stormvogels over het kabaal van de golven, terwijl walrussen hun enorme lijven over de scherpe basaltstenen slepen. Het is een oeroud ritueel van uithoudingsvermogen, een plek waar zwakte onmiddellijk wordt bestraft met de dood.\n\nDit is een omgeving die geconstrueerd is om indringers te elimineren. Landingen vinden plaats op een levensgevaarlijke, onverharde ijsstrook die op elk moment door mist of storm kan worden opgeslokt. Het isolement wordt afgedwongen door een atmosfeer die weigert te kalmeren; extreme poolkou bevriest brandstof en vlees met gelijke onverschilligheid, waardoor elke logistieke handeling een dodelijk experiment wordt.",
       "floraFauna": "IJsberen komen af en toe voorbij drijven op het pakijs. Walrussen en enorme aantallen zeevogels.",
       "history": [
         {
@@ -1783,8 +1783,8 @@ export const islandsData = [
       "souvenirTip": "Niet toegankelijk voor toeristen."
     },
     "hazards": [
-      "Actieve vulkaan onder een gletsjer",
-      "Dichte mist, zware stormen en extreme poolkou"
+      "Een actieve vulkaan die bedekt is door een enorme gletsjer vormt een tijdbom van verwoestende uitbarstingen, giftige gassen en catastrofale overstromingen door smeltwater die alles op hun pad annihileren.",
+      "Dichte mistbanken, gewelddadige stormen en extreme poolkou werken in dodelijke synergie samen om oriëntatie te vernietigen, apparatuur te laten falen en lichamen binnen enkele minuten genadeloos te bevriezen."
     ],
     "media": {
       "countryCode": "sj",
@@ -1831,7 +1831,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "De naam dicteert de realiteit: Inaccessible Island weigert toegang. Dit massieve vulkanische blok in de Zuid-Atlantische Oceaan rijst verticaal en agressief op uit de beukende golven. Zonder natuurlijke haven of bruikbare stranden stoot deze dode monoliet de mensheid consequent af en blijft het een prehistorische kluis van isolatie.\n\nBinnen deze stenen muren is de evolutie intact gebleven. Vrij van invasieve roofdieren of menselijke manipulatie is de flora en fauna authentiek en wild. Hier overleeft de tristanral, de kleinste loopvogel ter wereld, in dichte, ondoordringbare velden van tussockgras, veilig voor de ondergang die de mens elders heeft gezaaid.\n\nLogistiek opzetten is uitgesloten. Hoge kliffen blokkeren iedere opgang; slechts helikopters onder extreem gunstige condities maken een kans. De zeeën eromheen zijn gewelddadig en onberekenbaar, waardoor elke poging tot nadering het risico in zich draagt om tegen de scherpe basaltwanden verbrijzeld te worden.",
+      "description": "Inaccessible Island is geen eiland, maar een massief, onneembaar vulkanisch fort in de Zuid-Atlantische Oceaan dat de mensheid consequent de rug toekeert. Dit dode brok basalt rijst agressief en verticaal op uit de donkere golven, als een stenen vuist die het water doorboort. Zonder stranden, zonder haven en omgeven door woeste stromingen, is deze plek een brute herinnering aan de grenzen van de menselijke veroveringsdrang. Het weigert categorisch geassimileerd te worden.\n\nDe isolatie hier is geen toeval, maar een ontworpen afweermechanisme dat de menselijke psyche verbrijzelt. Het vooruitzicht om gevangen te zitten op deze monoliet, omringd door steile rotswanden die je visueel opsluiten, wekt een ondraaglijke, verstikkende paniek op. Je bent niet simpelweg alleen; je bent opgesloten door de natuur zelf, afgesneden van elke ontsnappingsroute, veroordeeld tot de meedogenloze elementen.\n\nBinnen deze vijandige muren regeert een onverstoord, prehistorisch ecosysteem, gedreven door wilde, ongecontroleerde evolutie. In de ondoordringbare velden van scherp tussockgras verschuilt zich de tristanral, overlevend ver van de menselijke destructie. Er is hier geen romantiek, slechts een rauw biologisch mechanisme dat weigert te sterven, beschermd door de extreme, dodelijke topografie die indringers buiten de poorten houdt.\n\nLogistiek is hier niet moeilijk, het is zelfmoord. De loodrechte kliffen blokkeren genadeloos elke opgang; het water aan de basis kookt van de onvoorspelbare en moordende deining. Elke poging om aan te meren resulteert geheid in het pletten van boten tegen de scherpe rotsen. Slechts per helikopter, en enkel als de woedende stormen het toelaten, is dit bolwerk voor een kort moment kwetsbaar.",
       "floraFauna": "Wereldberoemd om de Inaccessible-eilandral (Atlantisia rogersi), de kleinste vliegloze vogel ter wereld.",
       "history": [
         {
@@ -1850,8 +1850,8 @@ export const islandsData = [
       "souvenirTip": "Niets (Strikt natuurreservaat)."
     },
     "hazards": [
-      "Gevaarlijke, steile en spekgladde kliffen",
-      "Levensgevaarlijk om met kleine boten aan te meren door zware zeestroming"
+      "De levensgevaarlijke, loodrechte en spekgladde basaltkliffen maken elke klimpoging tot een suïcidale onderneming waarbij de kleinste misstap direct resulteert in een fatale val in de kolkende oceaan.",
+      "Aanmeren met kleine boten is pure zelfmoord doordat onvoorspelbare, massieve zeestromingen elk vaartuig met verwoestende kracht tegen de vlijmscherpe rotswanden rammen."
     ],
     "media": {
       "countryCode": "sh",
@@ -1898,7 +1898,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Chatham Island is een desolate, met mist omhulde buitenpost voor de kust van Nieuw-Zeeland. Dit winderige terrein van turfmoerassen en ruwe kliffen wordt getekend door een rauwe strijd met de elementen. Geisoleerd in de Stille Oceaan hanteert het zijn eigen, verschoven tijdzone, een symbool voor de afwijking van de reguliere beschaving.\n\nDe identiteit van Chatham is diep geworteld in de inheemse Moriori-cultuur, wier sporen onuitwisbaar in het landschap zijn gekerfd. Tussen harde windstoten door vind je hier zeldzame, inheemse vogelsoorten zoals de taiko en de zwarte vliegenvanger. Hun voortbestaan hangt aan een zijden draadje, bevochten in dichte, verweerde bossen.\n\nInfrastructuur is primair en kwetsbaar. Stormen vanuit de oceaan slaan genadeloos op het eiland in en maken de weinige aanvoerlijnen met het vasteland extreem onbetrouwbaar. Het klimaat dicteert het tempo, en bij nood is evacueren of bevoorraden een strijd tegen de wrede grillen van de Stille Oceaan.",
+      "description": "Chatham Island is een gedeprimeerde, winderige uithoek in de Stille Oceaan, gedrenkt in mist en vergeten door de tijd. Dit desolate tapijt van rotte turfmoerassen en zwarte kliffen is een arena waar de elementen onophoudelijk inbeuken op het landschap. Het eiland hanteert zijn eigen geïsoleerde tijdzone, een abstracte grens die de disconnectie met de reguliere mensheid benadrukt. Dit is een plek van verval en chronische strijd, geen paradijs.\n\nDe psychologische tol van Chatham is een sluipend proces van afstomping. De constante huilende wind die over het vlakke land jaagt, vreet aan je zenuwen en erodeert je mentale weerbaarheid. De geïsoleerde, rauwe levensomstandigheden dwingen de overgebleven bewoners in een staat van bittere veerkracht; hier overleef je niet door te hopen, maar door de meedogenloze klappen van het klimaat en de afzondering te accepteren.\n\nDit eiland ademt de littekens van de inheemse Moriori-cultuur, en functioneert tevens als het laatste bastion voor ernstig bedreigde diersoorten. In de zoute, door wind vervormde bossen vechten zeldzame vogels zoals de taiko een genadeloze oorlog om overleving tegen roofdieren en stormen. Het ecosysteem hangt aan een zijden draadje, constant gebukt onder de zware druk van een hard, onvergeeflijk klimaat.\n\nDe infrastructuur is primitief, fragiel en overgeleverd aan de nukken van de oceaan. Zuidelijke stormen slaan de bevoorradingslijnen regelmatig aan puin, waardoor het eiland wekenlang afgesloten blijft. Evacuaties zijn een gok met het leven, afhankelijk van een vliegstrook die geteisterd wordt door gewelddadige rukwinden. De natuur dicteert hier het tempo, en de straf voor incompetentie is dodelijk.",
       "floraFauna": "De Chatham-vliegenvanger (black robin), die gered werd van uitsterven door de inzet van natuurbeschermers.",
       "history": [
         {
@@ -1917,8 +1917,8 @@ export const islandsData = [
       "souvenirTip": "Traditioneel Moriori hout- of beensnijwerk en lokale Blauwe Kabeljauw (Blue Cod)."
     },
     "hazards": [
-      "Verraderlijke wateren rondom het eiland",
-      "Koud en zeer winderig microklimaat"
+      "Verraderlijke, kolkende wateren en extreem zware deining rondom het eiland vernietigen scheepvaart en maken maritieme navigatie tot een constant gevecht tegen een watergraf.",
+      "Een agressief koud en winderig microklimaat geselt het landschap onafgebroken, veroorzaakt zware onderkoeling en sloopt genadeloos elke kwetsbare infrastructuur en schuilplaats."
     ],
     "media": {
       "countryCode": "nz",
@@ -1965,7 +1965,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Gough Island is een steil, groen en vulkanisch fort in het hart van de Zuid-Atlantische Oceaan. Deze door orkanen geteisterde klomp steen fungeert als een geïsoleerde weerspost voor een minuscule Zuid-Afrikaanse eenheid. Het eiland trotseert continu het beukende geweld van de Roaring Forties.\n\nDit is een van de weinige echt onaangetaste mariene ecosystemen ter wereld. Miljoenen zeevogels, waaronder de met uitsterven bedreigde tristanalbatros, maken gebruik van de steile, dichtbegroeide heuvels om te nestelen. Vrijwel ongeschonden door mensen, functioneert de ecologie hier als een brute, goed geoliede machine.\n\nGeen beschutting, geen genade. Logistiek en transport zijn beperkt tot jaarlijkse helikoptervluchten vanaf een expeditieschip, balancerend op de rand van weerkundige rampen. Het weer is hier gewelddadig, en de onvergeeflijke stormen isoleren de weinige menselijke bewoners maandenlang, zonder enige mogelijkheid tot redding of ontsnapping.",
+      "description": "Gough Island is een kolossaal, verticaal groen fort, wreed uitgespuwd door vulkanen in de Zuid-Atlantische Oceaan. Deze door orkanen gegeselde klomp gesteente is het exclusieve domein van de Roaring Forties, waar een minuscuul team van Zuid-Afrikaanse meteorologen fungeert als levend weerstation. Het eiland biedt geen schuilplaats; het confronteert je met een brute, natte chaos die weigert getemd te worden, bedolven onder steile hellingen en eindeloze regen.\n\nDe isolatie op Gough vreet de menselijke psyche van binnenuit op. Gevangen op een post die continu bekogeld wordt door stormen, ervaren de bewoners een intense, claustrofobische opsluiting. De gierende wind is een constante fysieke aanwezigheid die slaap en rust onmogelijk maakt, terwijl de wetenschap dat ontsnapping of redding gedurende maanden ondenkbaar is, resulteert in een zware, onontkoombare paranoia en existentiële wanhoop.\n\nEcologisch is dit een onbezoedelde, gewelddadige broedmachine. De steile flanken zijn overwoekerd en bieden nestplaats aan miljoenen schreeuwende zeevogels, waaronder de met uitsterven bedreigde tristanalbatros. Het is een oeroud biologisch ritueel dat functioneert als een goed geoliede slagerij, maar momenteel langzaam ten onder gaat aan de stille, bloedige invasie van muizen die kuikens levend aanvreten.\n\nLogistiek is hier een absolute gruwel, gereduceerd tot een jaarlijkse helikoptervlucht die de elementen moet tarten. Transport is een dans op de rand van de afgrond, balancerend boven woeste zeeën en onberekenbare valwinden. Een fout in de planning of een medisch noodgeval betekent hier de zekere dood; de oceaan en de stormen sluiten een ijzeren kooi om het eiland, en laten niets binnen of buiten.",
       "floraFauna": "Een van 's werelds belangrijkste zeevogelkolonies, met de met uitsterven bedreigde Tristanoceaanloper.",
       "history": [
         {
@@ -1984,8 +1984,8 @@ export const islandsData = [
       "souvenirTip": "Volledig onbereikbaar voor het publiek, dus geen souvenirs te bemachtigen."
     },
     "hazards": [
-      "Invasieve huismuizen (oorspronkelijk meegekomen met walvisvaarders) die op grote schaal de kuikens van zeevogels opeten",
-      "Extreme 'Roaring Forties' winden"
+      "Gigantische, gemuteerde huismuizen, een kwaadaardige erfenis van walvisvaarders, terroriseren het eiland door de weerloze kuikens van zeevogels systematisch en levend op te vreten.",
+      "De extremiteit van de Roaring Forties winden snijdt als een mes over het eiland, verbrijzelt constructies en maakt helikoptervluchten of bootlandingen levensgevaarlijk en vrijwel onmogelijk."
     ],
     "media": {
       "countryCode": "sh",
@@ -2032,7 +2032,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Sable Island is een macabere glimlach van zand in de Noord-Atlantische Oceaan. Deze voortdurend verschuivende zandbank, uren verwijderd van Nova Scotia, heeft geen bomen of verhogingen. Bekend als de Graveyard of the Atlantic, markeert deze verraderlijke streep zand de fatale rustplaats van meer dan 350 scheepswrakken.\n\nTemidden van scheepsresten en dichte mist overleven honderden wilde paarden. Ze trotseren een extreem en onherbergzaam milieu, levend van ruw duingras. Verder worden de zandvlaktes gedomineerd door immense kolonies grijze zeehonden, die de kille stranden als broedplaats gebruiken.\n\nDe zandbank verschuift constant en saboteert alle stabiliteit. Vliegverkeer en maritieme navigatie zijn levensgevaarlijk door de plotseling opkomende dichte mist en extreem hevige zeestromingen. Er bestaat hier geen infrastructuur; elke zware storm transformeert het eiland, wist sporen uit en herinnert de mensheid aan de heerschappij van de oceaan.",
+      "description": "Sable Island is een macabere, verschuivende glimlach van zand, een genadeloze valstrik diep in de Noord-Atlantische Oceaan. Dit is geen eiland, maar een sluipmoordenaar zonder bomen of hoogte—een dodelijke zandbank die meer dan 350 scheepswrakken als trofeeën heeft verzameld. Bekend als de Graveyard of the Atlantic, absorbeert deze vlakte staal en botten, en herinnert het de mensheid aan de blinde vernietigingskracht van de oceaan.\n\nHet verblijf op deze streep zand is een psychologische uitputtingstest. De constante, dichte mist verbergt de horizon en vervormt de realiteit, waardoor je geïsoleerd raakt in een kille, grijze bel. Het geluid van brekende golven over de wrakstukken klinkt als het gejammer van de doden, terwijl het besef dat de grond onder je voeten letterlijk meedrijft met de stormen, een permanent gevoel van onveiligheid en naderend onheil inboezemt.\n\nOp deze dodelijke vlakte voltrekt zich een rauw biologisch wonder, zonder enige bemoeienis. Honderden wilde paarden doorstaan de beukende orkanen door te teren op stug duingras, een testament aan blinde overlevingsdrang. De kille kusten worden geterroriseerd door massale kolonies grijze zeehonden, die de stranden transformeren in een stinkende kraamkamer en slachtveld, ver weg van beschaving.\n\nLogistiek is Sable Island een onbeheersbare nachtmerrie. De vorm van het eiland muteert bij elke zware storm, wat maritieme navigatie tot zelfmoord maakt. Extreem hevige stromingen en plotselinge, ondoordringbare mistbanken saboteren elke vorm van bevoorrading of evacuatie per helikopter of schip. Je bent hier volledig uitgeleverd aan het weer; als de elementen toeslaan, ben je simpelweg het volgende wrak op de zandbank.",
       "floraFauna": "Meer dan 500 wilde Sable Island-paarden en 's werelds grootste broedkolonie van de grijze zeehond.",
       "history": [
         {
@@ -2051,8 +2051,8 @@ export const islandsData = [
       "souvenirTip": "Niets (het is ten strengste verboden om ook maar iets, zelfs zand, van het eiland mee te nemen)."
     },
     "hazards": [
-      "Extreem dichte, plotselinge zeemist",
-      "Verraderlijke zandbanken die constant van vorm veranderen"
+      "Extreem dichte, plotselinge zeemist reduceert het zicht binnen seconden tot nul, desoriënteert piloten en scheepskapiteins en leidt onverbiddelijk tot catastrofale en dodelijke ongelukken.",
+      "De verraderlijke zandbanken veranderen constant van vorm door de brute oceaanstromingen, waardoor ze onzichtbare, onvoorspelbare dodelijke vallen vormen voor elk schip dat de kust nadert."
     ],
     "media": {
       "countryCode": "ca",
@@ -2099,7 +2099,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Robinson Crusoe, diep in de Juan Fernández-archipel, is een massief blok gestolde lava in de Stille Oceaan. Dit ruwe en bergachtige landschap dwong de Schotse piraat Alexander Selkirk jarenlang tot een geïsoleerde, pure overlevingsstrijd. Het terrein is meedogenloos verticaal en ontkent elke vorm van modern comfort.\n\nZeldzame varens en bloedrode bloemen klampen zich vast aan de vulkanische pieken. Inheemse kolibries en de bedreigde Juan Fernández-zeebeer domineren de dichte bossen en rotsige kusten. Het eiland is een geïsoleerde couveuse van endemische soorten die constant strijden tegen de harde, zilte zeewind.\n\nDe topografie is je vijand. Zware landverschuivingen dreigen continu de schaarse nederzettingen en wegen weg te vagen. Transport is een aaneenschakeling van vertragingen; boten en kleine vliegtuigen moeten strijden tegen plotselinge deining en heftige windstoten, waardoor het opbouwen van een betrouwbare levenslijn simpelweg een illusie is.",
+      "description": "Robinson Crusoe is een gewelddadig, gekarteld blok gestolde lava, uitgebraakt in de Stille Oceaan. Dit meedogenloos verticale en gevaarlijke landschap, onderdeel van de Juan Fernández-archipel, dwong Alexander Selkirk destijds in een brute overlevingsstrijd die zijn menselijkheid uitholde. Het terrein is extreem steil, weigert elke vorm van gemak of modern comfort, en test je fysieke grenzen tot het breekpunt.\n\nDe isolatie op dit bergeiland plet de ziel. De ruige, claustrofobische valleien en loodrechte kliffen blokkeren niet alleen de wind, maar ook elk perspectief op ontsnapping. Gevangen tussen ondoordringbaar bos en een donkere, eindeloze oceaan, nestelt zich een zware eenzaamheid in je geest. De fysieke pijn van het onbegaanbare terrein vermengt zich met de mentale uitputting van het leven aan de uiterste rand van de bewoonbare wereld.\n\nDe ecologie is een geïsoleerde, wanhopige couveuse van endemische soorten die constant vechten tegen vernietiging. Zeldzame vuurrode bloemen en inheemse kolibries klampen zich vast aan de vulkanische pieken, terwijl de bedreigde Juan Fernández-zeebeer het brute kustgeweld trotseert. Het is een delicate balans op de rand van de afgrond, zwaar geteisterd door de meedogenloze zilte zeewinden en erosie.\n\nDe topografie is hier een actieve vijand die je bij elke stap saboteert. Zware landverschuivingen kunnen de fragiele nederzettingen en wegen op elk moment verpletteren of wegvagen. Transport en logistiek zijn een absolute marteling; de brute weersomstandigheden en plotselinge, verpletterende windstoten maken nadering door vliegtuigen en boten een permanent dodelijk risico, waardoor redding bij noodgevallen een illusie blijft.",
       "floraFauna": "Verhoudingsgewijs heeft dit eiland de hoogste dichtheid aan endemische plantensoorten ter wereld.",
       "history": [
         {
@@ -2118,8 +2118,8 @@ export const islandsData = [
       "souvenirTip": "De lokaal gevangen Juan Fernández-kreeft (een culinaire delicatesse)."
     },
     "hazards": [
-      "Tsunami-risico (het dorp werd in 2010 zwaar getroffen)",
-      " Zeer steile en gevaarlijke wandelpaden"
+      "Een permanent sluimerend tsunami-risico hangt als het zwaard van Damocles boven de kustnederzettingen, in staat om levens en infrastructuur in enkele seconden genadeloos weg te vagen.",
+      "De wandelpaden zijn extreem steil, instabiel en dodelijk, waardoor de kleinste misstap op de modderige hellingen direct resulteert in een verbrijzelende val in de diepe vulkanische ravijnen."
     ],
     "media": {
       "countryCode": "cl",
@@ -2166,7 +2166,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "St. Kilda is een grimmige, verlaten rotsformatie aan de uiterste rand van de Noord-Atlantische Oceaan. Deze eilandengroep, gekenmerkt door de hoogste zeekliffen van het Verenigd Koninkrijk, is een monument van mislukte menselijke bewoning. In 1930 dwong de absolute wreedheid van het klimaat de laatste bewoners tot definitieve overgave en evacuatie.\n\nDe steile rotswanden zijn het domein van de zeevogels. Miljoenen jan-van-genten en papegaaiduikers bezetten de verticale, met guano besmeurde rotsen en vormen de grootste vogelkolonies van Europa. Wilde Soay-schapen dwalen onbewaakt rond over de ruïnes van het menselijke falen, perfect aangepast aan het kille, harde bestaan.\n\nToegang is levensgevaarlijk. Kolossale golven rammen onafgebroken in op de steile granietwanden, waardoor er slechts zeldzame momenten van kalmte zijn waarin de kust genaderd kan worden. Er is geen veilige haven; stormen domineren dagenlang de archipel en maken elke expeditie tot een logistiek gevecht tegen de afgrond.",
+      "description": "St. Kilda is een desolate, grimmige rotsformatie, een definitief bewijs van menselijk falen aan de uiterste rand van de Noord-Atlantische Oceaan. Deze archipel, bewapend met de hoogste en meest afschrikwekkende zeekliffen van het Verenigd Koninkrijk, dwong in 1930 de laatste bewoners op hun knieën. Het klimaat en de isolatie vermorzelden hen in een brute strijd die de natuur, onverschillig en koud, heeft gewonnen.\n\nDe psychologische impact van de overgebleven ruïnes is ronduit spookachtig. Lopend tussen de stenen overblijfselen voel je de echo van kou, honger en wanhoop die generaties lang de geest van de bewoners vergiftigde. De ondoordringbare muren van mist en de eindeloze, zwarte oceaan fungeren als een fysieke en mentale gevangenis. De wetenschap dat de mensheid hier de strijd moest opgeven, versterkt een overweldigend gevoel van kwetsbaarheid en angst.\n\nDe ware heersers van deze dode kliffen zijn de miljoenen zeevogels die de verticale afgronden bedekken. Papegaaiduikers en jan-van-genten bezetten de met guano besmeurde rotswanden in een chaotische, oorverdovende massa. Terwijl wilde Soay-schapen onbewaakt door het dorp spoken, toont de fauna hier de wrede realiteit: overleven vereist een hardheid die de mens simpelweg niet bezat in deze brute omstandigheden.\n\nToegang tot dit kerkhof van beschaving is een confrontatie met de dood. Kolossale golven rammen onafgebroken op het graniet, en laten nagenoeg geen moment van zwakte zien waarop een landing veilig is. Er bestaat hier geen redding en geen beschutte haven. Stormen isoleren het eiland met grof geweld; wie hier strandt of logistieke bevoorrading probeert, is overgeleverd aan de dictatuur van de stormachtige afgrond.",
       "floraFauna": "De grootste kolonie Jan-van-genten ter wereld en de unieke Soay-schapen (een oerschaap dat er al duizenden jaren leeft).",
       "history": [
         {
@@ -2185,8 +2185,8 @@ export const islandsData = [
       "souvenirTip": "Een replica van een traditionele postboot (vroeger lieten ze houten blokken met post in zee drijven, hopend dat het aanspoelde)."
     },
     "hazards": [
-      "Extreem ruwe en onvoorspelbare Atlantische deining",
-      "Vallend gesteente bij de ruïnes van het verlaten dorp"
+      "De extreem ruwe en onvoorspelbare Atlantische deining crasht met verpletterende kracht tegen de rotswanden, wat aanmeren nagenoeg onmogelijk maakt en kleine vaartuigen in splinters slaat.",
+      "Het afbrokkelende gesteente en de instabiele ruïnes van het dode dorp creëren een levensgevaarlijk terrein waar vallende stenen zonder enige waarschuwing schedels kunnen inslaan."
     ],
     "media": {
       "countryCode": "gb",
@@ -2233,7 +2233,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Clipperton is een ringvormig koraalatol dat isoleert, verhongert en vernietigt. Verlaten in het hart van de Stille Oceaan verbergt dit platte, giftige zandstrand een pikzwarte geschiedenis van dood en muiterij. Een in 1914 achtergelaten Mexicaans garnizoen stierf hier langzaam uit in totale waanzin, omringd door onverbiddelijk zout water.\n\nDe dorre ring herbergt een agressieve monocultuur. Miljoenen maskergengels nestelen rauw op de scherpe koraalbodem, terwijl oranje landkrabben elke vierkante meter terrein infesteren en alles opvreten wat biologisch afbreekbaar is. Het stilstaande brakke water in de centrale lagune stikt van de algen en zwavelzuur.\n\nDe nabijheid is moordend. Er is geen vliegveld, geen beschutte ankerplaats en geen drinkwater. Orkanen en cyclonen razen ongehinderd over het platte landoppervlak, terwijl scherpe riffen naderende schepen openscheuren. Clipperton tolereert de mens niet; elke logistieke missie vereist het meenemen van 100% van alle basisbehoeften.",
+      "description": "Clipperton is een giftige, ringvormige hel, verloren in het brandende hart van de Stille Oceaan. Dit dodelijke koraalatol verbergt achter zijn platte zandstranden een gruwelijke geschiedenis van muiterij, waanzin en verhongering. Het in 1914 achtergelaten garnizoen werd hier langzaam, genadeloos gedecimeerd in totale afzondering. Het eiland ademt dood; het is een gevangenis van koraal die de menselijke geest en het lichaam onherroepelijk vernietigt.\n\nDe isolatie op Clipperton leidt tot pure, ongefilterde waanzin. Gevangen op een kale strook land met in het midden een stinkende, dode lagune, voel je de zon en de oceaan als wapens op je gericht. Er is nergens om je te verbergen, nergens om aan de constante verzengende hitte te ontsnappen. De afwezigheid van hoop, gecombineerd met de ondraaglijke stank van rottend koraal en guano, breekt de psychologische weerbaarheid tot er slechts paranoïde lethargie overblijft.\n\nHet biologische profiel van het eiland is een agressieve, wurgende monocultuur. Oranje landkrabben infesteren werkelijk elke vierkante centimeter, een vraatzuchtig leger dat alles wat verteerbaar is onmiddellijk opslokt. Miljoenen maskergengels krijsen over de dorre ring. De lagune zelf is een stilstaand, brak en zwavelzuurhoudend open riool, ontdaan van vis en vijandig tegenover elke vorm van leven die afhankelijk is van vers water.\n\nLogistieke nabijheid is hier een dodelijk illusie. Clipperton tolereert niets of niemand: geen vliegveld, geen beschutting, geen bron van water. Brute orkanen razen zonder obstakels over het platte land en vagen alles weg. Scherpe riffen liggen als verborgen messen in het water, klaar om naderende schepen open te scheuren. Wie hier voet aan wal zet, is gegarandeerd afgesneden van elke hulp, wachtend op de genadeslag.",
       "floraFauna": "Miljoenen feloranje Clipperton-krabben die het hele eiland bedekken en agressief alles opeten.",
       "history": [
         {
@@ -2252,8 +2252,8 @@ export const islandsData = [
       "souvenirTip": "Puur onbereikbaar, behalve voor extreme expedities."
     },
     "hazards": [
-      "De afgesloten lagune is giftig door rottend organisch materiaal en bevat geen vissen",
-      "Overal scherpe koraalresten en miljoenen krabben"
+      "De afgesloten, dode lagune is een poel van giftig, rottend organisch materiaal en zwavelzuur die geen leven ondersteunt en dodelijke ziektes kan veroorzaken bij contact.",
+      "Miljoenen hongerige landkrabben en vlijmscherpe, geïnfecteerde koraalresten vormen een wandelend mijnenveld dat elke uitrusting sloopt en verschrikkelijke, abcesvormende wonden veroorzaakt."
     ],
     "media": {
       "countryCode": "pf",
@@ -2300,7 +2300,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Tokelau is een cluster van drie flinterdunne koraalatollen, verzonken in de uitgestrektheid van de Stille Oceaan. Zonder haven, zonder vliegveld en nauwelijks boven zeeniveau functioneert deze geïsoleerde natie op de rand van de afgrond. Het land weigert zich aan te passen aan de moderne wereld; zonnepanelen voeden de restanten van een hyper-lokale beschaving.\n\nDe biodiversiteit beperkt zich tot de rauwe overlevenden van hitte en zout. Kokospalmen staan gebogen in de passaatwind, terwijl het harde koraal een onderwaterwereld vol haaien, schildpadden en felgekleurde vissen beschermt. De kleine bevolking teert volledig op de wrede, onuitputtelijke energie van de omringende zee.\n\nHet zeewater dicteert het voortbestaan. Klimaatverandering en zeespiegelstijging beloven de absolute ondergang voor deze vlakke atollen. Bereikbaarheid is gereduceerd tot slopende boottochten van dagen; bij nood of medische calamiteiten is het isolement moordend en voltrekt het lot zich onverschillig, ver weg van enige redding.",
+      "description": "Tokelau balanceert als een flinterdunne, verdrinkende levenslijn van koraalatollen in de gigantische leegte van de Stille Oceaan. Zonder enig vliegveld of serieuze haven, en hooguit enkele meters boven het wateroppervlak, is dit geïsoleerde territorium op de rand van geografische annihilatie. Het is een rauwe uithoek die weigert te assimileren, waar zonnepanelen een precaire brug vormen tussen een stervende hyper-lokale cultuur en de genadeloze moderne realiteit.\n\nDe mentale wurggreep van Tokelau zit in de angstwekkende vlakte en de dreiging van de zee. Het zeewater is overal, het omsingelt je niet alleen, het kijkt op je neer. Het besef dat één zware golf of cycloon genoeg is om de hele beschaving weg te vagen, veroorzaakt een chronische, knagende existentiële angst. De afzondering is absoluut; je bent geen eilander, je bent een schipbreukeling die wacht tot het water definitief de controle overneemt.\n\nDe ecologie is hier gereduceerd tot de hardste overlevenden van zout en hitte. Stugge kokospalmen buigen mee met de zoute passaatwind, terwijl het massieve koraal een wrede onderwaterwereld vol hongerige haaien en felle roofvissen faciliteert. De mens teert hier met brute noodzaak op wat de oceaan te bieden heeft, in een uitputtende, ongelijkwaardige strijd waarbij de natuur altijd het laatste woord heeft.\n\nLogistiek is Tokelau een afgesloten vesting, bereikbaar via uitsluitend slopende en gevaarlijke boottochten van meerdere dagen. De oceaan dicteert of je leeft of sterft. Met de dreiging van zeespiegelstijging belooft de toekomst absolute vernietiging. Evacuaties of snelle medische hulp zijn onmogelijk; bij calamiteiten word je zonder genade geconfronteerd met het brute isolement en voltrekt de dood zich in absolute stilte.",
       "floraFauna": "Levendige koraalriffen, karetschildpadden en pijlstaartroggen.",
       "history": [
         {
@@ -2319,8 +2319,8 @@ export const islandsData = [
       "souvenirTip": "Tokelauaanse postzegels, een belangrijke bron van inkomsten voor de eilanden."
     },
     "hazards": [
-      "Extreem kwetsbaar voor tropische cyclonen",
-      "Zeer acute dreiging van zeespiegelstijging (hoogste punt is 5 meter)"
+      "Extreem kwetsbaar voor tropische cyclonen die zonder enige weerstand over de vlakke atollen walsen, infrastructuur verbrijzelen en de weinige zoetwatervoorraden vergiftigen met zeewater.",
+      "De acute dreiging van zeespiegelstijging, met het hoogste punt op slechts vijf meter, is een vertraagde apocalyps die het territorium onvermijdelijk en meedogenloos zal opslokken."
     ],
     "media": {
       "countryCode": "tk",
@@ -2367,7 +2367,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Tromelin is een claustrofobische, genadeloze zandvlakte in de Indische Oceaan. Beroofd van bomen of heuvels, staat dit eiland synoniem voor tragedie en verwaarlozing. Hier strandde in 1761 een slavenschip, waarna 80 overlevenden 15 jaar lang klemzaten op deze platgeslagen bakplaat in de zee.\n\nHet brute klimaat vernietigt nagenoeg alle flora, op stugge, hardnekkige struiken na. Groene zeeschildpadden slepen zich massaal het zand op om eieren te dumpen, een oeroud proces tussen wind en storm. Grote kolonies roodpootgenten eisen het luchtruim op, de enige dominante levensvorm op dit dorre stuk land.\n\nCyclonen vernietigen hier alles met de regelmaat van de klok. De bloedhete zandplaat biedt nergens beschutting tegen het moordende weer. Maritieme toegang is extreem complex dankzij dodelijke koraalriffen en brute stromingen; elke expeditie of logistieke bevoorrading is een direct duel met de meest verwoestende krachten van de natuur.",
+      "description": "Tromelin is een claustrofobische, bloedhete martelkamer van zand in de onverbiddelijke Indische Oceaan. Verstoken van bomen, reliëf of schaduw, ademt deze zandvlakte pure horror. In 1761 strandde hier een slavenschip, waarna 80 wanhopige overlevenden vijftien jaar lang wegrotten op deze meedogenloze bakplaat. Tromelin is geen bestemming, maar een graf zonder stenen, ontworpen om hoop te vernietigen en botten te bleken in de brandende zon.\n\nDe psychologische foltering hier is ondraaglijk door de totale openheid. Nergens is dekking, nergens is schuilplaats; je bent 24 uur per dag overgeleverd aan de elementen. De hallucinerende hitte, de wind en de isolatie drijven de geest tot pure waanzin. Er is geen ontsnapping aan de horizon, enkel de verpletterende realiteit dat je volstrekt vergeten bent door de rest van de mensheid, vastgebonden op een platgeslagen stuk zand.\n\nBiologisch gezien is Tromelin een frontlinie van lijden. Enkel stugge, haast dode struiken overleven de zoutstormen. Groene zeeschildpadden slepen zichzelf in de nacht massaal over de scherpe koraalresten om eieren te dumpen, in een wreed en oeroud overlevingsmechanisme. Boven dit alles heersen luidruchtige roodpootgenten, de absolute meesters van dit lege, vijandige vagevuur, terwijl de mens hier niets te zoeken heeft.\n\nCyclonen en orkanen vernietigen deze plek systematisch met machinale precisie. De platte morfologie biedt nul bescherming tegen de moordende weersomstandigheden. Maritieme toegang is een gegarandeerde doodswens dankzij ringen van onzichtbare, messcherpe koraalriffen en brute oceaandeiningen. Logistieke ondersteuning vereist absurde risico's; elke poging om in te grijpen is een direct gevecht op leven en dood met de meedogenloze kracht van de zee.",
       "floraFauna": "Belangrijke broedplaats voor groene zeeschildpadden en gemaskerde genten.",
       "history": [
         {
@@ -2386,8 +2386,8 @@ export const islandsData = [
       "souvenirTip": "Niet te bezoeken door publiek."
     },
     "hazards": [
-      "Ligt direct in het pad van zware Indische Oceaan cyclonen",
-      "Geen zoetwaterbronnen aanwezig op het hele eiland"
+      "Het eiland ligt in het directe vizier van apocalyptische Indische Oceaan cyclonen die genadeloos alles op hun pad verwoesten, wegspoelen en de schaarse bewoners volledig onbeschermd achterlaten.",
+      "Het absolute gebrek aan zoetwaterbronnen betekent dat de dood door uitdroging altijd op de loer ligt; zodra voorraden falen, is er geen enkele natuurlijke ontsnapping aan de hitte."
     ],
     "media": {
       "countryCode": "tf",
@@ -2434,7 +2434,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Wrangel, gevangen in het ijskoude vizier van de Noordelijke IJszee, doorklieft de grens van het oostelijk en westelijk halfrond. Een meedogenloze rotsklomp, gepatrouilleerd door Russische grenswachten in zwaarbewaakte nederzettingen. Dit was het absolute eindstation van de wolharige mammoet; zij stierven hier lang na het verrijzen van de piramides.\n\nHet is de kraamkamer van de poolbeer en een bloedbad voor zwakke prooien. De toendra wemelt van muskusossen en walrussen die in dit wrede, arctische ecosysteem met hand en tand vechten voor overleving. De bodemlaag herbergt de bevroren overblijfselen van prehistorische mastodonten.\n\nLogistiek is dit een regelrechte nachtmerrie. Kruiend ijs verbrijzelt stalen rompen, de infrastructuur is primitief of compleet afwezig en temperaturen kelderen rücksichtslos naar diepvrieswaarden. Hulp is hier een illusie; één misstap op de bevroren toendra betekent je onverbiddelijke einde.",
+      "description": "Wrangel is een ijskoude grafkelder op de grens van de wereld, een onverbiddelijke brok steen die zich in de Noordelijke IJszee boort. Dit is geen plek voor hoop of menselijke ambities; het is een grimmige militaire buitenpost gedomineerd door Russische grenswachten. De afzondering is absoluut en verpletterend, een geografische wurggreep waar de rest van de planeet in een betekenisloze leegte verdwijnt. Hier adem je de verstikkende atmosfeer in van de prehistorie, op de exacte locatie waar de laatste wolharige mammoeten hun gruwelijke, trage dood stierven in de meedogenloze kou.\n\nPsychologisch is dit eiland een slachthuis voor de menselijke geest. De isolatie scheurt je langzaam aan flarden; maandenlang in volstrekte duisternis of verblindend, wit onheil staren, drijft elke bewoner naar de rand van krankzinnigheid. Er is geen sprake van gemeenschap of troost, enkel de rauwe, primitieve drang om te overleven tegen een decor van een oneindige, ijzige hel. Wie hier gestationeerd wordt, verliest elke connectie met empathie en normaliteit, verteerd door de kille logica van het poolklimaat.\n\nDe fysieke realiteit is een constant, meedogenloos gevecht tegen destructie. De toendra is een moordzone waar een ongekende dichtheid aan ijsberen regeert, constant op zoek naar warm vlees om hun uitgehongerde magen te vullen. Muskusossen en walrussen leveren titanenstrijden op het ijs, in een ecosysteem dat geen enkele ruimte biedt voor zwakte. Je loopt over een bodem die bevroren karkassen en mastodontenskeletten verbergt, een permanente herinnering dat het eiland uiteindelijk alles verslindt.\n\nElke vorm van logistiek is een zelfmoordmissie tegen de overweldigende natuurkrachten. Kruiend pakijs vermaalt scheepsrompen alsof het luciferhoutjes zijn, terwijl ijzige stormen de temperaturen naar mensonterende diepten knuppelen. Hulp is een illusie die je hier onmiddellijk moet loslaten; één verkeerde stap op het verraderlijke ijs, één falend apparaat, en je wordt gereduceerd tot een anonieme, stijfbevroren statistiek. Op Wrangel word je niet gered, je wordt simpelweg genegeerd door een universum dat koud en vijandig is.",
       "floraFauna": "Dit eiland heeft de hoogste dichtheid ijsberenholen ter wereld (ook wel de kraamkamer van het noorden genoemd), walrussen en muskusossen.",
       "history": [
         {
@@ -2453,8 +2453,8 @@ export const islandsData = [
       "souvenirTip": "Mammoetslagtanden spoelen hier letterlijk aan op het strand (meenemen is echter streng verboden)."
     },
     "hazards": [
-      "Extreem veel, deels agressieve, ijsberen op een relatief klein gebied",
-      "Onvoorspelbaar en gevaarlijk kruiend pakijs"
+      "De ongekende, claustrofobische dichtheid van hyperagressieve ijsberen betekent dat elke stap buiten je schuilplaats een potentieel, bloeddorstig gevecht op leven en dood is.",
+      "Het onvoorspelbare, demonische kruiende pakijs verplettert moeiteloos schepen en snijdt je binnen seconden onherroepelijk af van elke kans op ontsnapping of redding."
     ],
     "media": {
       "countryCode": "ru",
@@ -2501,7 +2501,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Het Bikini Atol weigert te genezen. Genesteld in de Stille Oceaan, diende deze verzonken koraalring als testterrein voor de absolute destructie van de Koude Oorlog. Tussen 1946 en 1958 rukten drieëntwintig Amerikaanse waterstofbommen dit stukje aarde uiteen, wat de naam gaf aan het beruchte, 'explosieve' kledingstuk.\n\nRadioactiviteit regeert. Het koraal klampt zich vast aan een gemuteerde werkelijkheid, terwijl haaien patrouilleren rondom gezonken vlootresten die als spookachtige nucleaire erfenis op de zeebodem rusten. De straling heeft in decennia afwezigheid van mensen de natuur een ijzingwekkende reset gegeven.\n\nBetreed dit water op eigen risico. Hoge stralingsniveaus in de bodem maken consumptie van lokale gewassen suïcidaal. Je bevindt je duizenden kilometers van de bewoonde wereld, omringd door koraalriffen die stuurloze boten doorboren. Reddingoperaties in deze toxische stilte duren dagen, zo niet weken.",
+      "description": "Het Bikini Atol is een permanente, radioactieve litteken op het gezicht van de aarde, een gruwelijk monument van blinde, nucleaire arrogantie. Dit ooit idyllische koraalrif in de Stille Oceaan is door drieëntwintig Amerikaanse waterstofbommen genadeloos aan flarden gereten. Het is geen eiland meer, maar een gezonken mortuarium van een Koude Oorlog die hier zijn meest vernietigende potentieel botvierde. De grond, het water en de lucht dragen nog altijd het onzichtbare, dodelijke gif van deze catastrofale destructie.\n\nDe psychologische terreur van Bikini schuilt in de misleidende stilte en de onzichtbare dreiging. De totale afwezigheid van menselijk leven, verdreven door de dreiging van een trage, gruwelijke dood door stralingsziekte, zorgt voor een oorverdovende leegte. Het voelt als een post-apocalyptische nachtmerrie, waar de natuur langzaam terugkruipt, maar altijd zwaar gemuteerd en onherroepelijk besmet. Je geest kan de constante, sluimerende aanwezigheid van het dodelijke atoom niet negeren; het is een plek waar de echo's van massavernietiging resoneren in elke golf en elke koraalrif.\n\nDe brute fysieke realiteit is een giftig ecosysteem waarin haaien heersen over een onderwaterkerkhof. Zwaar gepantserde, roestende slagschepen rusten op de zeebodem, getuigen van nucleaire holocausts, nu ingenomen door een zeeleven dat gedijt op de as van menselijke fouten. De koralen lijken gezond, maar zijn doordrenkt met isotopen, een macaber bewijs dat Moeder Natuur een wrede, radioactieve reset heeft gekregen en haar domein met hand en tand verdedigt tegen de soort die het probeerde te vernietigen.\n\nElke poging tot menselijk bestaan hier is ronduit suïcidaal. Je bevindt je duizenden kilometers verwijderd van de bewoonde wereld, geïsoleerd op een toxische kluit kalksteen. Het kweken van voedsel is een garantie op interne verbranding door straling, en de koraalriffen vormen een ijzingwekkende barrière voor elke ontsnappingspoging. Mocht de natuur of het gif je hier te grazen nemen, dan is er geen redding; hulporganisaties deinzen terug voor de giftige erfenis die hier elke vorm van veiligheid volkomen tenietdoet.",
       "floraFauna": "De lagune wemelt van haaien en marien leven, dat merkwaardig genoeg floreert door de afwezigheid van mensen.",
       "history": [
         {
@@ -2520,8 +2520,8 @@ export const islandsData = [
       "souvenirTip": "Duikers mogen niets aanraken of meenemen uit de stralingszone van de scheepswrakken."
     },
     "hazards": [
-      "Reststraling: het is veilig om rond te lopen en te duiken, maar voedsel verbouwen of lokaal water drinken is nog steeds te gevaarlijk",
-      "Extreem veel haaien rondom de nucleaire vlootwrakken"
+      "Hoewel kortstondige blootstelling te overleven is, is de bodem zo doordrenkt met radioactieve isotopen dat het consumeren van lokaal voedsel of water een gegarandeerd, langzaam en pijnlijk doodvonnis door celvernietiging betekent.",
+      "De spookachtige, gezonken vloot van nucleaire testdoelen trekt een duizelingwekkende, moorddadige hoeveelheid haaien aan, waardoor elke duikexpeditie of poging om de wrakken te benaderen levensgevaarlijk wordt."
     ],
     "media": {
       "countryCode": "mh",
@@ -2568,7 +2568,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Kleine Diomede is een stenen vuist die op de Beringstraat inslaat. Gelegen op nauwelijks vier kilometer van zijn Russische grote broer, splijt dit ongenaakbare rotseiland de grens tussen de Verenigde Staten en Rusland. Dit is de Internationale Datumgrens; je kijkt letterlijk naar de onheilspellende toekomst.\n\nDe lokale bevolking houdt stug stand op een genadeloze klif. Inupiat jagers trotseren het verraderlijke ijs en speuren naar walrussen en ijsberen om te overleven. Echte vegetatie is een fabel; de enige levensbron wordt rechtstreeks uit de meedogenloze, ijskoude zee gerukt.\n\nMoordend ijswater en kogelharde stormen isoleren deze rots negen maanden per jaar van de rest van de wereld. Helikopters crashen in de verraderlijke wind en het zee-ijs is levensgevaarlijk onstabiel. Geopolitieke spanningen sudderen constant onder het ijs; één verkeerde stap over het water leidt rechtstreeks naar Russische detentie.",
+      "description": "Kleine Diomede is een grimmige stenen vuist die onverzettelijk oprijst uit de ijzige, moordende wateren van de Beringstraat. Dit ongenaakbare, kale rotseiland splijt de grens tussen twee wereldmachten en biedt een letterlijke, beklemmende blik in de toekomst. Met zijn schamele vier kilometer afstand van het grotere, Russische zuster-eiland, is dit de kille, geopolitieke frontlinie. Het is een oord dat menselijk bestaan tolereert noch koestert; het verdraagt slechts de weinigen die hard genoeg zijn om zich vast te klampen aan deze meedogenloze klif.\n\nDe mentale impact van Kleine Diomede is verstikkend. Bewoners zijn gedwongen te leven in een constante, sluimerende paranoia, beklemd tussen een ijskoude muur van oceaan en de dreigende, stille observatie van een vijandige natie. De isolatie is verpletterend; de wereld voelt onbereikbaar, afgesloten door dodelijke stormen en geopolitieke barrières. De wetenschap dat je letterlijk op de rand van de afgrond leeft, zonder enige kans op ontsnapping of externe warmte, vreet als een traag werkend gif aan de menselijke psyche.\n\nDe dagelijkse realiteit is een meedogenloze overlevingsstrijd, gedicteerd door honger en vorst. De lokale Inupiat jagers trotseren een vijandige, dodelijke zee, speurend naar walrussen in een wanhopige poging om calorierijk voedsel aan het verraderlijke ijs te ontrukken. Landbouw of normale infrastructuur is volstrekt afwezig; het eiland levert niets. Alles wat men nodig heeft om in leven te blijven, moet uit de kille en gewelddadige klauwen van de natuur getrokken worden, waarbij de dood door onderkoeling altijd op de loer ligt.\n\nDit eiland is negen maanden per jaar een afgesloten diepvrieskist. Orkaankrachtwinden en ondoordringbare ijsvlaktes snijden de gemeenschap bruut af van elke vorm van beschaving. Helikopters, de enige fragiele levenslijn, storten met de regelmaat van de klok neer, verbrijzeld door de nietsontziende stormen. Mocht je op het ijs de verkeerde richting kiezen of over de onzichtbare grens stappen, rest je niet anders dan arrestatie, Russische detentie of een naamloze, ijskoude dood in de kille Beringstraat.",
       "floraFauna": "Krabben, walrussen, zeehonden en de witte dolfijn (beloega) migreren langs dit eiland.",
       "history": [
         {
@@ -2587,8 +2587,8 @@ export const islandsData = [
       "souvenirTip": "Prachtig traditioneel Iñupiat ivoorsnijwerk, gemaakt van lokaal gevonden walrus-slagtanden."
     },
     "hazards": [
-      "In de winter vriest de oceaan volledig dicht, waardoor isolatie extreem is",
-      "IJsberen kunnen in de winter via het ijs het dorp binnenwandelen"
+      "De volledige bevriezing van de oceaan in de winter creëert een ondoordringbare, kille muur van ijs die het eiland voor negen maanden bruut afsluit van elke levenslijn, hulp of bevoorrading.",
+      "De uitgestrekte, dikke ijsvlaktes vormen in de winter een macabere snelweg waardoor hongerige, meedogenloze ijsberen rechtstreeks en onopgemerkt het dorp kunnen binnendringen op zoek naar prooi."
     ],
     "media": {
       "countryCode": "us",
@@ -2635,7 +2635,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Nauru is een uitgeholde ruïne van kapitalistische roofbouw. Ooit de rijkste micronatie ter wereld dankzij een eeuwenoude laag vogelpoep, is dit Pacifische eiland nu leeggeschraapt. Het landschap is opengescheurd door de meedogenloze winning van fosfaat en gereduceerd tot een grimmig en onbewoonbaar maanlandschap.\n\nTachtig procent van het binnenland is een verstikkende woestenij van messcherpe kalksteenpieken. Wat overblijft van de natuur is gedegradeerd en vervuild. De cultuur worstelt met de naweeën van plotselinge, explosieve rijkdom gevolgd door een onafwendbare, catastrofale ineenstorting.\n\nNauru balanceert op de rand van de afgrond. Buiten een smalle kuststrook is infrastructuur een mythe. Economisch verval trekt schimmige industrieën aan, de gezondheidszorg is schrijnend beperkt en stijgende zeespiegels dreigen de resterende bewoonbare randen meedogenloos op te slokken.",
+      "description": "Nauru is het ultieme, afschrikwekkende symbool van kapitalistische vraatzucht, gereduceerd tot een uitgeholde, toxische ruïne. Ooit badend in absurde rijkdom door de uitputting van millennia-oude vogelstront, is dit eiland nu een kaalgeschraapt lijk. De meedogenloze industriële exploitatie heeft het hart van het land systematisch aan gruzelementen gescheurd. Wat rest is geen eiland, maar een grimmig, post-industrieel massagraf van scherpe kalkstenen pieken, een wrede herinnering aan de fatale kortzichtigheid van ongebreidelde hebzucht.\n\nDe psychologische ravage is ongekend. De bewoners zijn gevangenen op hun eigen verwoeste thuisland, veroordeeld om dagelijks de desastreuze gevolgen van een genadeloze, ecologische zelfmoord onder ogen te zien. De klap van ongekende welvaart naar absolute, troosteloze armoede heeft de cultuur verlamd. Een verstikkend gevoel van uitzichtloosheid doordrenkt elke vierkante meter van het bewoonde randje. Depressie en apathie regeren in deze stervende maatschappij, die wanhopig vasthoudt aan de schamele overblijfselen van hun waardigheid, terwijl de wereld hen is vergeten.\n\nDe fysieke omgeving is ronduit mensonterend. Tachtig procent van het eiland is een onbegaanbare, zinderend hete woestenij van puntige, onherbergzame rotspartijen die elke stap tot een marteling maken. De grond is dor, het water is vervuild en de natuur heeft plaatsgemaakt voor een verstikkende laag stof en wanhoop. De weinige overgebleven vruchtbare stroken zijn zwaar overbevolkt en gedegradeerd. Om hier te overleven, moet men immuun zijn voor de stank van corruptie, verwaarlozing en ecologische ineenstorting.\n\nNauru staat op instorten. Zonder functionerende infrastructuur en met een schrijnend gebrek aan medische voorzieningen, is elke verwonding of ziekte een potentieel doodvonnis. Het faillissement van het eiland trekt schimmige, destructieve industrieën en detentiecentra aan, wat de ellende enkel vergroot. Ondertussen beuken stijgende zeespiegels genadeloos in op de smalle kustlijn, waardoor de laatst overgebleven, vervallen woonplaatsen onverbiddelijk dreigen te verdrinken in een kille, onverschillige oceaan.",
       "floraFauna": "Vrijwel alle oorspronkelijke vegetatie en fauna is vernietigd door de jarenlange mijnbouw.",
       "history": [
         {
@@ -2654,8 +2654,8 @@ export const islandsData = [
       "souvenirTip": "Een stukje ruw fosfaatgesteente (wat het land letterlijk en figuurlijk heeft gebroken)."
     },
     "hazards": [
-      "Extreem heet en stoffig door het uitgegraven binnenland",
-      "Zeer beperkte toeristische infrastructuur en voorzieningen"
+      "De systematische vernietiging van het landschap heeft het binnenland gereduceerd tot een verstikkende, stofrijke zonne-oven die temperaturen naar gevaarlijke, levensbedreigende hoogten stuwt.",
+      "Het absolute faillissement en de vernietiging van de omgeving zorgen voor een totaal gebrek aan voorzieningen en logistieke infrastructuur, wat elke vorm van noodhulp, medische zorg of veilige ontsnapping praktisch onmogelijk maakt."
     ],
     "media": {
       "countryCode": "nr",
@@ -2702,7 +2702,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Ogasawara is een geologisch Frankenstein-project, botweg uit het hart van de Stille Oceaan opgedoken. Deze archipel is nooit vastgeketend geweest aan enig continent en drijft als een verloren satelliet duizend kilometer ten zuiden van Tokyo. Het is een rauw litteken in een eindeloze watervlakte.\n\nIsolatie forceerde een bizar, onafhankelijk evolutiepad. Zwarte houtduiven, gigantische vleermuizen en oeroude varenwouden heersen over het terrein. Inheemse soorten bestaan hier niet om je te plezieren; ze overleven in een gesloten, keihard ecosysteem dat geen indringers tolereert.\n\nDe isolatie is verstikkend. Er is geen vliegveld; enkel een slopende, vierentwintig uur durende boottocht over open en stormachtige zee verbindt je met de rest van Japan. Medische noodsituaties zijn een doodvonnis door de reistijd. Tyfoons geselen de kusten regelmatig en snijden elke vorm van communicatie bruut af.",
+      "description": "De Ogasawara-eilanden zijn een wreed geologisch experiment, bruut afgescheurd uit de donkere diepten van de Stille Oceaan. Deze archipel, nooit verbonden met enig vasteland, dobbert als een rotsachtige buitenpost duizend kilometer ten zuiden van Tokyo. Het is een rauw litteken van prehistorische oorsprong, een plek die weigert zich aan te passen aan menselijke maatstaven. Deze eilanden ademen een vijandige, oeroude energie uit, waar de natuur heerst met een ijzeren vuist en geen enkele concessie doet aan de indringer.\n\nDe psychologische isolatie knijpt je langzaam de keel dicht. Zonder vliegveld ben je afhankelijk van een slopende, 24 uur durende, misselijkmakende oceaanreis die je definitief afsnijdt van de moderne wereld. Deze geografische quarantaine veroorzaakt een zwaar, beklemmend gevoel van opsluiting, waar elke verbinding met de buitenwereld flinterdun voelt. Je bent overgeleverd aan de genade van de natuurelementen; één fatale beslissing en je bent letterlijk overgelaten om weg te kwijnen op een rots zonder enige hoop op onmiddellijke evacuatie.\n\nHet ecosysteem is gesloten, ongenaakbaar en meedogenloos. Door de millennia van afzondering is er een bizarre, bijna buitenaardse natuur ontstaan. Gigantische vleermuizen domineren de nachten, en giftige inheemse diersoorten verdedigen agressief hun territorium. De flora is ondoordringbaar en weert elke menselijke poging tot comfort af. Hier leef je niet in harmonie met de natuur; je bent een kwetsbare prooi, constant strijdend tegen een kille omgeving die is geëvolueerd om indringers efficiënt te elimineren.\n\nDe risico's zijn omnipresent. Tyfoons geselen de archipel met apocalyptische regelmaat, waarbij ze zonder pardon kusten verwoesten en communicatielijnen vernietigen. Medische zorg is een wrede grap; de reistijd naar een fatsoenlijk ziekenhuis betekent dat een serieuze verwonding of hartaanval een gegarandeerde, langzame doodsangst is. Het is een oord waar het weer, het water en de topografie meedogenloos samenspannen om de zwakken genadeloos te verpletteren.",
       "floraFauna": "De ernstig bedreigde Boninvleerhond en de blauwe Ogasawara-houtduif.",
       "history": [
         {
@@ -2721,8 +2721,8 @@ export const islandsData = [
       "souvenirTip": "Zout uit Ogasawara of passievrucht-rum."
     },
     "hazards": [
-      "Ligt in een actieve tyfoon-zone",
-      "Extreem strikte quarantaineregels (om invasieve zaden aan schoenen of kleding te voorkomen)"
+      "De constante dreiging van apocalyptische tyfoons in deze actieve weer-hel betekent dat kusten, gebouwen en wegen structureel, zonder enige waarschuwing, bruut worden vernietigd.",
+      "De extreme quarantaineregels en isolatie zorgen ervoor dat een onschuldige besmetting of een simpele fysieke verwonding, bij gebrek aan onmiddellijke evacuatie en geavanceerde medische zorg, garant staat voor een fatale afloop."
     ],
     "media": {
       "countryCode": "jp",
@@ -2769,7 +2769,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Saint-Pierre en Miquelon is de laatste kille wurggreep van Frankrijk op het Noord-Amerikaanse continent. Dit stukje ruige graniet in de Noord-Atlantische Oceaan is een spookachtig restant van Nieuw-Frankrijk. Tijdens de Amerikaanse drooglegging was het de chaotische smokkelhoofdstad, gedrenkt in illegale alcohol en maffiageweld.\n\nBaskische, Bretonse en Normandische invloeden zijn vastgevroren in de botten van de bewoners. De archipel ademt een sombere, melancholische sfeer, gedomineerd door kille veengebieden en windgehavende kusten. De fauna bestaat uit zeevogels en walvissen die de ijskoude stromingen rondom het eiland trotseren.\n\nHet klimaat is meedogenloos; de winter vreet zich maandenlang in met orkaankracht en verlammende sneeuwstormen. Mistbanken zinken als beton op de haven neer, waardoor scheepvaart suïcidaal wordt. Infrastructuur is strikt gelimiteerd tot de hoofdzetel, daarbuiten regeert pure, levensgevaarlijke isolatie.",
+      "description": "Saint-Pierre en Miquelon is de laatste, stervende ademhaling van het Franse imperium op het Noord-Amerikaanse continent, vastgeklampt aan meedogenloos, ijskoud graniet. Tijdens de Amerikaanse drooglegging was dit eiland een in maffiageweld gedrenkte vrijhaven voor meedogenloze smokkelaars. Nu is het een kille, windgehavende buitenpost in de Noord-Atlantische Oceaan, een geïsoleerde rotsklomp die elke illusie van comfort verplettert onder het gewicht van een vergeten geschiedenis en een constante, gierende oceaanstorm.\n\nDe atmosfeer ademt een sombere, kille melancholie die rechtstreeks in de botten kruipt. Bewoners dragen de stugge, onverzettelijke mentaliteit van Baskische en Bretonse voorouders, gevormd door een brute omgeving die geen ruimte biedt voor zachtheid. De isolatie is een trage marteling, doordrenkt van een grijs, mistig pessimisme. Het is een plek waar de tijd is vastgevroren in een kille stilte, gedomineerd door troosteloze veengebieden en woeste golven die constant op de kust beuken, waardoor je geest wordt verlamd door de eenzaamheid van het Noord-Atlantische vacuüm.\n\nHet klimaat snijdt genadeloos door merg en been. Maandenlang heerst een brute winter met orkaankracht die de nederzettingen verstikt onder metershoge sneeuwstormen. Dit is een levensgevaarlijke, kille gevangenis; het weer dicteert overleven of ondergang. Zeevogels en walvissen, geharnast tegen de extreemste vorst, zijn de enige wezens die hier echt floreren, terwijl de menselijke bewoners krampachtig proberen te voorkomen dat ze worden weggevaagd door de ijzige, nietsontziende elementen.\n\nElke fout is terminaal. In de haven crashen schepen verblind door mistbanken zo dicht en zwaar als beton, die als een wurggreep over het eiland neerdalen. Infrastructuur beperkt zich louter tot de veilige zones van de hoofdzetel; daarbuiten regeert de meedogenloze, ongetemde wildernis. Wie zich op zee begeeft of verdwaalt in een sneeuwstorm, ontmoet onherroepelijk een snelle, ijzige dood, weggeslagen en vergeten in de brutale stromingen van een haatdragende oceaan.",
       "floraFauna": "Noordse sterns, zeehonden en bultruggen die hier in het voorjaar passeren.",
       "history": [
         {
@@ -2788,8 +2788,8 @@ export const islandsData = [
       "souvenirTip": "Franse wijn, patisserie en kaas (midden in Noord-Amerika)."
     },
     "hazards": [
-      "Extreem dichte, plotselinge mist (Grand Banks mist)",
-      "Verraderlijke stromingen en winterstormen"
+      "De sluipmoordende, plotselinge Grand Banks mist gooit een massieve, ondoordringbare deken over het eiland, wat navigatie op zee onmiddellijk in een dodelijk, blind raadspel verandert.",
+      "De verraderlijke, ijskoude oceaanstromingen en allesvernietigende winterstormen verpletteren onverhoeds elk schip, schroeven reddingspogingen terug naar nul en trekken slachtoffers zonder pardon de diepte in."
     ],
     "media": {
       "countryCode": "pm",
@@ -2836,7 +2836,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Lord Howe is de vulkanische ruggengraat van een prehistorisch monster. Deze uitgedoofde schildvulkaan boort zich agressief door de oppervlakte van de Tasmanzee. Het is een bolwerk van basalt en kliffen dat zich weigert te onderwerpen aan de moderne vooruitgang.\n\nEen meedogenloos quotum dwingt af dat de menselijke voetafdruk hier in toom wordt gehouden. Prehistorische bomen, endemische insecten en agressieve zeevogelkolonies dicteren de wetten van de jungle. Dit bos geeft geen millimeter toe; de natuurlijke orde heerst met ijzeren hand over de rotsachtige valleien.\n\nDe topografie is dodelijk. Verticale, spekgladde basaltrotsen en verraderlijke afgronden maken elke expeditie buiten de gebaande paden levensgevaarlijk. Plotselinge oceaanstromingen en grillige weersystemen sluiten het eiland zonder genade af. Zonder infrastructuur in het binnenland ben je volkomen aan jezelf overgeleverd.",
+      "description": "Lord Howe is de meedogenloze, vulkanische ruggengraat van een prehistorisch monster, botweg omhoog gesmeten uit de duistere diepten van de Tasmanzee. Dit bolwerk van basalt en messcherpe kliffen tolereert de moderne beschaving absoluut niet. Het is een oeroud, geïsoleerd heiligdom dat met brute kracht de tand des tijds weerstaat, en weigert te buigen voor de gemakken van de mensheid. Elke korrel zand, elke rotsformatie op deze uitgedoofde schildvulkaan is doordrongen van een agressieve, ontembare levenskracht.\n\nDe constante druk van strenge quota's houdt de menselijke aanwezigheid in een ijzeren wurggreep, waardoor de bewoners niet heersen, maar slechts gedoogd worden. Deze verstikkende regelgeving en afzondering dwingen je tot nederigheid ten opzichte van een onvermurwbare, vijandige jungle. Je wordt constant herinnerd aan je eigen, kwetsbare tijdelijkheid; het besef dat je slechts één fatale misstap verwijderd bent van totale overgave aan een oerwoud dat je zonder enige wroeging zal opslokken. De psychologische belasting van overleven onder de absolute dictatuur van de natuur knaagt aan je fundamentele gevoel van suprematie.\n\nDe fysieke realiteit is een constante worsteling. Prehistorische bomen, endemische, agressieve insecten en duizenden krijsende zeevogels bepalen hier de ijzeren wetten van het bestaan. Verticaal oprijzende, dodelijk gladde basaltrotsen transformeren elke simpele wandeling in een suïcidale klauterpartij over wankele afgronden. De natuur geeft nul millimeter toe, verbrijzelt menselijke botten bij de minste uitschuiver en snijdt je pad af met ondoorgrondelijke, verstikkende vegetatie.\n\nInfrastructuur en ontsnapping zijn loze beloften. Buiten de gebaande paden ben je overgeleverd aan meedogenloze, onvoorspelbare oceaanstromingen en gewelddadige, plotselinge weersystemen die het eiland van de rest van de planeet isoleren. Een simpele fietstocht op smalle, verraderlijke paden kan leiden tot een botsing met loslopend, wild leven of een fatale val in een ravine. Hulp arriveert hier nooit op tijd; de ruwe, onvergeeflijke geografie dicteert dat fouten onvermijdelijk worden bestraft met definitieve uitschakeling.",
       "floraFauna": "Het zuidelijkste koraalrif ter wereld en de bedreigde, reusachtige boomkreeft (Lord Howe-wandelende tak).",
       "history": [
         {
@@ -2855,8 +2855,8 @@ export const islandsData = [
       "souvenirTip": "De Kentia-palm, een iconische kamerplant die wereldwijd geëxporteerd werd vanaf dit eiland."
     },
     "hazards": [
-      "Strenge natuurbeheer-regels; het onbedoeld introduceren van zaden of insecten is strafbaar",
-      "Fietsen is het hoofdvervoermiddel, pas op voor loslopend wild op de smalle paden"
+      "De draconische, ijzeren natuurbeheer-regels maken elke kleine fout of introductie van vreemd materiaal tot een criminele misdaad, waarbij de natuur je net zo hard bestraft als het rechtssysteem.",
+      "Het verplichte gebruik van onstabiele fietsen over smalle, dodelijke paden, gecombineerd met onvoorspelbaar, overstekend wildleven, garandeert constante, abrupte en zware valpartijen op de scherpe basaltstenen."
     ],
     "media": {
       "countryCode": "au",
@@ -2903,7 +2903,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Henderson Island is een macaber monument voor menselijk falen. Dit steile, onbewoonde kalksteenplateau rijst op uit de Stille Oceaan als een onneembare vesting. In plaats van ongerepte natuur, spoelt de genadeloze gyre van de Zuidelijke Stille Oceaan hier onvoorstelbare bergen toxisch, industrieel plastic afval aan de kusten.\n\nBovenop de vlijmscherpe rotsen klampen endemische vogels en ongewervelden zich krampachtig vast aan het bestaan. Het kalksteenbos vormt een claustrofobisch, schier ondoordringbaar netwerk. De natuurlijke strijd om grondgebied wordt dagelijks bemoeilijkt door de verstikkende invloed van de aangespoelde synthetische massa.\n\nLanden is vrijwel onmogelijk. Messcherpe koraalriffen verscheuren romp en huid. Zodra je aan land bent, is er nul zoet water, geen paden en geen schaduw, terwijl de brandende zon en verstikkende vochtigheid genadeloos terugslaan. Hulp halen is geen optie; redding is in deze uithoek onbereikbaar.",
+      "description": "Henderson Island is een grotesk, dystopisch graf voor de overblijfselen van de mensheid, omhoog geduwd uit de Stille Oceaan als een vlijmscherp, onneembaar kalksteenplateau. In plaats van een ongerept toevluchtsoord, fungeert het als het ultieme stortputje van de aarde, waar de Zuidelijke Stille Oceaan met meedogenloos geweld onvoorstelbare bergen toxisch, industrieel plastic uitkotst. Dit eiland is de lugubere, rottende spiegel van onze fatale hebzucht, een grimmige confrontatie met het vergif dat de beschaving achteloos in de oceanen braakt.\n\nDe psychologische terreur is misselijkmakend. Wie hier aanspoelt, staart direct in de doodsangst van de menselijke zelfdestructie. Bovenop de vlijmscherpe, onbegaanbare rotsen voelt de isolatie absoluut en definitief; een kille cel zonder tralies maar vol synthethisch afval dat je elke hoop ontneemt. Het besef dat je sterft op een onbewoond, schijnbaar ongerept eiland te midden van de kapotgescheurde troep en verrotte plastics uit de moderne wereld, is een mentale marteling die geen enkele menselijke geest heel laat.\n\nDe overlevingskansen op het eiland zijn nihil, de fysieke vijandigheid is absoluut. Het makatea, een claustrofobisch labyrint van dodelijk, puntig koraalrots, scheurt je laarzen en voeten binnen enkele stappen tot bloedens toe open. Er is geen zoet water, geen enkele schaduw om je te verbergen, en de zon brandt gaten in je bewustzijn terwijl de verstikkende vochtigheid de laatste druppels energie uit je lichaam wringt. Dieren en zeldzame vogels vechten hier dagelijks een waanzinnige, suïcidale strijd om te overleven te midden van dodelijke plastic valstrikken.\n\nLanden op Henderson is een daad van absolute wanhoop. De zee smijt boten zonder genade tegen messcherpe, koraalriffen die rompen splijten alsof het papier is. Zodra debranding je wegslaat, rest je geen communicatie, geen pad en geen enkele ontsnappingsroute. Redding bestaat simpelweg niet in dit verlaten, vergiftigde hoekje van de planeet; de oceaan heeft dit eiland gemarkeerd als een zone waar menselijk falen enkel beloond wordt met een anonieme, afschuwelijke dood.",
       "floraFauna": "De loopvogel Hendersonral en de Hendersonlori (een felgekleurde papegaai).",
       "history": [
         {
@@ -2922,8 +2922,8 @@ export const islandsData = [
       "souvenirTip": "Je mag hier niet aan land komen om dingen mee te nemen. (Als je iets meeneemt, laat het dan plastic afval zijn)."
     },
     "hazards": [
-      "Extreem scherp, verweerd kalksteen (makatea) dat wandelen vrijwel onmogelijk maakt",
-      "Sterke, onvoorspelbare branding op het omringende koraalrif"
+      "Het extreem scherpe, verweerde kalksteen, makatea, transformeert elke stap tot een pijnlijke marteling die vlees en botten met chirurgische precisie opensnijdt en infecties onvermijdelijk maakt.",
+      "De sterke, onvoorspelbare branding op het koraalrif scheurt elke boot uiteen, trekt je meedogenloos onder water en plet je lichaam tegen het vlijmscherpe koraal."
     ],
     "media": {
       "countryCode": "pn",
@@ -2970,7 +2970,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Attu is het onbarmhartige, bevroren uiteinde van het Amerikaanse imperium, weggesmeten op de rand van de Beringzee. Het strekt zich zo ver westelijk uit dat de klok breekt en het oostelijk halfrond binnendringt. Geteisterd door zware gevechten tijdens de Tweede Wereldoorlog, is het nu gereduceerd tot een luguber spookeiland.\n\nRoestige artillerie, vergane munitiedepots en massagraven domineren de meedogenloze toendra. De kou en aanhoudende wind snijden door het dunne overgebleven groen heen, terwijl uitsluitend geharde zeevogels en zeehonden zich in de ijskoude schaduw van verwoeste militaire installaties nestelen.\n\nAttu weert elk menselijk leven af. Met het verdwijnen van de Amerikaanse Kustwacht verdween elke reddingslijn. Barbaarse Aleoetische orkanen rammen constant op de kusten in, de bevroren modder verzwelgt voetstappen en de dichtheid van explosieve oorlogsresten maakt elke vierkante meter tot een potentiële dodenval.",
+      "description": "Attu is het bevroren, bebloede uiteinde van de menselijke arrogantie, een luguber spookeiland weggesmeten in de uithoeken van de stormachtige Beringzee. Ooit het brute decor van bloedige, meedogenloze confrontaties tijdens de Tweede Wereldoorlog, is dit terrein nu overgeleverd aan de roest en de dodelijke, kille elementen. Dit eiland doorbreekt ruw de internationale datumgrens en biedt niets anders dan een eindeloze vlakte vol vergane munitiedepots, verroeste artillerie en verborgen massagraven. Het verleden bloedt hier onophoudelijk door de grauwe modder naar de oppervlakte.\n\nPsychologisch is Attu een inktzwarte leegte, doordrenkt van een sinistere, gewelddadige echo. Zonder enige reddingslijn, verlaten door de mensheid na het vertrek van de Amerikaanse Kustwacht, word je hier overweldigd door een diepe, verstikkende hopeloosheid. Het besef dat je deelt bent van een macaber, verlaten slagveld, waar jonge mannen stierven in de gruwelijke vorst, drijft elke verkenner tot waanzin. De afwezigheid van warmte, beschaving of enig vorm van troost vermorzelt resoluut elke rest van menselijke vitaliteit.\n\nDe fysieke realiteit is een constante aanslag op het zenuwstelsel en het lichaam. De meedogenloze Aleoetische toendra slikt alles op; onophoudelijke, orkaankrachtige winden snijden botten bloot en vrieskou verlamt je ledematen. Je wordt omringd door geharde, harteloze zeevogels en rottende, militaire littekens. Elke modderige voetstap is een gevecht tegen de onverzettelijke, koude aarde, die weigert je te ondersteunen en je liefst onmiddellijk terugtrekt in haar ijskoude, zwarte diepte.\n\nOverleven is hier een waanzinnige roulette-game. Het verraderlijke, instabiele weer spuugt constante, verstikkende sneeuwstormen en dichte, desoriënterende mist uit, waardoor elke vorm van redding of oriëntatie radicaal onmogelijk is. Onder het schaarse overgebleven groen en in de bevroren modder liggen onzichtbare blindgangers te wachten om hun fatale, verwoestende kracht los te laten, waardoor elke vierkante meter van het eiland een gegarandeerde, dodelijke valstrik blijft.",
       "floraFauna": "Massale hoeveelheden zeevogels (vooral unieke Aziatische dwaalgasten) en fjorden vol kelpbossen.",
       "history": [
         {
@@ -2989,8 +2989,8 @@ export const islandsData = [
       "souvenirTip": "Vogelspotters nemen alleen foto's mee van zeldzame Aziatische vogels die uit koers zijn geraakt."
     },
     "hazards": [
-      "Blindgangers en explosieven uit de Tweede Wereldoorlog",
-      "Extreem grimmig weer: sneeuwstormen, zware regen en mist zijn constant"
+      "Talloze onzichtbare blindgangers en explosieven uit de Tweede Wereldoorlog liggen verborgen onder de grond, gereed om met verwoestende kracht te ontploffen onder je voeten en je in stukken te rijten.",
+      "Het extreem grimmige, suïcidale klimaat, gekenmerkt door constante, dichte mist en meedogenloze sneeuwstormen, snijdt elk zicht af en drijft je genadeloos en onverbiddelijk de dodelijke wildernis in."
     ],
     "media": {
       "countryCode": "us",
@@ -3037,7 +3037,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "De Zuidelijke Sandwicheilanden vormen een apocalyptische boog van elf uitbarstende, gletsjer-bedekte vulkanen, rechtstreeks in de kille hel van de Zuidelijke Oceaan. Deze vulkanische toppen scheuren met bruut geweld door de zee, onbeschermd tegen de extreemste weersomstandigheden van de planeet.\n\nAlleen het rauwste leven verdraagt deze marteling. Macaronipinguïns, stormvogels en pelsrobben klampen zich vast aan vlijmscherpe basaltkliffen tussen stinkende zwaveldampen en brullende winden. Elke centimeter overleven is een bloedige, instinctieve strijd om beschutting in een kille, onherbergzame woestenij.\n\nDit is de absolute antithese van veiligheid. Kokende modderpoelen en giftige gassen wachten op het land, terwijl afbrokkelende gletsjers en losgeslagen ijsbergen schepen verpletteren in de moordende golven van de Furious Fifties. Logistiek en redding bestaan hier niet; de oceaan verslindt je geruisloos.",
+      "description": "De Zuidelijke Sandwicheilanden vormen de gruwelijke tanden van de aarde, een apocalyptische boog van elf uitbarstende, meedogenloze vulkanen die door de ijskoude golven van de Zuidelijke Oceaan scheuren. Hier regeert de chaos; dit is een helse strijdperk waar vuur en ijs met bot, vernietigend geweld botsen. Onbeschermd tegen de extreemste en meest agressieve weersomstandigheden op onze planeet, is deze rotsachtige archipel het absolute dieptepunt van brute, onherbergzame natuurkrachten. De lucht ruikt naar zwavel, verderf en onverschilligheid.\n\nDe mentale marteling op deze eilanden is ongeëvenaard. Je wordt verpletterd door een gevoel van absolute en onomkeerbare onbeduidendheid, een nietig organisme te midden van exploderende gletsjers en uitspuwende lavastromen. Het gebrek aan enige stabiele ondergrond en de oerkrachten die continu om je heen brullen, induceren een acute, verlammende paniek. Je bevindt je duizenden kilometers verwijderd van redding of sympathie, overgeleverd aan een kille, ongenaakbare demonische afgrond die enkel uit is op je onmiddellijke vernietiging.\n\nHet landschap zelf is een actieve moordmachine. Macaronipinguïns en stormvogels vechten een bloedige, suïcidale strijd op vlijmscherpe, toxische basaltkliffen, bedekt door de giftige stank van vulkanische uitstoot. Kokende modderpoelen en giftige gaspluimen wachten geduldig af om de roekeloze bezoeker levend te verbranden of te verstikken. Alleen het allerhardste, meest primitieve leven weet hier, gehavend en gewond, krampachtig stand te houden op de rand van de dood.\n\nElke nadering is pure zelfdestructie. De Furious Fifties beuken met massieve, moordende golven tegen onstabiele gletsjers, resulterend in monsterlijke, losgeslagen ijsbergen die schepen met demonisch gemak verbrijzelen. Katabatische stormen raspen de huid van je botten en sleuren je meedogenloos van de kliffen de kolkende zee in. Hier bestaan logistiek, redding of hoop niet; de oceaan eist haar offers op en verslindt alles wat durft te leven in dit uitbarstende inferno.",
       "floraFauna": "Thuisbasis van miljoenen pinguïns (waaronder kinbandpinguïns) die broeden op warme vulkanische as.",
       "history": [
         {
@@ -3056,8 +3056,8 @@ export const islandsData = [
       "souvenirTip": "Zelfs een kleine vulkanische rots meenemen is verboden i.v.m. de Antarctische verdragen."
     },
     "hazards": [
-      "Actieve vulkanen onder zware ijskappen en gletsjers",
-      "Extreme ijsbergen, katabatische stormen en agressieve zeestromingen"
+      "Actieve, furieuze vulkanen, verscholen onder massieve ijskappen, barsten onverwachts uit, resulterend in een helse cocktail van smeltend ijs, giftige dampen en destructieve lavastromen die alles levend verbranden.",
+      "De meedogenloze Furious Fifties produceren kolossale, vernietigende ijsbergen, katabatische orkaanwinden en agressieve stromingen die zonder wroeging elk schip en elke hoop op evacuatie verbrijzelen."
     ],
     "media": {
       "countryCode": "gs",
@@ -3104,7 +3104,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Juan de Nova is een zinderende zandbank in de Straat van Mozambique, met een wurgend Frans bezitsrecht geprint in het koraal. Bemanningsleden van het meedogenloze Franse Vreemdelingenlegioen bewaken deze zes vierkante kilometer als een zwaarbewapende buitenpost om strategische dominantie te forceren.\n\nVogelstront, botten en scheepswrakken bepalen het ritme van het leven. Gigantische kolonies sterns bombarderen het eiland met guano, terwijl schildpadden de stranden bevolken. De roestige skeletten van gestrande schepen markeren de verraderlijke omringende koraalriffen.\n\nHet eiland is een zinderende, geïsoleerde valstrik. Geen commerciële routes, geen ontsnapping. Piraterij ligt op de loer in de nabijgelegen wateren, en de Franse troepen dulden absoluut geen onbevoegden op hun terrein. Wie hier strandt, wordt geconfronteerd met loden hitte, agressieve stormen en nul maatschappelijke voorzieningen.",
+      "description": "Juan de Nova is een verstikkende, zinderende zandbank, hardvochtig vastgezet in de verraderlijke Straat van Mozambique. Dit eiland, een kille, Franse koloniale greep, is een strategische buitenpost, bewaakt door de afgestompte, zwaarbewapende militairen van het beruchte Vreemdelingenlegioen. Het eiland verdraagt geen vrede; het ademt geopolitieke paranoia en militaire dreiging uit. Wat op de kaart lijkt op een oase, is in werkelijkheid een verstikkend heet, claustrofobisch fort waar elke buitenstaander direct en ongenadig als een dodelijke vijand wordt beschouwd.\n\nDe mentale isolatie is hier een stille, trage wurggreep. Je bevindt je geïsoleerd op een minuscuul zandoppervlak, dag in dag uit overgeleverd aan meedogenloze hitte, stank en gewapende routine. De paranoïde blik van de soldaten en het absolute gebrek aan burgerlijk leven of comfort, creëren een macabere, dystopische sfeer. De geest wordt gesloopt door de monotonie van het patrouilleren, de dreiging van kapers en het meedogenloze zonlicht dat als een laser in je schedel brandt, waardoor waanzin altijd op de loer ligt.\n\nDe fysieke realiteit is rauw, hard en stinkend. Het leven ritme wordt hier gedicteerd door miljoenen sterns die het koraal bombarderen met verstikkende, rottende lagen guano. Skeletten van gestrande, door het koraal opengereten schepen markeren de kustlijn als een luguber testament van de dodelijke, verraderlijke riffen. Hitte-uitputting, uitdroging en de agressieve natuur maken elke vorm van overleving op dit militaire stukje rots een wanhopige, fysieke marteling.\n\nVoor wie hier verdwaalt of aanspoelt, wacht niets dan pure vijandigheid. Het water wemelt van moorddadige, piraten bendes en haaien. De Franse troepen hanteren een beleid van meedogenloze uitsluiting; geen enkele bezoeker wordt geduld. Zonder burgerlijke infrastructuur, medische zorg, commerciële scheepsroutes of enige ontsnappingsmogelijkheid, blijf je overgeleverd aan dodelijke tropische ziekten, loden stormen en de kille, gewelddadige wetten van een militaire, wetteloze zandbank.",
       "floraFauna": "De grootste broedkolonie van roetsterns in de Indische Oceaan (meer dan 2 miljoen vogels).",
       "history": [
         {
@@ -3123,8 +3123,8 @@ export const islandsData = [
       "souvenirTip": "Guano (vogelpoep), wat hier vroeger intensief werd gedolven en de overblijfselen van de mijninfrastructuur achterliet."
     },
     "hazards": [
-      "Piraterij in de omliggende wateren van het kanaal",
-      "Malaria is (historisch) een serieus risico geweest op dit vochtige atol"
+      "De anarchistische, door piraten vergeven wateren rondom dit geïsoleerde koraalrif garanderen dat elke schipbreuk of nadering je blootstelt aan brute, meedogenloze roofovervallen en grof geweld.",
+      "Het verstikkende, vochtige klimaat fungeert als de perfecte kraamkamer voor malaria, een ziekte die je hersens langzaam kookt en, bij gebrek aan enige adequate medische hulp, onherroepelijk dodelijk is."
     ],
     "media": {
       "countryCode": "tf",
@@ -3171,7 +3171,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Beren-eiland is een geïsoleerde baksteen van pure ellende, weggesmeten in de meedogenloze Barentszzee. Het bewaakt agressief de zuidelijke flank van de Svalbard-archipel. Verpletterd door zee-ijs in de winter en gewurgd door verstikkende, dodelijke zeemist in de zomer.\n\nKale, gehavende kliffen vallen loodrecht de diepte in. Dit is het domein van miljoenen krijsende zeevogels en hongerige poolvossen die azen op elk zwak moment. Vegetatie is gereduceerd tot korstmossen die op de ijskoude bodem vechten om een greintje daglicht in deze grauwe schemering.\n\nDe mist is moordend. Zicht verdampt in seconden door botsende ijs- en oceaanstromen, waardoor schepen verblind op onzichtbare kliffen te pletter slaan. Enkel een norse Noorse weerpost bemant deze ellende. Val hier overboord en het ijskoude, zwarte water trekt je onmiddellijk in een dodelijke, onderkoelde greep.",
+      "description": "Beren-eiland, of Bjørnøya, is een lugubere baksteen van pure, ijzingwekkende ellende, achteloos gedumpt in de meedogenloze Barentszzee. Het bewaakt agressief en onverzettelijk de grens van Svalbard, en wordt de helft van het jaar totaal verpletterd onder de massieve, ijzige druk van kruiend zee-ijs, terwijl de rest van het jaar een wurgende, dikke, grauwe mist alles aan het zicht onttrekt. Dit is een terrein dat leven actief verwerpt en afstraft, een ijzige, troosteloze rotspunt zonder enige belofte van warmte of mededogen.\n\nDe psychologische kwelling is absoluut en verpletterend. De duisternis, de kille schemering en de isolatie knagen genadeloos aan je verstand, waardoor depressie onontkoombaar wordt. Je wordt omringd door onzichtbare gevaren; de onophoudelijke brul van miljoenen krijsende zeevogels klinkt als de wanhoopskreten van de verdoemden. Enkel een handjevol knarsende Noorse meteorologen weerstaat de drang tot waanzin in deze donkere, vijandige afgrond, ver weg van enige menselijke connectie of emotionele stabiliteit, geïsoleerd op een rots die weigert compassie te tonen.\n\nDe grimmige fysieke realiteit biedt geen schuilplaats. Kale, weggeslagen kliffen donderen loodrecht de peilloze, pikzwarte diepte in. Hongerige poolvossen schuimen het troosteloze rotslandschap af, op zoek naar een verzwakte prooi of een kadaver in de bittere, verstikkende kou. Vegetatie is gereduceerd tot hardnekkige, bevroren korstmossen. Alles hier ademt overleving in de meest ruwe en afstotelijke vorm; het weer slaat op je in met orkaankracht en snijdt door elke laag kleding heen.\n\nDe weersomstandigheden transformeren het eiland in een gigantisch, koud moordwapen. Een moordende, zware zeemist daalt zonder waarschuwing neer, waardoor onwetende scheepsbemanningen in luttele seconden blindelings op de dodelijke klippen te pletter slaan. Wie in dit demonische, ijzige water valt, heeft geen schijn van kans; het onderkoelde, zwarte oceaanwater rukt binnen minuten de adem uit je longen. Reddingsoperaties in deze onbereikbare hel zijn vertraagd door extreme afstanden, waardoor elke val in het water neerkomt op een zekere, eenzame verdrinkingsdood.",
       "floraFauna": "Massale kliffen vol zeevogels. Ondanks de naam komen er nauwelijks nog ijsberen voor (het zee-ijs reikt vaak niet meer zover zuidelijk).",
       "history": [
         {
@@ -3190,8 +3190,8 @@ export const islandsData = [
       "souvenirTip": "De legendarische (en schaarse) amateurradio-stempel van het Bjørnøya station."
     },
     "hazards": [
-      "De steile kliffen en constant natte, gladde en koude omstandigheden",
-      "Isolatie: een schip sturen voor reddingsacties kan dagen duren"
+      "De massieve, gladde en natte kliffen vereisen perfecte precisie; één misstap op deze dodelijke, ijskoude randen lanceert je genadeloos en definitief in een gapende afgrond van gebroken botten en ijswater.",
+      "De extreme isolatie op dit afgelegen Noorse buitenstation betekent dat reddingspogingen lachwekkend vertraagd zijn; een simpele verwonding, onderkoeling of een val eindigt gegarandeerd fataal lang voor hulp in zicht is."
     ],
     "media": {
       "countryCode": "sj",
@@ -3238,7 +3238,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "De Aucklandeilanden zijn een meedogenloze, vulkanische eilandengroep diep in de Zuidelijke Oceaan. Bekend als de 'Eilanden van Wanhoop', dragen ze de littekens van brute scheepswrakken en genadeloze, mislukte kolonisatiepogingen uit de 19e eeuw. Dit is een plek waar menselijke ambitie breekt op graniet.\n\nHet landschap herbergt een stugge mix van zeldzame albatrossen en kolonies zeeleeuwen die vechten voor ruimte op de winderige rotsen. Subantarctische wouden van kromgegroeide rata-bomen klampen zich vast aan steile hellingen en weerstaan constant de zware stormen.\n\nDe gevaren zijn onverbiddelijk: ijskoude windkracht tien, verraderlijke riffen en nul infrastructuur. Verwijderd van elke reddingsroute is navigatie rond deze eilanden een dodelijk gokspel in een van de wildste en meest onvoorspelbare oceanen ter wereld.",
+      "description": "De Aucklandeilanden zijn een kille, godverlaten archipel van vulkanisch gesteente, verzwolgen door de meedogenloze Zuidelijke Oceaan. Dit is geen plek voor de zwakken; het is een massief, genadeloos mausoleum voor elke dwaas die dacht de natuur hier te kunnen temmen. De geschiedenis van deze eilanden is doordrenkt met het zweet en bloed van schipbreukelingen die kapotsloegen op de gitzwarte kliffen, hopeloos wachtend op een redding die nooit kwam. Hun botten rotten weg onder de ijskoude, met zout doordrenkte aarde, als stille getuigen van een fundamentele, brute nutteloosheid.\n\nDe psychologische impact van deze onmetelijke isolatie is verstikkend en scheurt de menselijke geest langzaam aan flarden. Er is geen ontsnapping aan de eeuwigdurende, verblindende mist en het sadistische gebrul van de wind. Wie hier strandt, wordt geconfronteerd met een abjecte eenzaamheid die alle hoop en rede vermorzelt. Elke dag is een destructieve strijd tegen de elementen, een helse spiraal waarin de gedachte aan een buitenwereld verandert in een wrange, pijnlijke hallucinatie.\n\nHet fysieke bestaan op de eilanden is pure, onversneden marteling. De grond is een verraderlijk, rottend moeras van ijskoude veenmodder die zich als een parasiet aan je ledematen vastzuigt. Vriestemperaturen snijden als scheermessen door kleding en vlees, terwijl stormen van een apocalyptische omvang elke vorm van beschutting in een oogwenk aan stukken scheuren. Zelfs de flora is gemuteerd; misvormde rata-bomen klampen zich krampachtig vast aan de steile flanken, als knokige vingers van de doden.\n\nOm hier te overleven, moet men zijn menselijkheid volledig afleggen en transformeren tot iets even hards en onverschillig als de granieten rotsen. Er is geen genade, geen empathie; enkel de koude, berekende logica van zelfbehoud in een omgeving die actief probeert elke indringer te vernietigen. Het is een oord waar de menselijke beschaving sterft en de brute, primitieve chaos heerst in zijn meest zuivere, angstaanjagende vorm.",
       "floraFauna": "Gigantische rätäl-bossen en een cruciaal broedgebied voor de Nieuw-Zeelandse zeeleeuw en geeloogpinguïns.",
       "history": [
         {
@@ -3257,8 +3257,8 @@ export const islandsData = [
       "souvenirTip": "Puur beschermd natuurreservaat. Alles, zelfs een leeg schelpje, moet achterblijven."
     },
     "hazards": [
-      "Ijskoude moerasachtige modder ('peat') waarin je kunt wegzakken",
-      "Woeste 'Furious Fifties' winden die boten op de rotsen kunnen slaan"
+      "De ijskoude, bodemloze veenmodder functioneert als een dodelijk drijfzand dat onoplettenden genadeloos opslokt en laat stikken in een ijzige, donkere hel.",
+      "De apocalyptische 'Furious Fifties' winden genereren monsterlijke, verpletterende golven die elk naderend schip met sadistisch plezier op de granieten rotsen aan splinters slaan."
     ],
     "media": {
       "countryCode": "nz",
@@ -3305,7 +3305,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Tofua is een ruw, perfect cirkelvormig vulkaaneiland in de Stille Oceaan dat brandt met de woede van de rokende krater Lofia. De geschiedenis schrijft dit vast als de brute landingsplaats van Kapitein Bligh na de gruwelijke Muiterij op de Bounty. Geen beschutting, enkel stenen en as.\n\nIn het midden ligt een massief, donker zoetwatermeer, omringd door dichte vegetatie die onophoudelijk vecht tegen vulkanische uitstoot. Roofvogels en verdwaalde zeedieren vormen de enige levenskracht in dit verwoeste landschap, waar de vulkaan de ultieme machthebber is.\n\nToegang vereist levensgevaarlijke tochten langs scherpe rotskliffen zonder enige veilige haven. Constante dreiging van vulkaanuitbarstingen, giftige gassen en complete isolatie maken logistiek hier vrijwel onmogelijk.",
+      "description": "Tofua is een ruw, perfect cirkelvormig vulkanisch hellegat in de Stille Oceaan, gedomineerd door de rokende, woedende krater Lofia die de aarde onophoudelijk verschroeit. Dit is de genadeloze rotspunt waar Kapitein Bligh aanspoelde na de gruwelijke muiterij op de Bounty, enkel om te ontdekken dat deze plek dodelijker was dan de oceaan zelf. De geschiedenis van het eiland is in as geschreven; een getuigenis van pure, rauwe overlevingsdrang op een stuk land dat weigert menselijk leven te tolereren. Het is een eiland dat actief bloedt en ademt met vulkanische woede.\n\nDe isolatie op Tofua vreet als een onzichtbaar zuur aan de menselijke psyche. Gevangen op een cirkel van scherpe rotsen en dodelijke asvelden, slaat de realiteit van absolute afzondering in als een hamer. Er is geen horizon die hoop biedt, enkel de eindeloze, spottende oceaan en de verstikkende stank van zwavel die de longen verzengt. De constante dreiging van erupties creëert een permanente staat van paranoia, een psychologische foltering waarbij elke rilling van de aarde de voorbode kan zijn van een vurige dood.\n\nLeven op dit eiland is een abjecte strijd tegen de elementen, waarbij het giftige, donkere zoetwatermeer in de krater de enige, verraderlijke waterbron vormt. De vegetatie is een knoestige, veerkrachtige jungle die voortdurend wordt verstikt door asregens en brandende gassen. Er is nergens een zachte landing, geen zandstrand of veilige baai; de kustlijn bestaat uit vlijmscherpe, gekartelde lava-rotsen die kliffen vormen. Het is een topografie ontworpen om elke benadering af te straffen en elke vorm van comfort te vernietigen.\n\nElke stap op Tofua is een berekend risico tegenover de destructieve kracht van Lofia, die als een wraakzuchtige god de lucht vergiftigt met dodelijke dampen. De weinige organismen die hier overleven, dragen de littekens van een continue, brute evolutie in een vuuroven. Dit eiland duldt geen zwakte, geen aarzeling; het vereist een primitieve, nietsontziende overlevingsdrift om stand te houden op de flanken van een tikkende vulkanische tijdbom.",
       "floraFauna": "Wilde varkens, kokosnootbomen en tropische vegetatie die floreert op de vruchtbare, vulkanische as.",
       "history": [
         {
@@ -3324,8 +3324,8 @@ export const islandsData = [
       "souvenirTip": "Kava-wortels, die in de vruchtbare caldera verbouwd worden."
     },
     "hazards": [
-      "De actieve Lofia-krater barst regelmatig uit en stoot giftige gassen uit",
-      "Er is nergens een strand; je moet direct vanaf een vissersboot op scherpe rotsen springen"
+      "De actieve Lofia-krater fungeert als een onvoorspelbare tijdbom die regelmatig de lucht verzengt met verstikkende, giftige zwavelgassen en dodelijke asregens die ontsnapping onmogelijk maken.",
+      "Het volstrekte gebrek aan zandstranden dwingt elk schip tot een suïcidale nadering, waarbij men direct op vlijmscherpe, onstabiele lavarotsen moet springen terwijl de oceaan je probeert te verpletteren."
     ],
     "media": {
       "countryCode": "to",
@@ -3372,7 +3372,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Christmaseiland is een geïsoleerd stuk rots in de Indische Oceaan, ontstaan uit bruut koraalkalksteen en vulkanisch gesteente. De geschiedenis wordt gedomineerd door exploitatie en gruwelijke fosfaatmijnen die gapende gaten in het landschap hebben geslagen.\n\nElk jaar verandert de grond in een bloedrode, bewegende zee door meer dan 50 miljoen rode krabben die blindelings naar de oceaan migreren. Het ondoordringbare tropische regenwoud verbergt een primitieve, genadeloze strijd om overleving tussen zeldzame vogelsoorten en roofzuchtige insecten.\n\nDe infrastructuur is meedogenloos beperkt en stormachtige seizoenen snijden de bevoorrading genadeloos af. Scherpe, onvoorspelbare koraalriffen splijten rompen van schepen, en de harde klimatologische omstandigheden garanderen een constante dreiging voor iedereen die voet aan wal zet.",
+      "description": "Christmaseiland is een geïsoleerde, bloedende koraalrots in de Indische Oceaan, gewelddadig uit de diepte omhooggestuwd en bruut verminkt door menselijke hebzucht. Decennia van meedogenloze fosfaatmijnbouw hebben het eiland opengereten, wat resulteerde in gapende littekens en ontboste kraterlandschappen. Dit is een plek waar de industriële waanzin botste op ongerepte, primitieve natuur, resulterend in een gruwelijk slagveld van destructie en ecologische kaalslag. Het verleden ruikt hier naar exploitatie, stof en het zweet van de wanhoop.\n\nDe psychologische realiteit van Christmaseiland is een claustrofobische gevangenis van ondoordringbare jungle en loodzware lucht. Het absolute isolement verstrikt de geest in een web van eentonigheid, waar de dichte, vijandige vegetatie elke ontsnapping aan het gezichtsveld blokkeert. Tijdens de natte maanden verandert het eiland in een surrealistische, rode hel door tientallen miljoenen krabben die in een blinde, bijna zombie-achtige razernij over de paden krioelen, wat bijdraagt aan een diep, sluipend gevoel van waanzin.\n\nDe fysieke omgeving is meedogenloos en sadistisch ontworpen om zwakte af te straffen. Scherpe, verraderlijke kalkstenen formaties snijden door schoenen en vlees, terwijl het vochtige klimaat rotting en ziektes in recordtempo bevordert. Het regenwoud is een chaotisch, donker labyrinth vol venijnige insecten en gigantische, roofzuchtige roverskrabben die zich met onverschillige wreedheid voeden met alles wat sterft. Hier is de grens tussen jager en prooi angstaanjagend dun, en de natuur duldt geen enkele vorm van beschaving.\n\nTransport en logistiek naar dit stuk rots zijn een continue, levensgevaarlijke worsteling tegen brute cyclonen en woeste deiningen. De infrastructuur, gebouwd op het skelet van de oude mijnen, brokkelt langzaam af onder de genadeloze slagen van de oceaan. Wie op Christmaseiland overleeft, doet dat in de schaduw van een meedogenloze natuurkracht die elk menselijk bouwwerk langzaam, maar onherroepelijk, zal verslinden en reduceren tot puin.",
       "floraFauna": "Rode kerstkrabben, kokoskrabben, walvishaaien, witbuikfregatvogels en de Abbott's gent.",
       "history": [
         {
@@ -3391,8 +3391,8 @@ export const islandsData = [
       "souvenirTip": "Zeldzame lokale postzegels of kunst met het thema van de krabbenmigratie."
     },
     "hazards": [
-      "Tropische cyclonen (november tot mei)",
-      "Vlijmscherpe rotskusten en sterke onderstromen"
+      "Verwoestende tropische cyclonen tussen november en mei teisteren het eiland met apocalyptische stormvloeden die alle toevoerlijnen doorsnijden en menselijke structuren tot stof reduceren.",
+      "De vlijmscherpe rotskusten worden permanent geteisterd door onzichtbare, moordende onderstromen die elke ontsnapping of benadering over zee in een fataal bloedbad kunnen doen eindigen."
     ],
     "media": {
       "countryCode": "au",
@@ -3442,7 +3442,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Twee brute, kalkstenen atollen in de Indische Oceaan vormen de Cocoseilanden, een overblijfsel van geïsoleerde koraalringen in een eindeloze zee. Het verleden ruikt naar gedwongen kolonisatie en een zware heerschappij, verdeeld over een netwerk van 27 gefragmenteerde koraaleilanden.\n\nDe scheiding is absoluut: de historische Cocos-Maleise gemeenschap houdt stand op Home Island, omringd door stugge, zoutbestendige palmen en koraalriffen. De flora is schaars, hardnekkig en volledig afhankelijk van de grillen van de zoute wind en zee.\n\nAfgelegen en geïsoleerd, logistiek is een absolute nachtmerrie door meedogenloze oceaanstromingen en seizoensgebonden cyclonen. Zonder natuurlijke bescherming of hoogte worden deze eilanden bij elke grote storm blootgesteld aan de destructieve kracht van de oceaan.",
+      "description": "De Cocoseilanden bestaan uit kille, kalkstenen skeletten van koraalriffen, verloren in een desolate, meedogenloze vlakte van de Indische Oceaan. Deze archipel ademt de gruwelijke geschiedenis van onderdrukking, waar Europese krijgsheren de lokale bevolking regeerden met een wrede, autoritaire ijzeren vuist. Het is een gefragmenteerd gevangeniskamp van atollen, waar het zweet van gedwongen arbeid nog steeds in het bittere zand lijkt te kleven. Er is niets idyllisch aan; het is een harde les in menselijke wreedheid te midden van totale geografische desolatie.\n\nDe absolute isolatie op deze verspreide koraalringen genereert een verpletterende psychologische druk. Zonder enig reliëf, enkel omringd door een dreigende, oneindige watermassa, voelt men zich hier constant blootgesteld en kwetsbaar voor totale annihilatie. De eilandbewoners zijn gedwongen te overleven op geïsoleerde stukjes zand, gescheiden door woeste zeestraten. Dit wekt een sluimerende paranoia, een tergend besef dat als de oceaan besluit te stijgen of te stormen, er nergens een heenkomen of schuilplaats is.\n\nHet bestaan is rauw en Spartaans, volledig afhankelijk van de sadistische grillen van zee en wind. De flora is stug, knoestig en uitgehongerd, hardnekkig vastklampend aan het schrale koraalzand dat amper voedingsstoffen bevat. Drinkwater is een schaars, levensreddend goed, constant bedreigd door verzilting. Men leeft hier op het absolute nulpunt van comfort, gereduceerd tot fundamentele instincten om stand te houden tegen een vijandige zoute hel.\n\nFysieke overleving vereist extreme aanpassing aan de destructieve krachten van de oceaan. De logistieke nachtmerrie van bevoorrading over ruige wateren maakt bewoners permanent afhankelijk van externe redding die dagen op zich laat wachten. Elke zware storm is een potentieel massagraf, waarbij golven genadeloos over de platte eilanden kunnen spoelen, wat de Cocoseilanden tot een van de meest precaire, existentiële slagvelden op aarde maakt.",
       "floraFauna": "Zeeschildpadden, rifhaaien, kokospalmen, dolfijnen en kleurrijke koraaltuinen.",
       "history": [
         {
@@ -3461,8 +3461,8 @@ export const islandsData = [
       "souvenirTip": "Handgemaakt houtsnijwerk of geweven kokosproducten van Home Island."
     },
     "hazards": [
-      "Extreem kwetsbaar bij zeespiegelstijging",
-      "Sterke stromingen in de zeestraten tussen de eilandjes"
+      "De platte zandstroken zijn extreem kwetsbaar voor zeespiegelstijging, waardoor elke verhoogde vloed het absolute potentieel heeft om het hele eiland en zijn bewoners genadeloos te verzwelgen.",
+      "De zeestraten tussen de gefragmenteerde atollen worden gedomineerd door gruwelijke, scheurkrachtige stromingen die elk vaartuig meedogenloos kunnen grijpen en tegen het scherpe koraal te pletter slaan."
     ],
     "media": {
       "countryCode": "au",
@@ -3512,7 +3512,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Corvo is het kleinste, meest geïsoleerde stuk vulkanisch puin van de Azoren, meedogenloos gehamerd door de Noord-Atlantische Oceaan. Dit hele eiland is een overgebleven wand van een kolossale, ingestorte krater, lang genegeerd door navigators en piraten.\n\nDe krater herbergt meren en harde weides waar stug vee en hardnekkige vogels overleven. Geen bossen, geen schuilplaatsen. Slechts laag mos en gras dat standhoudt tegen constante, zoutbeladen stormwinden op de flanken van deze dode vulkaan.\n\nTransport is minimaal; mistbanken en extreme oceaandeiningen maken aanmeren of landen wekenlang onmogelijk. Extreem onvoorspelbaar weer, dodelijke kliffen en volledige geografische isolatie reduceren menselijke aanwezigheid tot een kwetsbaar, koud en rauw bestaan.",
+      "description": "Corvo is een massieve, godvergeten rotsklomp, ruw weggeslingerd in de meest meedogenloze uithoek van de Noord-Atlantische Oceaan. Dit hele eiland is feitelijk het half ingestorte kadaver van een oeroude vulkaan, die al eeuwenlang met brute overmacht wordt gepijnigd door ijskoude golven. Piraten en zeelieden meden dit oord als de pest, omdat de kale flanken enkel ellende en scheepsrampen boden. Het is een rauw, onvergeeflijk monument van vulkanisch afval waar menselijke aanwezigheid een onnatuurlijke, geforceerde fout lijkt.\n\nGeestelijk is Corvo een martelwerktuig. De dichte, verstikkende zeemist en aanhoudende depressies ontzeggen elke hoop op een zon overgoten dag, waardoor de ziel langzaam verschrompelt onder een deken van grijs, kil vocht. Wekenlang kan dit stuk steen onbereikbaar zijn, waardoor de weinige zielen die hier dolen opgesloten zitten in een kille gevangenis van wind en storm. Dit isolement drijft de menselijke psyche tot waanzin, gereduceerd tot een eentonig, donker overleven in de schaduw van een dode krater.\n\nBomen weigeren hier te groeien; ze worden genadeloos afgekapt door met zout verzadigde stormwinden die vlees van botten lijken te strippen. Het landschap is bezaaid met ruig, drassig mos en gure weides waar enkel het meest stugge vee de kou kan trotseren. Er is geen genade, geen enkele schuilplaats tegen de weergoden. Het oversteken van de ruwe kraterrand is een destructief gevecht tegen modder, rukwinden en het constant aanwezige risico op een fatale val in de diepte.\n\nTransport is een kamikazemissie. Mistbanken en gigantische oceaan-deiningen beuken wekenlang aan één stuk op de kliffen, waardoor boten stukslaan of weigeren te naderen. De mens overleeft hier louter op pure koppigheid, ingegraven in de kille vulkanische aarde, vechtend voor elke ademtocht in een van de meest woeste, genadeloze uithoeken van de planeet.",
       "floraFauna": "Zeldzame Amerikaanse trekvogels (vogelspotters-hotspot in de herfst), hortensia's en koeien.",
       "history": [
         {
@@ -3531,8 +3531,8 @@ export const islandsData = [
       "souvenirTip": "Traditionele handgemaakte houten sloten ('Fechadura de madeira')."
     },
     "hazards": [
-      "Extreem veranderlijk weer en mist waardoor vluchten vaak dagen vertraging hebben",
-      "Ruige Atlantische stormen"
+      "De aanhoudende, verstikkende mistbanken en extreme weersomslagen annuleren onverbiddelijk vluchten en boten, waardoor bewoners wekenlang worden opgesloten in een ijskoude, geïsoleerde kooi zonder enige toevoer van buitenaf.",
+      "Ruige, vernietigende Atlantische stormen slaan met de kracht van artillerie op de kusten, waardoor aanmeren een dodelijk gokspel is dat boten in een oogwenk in houtsnippers kan veranderen."
     ],
     "media": {
       "countryCode": "pt",
@@ -3582,7 +3582,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Oahu breekt uit de Stille Oceaan met vulkanische bergkammen die als vlijmscherpe messen naar de hemel wijzen. Gekend als 'The Gathering Place', kent het een bloedige militaire geschiedenis en een hedendaagse botsing tussen ongebreidelde verstedelijking en ongetemde natuur.\n\nZwarte vulkaanrotsen contrasteren met agressieve surfstranden waar monstergolven breken. Tropische bossen klampen zich vast aan de steile flanken, bewoond door inheemse fauna die vecht voor ruimte tegen de constante expansie van het beton.\n\nAchter het metropolitische masker schuilen extreme gevaren: onvoorspelbare, dodelijke oceaanstromingen en modderstromen op de instabiele bergruggen. Verkeersinfarcten, tsunami-dreigingen en constante logistieke spanning tekenen dit overbevolkte vulkaaneiland te midden van de meest onberekenbare wateren.",
+      "description": "Achter de façade van beton breekt Oahu uit de bloeddorstige Stille Oceaan met gruwelijke, vlijmscherpe vulkanische bergkammen die eruitzien als de tanden van een gigantisch prehistorisch beest. Dit eiland kent een diepdonkere geschiedenis, doordrenkt met het bloed van wrede tribale veldslagen en verpletterende militaire bombardementen die littekens in de ziel van het land sloegen. Het is een paradoxaal slagveld waar ongebreidelde, agressieve menselijke verstedelijking dagelijks op brute wijze botst met de ongetemde, genadeloze krachten van de oernatuur.\n\nDe claustrofobie op Oahu is niet geografisch, maar ontstaat uit een verstikkende hyper-concentratie van mensen, klemgezet tussen moordende kliffen en een onberekenbare zee. De constante spanning van dreigende tsunami's en militaire paranoïa ligt als een loodzware, onzichtbare deken over het eiland. De overprikkeling van de betonnen jungle gecombineerd met het isolement in het midden van de oceaan creëert een sluimerende gekte, een tikkende tijdbom in de hoofden van de miljoenen die er gevangen zitten op een zinkende rotspunt.\n\nDe natuur van Oahu weigert zich gewonnen te geven en valt genadeloos aan. De diepe, donkere jungledalen langs de steile Ko'olau-flanken zijn dodelijke valstrikken waar dichte vegetatie, verraderlijk terrein en plotselinge, gewelddadige modderstromen alles opslokken wat onvoorbereid is. Kusten worden bestookt door monsterlijke surfvloeden die menselijke botten breken met een onverschillige, sadistische kracht. De schijnbaar paradijselijke stranden verbergen nietsontziende onderstromen die zwemmers geruisloos naar een duistere, zoute verdrinkingsdood sleuren.\n\nHet logistieke systeem van het eiland staat constant op het randje van ineenstorting, gewurgd door massaal ruimtegebrek. Bij elke hevige regenval of orkaanwaarschuwing transformeert Oahu in een dystopische, geïsoleerde valstrik; infrastructuur desintegreert, ontsnappingswegen worden afgesneden en de absolute overmacht van de elementen heerst superieur over het fragiele menselijke bestaan.",
       "floraFauna": "Groene zeeschildpadden (Honu), Hawaïaanse monniksrobben, banyanbomen en geurige Plumeria.",
       "history": [
         {
@@ -3601,8 +3601,8 @@ export const islandsData = [
       "souvenirTip": "Authentieke Kona-koffie, Hawaïaanse ukulele of een vintage Aloha shirt."
     },
     "hazards": [
-      "Hoge branding en verraderlijke muistromen aan de North Shore",
-      "Kans op tropische orkanen en aardverschuivingen bij hevige regenval"
+      "De sadistische branding en gruwelijke muistromen aan de North Shore fungeren als een vleesmolen die onervaren slachtoffers met grof geweld tegen koraalrif verplettert en geruisloos in de diepte trekt.",
+      "Zware tropische regenval activeert catastrofale aardverschuivingen op de instabiele vulkaanruggen, resulterend in brute modderstromen die complete infrastructuur en levens in luttele seconden begraven onder tonnen destructief slib."
     ],
     "media": {
       "countryCode": "us",
@@ -3652,7 +3652,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Tarawa is een fragiel atol in de Stille Oceaan, niet breder dan een paar tientallen meters zand en koraalroest. Het landoppervlak draagt de botten en littekens van brute veldslagen uit de Tweede Wereldoorlog en vormt nu de frontlinie van een langzame ondergang.\n\nVegetatie is schaars en verdort door zoutwaterintrusie; overleving is louter een kwestie van aanpassen aan extreme zoutgehaltes en zinderende hitte. De inheemse cultuur is gehard door decennia van strijd tegen zowel menselijke agressie als natuurlijke vernietiging.\n\nKiribati vecht een fatale strijd tegen de stijgende oceaan die drinkwater vergiftigt en land wegslaat. Er is geen veilige haven; stormvloeden, logistieke ineenstorting en het onvermijdelijke zinken van het atol maken dit tot een apocalyptische nachtmerrie zonder ontsnapping.",
+      "description": "Tarawa is een lijdend, flinterdun skelet van koraal, dat met zijn laatste krachten probeert boven de moordende golven van de Stille Oceaan te blijven. Dit gruwelijke atol was het bloedige strijdtoneel van een van de meest barbaarse, destructieve slachtpartijen uit de Tweede Wereldoorlog, waar duizenden soldaten aan flarden werden geschoten op koraalriffen. De grond zelf lijkt nog steeds doordrenkt van dit bloed, nu zuchtend onder de constante, verstikkende overbevolking en een tergende, naderende apocalyps door de stijgende zee.\n\nPsychologisch is het eiland een wrede, uitzichtloze dodencel. Er is geen hoger gelegen terrein, geen vluchtroute; elke inwoner kijkt dagelijks recht in de ogen van de zee die hen onvermijdelijk zal verzwelgen. Dit besef genereert een sluipende, existentiële paniek, een morbide wachten op de executie door de natuur. Het absolute gebrek aan ruimte en de uitzichtloze strijd tegen verzilting dwingt de geest in een ijzeren, gedeprimeerde overlevingsmodus waar dromen simpelweg verdampen in de verzengende zon.\n\nOverleven op Tarawa is een ranzig gevecht in het zand. Vegetatie rot weg of sterft een dorstige dood door het oprukkende, giftige zoute grondwater. Drinkwater is zeldzaam en vaak besmet, waardoor uitdroging en ziekte dagelijkse, macabere metgezellen zijn. De verstikkende hitte brandt ongenadig op het open, onbeschutte terrein, waar elke centimeter grond bevochten wordt in een claustrofobische, overbevolkte chaos zonder ontsnapping.\n\nDe genadeloze oceaan vreet bij elke vloed stukken land weg, waarbij graven openbreken en afval de stranden verstikt. De totale infrastructuur brokkelt af en kan de constante klappen van stormvloeden niet aan. Tarawa is een langzaam zinkende catastrofe; een brute, onafwendbare herinnering dat de mens uiteindelijk compleet, rücksichtslos weggewist zal worden door het nietsontziende water.",
       "floraFauna": "Kokospalmen, broodboom, reuzenmussels, rifhaaien en zeevogels.",
       "history": [
         {
@@ -3671,8 +3671,8 @@ export const islandsData = [
       "souvenirTip": "Ambachtelijke geweven waaiers of sieraden gemaakt van koraalstrikken en schelpen."
     },
     "hazards": [
-      "Extreme dreiging van zeespiegelstijging en verzilting van drinkwaterbronnen",
-      "Overbevolkingsproblematiek in Zuid-Tarawa"
+      "De extreme, onomkeerbare zeespiegelstijging vergiftigt fundamentele grondwaterbronnen met agressief zoutwater, waardoor de bevolking veroordeeld wordt tot een langzame, meedogenloze strijd tegen fatale uitdroging en honger.",
+      "De gruwelijke, verstikkende overbevolking in Zuid-Tarawa genereert een exponentieel risico op dodelijke ziektes en logistieke collaps, waarbij elke hygiënische standaard tenietgedaan wordt door het volstrekte gebrek aan vluchtruimte."
     ],
     "media": {
       "countryCode": "ki",
@@ -3722,7 +3722,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "De Marquesaseilanden snijden als basaltzwaarden door de Stille Oceaan, volstrekt geïsoleerd van de beschaafde wereld. Zonder de bescherming van koraalriffen beukt de oceaan meedogenloos op steile, onneembare kliffen.\n\nIn de diepe, ondoordringbare valleien leeft endemische fauna die nergens anders op aarde voorkomt. Eeuwenoude, mysterieuze stenen tiki's waken over het ruige landschap, een getuigenis van een harde, polytheïstische cultuur die overleefde op vulkanische grond.\n\nDe zeeën zijn extreem wild, met onvoorspelbare deiningen en stromingen die scheepvaart tot een kamikazemissie maken. Hulp is dagen verwijderd, en een val in de vlijmscherpe ravijnen resulteert zonder uitzondering in de dood in volstrekte verlatenheid.",
+      "description": "De Marquesaseilanden rijzen op als gewelddadige, gitzwarte basaltzwaarden, dwars door het schuim van een genadeloze oceaan. Ver verwijderd van elke civilisatie vormen zij een van de meest brute, ontoegankelijke archipels ter wereld. Hun oeroude geschiedenis is gegrift in onmenselijke rotsblokken en gigantische stenen tiki's die getuigen van een geharde, tribale krijgerscultuur die regeerde met kannibalisme en onwrikbare wetten. Hier heerst geen vreedzame rust; de eilanden stralen een primitieve, bloedstollende wreedheid uit.\n\nIsolatie krijgt hier een duistere, beklemmende dimensie. Verstopt in bodemloze, steile valleien gescheiden door gigantische rotswanden, voelt men de verpletterende, archaïsche eenzaamheid in elke vezel van het lichaam. Er is geen verbinding met de buitenwereld, enkel het oorverdovende gebulder van de oceaan. Deze extreme opsluiting drijft een mens terug naar zijn meest basale, dierlijke instincten, in een mentale kerker waar beschaving slechts een flauwe, irrelevante rimpeling blijkt te zijn.\n\nDe fysieke uitdaging is catastrofaal. Zonder beschermende koraalriffen beukt de oceaan direct op de vlijmscherpe rotskliffen met een kracht die rompen van schepen klieft alsof het papier is. De binnenlandse jungle is een moordende, ondoordringbare muur van verstikkende vegetatie, verraderlijke ravijnen en meedogenloze insecten. Elke wandeling kan eindigen in een dodelijke val in duizelingwekkende afgronden, waar niemand je gebrul om hulp ooit zal horen, laat staan je verbrijzelde lichaam zal vinden.\n\nLogistiek en reddingsoperaties zijn vrijwel non-existent en per definitie suïcidaal. Boten moeten vechten tegen monsterlijke branding om überhaupt dichtbij te komen. De weinige zielen die hier proberen te overleven, moeten dat doen met de harde wetenschap dat bij ziekte of ongeval het vonnis vrijwel zeker een ijskoude, geïsoleerde dood is op de onvergeeflijke vulkaangrond.",
       "floraFauna": "Marquesaanse wilde paarden, reuzenmanta's, dolfijnen, banyanbomen en de zeldzame Marquesas-ijsvogel.",
       "history": [
         {
@@ -3741,8 +3741,8 @@ export const islandsData = [
       "souvenirTip": "Handgesneden edelhouten Tiki-beelden of edelsteen-tatoeagekunst."
     },
     "hazards": [
-      "Extreem steil en verraderlijk terrein voor wandelaars",
-      "Geen beschutte riffen; ruige branding bij het aan land gaan per boot"
+      "Het extreem steile, granietharde en verraderlijke terrein is een de facto dodemansval voor wandelaars, waar elke misstap onherroepelijk leidt tot een gruwelijke, onoverleefbare val in pikzwarte, onontgonnen ravijnen.",
+      "Het absolute ontbreken van beschuttende koraalriffen betekent dat de monsterlijke oceaanbranding genadeloos inbeukt op boten, waardoor elke poging om aan land te gaan transformeert in een destructieve, suïcidale kamikazemissie op vlijmscherpe rotsen."
     ],
     "media": {
       "countryCode": "pf",
@@ -3792,7 +3792,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Norfolkeiland is een massief blok heuvelachtig groen, gedrenkt in een duistere, brute geschiedenis. Oorspronkelijk een helse Britse strafkolonie gebouwd op pijn en zweepslagen, later bevolkt door nakomelingen van de harde Bounty-muiters.\n\nHet landschap wordt gedomineerd door duizelingwekkende, torenhoge Norfolkdennen die bestand zijn tegen vernietigende oceaanwinden. De fauna is endemisch en hard, aangepast aan de isolatie in de uithoek van een genadeloze oceaan.\n\nVoorzieningen zijn schaars en havens bestaan simpelweg niet; bevoorrading is overgeleverd aan de grillen van de zware branding tegen levensgevaarlijke klippen. Elke scheepvaart staat onder constante dreiging van cyclonen en verraderlijke onderwaterriffen die redding onmogelijk maken.",
+      "description": "Norfolkeiland is een kolossaal, in de zee gegooid blok eenzaamheid, gewurgd door een diepzwarte, bloedstollende geschiedenis. Dit eiland was oorspronkelijk een sadistische, infernale Britse strafkolonie, bewust gekozen vanwege zijn ontsnappingsvrije isolatie, waar de zwaarste criminelen stierven onder de zweep, uithongering en waanzin. Later bezet door de harde, verbitterde mutanten van de Bounty-muiterij. Dit is een verdoemd oord, waar het brute leed van het verleden in het fundament van elke rots lijkt geëtst.\n\nDe verstikkende isolatie, gevangen midden in de gigantische Pacifische leegte, wekt een knagende, paranoïde wanhoop op. Je bent opgesloten op een platform omringd door steile, dodelijke kliffen; de oceaan rondom dient als een oneindige, bewegende gevangenismuur. De psychologische terreur schuilt in de onmacht: het besef dat vluchten fysiek onmogelijk is en dat je bij elke ramp bent overgeleverd aan de koude gratie van een planeet die je totaal vergeten is.\n\nHet landschap wordt gedomineerd door grimmige, onverzettelijke Norfolkdennen die bestand zijn tegen orkaankrachten die alles wat zwakker is wegrukken. Aan de kusten biedt de natuur geen enkele genade; de kliffen torenen als onneembare forten tientallen meters loodrecht boven een ziedende oceaan. Er is geen zand of zachte landing, enkel steen, wind, en de constante, oorverdovende impact van water dat weigert het eiland heel te laten. De flora is gehard, stekelig en meedogenloos.\n\nHavens bestaan niet. Binnenkomende goederen en mensen moeten door woeste deiningen in wankele bootjes via lieren aan land worden geslingerd, balancerend op het randje van destructie. Stormen kunnen het eiland wekenlang fysiek en logistiek wurgen. Overleven op Norfolk vereist een kille onverschilligheid voor gevaar en een berusting in de permanente staat van vijandigheid die dit gruwelijke stuk aarde kenmerkt.",
       "floraFauna": "De iconische Norfolkden (Araucaria heterophylla), groene Norfolk-parkiet en endemische varens.",
       "history": [
         {
@@ -3811,8 +3811,8 @@ export const islandsData = [
       "souvenirTip": "Ambachtelijke producten van Norfolkden-hout of verse lokale likeuren."
     },
     "hazards": [
-      "Hoge kliffen rondom bijna de gehele kustlijn",
-      "Gevaarlijke branding zonder natuurlijke diepwaterhavens"
+      "De gigantische, loodrechte kliffen rondom de gehele kustlijn vormen een ondoordringbare dodenmuur, waardoor schipbreukelingen geen enkele kans maken om ooit het land te bereiken en gedoemd zijn stuk te slaan op het zwarte gesteente.",
+      "Het complete gebrek aan natuurlijke havens dwingt de logistiek tot levensgevaarlijke capriolen in de brute branding, waar de oceaan constant op de loer ligt om vracht en boten rücksichtslos de diepte in te sleuren."
     ],
     "media": {
       "countryCode": "au",
@@ -3862,7 +3862,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Pagan en Alamagan zijn twee ruige, uiterst afgelegen tijdbommen in de Noordelijke Marianen, gedefinieerd door constante vulkanische explosies. Stratovulkanen en extreem steile kegels domineren de horizon en stoten onophoudelijk as en rook in de harde oceaanwind.\n\nEen verschroeide aarde waar slechts gehard onkruid, zwermen inheemse vleermuizen en roofvogels zich nestelen in de asvelden. De hete, giftige grond kent geen genade en dwingt elk stukje flora of fauna tot brute aanpassing aan magma en zwavel.\n\nHet gebied is logistiek onbegaanbaar; geen ankerplaatsen, geen landingsbanen, slechts onvoorspelbare en levensgevaarlijke kliffen. Vulkanische activiteit is totaal onvoorspelbaar, oceaancondities zijn verraderlijk en bij een uitbarsting ben je volledig overgeleverd aan de dood.",
+      "description": "Pagan en Alamagan zijn twee gitzwarte, apocalyptische tikkende tijdbommen in de Noordelijke Marianen, waar vulkanische chaos en destructie de enige constante vormen. Deze eilanden zijn uit de zee gerezen door gewelddadige, aardverscheurende uitbarstingen en ademen voortdurend een dreigende, verstikkende as. Het is een verschroeide, meedogenloze hel waar het land nog niet klaar is met zijn eigen creatie, en waar elk moment een helse uitbarsting alles weer kan reduceren tot gesmolten steen en stof.\n\nDe menselijke geest wordt hier verpulverd door de permanente, zinderende dreiging van een vulkanische executie. De diepe, extreme isolatie gecombineerd met de stank van giftig zwavel creëert een sluimerende, wurgende gekte. Ver verwijderd van elke redding wachten de asvlakten slechts op het moment dat de bergen exploderen. Er heerst een constante morbide anticipatie; men weet dat het eiland een vijandige entiteit is die actief probeert haar indringers te roosteren en te verstikken.\n\nDit is een landschap van totale, rauwe vernietiging. Het terrein bestaat uit verraderlijke, vlijmscherpe lavavelden en steile as-kegels die onder je voeten wegglijden. De grond is dor en vergiftigd, ongeschikt voor zwakke flora; enkel de meest gruwelijke, overleving-gerichte levensvormen zoals hordes vleermuizen en knoestig onkruid vechten een wanhopige strijd om te bestaan. De hete, giftige grond kent geen genade en dwingt genadeloos de dood af bij de kleinste misstap in de actieve fumarolen.\n\nToegang en ontsnapping zijn vrijwel onmogelijk. Zonder ankerplaatsen, dokken of vluchtwegen worden schepen geconfronteerd met wilde deiningen tegen scherpe lavariffen. Een plotselinge uitbarsting betekent een absolute en onvermijdelijke catastrofe; de onvoorspelbare, moordende kraterwolken en pyroclastische stromen maken elke evacuatie tot een lachertje. Dit is een plek die de mensheid weigert, een rauw bewijs van de destructieve suprematie van de aarde.",
       "floraFauna": "Mariana-megapode (thermometervogel), kokoskrabben, zeldzame hagedissen en wilde geiten.",
       "history": [
         {
@@ -3881,8 +3881,8 @@ export const islandsData = [
       "souvenirTip": "Geen commerciële winkels aanwezig."
     },
     "hazards": [
-      "Actief vulkanisme, askolommen en giftige zwavelgassen",
-      "Geen beschutte ankerplaatsen of brandstofinfrastructuur"
+      "Het ongecontroleerde, actieve vulkanisme spuwt met sadistische onvoorspelbaarheid dodelijke askolommen en giftige zwavelgassen uit, die in staat zijn binnen luttele seconden alle leven onherroepelijk te verstikken of te cremeren.",
+      "Het absolute ontbreken van beschutte ankerplaatsen of brandstofinfrastructuur verzekert dat schepen bij slecht weer als luciferhoutjes worden fijngemalen tegen onverbiddelijke, vlijmscherpe vulkaanranden."
     ],
     "media": {
       "countryCode": "mp",
@@ -3932,7 +3932,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Tahiti is het economische machtscentrum van Frans-Polynesië, doorboord door duizelingwekkend steile bergpieken zoals Mount Orohena. Diepe, zwarte valleien met kletterende watervallen scheiden de metropolen van een onvergeeflijk, wild binnenland dat onverschillig staat tegenover de mens.\n\nZwarte zandstranden absorberen de felle zon, begrensd door dichte jungle waar meedogenloze planten en insecten concurreren. Culturele tradities zijn geworteld in een harde verering van oceaan en natuur, gesmeed in het zweet van generaties.\n\nBuiten de gebaande paden liggen dodelijke afgronden en de zee biedt geen genade met monsterlijke golven zoals Teahupo'o. Onvoorspelbare tropische stormen en logistieke chaos kunnen het eiland binnen uren platleggen, waardoor het verandert in een geïsoleerde kooi van rotsen en water.",
+      "description": "Tahiti is een meedogenloos vulkanisch machtscentrum, doorzeefd met afschrikwekkende, steile bergpieken zoals Mount Orohena, die als gekartelde zwarte speren de hemel doorboren. Dit eiland, vaak misverstaan door een vals toeristisch masker, is doordrongen van een gruwelijke, woeste en bloedige Polynesische geschiedenis vol keiharde krijgsrituelen. De donkere, rauwe binnenlanden zijn onvergeeflijk en wijzen elke vorm van menselijke zwakte onverbiddelijk af; het is een strijdtoneel tussen agressieve verstedelijking en vernietigende oerkrachten.\n\nHet contrast creëert een schizofrene psychologische val. Aan de randen klontert een overprikkelde, chaotische bevolking samen, terwijl het pikzwarte hart van het eiland angstaanjagend leeg en dreigend stil blijft. Dit roept een sluimerende paranoia op; de wetenschap dat net achter de steden een ondoordringbare, moorddadige jungle wacht, klaar om met één catastrofale aardverschuiving of storm de illusie van controle compleet aan gort te slaan.\n\nFysiek is Tahiti een bruut, sadistisch ecosysteem. Zwarte lavastranden schroeien de huid, gedomineerd door extreem krachtige en gevaarlijke deiningen uit de diepe Stille Oceaan. De ravijnen in het binnenland zijn loodrecht en verraderlijk glad, verstikt door een kannibalistische jungle die alles verslindt. Het water dat door de zwarte valleien dondert, kan binnen minuten transformeren in allesvernietigende modderstromen die rotsen en lichamen met onstuitbare kracht de oceaan in smijten.\n\nBuiten de verstikte kustlijn biedt de oceaan geen enkele genade. De monsterlijke golven bij Teahupo'o breken met de destructieve kracht van exploderende bommen direct op ondiepe, vlijmscherpe koraalriffen. Logistieke chaos, meedogenloze tropische stormen en een brute natuurlijke architectuur verzekeren dat Tahiti een wilde, ontembare kooi is, waar overleven vereist dat men de absolute, destructieve onverschilligheid van de elementen aanvaardt.",
       "floraFauna": "Tiaré Tahiti bloemen, bultrugwalvissen, pijlstaartroggen en tropische fruitbomen.",
       "history": [
         {
@@ -3951,8 +3951,8 @@ export const islandsData = [
       "souvenirTip": "Zwarte Tahitiaanse parels of traditionele Monoï-olie."
     },
     "hazards": [
-      "Extreem krachtige en gevaarlijke golven op lavariffen (Teahupo'o)",
-      "Kans op zware tropische regenbuien en modderstromen"
+      "De onmenselijk zware, holle golven bij Teahupo'o beuken met een vernietigende, sadistische impact op flinterdun water boven dodelijke lavariffen, wat bij de kleinste misrekening resulteert in verbrijzelde botten en onmiddellijke verdrinking.",
+      "Plotse, meedogenloze tropische stortbuien in het steile binnenland veroorzaken onverwachte, catastrofale modderstromen die met brute overmacht elke levensvorm in de ravijnen meesleuren en verpulveren."
     ],
     "media": {
       "countryCode": "pf",
@@ -4002,7 +4002,7 @@ export const islandsData = [
       }
     },
     "story": {
-      "description": "Tuvalu is een verzameling verbrokkelende atollen, een microscopisch land verspreid over de onmetelijke Stille Oceaan. De stroken land zijn flinterdun; botten van zand en koraal die genadeloos wegslijten en dagelijks een existentiële, wanhopige strijd voeren tegen de naderende oceaan.\n\nFlora is rudimentair; kokospalmen verankeren zich krampachtig in zout doordrenkte bodem terwijl marien leven het enige voedsel biedt voor een geharde overlevingscultuur. Alles draait hier om pure, kale overleving op het absolute minimum.\n\nExtreme dreiging is de dagelijkse realiteit: het hoogste punt is luttele meters boven de branding, en elke vloed brengt de dood dichterbij. Isolatie is totaal, vliegvelden en aanvoerlijnen overspoelen frequent en de onvermijdelijke verzwelging door de oceaan maakt dit de dodelijkste zinkende rots ter wereld.",
+      "description": "Tuvalu is een verzameling microscopische, in ontbinding verkerende atollen, verspreid als botgruis over de meedogenloze uitgestrektheid van de Stille Oceaan. Het is een claustrofobisch, flinterdun vlies van zand en koraalroest dat een gruwelijke, verloren doodsstrijd vecht tegen de vraatzuchtige oceaan. Er is geen glorie, geen epische overleving; dit is de frontlinie van een genadeloze, sluipende klimaatapocalyps die het eiland dag voor dag afbreekt en in de duisternis van de diepzee trekt.\n\nDe psychologische terreur is alomtegenwoordig en verstikkend. Men is zich elke minuut bewust van de onvermijdelijke, naderende verdrinkingsdood. Het absolute gebrek aan hoger gelegen terrein betekent dat er geen schuilplaats is voor het stijgende zoutwater; de bevolking zit opgesloten in een existentiële wachtkamer op de executie door de vloedlijn. De extreme, onoverbrugbare isolatie dooft alle hoop op ingrijpen uit en sluit de bewoners op in een langzame, deprimerende realiteit van totale afbraak en hopeloosheid.\n\nDe leefomstandigheden zijn extreem rauw en minimalistisch tot op het bot. De poreuze koraalgrond verzilt razendsnel, waardoor het weinig resterende, stugge groen onherroepelijk sterft en de watervoorziening zwaar vergiftigd raakt. Overleven is hier een harde, eentonige strijd voor de absolute basale levensbehoeften in een vijandige, zanderige woestenij. Elke golf die over de atolrand slaat, beukt letterlijk door huizen en infrastructuur, een sadistische klap van een natuur die weigert te stoppen met wreken.\n\nVluchten of anticiperen is onmogelijk. Stormvloeden vegen genadeloos over de vliegstrook en aanvoerwegen, waardoor de eilandbewoners onverbiddelijk, wekenlang van de buitenwereld zijn afgesneden. Tuvalu is geen staat, het is een macaber slachthuis in de maak, een onoverleefbare ruïne die gedoemd is om uit de geschiedenis geschrapt te worden door de destructieve suprematie van het zoutwater.",
       "floraFauna": "Pandanusbomen, kokospalmen, groene zeeschildpadden en tropische rifvissen.",
       "history": [
         {
@@ -4021,8 +4021,8 @@ export const islandsData = [
       "souvenirTip": "Met de hand geweven traditionele matten ('Fafetu') of Tuvalu-postzegels."
     },
     "hazards": [
-      "Cruciale klimaatbedreiging door zeespiegelstijging en kusterosie",
-      "Groot tekort aan natuurlijk drinkwater tijdens droogteperiodes"
+      "De onstuitbare, dodelijke zeespiegelstijging vreet met gruwelijk geduld de kustlijn weg, spoelt graven schoon en veroordeelt het voltallige landoppervlak onverbiddelijk tot een ijskoude, definitieve verdrinking in de oceaan.",
+      "De zware, kwellende verzilting van het grondwater tijdens de meedogenloze droogteperiodes zorgt voor een acuut, apocalyptisch tekort aan drinkwater, waardoor overlevenden gedwongen worden te wachten op regen of te stikken in hun eigen dorst."
     ],
     "media": {
       "countryCode": "tv",
