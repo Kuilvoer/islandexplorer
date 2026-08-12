@@ -7,11 +7,11 @@ export default function Theme1Card({ island, p, onReadMore }) {
   if (!island) return null;
 
   return (
-    <div className={`flex flex-col md:flex-row gap-8 md:gap-12 w-full max-w-[90vw] md:max-w-[1200px] mx-auto items-stretch font-['Outfit'] transition-all duration-700 md:h-[600px]`}>
+    <div className={`flex flex-col md:flex-row gap-6 md:gap-12 w-full max-w-[90vw] md:max-w-[1200px] mx-auto items-stretch font-['Outfit'] transition-all duration-700 flex-1 md:flex-none md:h-[600px]`}>
       
       {/* Map/Visual Area */}
       <div 
-        className={`w-full md:w-1/2 relative rounded-[40px] overflow-hidden border-4 transition-all duration-700 flex-shrink-0 cursor-pointer group shadow-2xl z-10 flex h-72 md:h-full`}
+        className={`w-full md:w-1/2 relative rounded-[40px] overflow-hidden border-4 transition-all duration-700 flex-shrink-0 cursor-pointer group shadow-2xl z-10 flex flex-1 min-h-[200px] md:h-full`}
         style={{ borderColor: p.accent, boxShadow: `12px 12px 0px ${p.accent}` }}
         onClick={() => onReadMore(island)}
       >
@@ -31,7 +31,7 @@ export default function Theme1Card({ island, p, onReadMore }) {
 
       {/* Info Card */}
       <div 
-        className={`w-full md:w-1/2 rounded-[40px] p-8 md:p-12 relative transition-all duration-700 border-4 flex flex-col justify-between h-[420px] md:h-full`}
+        className={`w-full md:w-1/2 rounded-[40px] p-6 md:p-12 relative transition-all duration-700 border-4 flex flex-col justify-between shrink-0 h-auto md:h-full`}
         style={{ backgroundColor: p.card, color: p.accent, boxShadow: `10px 10px 0px ${p.accent}`, borderColor: p.accent }}
       >
         

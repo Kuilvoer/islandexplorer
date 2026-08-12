@@ -153,9 +153,10 @@ function InnerApp() {
       )}
 
       {/* Minimal Header (Footer on mobile) */}
-      <header className="w-full px-6 md:px-8 py-4 md:py-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-4 z-[90] fixed bottom-0 left-0 md:relative md:top-auto pointer-events-none">
+      <header className="w-full flex flex-col md:flex-row justify-between items-center z-[90] order-last md:order-first pointer-events-none relative transition-colors duration-700">
+        <div className="absolute inset-0 block md:hidden transition-colors duration-700 pointer-events-auto" style={{ backgroundColor: p.card, borderTop: `4px solid ${p.accent}` }}></div>
         
-        <div className="w-full md:w-auto flex justify-between items-center pointer-events-auto">
+        <div className="w-full md:w-auto flex justify-between items-center pointer-events-auto relative z-10 px-6 py-4 md:px-8 md:py-6">
           <div className="flex items-center gap-4 shrink-0 cursor-pointer" onClick={() => { setActiveDetailIsland(null); setIsGlobeView(false); setViewMode('card'); setShowFavoritesOnly(false); setIsMobileMenuOpen(false); }}>
             <div className="w-12 h-12 rounded-full border-4 flex items-center justify-center text-2xl transition-colors duration-700 bg-white/90 backdrop-blur-sm shadow-xl md:shadow-none" 
                  style={{ borderColor: isGlobeView ? '#00FF41' : p.accent, color: isGlobeView ? '#00FF41' : p.accent }}>
@@ -167,15 +168,26 @@ function InnerApp() {
             </h1>
           </div>
 
-          <button 
-            className="md:hidden w-12 h-12 flex flex-col justify-center items-center gap-1.5 rounded-full border-4 bg-white/90 backdrop-blur-sm shadow-xl"
-            style={{ borderColor: p.accent }}
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          >
-            <span className="w-5 h-0.5 rounded-full" style={{ backgroundColor: p.accent }}></span>
-            <span className="w-5 h-0.5 rounded-full" style={{ backgroundColor: p.accent }}></span>
-            <span className="w-5 h-0.5 rounded-full" style={{ backgroundColor: p.accent }}></span>
-          </button>
+          <div className="flex gap-2">
+            {(activeDetailIsland || isGlobeView) && (
+              <button 
+                className="md:hidden w-12 h-12 flex justify-center items-center rounded-full border-4 bg-white/90 backdrop-blur-sm shadow-xl text-xl hover:scale-110 transition-transform"
+                style={{ borderColor: p.accent, color: p.accent }}
+                onClick={() => { setActiveDetailIsland(null); setIsGlobeView(false); }}
+              >
+                <i className="fa-solid fa-arrow-left"></i>
+              </button>
+            )}
+            <button 
+              className="md:hidden w-12 h-12 flex flex-col justify-center items-center gap-1.5 rounded-full border-4 bg-white/90 backdrop-blur-sm shadow-xl hover:scale-110 transition-transform"
+              style={{ borderColor: p.accent }}
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            >
+              <span className="w-5 h-0.5 rounded-full" style={{ backgroundColor: p.accent }}></span>
+              <span className="w-5 h-0.5 rounded-full" style={{ backgroundColor: p.accent }}></span>
+              <span className="w-5 h-0.5 rounded-full" style={{ backgroundColor: p.accent }}></span>
+            </button>
+          </div>
         </div>
 
         {/* Mobile Menu Variations */}
