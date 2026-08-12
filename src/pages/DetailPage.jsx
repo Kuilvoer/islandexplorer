@@ -55,7 +55,7 @@ export default function DetailPage({ island, p, onBack }) {
         <div className="md:col-span-2 flex flex-col gap-8">
           
           <div 
-            className={`p-10 rounded-[40px] border-4`}
+            className={`p-6 md:p-10 rounded-[40px] border-4`}
             style={{ backgroundColor: p.card, borderColor: p.accent, color: p.accent, boxShadow: `12px 12px 0px ${p.accent}` }}
           >
             <h2 className="text-2xl md:text-3xl font-black mb-6 uppercase tracking-tight break-words hyphens-auto">Het Verhaal van {island.name}</h2>
@@ -68,29 +68,29 @@ export default function DetailPage({ island, p, onBack }) {
 
           {/* Flora / Fauna Fact */}
           <div 
-            className="p-10 rounded-[40px] border-4 shadow-xl"
+            className="p-6 md:p-10 rounded-[40px] border-4 shadow-xl"
             style={{ backgroundColor: p.accent, borderColor: p.accent, color: p.card }}
           >
-            <h2 className="text-2xl font-black mb-4 uppercase tracking-widest" style={{ color: p.bg }}>Natuurlijke Wonderen</h2>
+            <h2 className="text-xl md:text-2xl font-black mb-4 uppercase tracking-widest break-words hyphens-auto" style={{ color: p.bg }}>Natuurlijke Wonderen</h2>
             <p className="text-lg font-medium leading-relaxed opacity-90">{island.story?.floraFauna}</p>
           </div>
           
           <div 
-            className="p-10 rounded-[40px] border-4 shadow-xl"
+            className="p-6 md:p-10 rounded-[40px] border-4 shadow-xl"
             style={{ backgroundColor: p.card, borderColor: p.accent, color: p.accent }}
           >
-            <h2 className="text-2xl font-black mb-4 uppercase tracking-widest">Connectiviteit</h2>
+            <h2 className="text-xl md:text-2xl font-black mb-4 uppercase tracking-widest break-words hyphens-auto">Connectiviteit</h2>
             <p className="text-lg font-medium leading-relaxed opacity-90">{island.economyAndCulture?.connectivity}</p>
           </div>
 
           {island.economyAndCulture?.souvenirTip && (
             <div 
-              className="p-10 rounded-[40px] border-4 shadow-xl"
+              className="p-6 md:p-10 rounded-[40px] border-4 shadow-xl"
               style={{ backgroundColor: p.bg, borderColor: p.accent, color: p.accent }}
             >
               <div className="flex items-center gap-4 mb-4">
-                <i className="fa-solid fa-gift text-2xl"></i>
-                <h2 className="text-2xl font-black uppercase tracking-widest">Souvenir Tip</h2>
+                <i className="fa-solid fa-gift text-2xl shrink-0"></i>
+                <h2 className="text-xl md:text-2xl font-black uppercase tracking-widest break-words hyphens-auto">Souvenir Tip</h2>
               </div>
               <p className="text-lg font-medium leading-relaxed opacity-90">{island.economyAndCulture.souvenirTip}</p>
             </div>
@@ -98,12 +98,12 @@ export default function DetailPage({ island, p, onBack }) {
 
           {island.hazards && island.hazards.length > 0 && (
             <div 
-              className="p-10 rounded-[40px] border-4 shadow-xl"
+              className="p-6 md:p-10 rounded-[40px] border-4 shadow-xl"
               style={{ backgroundColor: '#ffebee', borderColor: '#c62828', color: '#c62828' }}
             >
               <div className="flex items-center gap-4 mb-6">
-                <i className="fa-solid fa-triangle-exclamation text-3xl"></i>
-                <h2 className="text-2xl font-black uppercase tracking-widest">Gevaren / Waarschuwingen</h2>
+                <i className="fa-solid fa-triangle-exclamation text-3xl shrink-0"></i>
+                <h2 className="text-xl md:text-2xl font-black uppercase tracking-widest break-words hyphens-auto">Gevaren / Waarschuwingen</h2>
               </div>
               <ul className="text-lg font-medium leading-relaxed opacity-90 flex flex-col gap-4">
                 {island.hazards.map((hazard, idx) => (
@@ -118,10 +118,10 @@ export default function DetailPage({ island, p, onBack }) {
 
           {island.story?.history && island.story.history.length > 0 && (
             <div 
-              className="p-10 rounded-[40px] border-4 shadow-xl"
+              className="p-6 md:p-10 rounded-[40px] border-4 shadow-xl"
               style={{ backgroundColor: p.card, borderColor: p.accent, color: p.accent }}
             >
-              <h2 className="text-2xl font-black mb-4 uppercase tracking-widest">Tijdlijn</h2>
+              <h2 className="text-xl md:text-2xl font-black mb-4 uppercase tracking-widest break-words hyphens-auto">Tijdlijn</h2>
               <div className="flex flex-col gap-4">
                 {island.story.history.map((h, idx) => (
                   <div key={idx} className="flex gap-4 items-start">
@@ -139,10 +139,10 @@ export default function DetailPage({ island, p, onBack }) {
         <div className="flex flex-col gap-8">
           
           <div 
-            className={`p-8 rounded-[40px] border-4`}
+            className={`p-6 md:p-8 rounded-[40px] border-4`}
             style={{ backgroundColor: p.card, borderColor: p.accent, color: p.accent, boxShadow: `12px 12px 0px ${p.accent}` }}
           >
-            <h3 className="text-xl font-black mb-8 border-b-4 pb-4 uppercase tracking-widest" style={{ borderColor: p.accent }}>Feiten & Cijfers</h3>
+            <h3 className="text-lg md:text-xl font-black mb-8 border-b-4 pb-4 uppercase tracking-widest break-words hyphens-auto" style={{ borderColor: p.accent }}>Feiten & Cijfers</h3>
             
             <div className="mb-6">
               <span className="text-xs uppercase font-black opacity-60 tracking-widest">Locatie</span>
