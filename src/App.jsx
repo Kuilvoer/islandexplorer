@@ -154,16 +154,29 @@ function InnerApp() {
 
       {/* Minimal Header (Footer on mobile) */}
       <header className="w-full flex flex-col md:flex-row justify-between items-center z-[90] order-last md:order-first pointer-events-none relative transition-colors duration-700">
-        <div className="absolute inset-0 block md:hidden transition-colors duration-700 pointer-events-auto" style={{ backgroundColor: p.card, borderTop: `4px solid ${p.accent}` }}></div>
+        <div 
+          className="absolute inset-0 block md:hidden transition-colors duration-700 pointer-events-auto" 
+          style={{ 
+            backgroundColor: isGlobeView ? '#000000' : p.card, 
+            borderTop: `4px solid ${isGlobeView ? '#00FF41' : p.accent}` 
+          }}
+        ></div>
         
         <div className="w-full md:w-auto flex justify-between items-center pointer-events-auto relative z-10 px-6 py-4 md:px-8 md:py-6">
           <div className="flex items-center gap-4 shrink-0 cursor-pointer" onClick={() => { setActiveDetailIsland(null); setIsGlobeView(false); setViewMode('card'); setShowFavoritesOnly(false); setIsMobileMenuOpen(false); }}>
             <div className="w-12 h-12 rounded-full border-4 flex items-center justify-center text-2xl transition-colors duration-700 bg-white/90 backdrop-blur-sm shadow-xl md:shadow-none" 
-                 style={{ borderColor: isGlobeView ? '#00FF41' : p.accent, color: isGlobeView ? '#00FF41' : p.accent }}>
+                 style={{ 
+                   borderColor: isGlobeView ? '#00FF41' : p.accent, 
+                   color: isGlobeView ? '#00FF41' : p.accent,
+                   backgroundColor: isGlobeView ? '#000000' : 'rgba(255,255,255,0.9)'
+                 }}>
               <i className="fa-solid fa-earth-oceania"></i>
             </div>
             <h1 className="text-xl md:text-3xl font-black uppercase tracking-tighter transition-colors duration-700 drop-shadow-md bg-white/50 md:bg-transparent px-3 py-1 md:px-0 md:py-0 rounded-xl md:rounded-none backdrop-blur-sm md:backdrop-blur-none" 
-                style={{ color: isGlobeView ? '#00FF41' : p.accent }}>
+                style={{ 
+                  color: isGlobeView ? '#00FF41' : p.accent,
+                  backgroundColor: isGlobeView ? 'transparent' : ''
+                }}>
               IslandExplorer
             </h1>
           </div>
@@ -171,21 +184,28 @@ function InnerApp() {
           <div className="flex gap-2">
             {(activeDetailIsland || isGlobeView) && (
               <button 
-                className="md:hidden w-12 h-12 flex justify-center items-center rounded-full border-4 bg-white/90 backdrop-blur-sm shadow-xl text-xl hover:scale-110 transition-transform"
-                style={{ borderColor: p.accent, color: p.accent }}
+                className="md:hidden w-12 h-12 flex justify-center items-center rounded-full border-4 backdrop-blur-sm shadow-xl text-xl hover:scale-110 transition-transform"
+                style={{ 
+                  borderColor: isGlobeView ? '#00FF41' : p.accent, 
+                  color: isGlobeView ? '#00FF41' : p.accent,
+                  backgroundColor: isGlobeView ? '#000000' : 'rgba(255,255,255,0.9)'
+                }}
                 onClick={() => { setActiveDetailIsland(null); setIsGlobeView(false); }}
               >
                 <i className="fa-solid fa-arrow-left"></i>
               </button>
             )}
             <button 
-              className="md:hidden w-12 h-12 flex flex-col justify-center items-center gap-1.5 rounded-full border-4 bg-white/90 backdrop-blur-sm shadow-xl hover:scale-110 transition-transform"
-              style={{ borderColor: p.accent }}
+              className="md:hidden w-12 h-12 flex flex-col justify-center items-center gap-1.5 rounded-full border-4 backdrop-blur-sm shadow-xl hover:scale-110 transition-transform"
+              style={{ 
+                borderColor: isGlobeView ? '#00FF41' : p.accent,
+                backgroundColor: isGlobeView ? '#000000' : 'rgba(255,255,255,0.9)'
+              }}
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             >
-              <span className="w-5 h-0.5 rounded-full" style={{ backgroundColor: p.accent }}></span>
-              <span className="w-5 h-0.5 rounded-full" style={{ backgroundColor: p.accent }}></span>
-              <span className="w-5 h-0.5 rounded-full" style={{ backgroundColor: p.accent }}></span>
+              <span className="w-5 h-0.5 rounded-full" style={{ backgroundColor: isGlobeView ? '#00FF41' : p.accent }}></span>
+              <span className="w-5 h-0.5 rounded-full" style={{ backgroundColor: isGlobeView ? '#00FF41' : p.accent }}></span>
+              <span className="w-5 h-0.5 rounded-full" style={{ backgroundColor: isGlobeView ? '#00FF41' : p.accent }}></span>
             </button>
           </div>
         </div>

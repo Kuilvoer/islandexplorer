@@ -59,7 +59,11 @@ export default function DetailPage({ island, p, onBack }) {
             style={{ backgroundColor: p.card, borderColor: p.accent, color: p.accent, boxShadow: `12px 12px 0px ${p.accent}` }}
           >
             <h2 className="text-2xl md:text-3xl font-black mb-6 uppercase tracking-tight break-words hyphens-auto">Het Verhaal van {island.name}</h2>
-            <p className="text-lg font-medium leading-relaxed opacity-90 mb-4">{island.story?.description}</p>
+            <div className="text-lg font-medium leading-relaxed opacity-90">
+              {island.story?.description?.split('\n\n').map((paragraph, idx) => (
+                <p key={idx} className="mb-6 last:mb-0">{paragraph}</p>
+              ))}
+            </div>
           </div>
 
           {/* Flora / Fauna Fact */}
@@ -97,10 +101,16 @@ export default function DetailPage({ island, p, onBack }) {
               className="p-10 rounded-[40px] border-4 shadow-xl"
               style={{ backgroundColor: '#ffebee', borderColor: '#c62828', color: '#c62828' }}
             >
-              <h2 className="text-2xl font-black mb-4 uppercase tracking-widest">Gevaren / Waarschuwingen</h2>
-              <ul className="list-disc list-inside text-lg font-medium leading-relaxed opacity-90">
+              <div className="flex items-center gap-4 mb-6">
+                <i className="fa-solid fa-triangle-exclamation text-3xl"></i>
+                <h2 className="text-2xl font-black uppercase tracking-widest">Gevaren / Waarschuwingen</h2>
+              </div>
+              <ul className="text-lg font-medium leading-relaxed opacity-90 flex flex-col gap-4">
                 {island.hazards.map((hazard, idx) => (
-                  <li key={idx}>{hazard}</li>
+                  <li key={idx} className="flex gap-4 items-start">
+                    <span className="font-black mt-1 shrink-0"><i className="fa-solid fa-skull-crossbones"></i></span>
+                    <span>{hazard}</span>
+                  </li>
                 ))}
               </ul>
             </div>
