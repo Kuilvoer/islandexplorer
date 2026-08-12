@@ -153,7 +153,7 @@ function InnerApp() {
       )}
 
       {/* Minimal Header (Footer on mobile) */}
-      <header className="w-full flex flex-col md:flex-row justify-between items-center z-[90] order-last md:order-first pointer-events-none relative transition-colors duration-700">
+      <header className="w-full px-6 py-4 md:px-8 md:py-6 flex flex-col md:flex-row justify-between items-center z-[90] order-last md:order-first pointer-events-none relative transition-colors duration-700">
         <div 
           className="absolute inset-0 block md:hidden transition-colors duration-700 pointer-events-auto" 
           style={{ 
@@ -162,7 +162,7 @@ function InnerApp() {
           }}
         ></div>
         
-        <div className="w-full md:w-auto flex justify-between items-center pointer-events-auto relative z-10 px-6 py-4 md:px-8 md:py-6">
+        <div className="w-full md:w-auto flex justify-between items-center pointer-events-auto relative z-10">
           <div className="flex items-center gap-4 shrink-0 cursor-pointer" onClick={() => { setActiveDetailIsland(null); setIsGlobeView(false); setViewMode('card'); setShowFavoritesOnly(false); setIsMobileMenuOpen(false); }}>
             <div className="w-12 h-12 rounded-full border-4 flex items-center justify-center text-2xl transition-colors duration-700 bg-white/90 backdrop-blur-sm shadow-xl md:shadow-none" 
                  style={{ 

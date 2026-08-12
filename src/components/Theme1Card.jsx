@@ -49,7 +49,7 @@ export default function Theme1Card({ island, p, onReadMore }) {
                   <i className={`fa-heart md:text-lg ${isFavorite(island.id) ? 'fa-solid text-red-500' : 'fa-regular'}`}></i>
                 </button>
               </div>
-              <h1 className={`${island.name.length > 14 ? 'text-xl md:text-3xl lg:text-[3rem]' : 'text-3xl md:text-4xl lg:text-[4rem]'} font-black mb-3 md:mb-5 uppercase tracking-tighter drop-shadow-sm leading-tight break-words hyphens-auto line-clamp-2`}>{island.name}</h1>
+              <h1 className={`${island.name.length > 14 ? 'text-xl md:text-4xl lg:text-[4rem]' : 'text-3xl md:text-4xl lg:text-[4rem]'} font-black mb-3 md:mb-5 uppercase tracking-tighter drop-shadow-sm leading-tight break-words hyphens-auto line-clamp-2`}>{island.name}</h1>
             </div>
             
             {/* Flag - Absolute on mobile to prevent layout shifts, static on desktop */}
