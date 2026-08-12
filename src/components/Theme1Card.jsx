@@ -7,7 +7,7 @@ export default function Theme1Card({ island, p, onReadMore }) {
   if (!island) return null;
 
   return (
-    <div className={`flex flex-col md:flex-row gap-8 md:gap-12 w-full max-w-[90vw] md:max-w-[1440px] mx-auto items-stretch font-['Outfit'] transition-all duration-700 md:h-[750px]`}>
+    <div className={`flex flex-col md:flex-row gap-8 md:gap-12 w-full max-w-[90vw] md:max-w-[1200px] mx-auto items-stretch font-['Outfit'] transition-all duration-700 md:h-[600px]`}>
       
       {/* Map/Visual Area */}
       <div 

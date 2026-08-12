@@ -140,15 +140,36 @@ export default function MobileMenuVariations({
     case '5': // Bottom Sheet
       return (
         <div className="fixed inset-0 z-[100] md:hidden pointer-events-auto flex items-end">
-          <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" onClick={closeMenu}></div>
-          <div className="relative w-full rounded-t-[40px] shadow-[0_-10px_40px_rgba(0,0,0,0.3)] p-8 pb-12 flex flex-col gap-5 slide-up" style={{ backgroundColor: p.card }}>
-            <div className="w-16 h-2 rounded-full bg-black/20 mx-auto mb-2"></div>
-            <GlobeButton text={true} className="w-full py-4 rounded-2xl border-4 bg-white/50" />
-            <div className="flex gap-4">
-              <ViewToggle className="flex-1 rounded-2xl bg-white/50" />
-              <HeartButton className="w-16 h-16 rounded-2xl border-4 bg-white/50 shrink-0" />
+          <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={closeMenu}></div>
+          <div className="relative w-full rounded-t-[40px] shadow-[0_-10px_40px_rgba(0,0,0,0.5)] p-6 pb-12 flex flex-col gap-4 slide-up border-t-4" style={{ backgroundColor: p.bg, borderColor: p.accent }}>
+            
+            <div className="flex justify-between items-center mb-2 px-2">
+              <h2 className="font-black uppercase tracking-widest text-lg" style={{ color: p.accent }}>Menu</h2>
+              <div className="flex gap-4">
+                <AudioCont className="scale-110" />
+                <button 
+                  onClick={closeMenu} 
+                  className="w-12 h-12 rounded-full border-4 flex items-center justify-center text-xl hover:scale-110 transition-transform bg-white/90 shadow-lg"
+                  style={{ borderColor: p.accent, color: p.accent }}
+                >
+                  <i className="fa-solid fa-xmark"></i>
+                </button>
+              </div>
             </div>
-            <div className="flex justify-center mt-4"><AudioCont /></div>
+
+            <button 
+              onClick={() => { setIsGlobeView(!isGlobeView); closeMenu(); }}
+              className="w-full py-4 rounded-2xl border-4 font-black uppercase tracking-widest text-lg flex items-center justify-center gap-3 transition-transform shadow-md bg-[#111]"
+              style={{ borderColor: isGlobeView ? '#00FF41' : '#fff', color: isGlobeView ? '#00FF41' : '#fff' }}
+            >
+              <i className={`fa-solid ${isGlobeView ? 'fa-xmark' : 'fa-globe'} text-2xl`}></i> {isGlobeView ? 'Sluit Globe' : 'Globe View'}
+            </button>
+
+            <div className="flex gap-4">
+              <ViewToggle className="flex-1 rounded-2xl bg-white/70 shadow-md" />
+              <HeartButton text={false} className="w-16 h-16 rounded-2xl border-4 bg-white/70 shrink-0 shadow-md text-2xl" />
+            </div>
+
           </div>
         </div>
       );

@@ -153,23 +153,23 @@ function InnerApp() {
         />
       )}
 
-      {/* Minimal Header */}
-      <header className="w-full px-6 md:px-8 py-4 md:py-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-4 z-50 relative pointer-events-none">
+      {/* Minimal Header (Footer on mobile) */}
+      <header className="w-full px-6 md:px-8 py-4 md:py-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-4 z-[90] fixed bottom-0 left-0 md:relative md:top-auto pointer-events-none">
         
         <div className="w-full md:w-auto flex justify-between items-center pointer-events-auto">
           <div className="flex items-center gap-4 shrink-0 cursor-pointer" onClick={() => { setActiveDetailIsland(null); setIsGlobeView(false); setViewMode('card'); setShowFavoritesOnly(false); setIsMobileMenuOpen(false); }}>
-            <div className="w-12 h-12 rounded-full border-4 flex items-center justify-center text-2xl transition-colors duration-700 bg-white/90 backdrop-blur-sm" 
+            <div className="w-12 h-12 rounded-full border-4 flex items-center justify-center text-2xl transition-colors duration-700 bg-white/90 backdrop-blur-sm shadow-xl md:shadow-none" 
                  style={{ borderColor: isGlobeView ? '#00FF41' : p.accent, color: isGlobeView ? '#00FF41' : p.accent }}>
               <i className="fa-solid fa-earth-oceania"></i>
             </div>
-            <h1 className="text-xl md:text-3xl font-black uppercase tracking-tighter transition-colors duration-700 drop-shadow-md" 
+            <h1 className="text-xl md:text-3xl font-black uppercase tracking-tighter transition-colors duration-700 drop-shadow-md bg-white/50 md:bg-transparent px-3 py-1 md:px-0 md:py-0 rounded-xl md:rounded-none backdrop-blur-sm md:backdrop-blur-none" 
                 style={{ color: isGlobeView ? '#00FF41' : p.accent }}>
               IslandExplorer
             </h1>
           </div>
 
           <button 
-            className={`md:hidden w-12 h-12 flex-col justify-center items-center gap-1.5 rounded-full border-4 bg-white/90 backdrop-blur-sm ${['6', '7'].includes(mobileMenuVariant) ? 'hidden' : 'flex'}`}
+            className="md:hidden w-12 h-12 flex flex-col justify-center items-center gap-1.5 rounded-full border-4 bg-white/90 backdrop-blur-sm shadow-xl"
             style={{ borderColor: p.accent }}
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
@@ -181,7 +181,7 @@ function InnerApp() {
 
         {/* Mobile Menu Variations */}
         <MobileMenuVariations 
-          variant={mobileMenuVariant}
+          variant="5"
           isMobileMenuOpen={isMobileMenuOpen}
           setIsMobileMenuOpen={setIsMobileMenuOpen}
           isGlobeView={isGlobeView}
