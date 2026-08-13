@@ -75,16 +75,16 @@ export default function Theme1Card({ island, p, onReadMore }) {
 
         </div>
 
-        <div className="p-5 lg:p-6 rounded-3xl transition-all duration-500 cursor-pointer hover:scale-[1.02] shadow-xl mt-auto shrink-0 flex flex-col md:flex-row md:items-center justify-between gap-3 md:gap-0" 
+        <div className="p-5 lg:p-6 rounded-3xl transition-all duration-500 cursor-pointer hover:scale-[1.02] shadow-xl mt-auto shrink-0 flex flex-col gap-3" 
              style={{ backgroundColor: p.accent, color: p.card }}
              onClick={() => onReadMore(island)}>
-          <div className="flex justify-between items-center w-full md:w-auto">
+          <div className="flex justify-between items-center w-full gap-4">
             <h3 className="font-black text-sm lg:text-lg uppercase tracking-widest" style={{ color: p.bg }}>Start Verkenning</h3>
-            <div className="w-10 h-10 rounded-full flex items-center justify-center border-2 transition-transform hover:translate-x-2" style={{ backgroundColor: p.bg, borderColor: p.bg }}>
+            <div className="w-10 h-10 shrink-0 rounded-full flex items-center justify-center border-2 transition-transform hover:translate-x-2" style={{ backgroundColor: p.bg, borderColor: p.bg }}>
               <i className="fa-solid fa-arrow-right md:text-xl" style={{ color: p.accent }}></i>
             </div>
           </div>
-          <p className="md:hidden text-sm font-medium opacity-90 line-clamp-2 leading-relaxed">{island.story?.description}</p>
+          <p className="text-sm md:text-xs font-medium opacity-90 line-clamp-2 md:line-clamp-1 leading-relaxed">{island.story?.description}</p>
         </div>
       </div>
     </div>
