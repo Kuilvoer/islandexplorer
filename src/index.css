@@ -5,8 +5,8 @@ html {
 }
 
 @media (min-width: 1921px) {
-  html.homepage-active {
-    font-size: 17.6px; /* 10% groter */
+  body {
+    zoom: 1.1;
   }
 }
 
