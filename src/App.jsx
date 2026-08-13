@@ -116,7 +116,7 @@ function InnerApp() {
 
   return (
     <div 
-      className="min-h-screen transition-all duration-1000 font-['Outfit'] overflow-hidden relative flex flex-col md:[zoom:0.8]"
+      className="min-h-screen md:min-h-[125vh] transition-all duration-1000 font-['Outfit'] overflow-hidden relative flex flex-col md:[zoom:0.8]"
       style={{ backgroundColor: p.bg, backgroundImage: "url('https://www.transparenttextures.com/patterns/cubes.png')" }}
     >
       <div className="w-full h-full flex flex-col flex-1 transition-transform duration-700">
@@ -233,8 +233,12 @@ function InnerApp() {
            {/* Globe View Button */}
            <button 
              onClick={() => setIsGlobeView(!isGlobeView)}
-             className="px-6 py-3 rounded-full border-4 font-black uppercase tracking-widest text-sm hover:scale-105 transition-transform flex items-center gap-3 bg-white/90 backdrop-blur-sm"
-             style={{ borderColor: p.accent, color: p.accent }}
+             className="px-6 py-3 rounded-full border-4 font-black uppercase tracking-widest text-sm hover:scale-105 transition-colors flex items-center gap-3 backdrop-blur-sm shadow-xl"
+             style={{ 
+               borderColor: isGlobeView ? '#00FF41' : p.accent, 
+               color: isGlobeView ? '#00FF41' : p.accent,
+               backgroundColor: isGlobeView ? '#000000' : 'rgba(255,255,255,0.9)'
+             }}
            >
              <i className={`fa-solid ${isGlobeView ? 'fa-xmark' : 'fa-globe'} text-xl`}></i> {isGlobeView ? 'Sluit Globe' : 'Globe View'}
            </button>

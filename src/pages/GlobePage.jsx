@@ -4,10 +4,18 @@ import * as THREE from 'three';
 
 export default function GlobePage({ islands, p, onSelectIsland, onClose }) {
   const globeEl = useRef();
-  const [dimensions, setDimensions] = useState({ width: window.innerWidth, height: window.innerHeight });
+  const getDimensions = () => {
+    const zoom = window.innerWidth >= 768 ? 0.8 : 1;
+    return {
+      width: window.innerWidth / zoom,
+      height: window.innerHeight / zoom
+    };
+  };
+
+  const [dimensions, setDimensions] = useState(getDimensions());
 
   useEffect(() => {
-    const handleResize = () => setDimensions({ width: window.innerWidth, height: window.innerHeight });
+    const handleResize = () => setDimensions(getDimensions());
     window.addEventListener('resize', handleResize);
     
     // Auto-rotate
