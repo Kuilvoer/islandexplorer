@@ -61,28 +61,6 @@ function InnerApp() {
   
   // Preload all images on startup so they load instantly
   useEffect(() => {
-    // Fluid responsive font scaling for ultra-wide monitors (e.g. 2560px)
-    const handleResize = () => {
-      const width = window.innerWidth;
-      if (width >= 1920) {
-        // Bereken de verhouding t.o.v. 1920px (bijv. 2560 / 1920 = 1.333)
-        let scale = width / 1920;
-        
-        // Zorg dat het maximaal 150% groter wordt, voor het geval van 4K schermen
-        if (scale > 1.5) scale = 1.5;
-        
-        const newFontSize = 16 * scale;
-        document.documentElement.style.setProperty('font-size', `${newFontSize}px`, 'important');
-      } else {
-        document.documentElement.style.setProperty('font-size', '16px', 'important');
-      }
-    };
-    handleResize();
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
-
-  useEffect(() => {
     islandsData.forEach(island => {
       if (island.media?.images?.heroDesktop) {
         const img = new Image();
@@ -140,10 +118,10 @@ function InnerApp() {
 
   return (
     <div 
-      className="min-h-screen transition-all duration-1000 font-['Outfit'] overflow-hidden relative flex flex-col"
+      className="min-h-screen transition-all duration-1000 font-['Outfit'] overflow-hidden relative flex flex-col items-center"
       style={{ backgroundColor: p.bg, backgroundImage: "url('https://www.transparenttextures.com/patterns/cubes.png')" }}
     >
-      <div className="w-full h-full flex flex-col flex-1 transition-transform duration-700">
+      <div className="w-full max-w-[1920px] h-full flex flex-col flex-1 transition-transform duration-700 relative">
       <style>{`
         /* Dynamic Scrollbar Styling */
         ::-webkit-scrollbar {
