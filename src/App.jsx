@@ -155,7 +155,7 @@ function InnerApp() {
       )}
 
       {/* Minimal Header (Footer on mobile) */}
-      <header className="w-full px-6 py-4 md:px-8 md:py-6 flex flex-col md:flex-row justify-between items-center z-[90] order-last md:order-first pointer-events-none relative transition-colors duration-700">
+      <header className={`w-full px-6 py-4 md:px-8 md:py-6 flex flex-col md:flex-row justify-between items-center z-[90] order-last md:order-first pointer-events-none transition-colors duration-700 ${activeDetailIsland ? 'sticky bottom-0 md:relative' : 'relative'}`}>
         <div 
           className="absolute inset-0 block md:hidden transition-colors duration-700 pointer-events-auto" 
           style={{ 
@@ -174,10 +174,9 @@ function InnerApp() {
                  }}>
               <i className="fa-solid fa-earth-oceania"></i>
             </div>
-            <h1 className="text-xl md:text-3xl font-black uppercase tracking-tighter transition-colors duration-700 drop-shadow-md bg-white/50 md:bg-transparent px-3 py-1 md:px-0 md:py-0 rounded-xl md:rounded-none backdrop-blur-sm md:backdrop-blur-none" 
+            <h1 className="text-xl md:text-3xl font-black uppercase tracking-tighter transition-colors duration-700 drop-shadow-md" 
                 style={{ 
-                  color: isGlobeView ? '#00FF41' : p.accent,
-                  backgroundColor: isGlobeView ? 'transparent' : ''
+                  color: isGlobeView ? '#00FF41' : p.accent
                 }}>
               IslandExplorer
             </h1>

@@ -78,7 +78,7 @@ export default function Theme1Card({ island, p, onReadMore }) {
         <div className="p-5 lg:p-6 rounded-3xl transition-all duration-500 cursor-pointer shadow-xl mt-auto shrink-0 flex flex-col gap-3" 
              style={{ backgroundColor: p.accent, color: p.card }}
              onClick={() => onReadMore(island)}>
-          <div className="flex justify-between items-center w-full gap-4">
+          <div className="flex justify-start items-center w-full gap-4">
             <h3 className="font-black text-sm lg:text-lg uppercase tracking-widest" style={{ color: p.bg }}>Start Verkenning</h3>
             <div className="w-10 h-10 shrink-0 rounded-full flex items-center justify-center border-2 transition-transform hover:translate-x-2" style={{ backgroundColor: p.bg, borderColor: p.bg }}>
               <i className="fa-solid fa-arrow-right md:text-xl" style={{ color: p.accent }}></i>
