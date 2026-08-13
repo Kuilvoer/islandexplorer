@@ -4,7 +4,7 @@
    1920px = geen verandering (16px)
    2560px = 25% groter (16px * 1.25 = 20px)
 */
-@media (min-width: 2560px) {
+@media (min-width: 2400px) {
   :root, html, body { font-size: 20px !important; }
 }
 body {
