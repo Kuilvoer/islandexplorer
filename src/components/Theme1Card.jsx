@@ -31,7 +31,7 @@ export default function Theme1Card({ island, p, onReadMore }) {
 
       {/* Info Card */}
       <div 
-        className={`w-full md:w-1/2 rounded-[40px] p-6 md:p-8 xl:p-10 relative transition-all duration-700 border-4 flex flex-col justify-between shrink-0 h-auto md:h-full`}
+        className={`w-full md:w-1/2 rounded-[40px] p-6 md:p-8 xl:p-10 relative transition-all duration-700 border-4 flex flex-col justify-between shrink-0 h-auto md:h-full overflow-hidden`}
         style={{ backgroundColor: p.card, color: p.accent, boxShadow: `10px 10px 0px ${p.accent}`, borderColor: p.accent }}
       >
         
@@ -49,7 +49,7 @@ export default function Theme1Card({ island, p, onReadMore }) {
                   <i className={`fa-heart md:text-lg ${isFavorite(island.id) ? 'fa-solid text-red-500' : 'fa-regular'}`}></i>
                 </button>
               </div>
-              <h1 className={`${island.name.length > 14 ? 'text-xl md:text-3xl lg:text-4xl xl:text-[4rem]' : 'text-3xl md:text-4xl xl:text-[4rem]'} font-black mb-3 md:mb-4 uppercase tracking-tighter drop-shadow-sm leading-tight break-words hyphens-auto line-clamp-2`}>{island.name}</h1>
+              <h1 className={`${island.name.length > 10 ? 'text-xl md:text-3xl lg:text-4xl' : 'text-3xl md:text-4xl xl:text-[4rem]'} font-black mb-3 md:mb-4 uppercase tracking-tighter drop-shadow-sm leading-tight break-words hyphens-auto line-clamp-2`}>{island.name}</h1>
             </div>
             
             {/* Flag - Absolute on mobile to prevent layout shifts, static on desktop */}
@@ -75,14 +75,16 @@ export default function Theme1Card({ island, p, onReadMore }) {
 
         </div>
 
-        <div className="p-5 lg:p-6 rounded-3xl transition-all duration-500 cursor-pointer hover:scale-[1.02] shadow-xl mt-auto shrink-0" 
+        <div className="p-5 lg:p-6 rounded-3xl transition-all duration-500 cursor-pointer hover:scale-[1.02] shadow-xl mt-auto shrink-0 flex flex-col md:flex-row md:items-center justify-between gap-3 md:gap-0" 
              style={{ backgroundColor: p.accent, color: p.card }}
              onClick={() => onReadMore(island)}>
-          <div className="flex justify-between items-center mb-2 md:mb-3">
-            <h3 className="font-black text-xs md:text-sm lg:text-base uppercase tracking-widest" style={{ color: p.bg }}>Start Verkenning</h3>
-            <i className="fa-solid fa-arrow-right md:text-xl" style={{ color: p.bg }}></i>
+          <div className="flex justify-between items-center w-full md:w-auto">
+            <h3 className="font-black text-sm lg:text-lg uppercase tracking-widest" style={{ color: p.bg }}>Start Verkenning</h3>
+            <div className="w-10 h-10 rounded-full flex items-center justify-center border-2 transition-transform hover:translate-x-2" style={{ backgroundColor: p.bg, borderColor: p.bg }}>
+              <i className="fa-solid fa-arrow-right md:text-xl" style={{ color: p.accent }}></i>
+            </div>
           </div>
-          <p className="text-sm md:text-base lg:text-lg font-medium opacity-90 line-clamp-2 leading-relaxed">{island.story?.description}</p>
+          <p className="md:hidden text-sm font-medium opacity-90 line-clamp-2 leading-relaxed">{island.story?.description}</p>
         </div>
       </div>
     </div>
