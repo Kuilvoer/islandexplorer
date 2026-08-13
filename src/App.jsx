@@ -133,7 +133,7 @@ function InnerApp() {
 
   return (
     <div 
-      className="min-h-screen md:min-h-[125vh] transition-all duration-1000 font-['Outfit'] overflow-hidden relative flex flex-col md:[zoom:0.8]"
+      className="min-h-screen transition-all duration-1000 font-['Outfit'] overflow-hidden relative flex flex-col"
       style={{ backgroundColor: p.bg, backgroundImage: "url('https://www.transparenttextures.com/patterns/cubes.png')" }}
     >
       <div className="w-full h-full flex flex-col flex-1 transition-transform duration-700">

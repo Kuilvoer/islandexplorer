@@ -84,7 +84,7 @@ export default function Theme1Card({ island, p, onReadMore }) {
               <i className="fa-solid fa-arrow-right md:text-xl" style={{ color: p.accent }}></i>
             </div>
           </div>
-          <p className="text-sm md:text-xs font-medium opacity-90 line-clamp-2 md:line-clamp-1 leading-relaxed">{island.story?.description}</p>
+          <p className="text-base font-medium opacity-90 line-clamp-2 leading-relaxed">{island.story?.description}</p>
         </div>
       </div>
     </div>
