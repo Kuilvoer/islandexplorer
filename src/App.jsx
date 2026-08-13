@@ -164,8 +164,11 @@ function InnerApp() {
           }}
         ></div>
         
-        <div className="w-full md:w-auto flex justify-between items-center pointer-events-auto relative z-10">
-          <div className="flex items-center gap-4 shrink-0 cursor-pointer" onClick={() => { setActiveDetailIsland(null); setIsGlobeView(false); setViewMode('card'); setShowFavoritesOnly(false); setIsMobileMenuOpen(false); }}>
+        <div 
+          className="w-full md:w-auto flex justify-between items-center pointer-events-auto relative z-10"
+          style={{ marginLeft: 'calc(-1 * max(0px, (100vw - 1920px) / 2))' }}
+        >
+          <div className="flex items-center gap-4 shrink-0 cursor-pointer pl-6 md:pl-8" onClick={() => { setActiveDetailIsland(null); setIsGlobeView(false); setViewMode('card'); setShowFavoritesOnly(false); setIsMobileMenuOpen(false); }}>
             <div className="w-12 h-12 rounded-full border-4 flex items-center justify-center text-2xl transition-colors duration-700 bg-white/90 backdrop-blur-sm shadow-xl md:shadow-none" 
                  style={{ 
                    borderColor: isGlobeView ? '#00FF41' : p.accent, 
@@ -202,11 +205,11 @@ function InnerApp() {
                 borderColor: isGlobeView ? '#00FF41' : p.accent,
                 backgroundColor: isGlobeView ? '#000000' : 'rgba(255,255,255,0.9)'
               }}
-              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              onClick={() => setIsMobileMenuOpen(true)}
             >
-              <span className="w-5 h-0.5 rounded-full" style={{ backgroundColor: isGlobeView ? '#00FF41' : p.accent }}></span>
-              <span className="w-5 h-0.5 rounded-full" style={{ backgroundColor: isGlobeView ? '#00FF41' : p.accent }}></span>
-              <span className="w-5 h-0.5 rounded-full" style={{ backgroundColor: isGlobeView ? '#00FF41' : p.accent }}></span>
+              <div className="w-5 h-0.5" style={{ backgroundColor: isGlobeView ? '#00FF41' : p.accent }}></div>
+              <div className="w-5 h-0.5" style={{ backgroundColor: isGlobeView ? '#00FF41' : p.accent }}></div>
+              <div className="w-5 h-0.5" style={{ backgroundColor: isGlobeView ? '#00FF41' : p.accent }}></div>
             </button>
           </div>
         </div>
