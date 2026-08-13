@@ -59,6 +59,15 @@ function InnerApp() {
   const [showFavoritesOnly, setShowFavoritesOnly] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   
+  // Toggle zoom on 2K+ screens for homepage only
+  useEffect(() => {
+    if (!activeDetailIsland && !isGlobeView) {
+      document.documentElement.classList.add('homepage-active');
+    } else {
+      document.documentElement.classList.remove('homepage-active');
+    }
+  }, [activeDetailIsland, isGlobeView]);
+
   // Preload all images on startup so they load instantly
   useEffect(() => {
     islandsData.forEach(island => {
