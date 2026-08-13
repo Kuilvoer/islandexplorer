@@ -1,6 +1,14 @@
 @import "tailwindcss";
 
+html {
+  font-size: 16px;
+}
 
+@media (min-width: 1921px) {
+  html.homepage-active {
+    font-size: 17.6px; /* 10% groter */
+  }
+}
 
 body {
   margin: 0;
@@ -32,11 +40,4 @@ body {
 
 .fade-in {
   animation: fadeIn 0.3s ease-out forwards;
-}
-
-@media (min-width: 1921px) {
-  .homepage-zoom {
-    zoom: 1.1;
-    
-  }
 }
