@@ -1,17 +1,10 @@
 @import "tailwindcss";
 
 /* Live V1 Schaling (GitHub):
-   Omdat Windows/Browser schaling (125%, 150%) roet in het eten kan gooien,
-   gebruiken we agressieve en lagere breekpunten zodat we zeker weten
-   dat hij op de grote fysieke schermen afvuurt.
-   
-   1920px (vanaf 1500px in browser) = 10% groter (16px * 1.1 = 17.6px)
-   2560px (vanaf 2000px in browser) = 50% groter (16px * 1.5 = 24px)
+   Gebruiker geeft aan dat 1920x1080 goed is (100% / 16px).
+   Groter dan 1920x1080 moet 150% (24px) zijn.
 */
-@media (min-width: 1500px) and (max-width: 1999px) {
-  :root, html, body { font-size: 17.6px !important; }
-}
-@media (min-width: 2000px) {
+@media (min-width: 1921px) {
   :root, html, body { font-size: 24px !important; }
 }
 body {

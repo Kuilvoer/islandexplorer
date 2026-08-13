@@ -338,7 +338,7 @@ function InnerApp() {
                             const distance = Math.abs(index - 2);
                             const isFav = favorites.includes(island.id);
                             return (
-                              <div key={`${island.id}-${index}`} onClick={() => setActiveIsland(island)} className={`${(index === 0 || index === 4) ? 'hidden md:flex' : 'flex'} w-20 md:w-40 flex-col items-center justify-start cursor-pointer transition-all shrink-0 relative ${isActive ? 'scale-110 -translate-y-1 md:-translate-y-4' : 'hover:scale-105'}`} style={{ opacity: distance === 2 ? 0.4 : distance === 1 ? 0.7 : 1 }}>
+                              <div key={`${island.id}-${index}`} onClick={() => setActiveIsland(island)} className={`${(index === 0 || index === 4) ? 'hidden md:flex' : 'flex'} w-20 md:w-40 flex-col items-center justify-start cursor-pointer transition-all shrink-0 relative ${isActive ? 'scale-110 -translate-y-1 md:-translate-y-4' : ''}`} style={{ opacity: distance === 2 ? 0.4 : distance === 1 ? 0.7 : 1 }}>
                                 <div className="relative">
                                   <div className="w-14 h-14 md:w-28 md:h-28 rounded-full border-4 overflow-hidden transition-colors duration-700 shrink-0 shadow-lg" style={{ borderColor: isActive ? (p.id === 'arctic' ? '#9E9E9E' : p.bg) : p.accent, backgroundColor: '#fff' }}>
                                     <img src={`https://flagcdn.com/w320/${island.media.countryCode}.png`} className="w-full h-full object-cover" />

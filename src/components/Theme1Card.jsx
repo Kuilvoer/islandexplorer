@@ -15,7 +15,7 @@ export default function Theme1Card({ island, p, onReadMore }) {
         style={{ borderColor: p.accent, boxShadow: `12px 12px 0px ${p.accent}` }}
         onClick={() => onReadMore(island)}
       >
-        <img src={island.media?.images?.heroDesktop} alt={island.name} className="w-full h-full object-cover absolute inset-0 group-hover:scale-105 transition-transform duration-700" />
+        <img src={island.media?.images?.heroDesktop} alt={island.name} className="w-full h-full object-cover absolute inset-0 transition-transform duration-700" />
         <div 
           className="absolute top-6 left-6 md:top-8 md:left-8 px-5 py-3 md:px-7 md:py-4 rounded-full border-2 font-black flex items-center gap-2 transition-colors duration-500 shadow-lg text-sm md:text-base"
           style={{ backgroundColor: p.card, borderColor: p.accent, color: p.accent }}
@@ -49,7 +49,7 @@ export default function Theme1Card({ island, p, onReadMore }) {
                   <i className={`fa-heart md:text-lg ${isFavorite(island.id) ? 'fa-solid text-red-500' : 'fa-regular'}`}></i>
                 </button>
               </div>
-              <h1 className={`${island.name.length > 10 ? 'text-xl md:text-3xl lg:text-4xl' : 'text-3xl md:text-4xl xl:text-[4rem]'} font-black mb-3 md:mb-4 uppercase tracking-tighter drop-shadow-sm leading-tight break-words hyphens-auto line-clamp-2`}>{island.name}</h1>
+              <h1 className={`${island.name.length > 8 ? 'text-2xl md:text-3xl lg:text-4xl' : 'text-3xl md:text-4xl xl:text-5xl'} font-black mb-3 md:mb-4 uppercase tracking-tighter drop-shadow-sm leading-tight break-words hyphens-auto line-clamp-2`}>{island.name}</h1>
             </div>
             
             {/* Flag - Absolute on mobile to prevent layout shifts, static on desktop */}
@@ -75,7 +75,7 @@ export default function Theme1Card({ island, p, onReadMore }) {
 
         </div>
 
-        <div className="p-5 lg:p-6 rounded-3xl transition-all duration-500 cursor-pointer hover:scale-[1.02] shadow-xl mt-auto shrink-0 flex flex-col gap-3" 
+        <div className="p-5 lg:p-6 rounded-3xl transition-all duration-500 cursor-pointer shadow-xl mt-auto shrink-0 flex flex-col gap-3" 
              style={{ backgroundColor: p.accent, color: p.card }}
              onClick={() => onReadMore(island)}>
           <div className="flex justify-between items-center w-full gap-4">

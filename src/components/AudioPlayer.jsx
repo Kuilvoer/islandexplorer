@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const audioTracks = {
   tropical: import.meta.env.BASE_URL + 'audio/tropical.mp3',
@@ -8,107 +8,118 @@ const audioTracks = {
   volcanic: import.meta.env.BASE_URL + 'audio/volcanic.mp3',
 };
 
-export default function AudioPlayer({ themeType, p, renderCustom }) {
-  const [isPlaying, setIsPlaying] = useState(false);
-  const playersRef = useRef({});
-  const activeThemeRef = useRef(null);
-  const fadeIntervalsRef = useRef({});
+// Global state
+let globalPlayers = null;
+let globalIsPlaying = false;
+let globalActiveTheme = null;
+let fadeIntervals = {};
+const listeners = new Set();
 
-  // Initialize all 5 audio elements once
-  useEffect(() => {
-    Object.keys(audioTracks).forEach(theme => {
-      const audio = new Audio(audioTracks[theme]);
-      audio.loop = true;
-      audio.volume = 0;
-      playersRef.current[theme] = audio;
+function initGlobalPlayers() {
+  if (globalPlayers) return;
+  globalPlayers = {};
+  Object.keys(audioTracks).forEach(theme => {
+    const audio = new Audio(audioTracks[theme]);
+    audio.loop = true;
+    audio.volume = 0;
+    globalPlayers[theme] = audio;
+  });
+}
+
+const notifyListeners = () => {
+  listeners.forEach(fn => fn(globalIsPlaying));
+};
+
+export const toggleGlobalPlay = () => {
+  if (!globalPlayers) initGlobalPlayers();
+  
+  const theme = globalActiveTheme || 'tropical';
+  const audio = globalPlayers[theme];
+  
+  if (globalIsPlaying) {
+    Object.values(globalPlayers).forEach(a => {
+      clearInterval(fadeIntervals[a.src]); 
+      a.pause();
     });
+  } else {
+    if (audio) {
+      audio.volume = theme === 'volcanic' ? 0.9 : 1.0;
+      audio.play().catch(e => console.log("Audio play blocked", e));
+    }
+  }
+  
+  globalIsPlaying = !globalIsPlaying;
+  notifyListeners();
+};
 
-    return () => {
-      // Cleanup on unmount
-      Object.values(playersRef.current).forEach(audio => {
-        audio.pause();
-        audio.src = '';
-      });
-    };
+export const setGlobalTheme = (newTheme) => {
+  if (!globalPlayers) initGlobalPlayers();
+  const desiredTheme = audioTracks[newTheme] ? newTheme : 'tropical';
+  
+  if (globalActiveTheme !== desiredTheme) {
+    if (globalIsPlaying) {
+      const oldTheme = globalActiveTheme;
+      const oldAudio = oldTheme ? globalPlayers[oldTheme] : null;
+      const newAudio = globalPlayers[desiredTheme];
+
+      // Fade out old
+      if (oldAudio && oldAudio.volume > 0) {
+        clearInterval(fadeIntervals[oldTheme]);
+        fadeIntervals[oldTheme] = setInterval(() => {
+          let newVol = oldAudio.volume - 0.1;
+          if (newVol <= 0.05) {
+            oldAudio.volume = 0;
+            oldAudio.pause();
+            clearInterval(fadeIntervals[oldTheme]);
+          } else {
+            oldAudio.volume = newVol;
+          }
+        }, 100);
+      }
+
+      // Fade in new
+      if (newAudio) {
+        clearInterval(fadeIntervals[desiredTheme]);
+        if (newAudio.readyState === 0) newAudio.load();
+        newAudio.play().catch(e => console.log("Audio play blocked", e));
+        
+        fadeIntervals[desiredTheme] = setInterval(() => {
+          let newVol = newAudio.volume + 0.1;
+          const maxVol = desiredTheme === 'volcanic' ? 0.9 : 1.0;
+          if (newVol >= maxVol - 0.05) {
+            newAudio.volume = maxVol;
+            clearInterval(fadeIntervals[desiredTheme]);
+          } else {
+            newAudio.volume = newVol;
+          }
+        }, 100);
+      }
+    }
+    globalActiveTheme = desiredTheme;
+  }
+};
+
+export default function AudioPlayer({ themeType, p, renderCustom }) {
+  const [isPlaying, setIsPlaying] = useState(globalIsPlaying);
+
+  useEffect(() => {
+    initGlobalPlayers();
+    const handleStateChange = (playing) => setIsPlaying(playing);
+    listeners.add(handleStateChange);
+    return () => listeners.delete(handleStateChange);
   }, []);
 
-  const crossfade = (oldTheme, newTheme) => {
-    const oldAudio = oldTheme ? playersRef.current[oldTheme] : null;
-    const newAudio = playersRef.current[newTheme];
-
-    // Fade out old
-    if (oldAudio && oldAudio.volume > 0) {
-      clearInterval(fadeIntervalsRef.current[oldTheme]);
-      fadeIntervalsRef.current[oldTheme] = setInterval(() => {
-        let newVol = oldAudio.volume - 0.1;
-        if (newVol <= 0.05) {
-          oldAudio.volume = 0;
-          oldAudio.pause();
-          clearInterval(fadeIntervalsRef.current[oldTheme]);
-        } else {
-          oldAudio.volume = newVol;
-        }
-      }, 100);
-    }
-
-    // Fade in new
-    if (newAudio && isPlaying) {
-      clearInterval(fadeIntervalsRef.current[newTheme]);
-      // Forceer direct inladen van netwerk
-      if (newAudio.readyState === 0) newAudio.load();
-      newAudio.play().catch(e => console.log("Audio play blocked", e));
-      
-      fadeIntervalsRef.current[newTheme] = setInterval(() => {
-        let newVol = newAudio.volume + 0.1;
-        const maxVol = newTheme === 'volcanic' ? 0.9 : 1.0;
-        if (newVol >= maxVol - 0.05) {
-          newAudio.volume = maxVol;
-          clearInterval(fadeIntervalsRef.current[newTheme]);
-        } else {
-          newAudio.volume = newVol;
-        }
-      }, 100);
-    }
-  };
-
   useEffect(() => {
-    const desiredTheme = audioTracks[themeType] ? themeType : 'tropical';
-    
-    if (activeThemeRef.current !== desiredTheme) {
-      if (isPlaying) {
-        crossfade(activeThemeRef.current, desiredTheme);
-      }
-      activeThemeRef.current = desiredTheme;
-    }
-  }, [themeType, isPlaying]);
-
-  const togglePlay = () => {
-    const theme = activeThemeRef.current || (audioTracks[themeType] ? themeType : 'tropical');
-    const audio = playersRef.current[theme];
-    
-    if (isPlaying) {
-      // Pause all playing audio
-      Object.values(playersRef.current).forEach(a => {
-        clearInterval(fadeIntervalsRef.current[a.src]); 
-        a.pause();
-      });
-    } else {
-      if (audio) {
-        audio.volume = theme === 'volcanic' ? 0.9 : 1.0;
-        audio.play().catch(e => console.log("Audio play blocked", e));
-      }
-    }
-    
-    setIsPlaying(!isPlaying);
-  };
+    setGlobalTheme(themeType);
+  }, [themeType]);
 
   if (renderCustom) {
-    return renderCustom({ isPlaying, togglePlay });
+    return renderCustom({ isPlaying, togglePlay: toggleGlobalPlay });
   }
 
   return (
     <button 
-      onClick={togglePlay}
+      onClick={toggleGlobalPlay}
       className="w-12 h-12 rounded-full border-4 flex items-center justify-center shrink-0 hover:scale-110 transition-transform bg-white/90 backdrop-blur-sm"
       style={{ borderColor: p.accent, color: p.accent }}
       title={isPlaying ? "Pauzeer Sfeer Audio" : "Speel Sfeer Audio"}
