@@ -58,6 +58,15 @@ function InnerApp() {
   const [viewMode, setViewMode] = useState('card'); // 'card', 'list1', 'list2', 'list3', 'list4'
   const [showFavoritesOnly, setShowFavoritesOnly] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  // Disable global CSS zoom when GlobeView is active to prevent WebGL raycasting bugs
+  useEffect(() => {
+    if (isGlobeView) {
+      document.body.classList.add('no-zoom');
+    } else {
+      document.body.classList.remove('no-zoom');
+    }
+  }, [isGlobeView]);
   
   // Preload all images on startup so they load instantly
   useEffect(() => {

@@ -70,32 +70,52 @@ export function ListViewSplit({ islands, onSelect, activeIsland, setActiveIsland
     <div className="w-full max-w-7xl mx-auto flex h-[75vh] bg-white rounded-[40px] border-4 overflow-hidden shadow-2xl fade-in" style={{ borderColor: pTheme }}>
       {/* Left List */}
       <div className="w-full md:w-2/5 border-r-4 overflow-y-auto hide-scrollbar" style={{ borderColor: pTheme }}>
-        {islands.map(island => (
-          <div 
-            key={island.id}
-            onClick={() => {
-              setActiveIsland(island);
-              // On mobile, clicking the item directly opens the detail page
-              if (window.innerWidth < 768) {
-                onSelect(island);
-              }
-            }}
-            className={`p-6 border-b-4 cursor-pointer transition-colors flex justify-between items-center ${activePreview?.id === island.id ? 'bg-opacity-20' : 'hover:bg-opacity-5'}`}
-            style={{ borderColor: pTheme, backgroundColor: activePreview?.id === island.id ? pBg : 'transparent' }}
-          >
-            <div>
-              <h3 className="text-xl font-black uppercase tracking-tighter" style={{ color: pTheme }}>{island.name}</h3>
-              <p className="text-xs font-bold uppercase opacity-60 mt-1" style={{ color: pTheme }}>{island.region}</p>
+        {[
+          { id: 'tropical', label: 'Tropisch & Paradijs', icon: 'fa-umbrella-beach' },
+          { id: 'polar', label: 'IJs & Arctisch', icon: 'fa-snowflake' },
+          { id: 'volcanic', label: 'Vulkanisch & Instabiel', icon: 'fa-volcano' },
+          { id: 'temperate', label: 'Gematigd & Rotsachtig', icon: 'fa-mountain' }
+        ].map(group => {
+          const groupIslands = islands.filter(i => i.themeType === group.id);
+          if (groupIslands.length === 0) return null;
+          
+          return (
+            <div key={group.id} className="mb-4">
+              <div className="sticky top-0 bg-white/95 backdrop-blur-sm p-4 border-b-4 flex items-center gap-3 z-10 shadow-sm" style={{ borderColor: pTheme, color: pTheme }}>
+                <i className={`fa-solid ${group.icon} text-xl`}></i>
+                <h3 className="font-black uppercase tracking-widest text-sm">{group.label}</h3>
+              </div>
+              
+              <div>
+                {groupIslands.map(island => (
+                  <div 
+                    key={island.id}
+                    onClick={() => {
+                      setActiveIsland(island);
+                      if (window.innerWidth < 768) {
+                        onSelect(island);
+                      }
+                    }}
+                    className={`p-6 border-b-4 cursor-pointer transition-colors flex justify-between items-center ${activePreview?.id === island.id ? 'bg-opacity-20' : 'hover:bg-opacity-5'}`}
+                    style={{ borderColor: pTheme, backgroundColor: activePreview?.id === island.id ? pBg : 'transparent' }}
+                  >
+                    <div>
+                      <h4 className="text-xl font-black uppercase tracking-tighter" style={{ color: pTheme }}>{island.name}</h4>
+                      <p className="text-xs font-bold uppercase opacity-60 mt-1" style={{ color: pTheme }}>{island.region}</p>
+                    </div>
+                    <button 
+                      className="w-8 h-8 rounded-full border-2 flex items-center justify-center md:hidden shrink-0" 
+                      style={{ borderColor: pTheme, color: pTheme }}
+                      onClick={(e) => { e.stopPropagation(); onSelect(island); }}
+                    >
+                      <i className="fa-solid fa-chevron-right text-xs"></i>
+                    </button>
+                  </div>
+                ))}
+              </div>
             </div>
-            <button 
-              className="w-8 h-8 rounded-full border-2 flex items-center justify-center md:hidden shrink-0" 
-              style={{ borderColor: pTheme, color: pTheme }}
-              onClick={(e) => { e.stopPropagation(); onSelect(island); }}
-            >
-              <i className="fa-solid fa-chevron-right text-xs"></i>
-            </button>
-          </div>
-        ))}
+          );
+        })}
       </div>
       
       {/* Right Preview */}

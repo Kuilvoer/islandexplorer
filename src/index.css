@@ -5,7 +5,7 @@ html {
 }
 
 @media (min-width: 1921px) {
-  body {
+  body:not(.no-zoom) {
     zoom: 1.1;
   }
 }
