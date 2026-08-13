@@ -34,9 +34,11 @@ const SwipeableMain = ({ children, viewMode, activeDetailIsland, isGlobeView, ha
     <main 
       onTouchStart={onTouchStart} 
       onTouchEnd={onTouchEnd} 
-      className={`flex-1 w-full relative z-10 ${viewMode.startsWith('list') ? 'overflow-y-auto' : ''}`}
+      className={`flex-1 w-full relative z-10 ${viewMode.startsWith('list') ? 'overflow-y-auto' : ''} ${isGlobeView ? 'pointer-events-none' : ''}`}
     >
-      {children}
+      <div className={isGlobeView ? 'pointer-events-auto' : ''}>
+        {children}
+      </div>
     </main>
   );
 };
@@ -58,6 +60,21 @@ function InnerApp() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   
   // Preload all images on startup so they load instantly
+  useEffect(() => {
+    // Agressieve schaling voor V1: forceer 24px (150%) als de fysieke CSS breedte groot is.
+    const handleResize = () => {
+      // Als de breedte groter is dan 2200px (dit vangt 2560px op 100% zoom veilig af)
+      if (window.innerWidth > 2200) {
+        document.documentElement.style.setProperty('font-size', '24px', 'important');
+      } else {
+        document.documentElement.style.setProperty('font-size', '16px', 'important');
+      }
+    };
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   useEffect(() => {
     islandsData.forEach(island => {
       if (island.media?.images?.heroDesktop) {
