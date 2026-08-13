@@ -61,21 +61,6 @@ function InnerApp() {
   
   // Preload all images on startup so they load instantly
   useEffect(() => {
-    // Agressieve schaling voor V1: forceer 24px (150%) als de fysieke CSS breedte groot is.
-    const handleResize = () => {
-      // Als de breedte groter is dan 2200px (dit vangt 2560px op 100% zoom veilig af)
-      if (window.innerWidth > 2200) {
-        document.documentElement.style.setProperty('font-size', '24px', 'important');
-      } else {
-        document.documentElement.style.setProperty('font-size', '16px', 'important');
-      }
-    };
-    handleResize();
-    window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
-  }, []);
-
-  useEffect(() => {
     islandsData.forEach(island => {
       if (island.media?.images?.heroDesktop) {
         const img = new Image();
@@ -133,7 +118,7 @@ function InnerApp() {
 
   return (
     <div 
-      className="min-h-screen transition-all duration-1000 font-['Outfit'] overflow-hidden relative flex flex-col"
+      className="app-wrapper min-h-screen transition-all duration-1000 font-['Outfit'] overflow-hidden relative flex flex-col"
       style={{ backgroundColor: p.bg, backgroundImage: "url('https://www.transparenttextures.com/patterns/cubes.png')" }}
     >
       <div className="w-full h-full flex flex-col flex-1 transition-transform duration-700">
