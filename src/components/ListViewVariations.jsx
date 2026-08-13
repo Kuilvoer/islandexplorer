@@ -139,7 +139,7 @@ export function ListViewSplit({ islands, onSelect, activeIsland, setActiveIsland
                  </div>
                </div>
                
-               <p className="text-sm font-medium opacity-90 line-clamp-3 leading-relaxed" style={{ color: pTheme }}>{activePreview.story?.description}</p>
+               <p className="text-sm font-medium opacity-90 line-clamp-3 leading-relaxed" style={{ color: pTheme }}>{formatBoldText(activePreview.story?.description)}</p>
                
                <button onClick={() => onSelect(activePreview)} className="mt-2 px-6 py-4 rounded-full border-4 font-black uppercase tracking-widest text-sm hover:scale-105 transition-transform bg-white" style={{ borderColor: pTheme, color: pTheme }}>
                  Start Verkenning <i className="fa-solid fa-arrow-right ml-2"></i>

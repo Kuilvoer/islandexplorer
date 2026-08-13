@@ -1,5 +1,6 @@
 import React from 'react';
 import WeatherWidget from '../components/WeatherWidget';
+import { formatBoldText } from '../utils/formatText';
 
 export default function DetailPage({ island, p, onBack }) {
     if (!island) return null;
@@ -61,7 +62,7 @@ export default function DetailPage({ island, p, onBack }) {
             <h2 className="text-2xl md:text-3xl font-black mb-6 uppercase tracking-tight break-words hyphens-auto">Het Verhaal van {island.name}</h2>
             <div className="text-lg font-medium leading-relaxed opacity-90">
               {island.story?.description?.split('\n\n').map((paragraph, idx) => (
-                <p key={idx} className="mb-6 last:mb-0">{paragraph}</p>
+                <p key={idx} className="mb-6 last:mb-0">{formatBoldText(paragraph)}</p>
               ))}
             </div>
           </div>
@@ -72,7 +73,7 @@ export default function DetailPage({ island, p, onBack }) {
             style={{ backgroundColor: p.accent, borderColor: p.accent, color: p.card }}
           >
             <h2 className="text-xl md:text-2xl font-black mb-4 uppercase tracking-widest break-words hyphens-auto" style={{ color: p.bg }}>Natuurlijke Wonderen</h2>
-            <p className="text-lg font-medium leading-relaxed opacity-90">{island.story?.floraFauna}</p>
+            <p className="text-lg font-medium leading-relaxed opacity-90">{formatBoldText(island.story?.floraFauna)}</p>
           </div>
           
           <div 
@@ -80,7 +81,7 @@ export default function DetailPage({ island, p, onBack }) {
             style={{ backgroundColor: p.card, borderColor: p.accent, color: p.accent }}
           >
             <h2 className="text-xl md:text-2xl font-black mb-4 uppercase tracking-widest break-words hyphens-auto">Connectiviteit</h2>
-            <p className="text-lg font-medium leading-relaxed opacity-90">{island.economyAndCulture?.connectivity}</p>
+            <p className="text-lg font-medium leading-relaxed opacity-90">{formatBoldText(island.economyAndCulture?.connectivity)}</p>
           </div>
 
           {island.economyAndCulture?.souvenirTip && (
@@ -92,7 +93,7 @@ export default function DetailPage({ island, p, onBack }) {
                 <i className="fa-solid fa-gift text-2xl shrink-0"></i>
                 <h2 className="text-xl md:text-2xl font-black uppercase tracking-widest break-words hyphens-auto">Souvenir Tip</h2>
               </div>
-              <p className="text-lg font-medium leading-relaxed opacity-90">{island.economyAndCulture.souvenirTip}</p>
+              <p className="text-lg font-medium leading-relaxed opacity-90">{formatBoldText(island.economyAndCulture.souvenirTip)}</p>
             </div>
           )}
 
