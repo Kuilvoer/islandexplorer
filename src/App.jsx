@@ -119,7 +119,7 @@ function InnerApp() {
       className="min-h-screen transition-all duration-1000 font-['Outfit'] overflow-hidden relative flex flex-col"
       style={{ backgroundColor: p.bg, backgroundImage: "url('https://www.transparenttextures.com/patterns/cubes.png')" }}
     >
-      
+      <div className="w-full h-full flex flex-col flex-1 transition-transform duration-700 md:scale-[0.8] origin-center">
       <style>{`
         /* Dynamic Scrollbar Styling */
         ::-webkit-scrollbar {
@@ -364,8 +364,8 @@ function InnerApp() {
             )
           )}
         </SwipeableMain>
-
       </div>
+    </div>
   );
 }
 export default function App() {
