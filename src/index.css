@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+/* Live V1 Schaling (GitHub):
+   1920px = geen verandering (16px)
+   2560px = 25% groter (16px * 1.25 = 20px)
+*/
+@media (min-width: 2560px) {
+  :root, html, body { font-size: 20px !important; }
+}
 body {
   margin: 0;
   padding: 0;
