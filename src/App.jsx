@@ -34,7 +34,7 @@ const SwipeableMain = ({ children, viewMode, activeDetailIsland, isGlobeView, ha
     <main 
       onTouchStart={onTouchStart} 
       onTouchEnd={onTouchEnd} 
-      className={`flex-1 w-full relative z-10 ${viewMode.startsWith('list') ? 'overflow-y-auto' : ''} ${isGlobeView ? 'pointer-events-none' : ''}`}
+      className={`flex-1 w-full max-w-[1920px] mx-auto relative z-10 ${viewMode.startsWith('list') ? 'overflow-y-auto' : ''} ${isGlobeView ? 'pointer-events-none' : ''}`}
     >
       <div className={isGlobeView ? 'pointer-events-auto' : ''}>
         {children}
@@ -121,7 +121,7 @@ function InnerApp() {
       className="min-h-screen transition-all duration-1000 font-['Outfit'] overflow-hidden relative flex flex-col items-center"
       style={{ backgroundColor: p.bg, backgroundImage: "url('https://www.transparenttextures.com/patterns/cubes.png')" }}
     >
-      <div className="w-full max-w-[1920px] h-full flex flex-col flex-1 transition-transform duration-700 relative">
+      <div className="w-full h-full flex flex-col flex-1 transition-transform duration-700 relative">
       <style>{`
         /* Dynamic Scrollbar Styling */
         ::-webkit-scrollbar {
@@ -166,23 +166,34 @@ function InnerApp() {
         
         <div 
           className="w-full md:w-auto flex justify-between items-center pointer-events-auto relative z-10"
-          style={{ marginLeft: 'calc(-1 * max(0px, (100vw - 1920px) / 2))' }}
         >
-          <div className="flex items-center gap-4 shrink-0 cursor-pointer pl-6 md:pl-8" onClick={() => { setActiveDetailIsland(null); setIsGlobeView(false); setViewMode('card'); setShowFavoritesOnly(false); setIsMobileMenuOpen(false); }}>
-            <div className="w-12 h-12 rounded-full border-4 flex items-center justify-center text-2xl transition-colors duration-700 bg-white/90 backdrop-blur-sm shadow-xl md:shadow-none" 
-                 style={{ 
-                   borderColor: isGlobeView ? '#00FF41' : p.accent, 
-                   color: isGlobeView ? '#00FF41' : p.accent,
-                   backgroundColor: isGlobeView ? '#000000' : 'rgba(255,255,255,0.9)'
-                 }}>
-              <i className="fa-solid fa-earth-oceania"></i>
+          <div className="flex flex-col gap-1 shrink-0 cursor-pointer pl-6 md:pl-0" onClick={() => { setActiveDetailIsland(null); setIsGlobeView(false); setViewMode('card'); setShowFavoritesOnly(false); setIsMobileMenuOpen(false); }}>
+            <div className="flex items-center gap-4">
+              <div className="w-12 h-12 rounded-full border-4 flex items-center justify-center text-2xl transition-colors duration-700 bg-white/90 backdrop-blur-sm shadow-xl md:shadow-none" 
+                   style={{ 
+                     borderColor: isGlobeView ? '#00FF41' : p.accent, 
+                     color: isGlobeView ? '#00FF41' : p.accent,
+                     backgroundColor: isGlobeView ? '#000000' : 'rgba(255,255,255,0.9)'
+                   }}>
+                <i className="fa-solid fa-earth-oceania"></i>
+              </div>
+              <h1 className="text-xl md:text-3xl font-black uppercase tracking-tighter transition-colors duration-700 drop-shadow-md" 
+                  style={{ 
+                    color: isGlobeView ? '#00FF41' : p.accent
+                  }}>
+                IslandExplorer
+              </h1>
             </div>
-            <h1 className="text-xl md:text-3xl font-black uppercase tracking-tighter transition-colors duration-700 drop-shadow-md" 
-                style={{ 
-                  color: isGlobeView ? '#00FF41' : p.accent
-                }}>
-              IslandExplorer
-            </h1>
+            
+            {/* Breadcrumbs */}
+            <div className="hidden md:flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest opacity-80" style={{ color: isGlobeView ? '#fff' : p.accent, paddingLeft: '4rem' }}>
+              <span>Start</span>
+              {showFavoritesOnly && <span>/ Favorieten</span>}
+              {viewMode === 'list2' && <span>/ Lijstweergave</span>}
+              {isGlobeView && <span>/ Globe</span>}
+              {activeDetailIsland && <span>/ {activeDetailIsland.region} / {activeDetailIsland.name}</span>}
+              {!activeDetailIsland && !isGlobeView && viewMode === 'card' && <span>/ {filteredIslands[activeIndex]?.region} / {filteredIslands[activeIndex]?.name}</span>}
+            </div>
           </div>
 
           <div className="flex gap-2">
@@ -301,14 +312,6 @@ function InnerApp() {
         </div>
       </header>
 
-      {/* Breadcrumbs */}
-      <div className="w-full h-8 px-8 pb-4 z-40 relative pointer-events-auto hidden md:flex items-center gap-2 text-xs font-bold uppercase tracking-widest opacity-80 shrink-0" style={{ color: isGlobeView ? '#fff' : p.accent }}>
-         <span className="cursor-pointer hover:underline" onClick={() => { setViewMode('card'); setActiveDetailIsland(null); }}>Start</span>
-         {showFavoritesOnly && <span>/ Favorieten</span>}
-         {viewMode === 'list2' && <span>/ Lijstweergave</span>}
-         {isGlobeView && <span>/ Globe</span>}
-         {activeDetailIsland && <span>/ {activeDetailIsland.region} / {activeDetailIsland.name}</span>}
-      </div>
 
         {/* Main Content Area */}
         <SwipeableMain 
@@ -383,3 +386,4 @@ export default function App() {
     </FavoritesProvider>
   );
 }
+
