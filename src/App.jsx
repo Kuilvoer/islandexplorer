@@ -182,7 +182,7 @@ function InnerApp() {
           </div>
 
           <div className="flex gap-2">
-            {(activeDetailIsland || isGlobeView) && (
+            {(activeDetailIsland && !isGlobeView) && (
               <button 
                 className="md:hidden w-12 h-12 flex justify-center items-center rounded-full border-4 backdrop-blur-sm shadow-xl text-xl hover:scale-110 transition-transform"
                 style={{ 

@@ -141,16 +141,20 @@ export default function MobileMenuVariations({
       return (
         <div className="fixed inset-0 z-[100] md:hidden pointer-events-auto flex items-end">
           <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={closeMenu}></div>
-          <div className="relative w-full rounded-t-[40px] shadow-[0_-10px_40px_rgba(0,0,0,0.5)] p-6 pb-12 flex flex-col gap-4 slide-up border-t-4" style={{ backgroundColor: p.bg, borderColor: p.accent }}>
+          <div className="relative w-full rounded-t-[40px] shadow-[0_-10px_40px_rgba(0,0,0,0.5)] p-6 pb-12 flex flex-col gap-4 slide-up border-t-4 transition-colors duration-500" style={{ backgroundColor: isGlobeView ? '#000000' : p.bg, borderColor: isGlobeView ? '#00FF41' : p.accent }}>
             
             <div className="flex justify-between items-center mb-2 px-2">
-              <h2 className="font-black uppercase tracking-widest text-lg" style={{ color: p.accent }}>Menu</h2>
+              <h2 className="font-black uppercase tracking-widest text-lg transition-colors duration-500" style={{ color: isGlobeView ? '#00FF41' : p.accent }}>Menu</h2>
               <div className="flex gap-4">
                 <AudioCont className="scale-110" />
                 <button 
                   onClick={closeMenu} 
-                  className="w-12 h-12 rounded-full border-4 flex items-center justify-center text-xl hover:scale-110 transition-transform bg-white/90 shadow-lg"
-                  style={{ borderColor: p.accent, color: p.accent }}
+                  className="w-12 h-12 rounded-full border-4 flex items-center justify-center text-xl hover:scale-110 transition-colors shadow-lg"
+                  style={{ 
+                    borderColor: isGlobeView ? '#00FF41' : p.accent, 
+                    color: isGlobeView ? '#00FF41' : p.accent,
+                    backgroundColor: isGlobeView ? '#111111' : 'rgba(255,255,255,0.9)'
+                  }}
                 >
                   <i className="fa-solid fa-xmark"></i>
                 </button>
