@@ -252,19 +252,7 @@ function InnerApp() {
 
         {/* Desktop Menu */}
         <div className="hidden md:flex shrink-0 flex-col md:flex-row gap-4 items-end md:items-center pointer-events-auto flex-wrap min-h-[56px] w-full md:w-auto">
-           {/* Globe View Button */}
-           <button 
-             onClick={() => setIsGlobeView(!isGlobeView)}
-             className="px-6 py-3 rounded-full border-4 font-black uppercase tracking-widest text-sm hover:scale-105 transition-colors flex items-center gap-3 backdrop-blur-sm shadow-xl"
-             style={{ 
-               borderColor: isGlobeView ? '#00FF41' : p.accent, 
-               color: isGlobeView ? '#00FF41' : p.accent,
-               backgroundColor: isGlobeView ? '#000000' : 'rgba(255,255,255,0.9)'
-             }}
-           >
-             <i className={`fa-solid ${isGlobeView ? 'fa-xmark' : 'fa-globe'} text-xl`}></i> {isGlobeView ? 'Sluit Globe' : 'Globe View'}
-           </button>
-
+           
            {/* Card / List Toggle */}
            <div className={`flex bg-white/90 backdrop-blur-sm rounded-full p-1 border-4 transition-opacity duration-300 ${(activeDetailIsland || isGlobeView) ? 'opacity-0 pointer-events-none' : 'opacity-100'}`} style={{ borderColor: p.accent }}>
              <button 
@@ -312,6 +300,19 @@ function InnerApp() {
                <AudioPlayer themeType={currentThemeId} p={p} />
              </div>
            </div>
+
+           {/* Globe View Button */}
+           <button 
+             onClick={() => setIsGlobeView(!isGlobeView)}
+             className="px-6 py-3 rounded-full border-4 font-black uppercase tracking-widest text-sm hover:scale-105 transition-colors flex items-center gap-3 backdrop-blur-sm shadow-xl"
+             style={{ 
+               borderColor: isGlobeView ? '#00FF41' : p.accent, 
+               color: isGlobeView ? '#00FF41' : p.accent,
+               backgroundColor: isGlobeView ? '#000000' : 'rgba(255,255,255,0.9)'
+             }}
+           >
+             <i className={`fa-solid ${isGlobeView ? 'fa-xmark' : 'fa-globe'} text-xl`}></i> {isGlobeView ? 'Sluit Globe' : 'Globe View'}
+           </button>
         </div>
       </header>
 
