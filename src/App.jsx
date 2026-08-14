@@ -140,7 +140,7 @@ function InnerApp() {
 
   return (
     <div 
-      className="min-h-screen transition-all duration-1000 font-['Outfit'] relative flex flex-col items-center"
+      className="h-[100dvh] w-full overflow-hidden transition-all duration-1000 font-['Outfit'] relative flex flex-col items-center"
       style={{ backgroundColor: p.bg, backgroundImage: "url('https://www.transparenttextures.com/patterns/cubes.png')" }}
     >
       <div className="w-full h-full flex flex-col flex-1 transition-transform duration-700 relative z-40">
@@ -187,7 +187,7 @@ function InnerApp() {
         ></div>
         
         <div className="w-full md:w-auto flex justify-between items-center pointer-events-auto relative z-10">
-          <div className="flex flex-col gap-1 shrink-0 pl-6 md:pl-0">
+          <div className="flex flex-col gap-1 shrink-0">
             <div className="flex items-center gap-4">
               <div className="w-12 h-12 rounded-full border-4 flex items-center justify-center text-2xl transition-colors duration-700 bg-white/90 backdrop-blur-sm shadow-xl md:shadow-none cursor-pointer" 
                    onClick={() => { setActiveDetailIsland(null); setIsGlobeView(false); setViewMode('card'); setShowFavoritesOnly(false); setIsMobileMenuOpen(false); }}
