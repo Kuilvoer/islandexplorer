@@ -75,7 +75,7 @@ export default function GlobePage({ islands, p, onSelectIsland, onClose }) {
   }).filter(d => d.lat !== 0 || d.lng !== 0);
 
   return (
-    <div className="absolute inset-0 z-30 flex items-center justify-center fade-in bg-black">
+    <div className="fixed inset-0 z-30 flex items-center justify-center fade-in bg-black">
       
       <div className="absolute bottom-32 md:bottom-auto md:top-32 left-4 md:left-8 z-40 pointer-events-none max-w-[80vw]">
         <h1 className="text-3xl md:text-4xl font-black uppercase tracking-tighter text-white drop-shadow-2xl">
