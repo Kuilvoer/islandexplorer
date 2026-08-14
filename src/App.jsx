@@ -34,9 +34,9 @@ const SwipeableMain = ({ children, isGlobeView, handleNext, handlePrev }) => {
     <main 
       onTouchStart={onTouchStart} 
       onTouchEnd={onTouchEnd} 
-      className={`flex-1 w-full relative z-10 flex flex-col ${isGlobeView ? 'pointer-events-none' : ''}`}
+      className={`flex-1 min-h-0 w-full relative z-10 flex flex-col ${isGlobeView ? 'pointer-events-none' : ''}`}
     >
-      <div className={`flex-1 w-full flex flex-col ${isGlobeView ? 'pointer-events-auto' : ''}`}>
+      <div className={`flex-1 min-h-0 w-full flex flex-col ${isGlobeView ? 'pointer-events-auto' : ''}`}>
         {children}
       </div>
     </main>
@@ -145,7 +145,7 @@ function InnerApp() {
       className={`${isScrollLocked ? 'h-[100dvh] overflow-hidden' : 'min-h-screen'} w-full transition-all duration-1000 font-['Outfit'] relative flex flex-col items-center`}
       style={{ backgroundColor: p.bg, backgroundImage: "url('https://www.transparenttextures.com/patterns/cubes.png')" }}
     >
-      <div className="w-full h-full flex flex-col flex-1 transition-transform duration-700 relative z-40">
+      <div className="w-full h-full flex flex-col flex-1 min-h-0 transition-transform duration-700 relative z-40">
       <style>{`
         /* Dynamic Scrollbar Styling (now applies to body) */
         ::-webkit-scrollbar {
