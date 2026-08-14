@@ -3,6 +3,18 @@ import { useFavorites } from '../context/FavoritesContext';
 import WeatherWidget from './WeatherWidget';
 import { palettes } from '../App';
 
+// Utility to render markdown-like bold text
+const formatBoldText = (text) => {
+  if (!text) return null;
+  const parts = text.split(/(\*\*.*?\*\*)/g);
+  return parts.map((part, i) => {
+    if (part.startsWith('**') && part.endsWith('**')) {
+      return <strong key={i}>{part.slice(2, -2)}</strong>;
+    }
+    return part;
+  });
+};
+
 // 1. Atlas Index (Data-driven Table)
 export function ListViewAtlas({ islands, onSelect, onHover }) {
   const { isFavorite, toggleFavorite } = useFavorites();
