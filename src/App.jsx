@@ -317,7 +317,7 @@ function InnerApp() {
       </header>
 
       {/* Breadcrumbs */}
-      <div className="w-full h-8 px-8 pb-4 z-40 relative pointer-events-auto hidden md:flex items-center gap-2 text-xs font-bold uppercase tracking-widest opacity-80 shrink-0 globe-header-zoom" style={{ color: isGlobeView ? '#fff' : p.accent }}>
+      <div className={`w-full h-8 px-8 pb-4 z-40 relative pointer-events-auto hidden items-center gap-2 text-xs font-bold uppercase tracking-widest opacity-80 shrink-0 globe-header-zoom ${isGlobeView ? '!hidden' : 'md:flex'}`} style={{ color: isGlobeView ? '#fff' : p.accent }}>
          <span className="cursor-pointer hover:underline" onClick={() => { setViewMode('card'); setActiveDetailIsland(null); }}>Start</span>
          {showFavoritesOnly && <span>/ Favorieten</span>}
          {viewMode === 'list2' && <span>/ Lijstweergave</span>}

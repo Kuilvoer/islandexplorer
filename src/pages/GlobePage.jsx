@@ -52,8 +52,8 @@ export default function GlobePage({ islands, p, onSelectIsland, onClose }) {
         ref={globeEl}
         width={dimensions.width}
         height={dimensions.height}
-        globeImageUrl="//unpkg.com/three-globe/example/img/earth-night.jpg"
-        backgroundImageUrl="//unpkg.com/three-globe/example/img/night-sky.png"
+        globeImageUrl="https://unpkg.com/three-globe/example/img/earth-night.jpg"
+        backgroundImageUrl="https://unpkg.com/three-globe/example/img/night-sky.png"
         objectsData={globeData}
         objectThreeObject={(d) => {
           const group = new THREE.Group();
