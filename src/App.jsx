@@ -59,11 +59,9 @@ function InnerApp() {
   const [showFavoritesOnly, setShowFavoritesOnly] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  // Scroll to top when returning to homepage
+  // Scroll to top when returning to homepage or switching islands
   useEffect(() => {
-    if (!activeDetailIsland) {
-      window.scrollTo(0, 0);
-    }
+    window.scrollTo(0, 0);
   }, [activeDetailIsland]);
 
   // Handle body scroll locking for homepage and globeview
