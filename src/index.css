@@ -8,6 +8,12 @@ html {
   body:not(.no-zoom) {
     zoom: 1.1;
   }
+  
+  /* Keep header zoomed in Globe View to prevent jumping */
+  body.no-zoom .globe-header-zoom {
+    zoom: 1.1;
+    transform-origin: top left;
+  }
 }
 
 body {

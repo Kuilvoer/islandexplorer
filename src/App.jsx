@@ -172,7 +172,7 @@ function InnerApp() {
       )}
 
       {/* Minimal Header (Footer on mobile) */}
-      <header className={`w-full px-6 py-4 md:px-8 md:py-6 flex flex-col md:flex-row justify-between items-center z-[90] order-last md:order-first pointer-events-none transition-colors duration-700 ${activeDetailIsland ? 'fixed bottom-0 left-0 right-0 md:sticky md:top-0' : 'relative'}`}>
+      <header className={`w-full px-6 py-4 md:px-8 md:py-6 flex flex-col md:flex-row justify-between items-center z-[90] order-last md:order-first pointer-events-none transition-colors duration-700 ${activeDetailIsland ? 'fixed bottom-0 left-0 right-0 md:sticky md:top-0' : 'relative'} globe-header-zoom`}>
         <div 
           className="absolute inset-0 block md:hidden transition-colors duration-700 pointer-events-auto" 
           style={{ 
@@ -266,53 +266,49 @@ function InnerApp() {
            </button>
 
            {/* Card / List Toggle */}
-           {!activeDetailIsland && !isGlobeView && (
-             <div className="flex bg-white/90 backdrop-blur-sm rounded-full p-1 border-4" style={{ borderColor: p.accent }}>
-               <button 
-                 onClick={() => setViewMode('card')}
-                 className={`w-10 h-10 rounded-full flex items-center justify-center transition-colors ${viewMode === 'card' ? 'bg-white' : 'hover:bg-white/20'}`}
-                 style={{ color: viewMode === 'card' ? p.accent : p.accent }}
-                 title="Kaart Weergave"
-               >
-                 <i className="fa-solid fa-layer-group"></i>
-               </button>
-               <button 
-                 onClick={() => setViewMode('list2')}
-                 className={`w-10 h-10 rounded-full flex items-center justify-center transition-colors ${viewMode === 'list2' ? 'bg-white' : 'hover:bg-white/20'}`}
-                 style={{ color: viewMode === 'list2' ? p.accent : p.accent }}
-                 title="Lijst Weergave"
-               >
-                 <i className="fa-solid fa-list"></i>
-               </button>
-             </div>
-           )}
+           <div className={`flex bg-white/90 backdrop-blur-sm rounded-full p-1 border-4 transition-opacity duration-300 ${(activeDetailIsland || isGlobeView) ? 'opacity-0 pointer-events-none' : 'opacity-100'}`} style={{ borderColor: p.accent }}>
+             <button 
+               onClick={() => setViewMode('card')}
+               className={`w-10 h-10 rounded-full flex items-center justify-center transition-colors ${viewMode === 'card' ? 'bg-white' : 'hover:bg-white/20'}`}
+               style={{ color: viewMode === 'card' ? p.accent : p.accent }}
+               title="Kaart Weergave"
+             >
+               <i className="fa-solid fa-layer-group"></i>
+             </button>
+             <button 
+               onClick={() => setViewMode('list2')}
+               className={`w-10 h-10 rounded-full flex items-center justify-center transition-colors ${viewMode === 'list2' ? 'bg-white' : 'hover:bg-white/20'}`}
+               style={{ color: viewMode === 'list2' ? p.accent : p.accent }}
+               title="Lijst Weergave"
+             >
+               <i className="fa-solid fa-list"></i>
+             </button>
+           </div>
 
            {/* Favorites and Audio Row */}
            <div className="flex items-center gap-4">
              {/* Favorites Toggle / Like Button */}
-             {!isGlobeView && (
-               <button 
-                 onClick={() => {
-                   if (activeDetailIsland) {
-                     toggleFavorite(activeDetailIsland.id);
-                   } else {
-                     setShowFavoritesOnly(!showFavoritesOnly);
-                   }
-                 }}
-                 className={`w-12 h-12 rounded-full border-4 flex items-center justify-center shrink-0 hover:scale-110 transition-all backdrop-blur-sm ${
-                   (activeDetailIsland ? isFavorite(activeDetailIsland.id) : showFavoritesOnly) ? 'bg-red-500 text-white border-red-500' : 'bg-white/90'
-                 }`}
-                 style={{ 
-                   borderColor: (activeDetailIsland ? isFavorite(activeDetailIsland.id) : showFavoritesOnly) ? undefined : p.accent, 
-                   color: (activeDetailIsland ? isFavorite(activeDetailIsland.id) : showFavoritesOnly) ? undefined : p.accent 
-                 }}
-                 title={activeDetailIsland ? (isFavorite(activeDetailIsland.id) ? "Verwijder uit Favorieten" : "Voeg toe aan Favorieten") : "Mijn Favorieten"}
-               >
-                 <i className={`fa-heart text-xl ${(activeDetailIsland ? isFavorite(activeDetailIsland.id) : showFavoritesOnly) ? 'fa-solid' : 'fa-regular'}`}></i>
-               </button>
-             )}
+             <button 
+               onClick={() => {
+                 if (activeDetailIsland) {
+                   toggleFavorite(activeDetailIsland.id);
+                 } else {
+                   setShowFavoritesOnly(!showFavoritesOnly);
+                 }
+               }}
+               className={`w-12 h-12 rounded-full border-4 flex items-center justify-center shrink-0 transition-all backdrop-blur-sm ${
+                 (activeDetailIsland ? isFavorite(activeDetailIsland.id) : showFavoritesOnly) ? 'bg-red-500 text-white border-red-500' : 'bg-white/90'
+               } ${isGlobeView ? 'opacity-0 pointer-events-none' : 'opacity-100 hover:scale-110'}`}
+               style={{ 
+                 borderColor: (activeDetailIsland ? isFavorite(activeDetailIsland.id) : showFavoritesOnly) ? undefined : p.accent, 
+                 color: (activeDetailIsland ? isFavorite(activeDetailIsland.id) : showFavoritesOnly) ? undefined : p.accent 
+               }}
+               title={activeDetailIsland ? (isFavorite(activeDetailIsland.id) ? "Verwijder uit Favorieten" : "Voeg toe aan Favorieten") : "Mijn Favorieten"}
+             >
+               <i className={`fa-heart text-xl ${(activeDetailIsland ? isFavorite(activeDetailIsland.id) : showFavoritesOnly) ? 'fa-solid' : 'fa-regular'}`}></i>
+             </button>
 
-             <div className={isGlobeView ? "hidden" : "block"}>
+             <div className={`transition-opacity duration-300 ${isGlobeView ? 'opacity-0 pointer-events-none' : 'opacity-100'}`}>
                <AudioPlayer themeType={currentThemeId} p={p} />
              </div>
            </div>
@@ -320,7 +316,7 @@ function InnerApp() {
       </header>
 
       {/* Breadcrumbs */}
-      <div className="w-full h-8 px-8 pb-4 z-40 relative pointer-events-auto hidden md:flex items-center gap-2 text-xs font-bold uppercase tracking-widest opacity-80 shrink-0" style={{ color: isGlobeView ? '#fff' : p.accent }}>
+      <div className="w-full h-8 px-8 pb-4 z-40 relative pointer-events-auto hidden md:flex items-center gap-2 text-xs font-bold uppercase tracking-widest opacity-80 shrink-0 globe-header-zoom" style={{ color: isGlobeView ? '#fff' : p.accent }}>
          <span className="cursor-pointer hover:underline" onClick={() => { setViewMode('card'); setActiveDetailIsland(null); }}>Start</span>
          {showFavoritesOnly && <span>/ Favorieten</span>}
          {viewMode === 'list2' && <span>/ Lijstweergave</span>}
