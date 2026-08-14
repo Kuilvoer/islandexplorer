@@ -71,12 +71,13 @@ export function ListViewSplit({ islands, onSelect, activeIsland, setActiveIsland
       {/* Left List */}
       <div className="w-full md:w-2/5 border-r-4 overflow-y-auto hide-scrollbar" style={{ borderColor: pTheme }}>
         {[
-          { id: 'tropical', label: 'Tropisch & Paradijs', icon: 'fa-umbrella-beach' },
-          { id: 'polar', label: 'IJs & Arctisch', icon: 'fa-snowflake' },
-          { id: 'volcanic', label: 'Vulkanisch & Instabiel', icon: 'fa-volcano' },
-          { id: 'temperate', label: 'Gematigd & Rotsachtig', icon: 'fa-mountain' }
+          { id: 'tropical', label: 'Tropisch & Paradijs', icon: 'fa-umbrella-beach', match: ['tropical'] },
+          { id: 'jungle', label: 'Jungle & Regenwoud', icon: 'fa-tree', match: ['jungle'] },
+          { id: 'arctic', label: 'IJs & Arctisch', icon: 'fa-snowflake', match: ['arctic'] },
+          { id: 'volcanic', label: 'Vulkanisch & Instabiel', icon: 'fa-volcano', match: ['volcanic'] },
+          { id: 'temperate', label: 'Gematigd & Droog', icon: 'fa-mountain', match: ['desert', 'temperate'] }
         ].map(group => {
-          const groupIslands = islands.filter(i => i.themeType === group.id);
+          const groupIslands = islands.filter(i => group.match.includes(i.themeType));
           if (groupIslands.length === 0) return null;
           
           return (

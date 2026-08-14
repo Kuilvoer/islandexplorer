@@ -9,24 +9,24 @@ import { FavoritesProvider, useFavorites } from '@/context/FavoritesContext';
 import { ListViewAtlas, ListViewSplit, ListViewAccordion, ListViewBento } from '@/components/ListViewVariations';
 
 // Wrapper component to handle swipe gestures manually
-const SwipeableMain = ({ children, viewMode, activeDetailIsland, isGlobeView, handleNext, handlePrev }) => {
+const SwipeableMain = ({ children, isGlobeView, handleNext, handlePrev }) => {
   const touchStart = useRef(null);
-
+  
   const onTouchStart = (e) => {
-    touchStart.current = e.targetTouches[0].clientX;
+    touchStart.current = e.touches[0].clientX;
   };
-
+  
   const onTouchEnd = (e) => {
     if (!touchStart.current) return;
     const touchEnd = e.changedTouches[0].clientX;
     const distance = touchStart.current - touchEnd;
+    
     const isLeftSwipe = distance > 50;
     const isRightSwipe = distance < -50;
 
-    if (!activeDetailIsland && !isGlobeView && viewMode === 'card') {
-      if (isLeftSwipe) handleNext();
-      if (isRightSwipe) handlePrev();
-    }
+    if (isLeftSwipe) handleNext();
+    if (isRightSwipe) handlePrev();
+    
     touchStart.current = null;
   };
 
@@ -34,7 +34,7 @@ const SwipeableMain = ({ children, viewMode, activeDetailIsland, isGlobeView, ha
     <main 
       onTouchStart={onTouchStart} 
       onTouchEnd={onTouchEnd} 
-      className={`flex-1 w-full max-w-[1920px] mx-auto relative z-10 ${viewMode.startsWith('list') ? 'overflow-y-auto' : ''} ${isGlobeView ? 'pointer-events-none' : ''}`}
+      className={`flex-1 w-full h-full relative z-10 ${isGlobeView ? 'pointer-events-none' : ''}`}
     >
       <div className={isGlobeView ? 'pointer-events-auto' : ''}>
         {children}
@@ -59,14 +59,22 @@ function InnerApp() {
   const [showFavoritesOnly, setShowFavoritesOnly] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  // Disable global CSS zoom when GlobeView is active to prevent WebGL raycasting bugs
+  // Handle body scroll locking for homepage and globeview
   useEffect(() => {
+    // Disable zoom for globe view
     if (isGlobeView) {
       document.body.classList.add('no-zoom');
     } else {
       document.body.classList.remove('no-zoom');
     }
-  }, [isGlobeView]);
+    
+    // Disable scroll for homepage/globe view
+    if (isGlobeView || (!activeDetailIsland && viewMode === 'card')) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+  }, [isGlobeView, activeDetailIsland, viewMode]);
   
   // Preload all images on startup so they load instantly
   useEffect(() => {
@@ -127,12 +135,12 @@ function InnerApp() {
 
   return (
     <div 
-      className="min-h-screen transition-all duration-1000 font-['Outfit'] overflow-hidden relative flex flex-col items-center"
+      className="min-h-screen transition-all duration-1000 font-['Outfit'] relative flex flex-col items-center"
       style={{ backgroundColor: p.bg, backgroundImage: "url('https://www.transparenttextures.com/patterns/cubes.png')" }}
     >
-      <div className="w-full h-full flex flex-col flex-1 transition-transform duration-700 relative">
+      <div className={`w-full max-w-[1920px] h-full flex flex-col flex-1 transition-transform duration-700 ${isGlobeView ? 'pointer-events-none' : ''} relative z-40`}>
       <style>{`
-        /* Dynamic Scrollbar Styling */
+        /* Dynamic Scrollbar Styling (now applies to body) */
         ::-webkit-scrollbar {
           width: 12px;
           height: 12px;
@@ -164,7 +172,7 @@ function InnerApp() {
       )}
 
       {/* Minimal Header (Footer on mobile) */}
-      <header className={`w-full px-6 py-4 md:px-8 md:py-6 flex flex-col md:flex-row justify-between items-center z-[90] order-last md:order-first pointer-events-none transition-colors duration-700 ${activeDetailIsland ? 'sticky bottom-0 md:relative' : 'relative'}`}>
+      <header className={`w-full px-6 py-4 md:px-8 md:py-6 flex flex-col md:flex-row justify-between items-center z-[90] order-last md:order-first pointer-events-none transition-colors duration-700 ${activeDetailIsland ? 'fixed bottom-0 left-0 right-0 md:relative' : 'relative'}`}>
         <div 
           className="absolute inset-0 block md:hidden transition-colors duration-700 pointer-events-auto" 
           style={{ 
@@ -173,12 +181,24 @@ function InnerApp() {
           }}
         ></div>
         
-        <div 
-          className="w-full md:w-auto flex justify-between items-center pointer-events-auto relative z-10"
-        >
-          <div className="flex flex-col gap-1 shrink-0 cursor-pointer pl-6 md:pl-0" onClick={() => { setActiveDetailIsland(null); setIsGlobeView(false); setViewMode('card'); setShowFavoritesOnly(false); setIsMobileMenuOpen(false); }}>
+        <div className="w-full md:w-auto flex justify-between items-center pointer-events-auto relative z-10">
+          <div className="flex flex-col gap-1 shrink-0 pl-6 md:pl-0">
             <div className="flex items-center gap-4">
-              <div className="w-12 h-12 rounded-full border-4 flex items-center justify-center text-2xl transition-colors duration-700 bg-white/90 backdrop-blur-sm shadow-xl md:shadow-none" 
+              {(activeDetailIsland && !isGlobeView) && (
+                <button 
+                  className="md:hidden w-12 h-12 flex justify-center items-center rounded-full border-4 backdrop-blur-sm shadow-xl text-xl hover:scale-110 transition-transform"
+                  style={{ 
+                    borderColor: p.accent, 
+                    color: p.accent,
+                    backgroundColor: 'rgba(255,255,255,0.9)'
+                  }}
+                  onClick={() => { setActiveDetailIsland(null); setIsGlobeView(false); }}
+                >
+                  <i className="fa-solid fa-arrow-left"></i>
+                </button>
+              )}
+              <div className="w-12 h-12 rounded-full border-4 flex items-center justify-center text-2xl transition-colors duration-700 bg-white/90 backdrop-blur-sm shadow-xl md:shadow-none cursor-pointer" 
+                   onClick={() => { setActiveDetailIsland(null); setIsGlobeView(false); setViewMode('card'); setShowFavoritesOnly(false); setIsMobileMenuOpen(false); }}
                    style={{ 
                      borderColor: isGlobeView ? '#00FF41' : p.accent, 
                      color: isGlobeView ? '#00FF41' : p.accent,
@@ -186,7 +206,8 @@ function InnerApp() {
                    }}>
                 <i className="fa-solid fa-earth-oceania"></i>
               </div>
-              <h1 className="text-xl md:text-3xl font-black uppercase tracking-tighter transition-colors duration-700 drop-shadow-md" 
+              <h1 className="text-xl md:text-3xl font-black uppercase tracking-tighter transition-colors duration-700 drop-shadow-md cursor-pointer" 
+                  onClick={() => { setActiveDetailIsland(null); setIsGlobeView(false); setViewMode('card'); setShowFavoritesOnly(false); setIsMobileMenuOpen(false); }}
                   style={{ 
                     color: isGlobeView ? '#00FF41' : p.accent
                   }}>
@@ -206,19 +227,6 @@ function InnerApp() {
           </div>
 
           <div className="flex gap-2">
-            {(activeDetailIsland && !isGlobeView) && (
-              <button 
-                className="md:hidden w-12 h-12 flex justify-center items-center rounded-full border-4 backdrop-blur-sm shadow-xl text-xl hover:scale-110 transition-transform"
-                style={{ 
-                  borderColor: isGlobeView ? '#00FF41' : p.accent, 
-                  color: isGlobeView ? '#00FF41' : p.accent,
-                  backgroundColor: isGlobeView ? '#000000' : 'rgba(255,255,255,0.9)'
-                }}
-                onClick={() => { setActiveDetailIsland(null); setIsGlobeView(false); }}
-              >
-                <i className="fa-solid fa-arrow-left"></i>
-              </button>
-            )}
             <button 
               className="md:hidden w-12 h-12 flex flex-col justify-center items-center gap-1.5 rounded-full border-4 backdrop-blur-sm shadow-xl hover:scale-110 transition-transform"
               style={{ 
