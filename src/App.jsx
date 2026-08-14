@@ -138,7 +138,7 @@ function InnerApp() {
       className="min-h-screen transition-all duration-1000 font-['Outfit'] relative flex flex-col items-center"
       style={{ backgroundColor: p.bg, backgroundImage: "url('https://www.transparenttextures.com/patterns/cubes.png')" }}
     >
-      <div className={`w-full max-w-[1920px] h-full flex flex-col flex-1 transition-transform duration-700 ${isGlobeView ? 'pointer-events-none' : ''} relative z-40`}>
+      <div className={`w-full h-full flex flex-col flex-1 transition-transform duration-700 ${isGlobeView ? 'pointer-events-none' : ''} relative z-40`}>
       <style>{`
         /* Dynamic Scrollbar Styling (now applies to body) */
         ::-webkit-scrollbar {
@@ -172,7 +172,7 @@ function InnerApp() {
       )}
 
       {/* Minimal Header (Footer on mobile) */}
-      <header className={`w-full px-6 py-4 md:px-8 md:py-6 flex flex-col md:flex-row justify-between items-center z-[90] order-last md:order-first pointer-events-none transition-colors duration-700 ${activeDetailIsland ? 'fixed bottom-0 left-0 right-0 md:relative' : 'relative'}`}>
+      <header className={`w-full px-6 py-4 md:px-8 md:py-6 flex flex-col md:flex-row justify-between items-center z-[90] order-last md:order-first pointer-events-none transition-colors duration-700 ${activeDetailIsland ? 'fixed bottom-0 left-0 right-0 md:sticky md:top-0' : 'relative'}`}>
         <div 
           className="absolute inset-0 block md:hidden transition-colors duration-700 pointer-events-auto" 
           style={{ 
@@ -214,16 +214,6 @@ function InnerApp() {
                 IslandExplorer
               </h1>
             </div>
-            
-            {/* Breadcrumbs */}
-            <div className="hidden md:flex items-center gap-2 text-[10px] font-bold uppercase tracking-widest opacity-80" style={{ color: isGlobeView ? '#fff' : p.accent, paddingLeft: '4rem' }}>
-              <span>Start</span>
-              {showFavoritesOnly && <span>/ Favorieten</span>}
-              {viewMode === 'list2' && <span>/ Lijstweergave</span>}
-              {isGlobeView && <span>/ Globe</span>}
-              {activeDetailIsland && <span>/ {activeDetailIsland.region} / {activeDetailIsland.name}</span>}
-              {!activeDetailIsland && !isGlobeView && viewMode === 'card' && <span>/ {filteredIslands[activeIndex]?.region} / {filteredIslands[activeIndex]?.name}</span>}
-            </div>
           </div>
 
           <div className="flex gap-2">
@@ -260,7 +250,7 @@ function InnerApp() {
           currentThemeId={currentThemeId}
         />
 
-        {/* Desktop Menu (Unchanged) */}
+        {/* Desktop Menu */}
         <div className="hidden md:flex shrink-0 flex-col md:flex-row gap-4 items-end md:items-center pointer-events-auto flex-wrap min-h-[56px] w-full md:w-auto">
            {/* Globe View Button */}
            <button 
@@ -329,6 +319,14 @@ function InnerApp() {
         </div>
       </header>
 
+      {/* Breadcrumbs */}
+      <div className="w-full h-8 px-8 pb-4 z-40 relative pointer-events-auto hidden md:flex items-center gap-2 text-xs font-bold uppercase tracking-widest opacity-80 shrink-0" style={{ color: isGlobeView ? '#fff' : p.accent }}>
+         <span className="cursor-pointer hover:underline" onClick={() => { setViewMode('card'); setActiveDetailIsland(null); }}>Start</span>
+         {showFavoritesOnly && <span>/ Favorieten</span>}
+         {viewMode === 'list2' && <span>/ Lijstweergave</span>}
+         {isGlobeView && <span>/ Globe</span>}
+         {activeDetailIsland && <span>/ {activeDetailIsland.region} / {activeDetailIsland.name}</span>}
+      </div>
 
         {/* Main Content Area */}
         <SwipeableMain 
@@ -339,7 +337,7 @@ function InnerApp() {
           handlePrev={handlePrev}
         >
           {activeDetailIsland ? (
-            <div className="absolute inset-0 overflow-y-auto pt-4 pb-20">
+            <div className="w-full h-full pt-4 pb-20">
               <DetailPage island={activeDetailIsland} p={p} onBack={() => setActiveDetailIsland(null)} />
             </div>
           ) : (
