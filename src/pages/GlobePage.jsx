@@ -2,6 +2,14 @@ import React, { useState, useEffect, useRef } from 'react';
 import Globe from 'react-globe.gl';
 import * as THREE from 'three';
 
+// Shared Geometries and Materials for massive performance boost
+const sharedMat = new THREE.MeshPhongMaterial({ color: '#00FF41', shininess: 50 });
+const sharedStickGeo = new THREE.CylinderGeometry(0.15, 0.15, 3, 12);
+sharedStickGeo.translate(0, 1.5, 0); // shift pivot to bottom
+const sharedSphereGeo = new THREE.SphereGeometry(0.7, 32, 32);
+const sharedHitboxGeo = new THREE.SphereGeometry(3.5, 16, 16);
+const sharedHitboxMat = new THREE.MeshBasicMaterial({ transparent: true, opacity: 0, depthWrite: false });
+
 export default function GlobePage({ islands, p, onSelectIsland, onClose }) {
   const globeEl = useRef();
   const getDimensions = () => {
@@ -23,7 +31,35 @@ export default function GlobePage({ islands, p, onSelectIsland, onClose }) {
       globeEl.current.controls().autoRotate = false;
     }
 
-    return () => window.removeEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+      
+      // Cleanup WebGL context to prevent Chrome's 16 active context limit
+      if (globeEl.current) {
+        try {
+          if (typeof globeEl.current.pauseAnimation === 'function') {
+            globeEl.current.pauseAnimation();
+          }
+          if (typeof globeEl.current.renderer === 'function') {
+            const renderer = globeEl.current.renderer();
+            if (renderer) {
+              const gl = renderer.getContext();
+              if (gl) {
+                const ext = gl.getExtension('WEBGL_lose_context');
+                if (ext) ext.loseContext();
+              }
+              renderer.dispose();
+            }
+          }
+          if (typeof globeEl.current.scene === 'function') {
+             const scene = globeEl.current.scene();
+             if (scene) scene.clear();
+          }
+        } catch (e) {
+          console.warn("Globe cleanup error:", e);
+        }
+      }
+    };
   }, []);
 
   // Map islands to globe data format
@@ -58,26 +94,18 @@ export default function GlobePage({ islands, p, onSelectIsland, onClose }) {
         objectThreeObject={(d) => {
           const group = new THREE.Group();
           group.scale.set(1.1, 1.1, 1.1); // Make pins 10% larger
-          
-          // Use PhongMaterial for proper 3D shading
-          const mat = new THREE.MeshPhongMaterial({ color: d.color, shininess: 50 });
 
           // Stick (cylinder)
-          const stickGeo = new THREE.CylinderGeometry(0.15, 0.15, 3, 12);
-          stickGeo.translate(0, 1.5, 0); // shift pivot to bottom
-          const stick = new THREE.Mesh(stickGeo, mat);
+          const stick = new THREE.Mesh(sharedStickGeo, sharedMat);
           group.add(stick);
 
           // Sphere on top
-          const sphereGeo = new THREE.SphereGeometry(0.7, 32, 32);
-          const sphere = new THREE.Mesh(sphereGeo, mat);
+          const sphere = new THREE.Mesh(sharedSphereGeo, sharedMat);
           sphere.position.y = 3; // Top of stick
           group.add(sphere);
 
           // Invisible Hitbox for easier clicking (especially on mobile)
-          const hitboxGeo = new THREE.SphereGeometry(3.5, 16, 16);
-          const hitboxMat = new THREE.MeshBasicMaterial({ transparent: true, opacity: 0, depthWrite: false });
-          const hitbox = new THREE.Mesh(hitboxGeo, hitboxMat);
+          const hitbox = new THREE.Mesh(sharedHitboxGeo, sharedHitboxMat);
           hitbox.position.y = 2;
           group.add(hitbox);
 
