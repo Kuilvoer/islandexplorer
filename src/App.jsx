@@ -73,8 +73,8 @@ function InnerApp() {
       document.body.classList.remove('no-zoom');
     }
     
-    // Disable scroll for homepage/globe view
-    if (isGlobeView || (!activeDetailIsland && viewMode === 'card')) {
+    // Disable scroll for globe view
+    if (isGlobeView) {
       document.body.style.overflow = 'hidden';
     } else {
       document.body.style.overflow = '';
@@ -138,7 +138,7 @@ function InnerApp() {
     return <div className="h-screen w-screen flex items-center justify-center text-2xl font-bold">Laden van Eilanden...</div>;
   }
 
-  const isScrollLocked = isGlobeView || (!activeDetailIsland && viewMode === 'card');
+  const isScrollLocked = isGlobeView;
 
   return (
     <div 
