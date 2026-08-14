@@ -138,9 +138,11 @@ function InnerApp() {
     return <div className="h-screen w-screen flex items-center justify-center text-2xl font-bold">Laden van Eilanden...</div>;
   }
 
+  const isScrollLocked = isGlobeView || (!activeDetailIsland && viewMode === 'card');
+
   return (
     <div 
-      className="h-[100dvh] w-full overflow-hidden transition-all duration-1000 font-['Outfit'] relative flex flex-col items-center"
+      className={`${isScrollLocked ? 'h-[100dvh] overflow-hidden' : 'min-h-screen'} w-full transition-all duration-1000 font-['Outfit'] relative flex flex-col items-center`}
       style={{ backgroundColor: p.bg, backgroundImage: "url('https://www.transparenttextures.com/patterns/cubes.png')" }}
     >
       <div className="w-full h-full flex flex-col flex-1 transition-transform duration-700 relative z-40">
