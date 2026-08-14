@@ -138,7 +138,7 @@ function InnerApp() {
       className="min-h-screen transition-all duration-1000 font-['Outfit'] relative flex flex-col items-center"
       style={{ backgroundColor: p.bg, backgroundImage: "url('https://www.transparenttextures.com/patterns/cubes.png')" }}
     >
-      <div className={`w-full h-full flex flex-col flex-1 transition-transform duration-700 ${isGlobeView ? 'pointer-events-none' : ''} relative z-40`}>
+      <div className="w-full h-full flex flex-col flex-1 transition-transform duration-700 relative z-40">
       <style>{`
         /* Dynamic Scrollbar Styling (now applies to body) */
         ::-webkit-scrollbar {
