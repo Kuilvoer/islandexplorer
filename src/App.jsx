@@ -189,19 +189,6 @@ function InnerApp() {
         <div className="w-full md:w-auto flex justify-between items-center pointer-events-auto relative z-10">
           <div className="flex flex-col gap-1 shrink-0 pl-6 md:pl-0">
             <div className="flex items-center gap-4">
-              {(activeDetailIsland && !isGlobeView) && (
-                <button 
-                  className="md:hidden w-12 h-12 flex justify-center items-center rounded-full border-4 backdrop-blur-sm shadow-xl text-xl hover:scale-110 transition-transform"
-                  style={{ 
-                    borderColor: p.accent, 
-                    color: p.accent,
-                    backgroundColor: 'rgba(255,255,255,0.9)'
-                  }}
-                  onClick={() => { setActiveDetailIsland(null); setIsGlobeView(false); }}
-                >
-                  <i className="fa-solid fa-arrow-left"></i>
-                </button>
-              )}
               <div className="w-12 h-12 rounded-full border-4 flex items-center justify-center text-2xl transition-colors duration-700 bg-white/90 backdrop-blur-sm shadow-xl md:shadow-none cursor-pointer" 
                    onClick={() => { setActiveDetailIsland(null); setIsGlobeView(false); setViewMode('card'); setShowFavoritesOnly(false); setIsMobileMenuOpen(false); }}
                    style={{ 
@@ -222,6 +209,19 @@ function InnerApp() {
           </div>
 
           <div className="flex gap-2">
+            {(activeDetailIsland && !isGlobeView) && (
+              <button 
+                className="md:hidden w-12 h-12 flex justify-center items-center rounded-full border-4 backdrop-blur-sm shadow-xl text-xl hover:scale-110 transition-transform"
+                style={{ 
+                  borderColor: p.accent, 
+                  color: p.accent,
+                  backgroundColor: 'rgba(255,255,255,0.9)'
+                }}
+                onClick={() => { setActiveDetailIsland(null); setIsGlobeView(false); }}
+              >
+                <i className="fa-solid fa-arrow-left"></i>
+              </button>
+            )}
             <button 
               className="md:hidden w-12 h-12 flex flex-col justify-center items-center gap-1.5 rounded-full border-4 backdrop-blur-sm shadow-xl hover:scale-110 transition-transform"
               style={{ 
