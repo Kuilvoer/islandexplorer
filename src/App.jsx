@@ -59,6 +59,13 @@ function InnerApp() {
   const [showFavoritesOnly, setShowFavoritesOnly] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
+  // Scroll to top when returning to homepage
+  useEffect(() => {
+    if (!activeDetailIsland) {
+      window.scrollTo(0, 0);
+    }
+  }, [activeDetailIsland]);
+
   // Handle body scroll locking for homepage and globeview
   useEffect(() => {
     // Disable zoom for globe view
