@@ -1,5 +1,6 @@
 import React from 'react';
 import WeatherWidget from '../components/WeatherWidget';
+import WikipediaOverview from '../components/WikipediaOverview';
 import { formatBoldText } from '../utils/formatText';
 
 export default function DetailPage({ island, p, onBack }) {
@@ -55,17 +56,7 @@ export default function DetailPage({ island, p, onBack }) {
         {/* Left: Text & Story */}
         <div className="md:col-span-2 flex flex-col gap-8">
           
-          <div 
-            className={`p-6 md:p-10 rounded-[40px] border-4`}
-            style={{ backgroundColor: p.card, borderColor: p.accent, color: p.accent, boxShadow: `12px 12px 0px ${p.accent}` }}
-          >
-            <h2 className="text-2xl md:text-3xl font-black mb-6 uppercase tracking-tight break-words hyphens-auto">Het Verhaal van {island.name}</h2>
-            <div className="text-lg font-medium leading-relaxed opacity-90">
-              {island.story?.description?.split('\n\n').map((paragraph, idx) => (
-                <p key={idx} className="mb-6 last:mb-0">{formatBoldText(paragraph)}</p>
-              ))}
-            </div>
-          </div>
+          <WikipediaOverview islandName={island.name} p={p} />
 
           {/* Flora / Fauna Fact */}
           <div 
