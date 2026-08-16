@@ -3,6 +3,7 @@ import WeatherWidget from '../components/WeatherWidget';
 import WikipediaOverview from '../components/WikipediaOverview';
 import FloraFaunaBento from '../components/FloraFaunaBento';
 import CultureBento from '../components/CultureBento';
+import LogisticsBento from '../components/LogisticsBento';
 import { formatBoldText } from '../utils/formatText';
 
 export default function DetailPage({ island, p, onBack }) {
@@ -144,107 +145,7 @@ export default function DetailPage({ island, p, onBack }) {
       </div>
 
       {/* Logistics Reality Check */}
-      {(() => {
-        if (!island.logistics?.journey && !island.logistics?.route) return null;
-
-        const journey = island.logistics?.journey || {};
-        const routeText = island.logistics?.route || '';
-
-        // Helper parsers
-        const parseV1 = (text) => {
-          if (!text) return [{ city: 'Vasteland', country: '' }];
-          return text.split(/\s+of\s+/).map(part => {
-            const match = part.match(/^(.*?)\s*(?:\((.*?)\))?$/);
-            let city = match ? match[1].trim() : part.trim();
-            let country = match && match[2] ? match[2].trim() : '';
-            city = city.replace(/[.,;:]$/, '');
-            return { city, country };
-          });
-        };
-
-        const formatDataWithBold = (text) => {
-          if (!text) return null;
-          text = text.replace(/\.$/, '');
-          const match = text.match(/^([~<]?\s*\d+.*?(?:uur|dagen|dag|weken|week|km|kilometer|mijl|minuten))\s*(.*)$/i);
-          if (match) {
-            return <><span className="font-bold text-gray-900">{match[1]}</span> <span className="font-normal text-gray-700">{match[2]}</span></>;
-          }
-          return <span className="font-bold text-gray-900">{text}</span>;
-        };
-
-        const cleanString = (text) => text ? text.replace(/\.$/, '') : '';
-
-        return (
-          <div className="w-full mt-12 bg-white/40 backdrop-blur-md border-4 rounded-[40px] p-8 shadow-[12px_12px_0px_0px_rgba(0,0,0,0.1)] transition-transform hover:-translate-y-1" style={{ borderColor: p.accent }}>
-            <h3 className="text-3xl font-black uppercase tracking-widest mb-8" style={{ color: p.accent }}>Hoe kom je er?</h3>
-            
-            {island.logistics?.journey ? (
-              <div className="flex flex-col xl:flex-row w-full border-4 rounded-3xl overflow-hidden shadow-[8px_8px_0px_0px_rgba(0,0,0,0.15)] bg-white" style={{ borderColor: p.accent }}>
-                
-                {/* Block 1: Vertrek (V1/V4) */}
-                <div className="flex-1 p-6 md:p-8 flex flex-col text-left border-b-4 xl:border-b-0 xl:border-r-4" style={{ borderColor: p.accent }}>
-                  <span className="text-sm font-black uppercase tracking-widest mb-6 opacity-60" style={{ color: p.accent }}>Vertrek</span>
-                  <div className="flex flex-col gap-5">
-                    {parseV1(journey.vanaf).map((loc, i) => (
-                      <div key={i} className="flex flex-col">
-                        <span className="text-lg font-bold text-gray-900 leading-tight">{loc.city}</span>
-                        {loc.country && <span className="text-sm font-medium text-gray-500 mt-1">{loc.country}</span>}
-                      </div>
-                    ))}
-                  </div>
-                </div>
-                
-                {/* Block 2: Transport (V1/V4) */}
-                <div className="flex-[2] p-6 md:p-8 flex flex-col text-left border-b-4 xl:border-b-0 xl:border-r-4 relative" style={{ borderColor: p.accent }}>
-                  <span className="text-sm font-black uppercase tracking-widest mb-6 opacity-60" style={{ color: p.accent }}>Vervoer</span>
-                  <div className="flex flex-col h-full justify-between">
-                    <div>
-                      <p className="text-xl font-bold text-gray-900">{cleanString(journey.vervoer)}</p>
-                      {journey.tussenstops && (
-                        <p className="text-sm font-medium text-gray-600 mt-2 max-w-lg leading-relaxed">{cleanString(journey.tussenstops)}</p>
-                      )}
-                    </div>
-                    <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 mt-8 pt-6 border-t-2" style={{ borderColor: p.accent + '40' }}>
-                      {journey.reistijd && (
-                        <div className="flex flex-col">
-                          <span className="text-xs font-bold uppercase opacity-50 mb-1" style={{ color: p.accent }}>Reistijd</span>
-                          <span className="text-base">{formatDataWithBold(journey.reistijd)}</span>
-                        </div>
-                      )}
-                      {journey.afstand && (
-                        <div className="flex flex-col">
-                          <span className="text-xs font-bold uppercase opacity-50 mb-1" style={{ color: p.accent }}>Afstand</span>
-                          <span className="text-base">{formatDataWithBold(journey.afstand)}</span>
-                        </div>
-                      )}
-                      {journey.permitRequired && (
-                        <div className="flex flex-col">
-                          <span className="text-xs font-bold uppercase opacity-50 mb-1" style={{ color: p.accent }}>Vergunning</span>
-                          <span className="text-base font-bold text-gray-900">Vereist</span>
-                        </div>
-                      )}
-                    </div>
-                  </div>
-                </div>
-                
-                {/* Block 3: Aankomst (V1/V4) */}
-                <div className="flex-1 p-6 md:p-8 flex flex-col text-left justify-between" style={{ backgroundColor: p.accent, color: p.bg }}>
-                  <span className="text-sm font-black uppercase tracking-widest mb-6 opacity-70">Aankomst</span>
-                  <div className="mt-auto">
-                    <i className="fa-solid fa-location-dot text-4xl mb-4 opacity-90"></i>
-                    <h4 className="text-2xl font-black leading-tight tracking-wide">{island.name}</h4>
-                  </div>
-                </div>
-                
-              </div>
-            ) : (
-              <div className="p-8 rounded-3xl border-4 bg-white shadow-[8px_8px_0px_0px_rgba(0,0,0,0.15)]" style={{ borderColor: p.accent }}>
-                <p className="text-lg font-medium text-gray-800 leading-relaxed">{cleanString(routeText)}</p>
-              </div>
-            )}
-          </div>
-        );
-      })()}
+      <LogisticsBento island={island} p={p} />
       
       <div className="h-32"></div>
 
