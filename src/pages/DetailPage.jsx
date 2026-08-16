@@ -1,6 +1,7 @@
 import React from 'react';
 import WeatherWidget from '../components/WeatherWidget';
 import WikipediaOverview from '../components/WikipediaOverview';
+import FloraFaunaBento from '../components/FloraFaunaBento';
 import { formatBoldText } from '../utils/formatText';
 
 export default function DetailPage({ island, p, onBack }) {
@@ -58,14 +59,7 @@ export default function DetailPage({ island, p, onBack }) {
           
           <WikipediaOverview islandName={island.name} p={p} />
 
-          {/* Flora / Fauna Fact */}
-          <div 
-            className="p-6 md:p-10 rounded-[40px] border-4 shadow-xl"
-            style={{ backgroundColor: p.accent, borderColor: p.accent, color: p.card }}
-          >
-            <h2 className="text-xl md:text-2xl font-black mb-4 uppercase tracking-widest break-words hyphens-auto" style={{ color: p.bg }}>Natuurlijke Wonderen</h2>
-            <p className="text-lg font-medium leading-relaxed opacity-90">{formatBoldText(island.story?.floraFauna)}</p>
-          </div>
+          <FloraFaunaBento text={island.story?.floraFauna} p={p} />
           
           <div 
             className="p-6 md:p-10 rounded-[40px] border-4 shadow-xl"
