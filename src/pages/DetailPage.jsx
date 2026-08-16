@@ -2,6 +2,7 @@ import React from 'react';
 import WeatherWidget from '../components/WeatherWidget';
 import WikipediaOverview from '../components/WikipediaOverview';
 import FloraFaunaBento from '../components/FloraFaunaBento';
+import CultureBento from '../components/CultureBento';
 import { formatBoldText } from '../utils/formatText';
 
 export default function DetailPage({ island, p, onBack }) {
@@ -61,26 +62,7 @@ export default function DetailPage({ island, p, onBack }) {
 
           <FloraFaunaBento text={island.story?.floraFauna} p={p} />
           
-          <div 
-            className="p-6 md:p-10 rounded-[40px] border-4 shadow-xl"
-            style={{ backgroundColor: p.card, borderColor: p.accent, color: p.accent }}
-          >
-            <h2 className="text-xl md:text-2xl font-black mb-4 uppercase tracking-widest break-words hyphens-auto">Connectiviteit</h2>
-            <p className="text-lg font-medium leading-relaxed opacity-90">{formatBoldText(island.economyAndCulture?.connectivity)}</p>
-          </div>
-
-          {island.economyAndCulture?.souvenirTip && (
-            <div 
-              className="p-6 md:p-10 rounded-[40px] border-4 shadow-xl"
-              style={{ backgroundColor: p.bg, borderColor: p.accent, color: p.accent }}
-            >
-              <div className="flex items-center gap-4 mb-4">
-                <i className="fa-solid fa-gift text-2xl shrink-0"></i>
-                <h2 className="text-xl md:text-2xl font-black uppercase tracking-widest break-words hyphens-auto">Souvenir Tip</h2>
-              </div>
-              <p className="text-lg font-medium leading-relaxed opacity-90">{formatBoldText(island.economyAndCulture.souvenirTip)}</p>
-            </div>
-          )}
+          <CultureBento island={island} p={p} />
 
           {island.hazards && island.hazards.length > 0 && (
             <div 
@@ -99,23 +81,6 @@ export default function DetailPage({ island, p, onBack }) {
                   </li>
                 ))}
               </ul>
-            </div>
-          )}
-
-          {island.story?.history && island.story.history.length > 0 && (
-            <div 
-              className="p-6 md:p-10 rounded-[40px] border-4 shadow-xl"
-              style={{ backgroundColor: p.card, borderColor: p.accent, color: p.accent }}
-            >
-              <h2 className="text-xl md:text-2xl font-black mb-4 uppercase tracking-widest break-words hyphens-auto">Tijdlijn</h2>
-              <div className="flex flex-col gap-4">
-                {island.story.history.map((h, idx) => (
-                  <div key={idx} className="flex gap-4 items-start">
-                    <span className="font-black text-xl shrink-0" style={{ color: p.accent }}>{h.year}</span>
-                    <p className="text-lg font-medium opacity-90">{h.event}</p>
-                  </div>
-                ))}
-              </div>
             </div>
           )}
 
